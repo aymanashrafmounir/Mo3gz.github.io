@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "completed": "2026-10-14T15:55:15.175Z",
+  "base": "http://127.0.0.1:4331",
+  "artifact": "Isolated production build served locally; no development-only script behavior.",
+  "summary": {
+    "uniqueAcceptanceScenarios": 60,
+    "passed": 60,
+    "failed": 0,
+    "engines": 3,
+    "introViewportObservations": 12,
+    "accessibilityAudits": 2
+  },
+  "validationMethod": "Full intro and interaction acceptance first, then focused reruns after header-only repairs. Unchanged intro/no-JS/failsafe evidence is retained rather than rerunning the viewport matrix. Accepted scenarios are grouped by their latest passing stage; detailed frame and geometry observations stay in the local evidence files.",
+  "validationRuns": [
+    {
+      "stage": "full-acceptance",
+      "evidence": "output/intro-dropdown/qa-draft.json",
+      "started": "2026-10-14T15:45:04.857Z",
+      "completed": "2026-10-14T15:46:04.642Z",
+      "summary": {
+        "total": 51,
+        "passed": 50,
+        "failed": 1
+      },
+      "failuresAtThatStage": [
+        {
+          "name": "webkit burger opens an anchored nonmodal dropdown with native keyboard flow",
+          "message": "Expected values to be strictly equal:\n\n'false' !== 'true'\n",
+          "subsequentlyResolved": true
+        }
+      ]
+    },
+    {
+      "stage": "dropdown-repair",
+      "evidence": "output/intro-dropdown/qa-dropdown-repair.json",
+      "started": "2026-10-14T15:50:28.337Z",
+      "completed": "2026-10-14T15:51:11.494Z",
+      "scope": "burger|dropdown|real filter|no uncaught",
+      "summary": {
+        "total": 32,
+        "passed": 32,
+        "failed": 0
+      },
+      "failuresAtThatStage": []
+    },
+    {
+      "stage": "final-keyboard-gallery",
+      "evidence": "output/intro-dropdown/qa-final-keyboard.json",
+      "started": "2026-10-14T15:52:55.519Z",
+      "completed": "2026-10-14T15:53:22.647Z",
+      "scope": "burger|no-preference dropdown|reduce dropdown|no uncaught|immediate Escape",
+      "summary": {
+        "total": 15,
+        "passed": 15,
+        "failed": 0
+      },
+      "failuresAtThatStage": []
+    }
+  ],
+  "browsers": {
+    "chromium": "153.0.8010.12",
+    "firefox": "155.0",
+    "webkit": "26.6"
+  },
+  "coveredBehavior": [
+    "Viewport-covering paper intro, centered AA SVG, no initial content flash, finite smooth reveal and pointer/focus release at 320, 390, 768 and 1440 CSS px in Chromium, Firefox and WebKit.",
+    "Reload replays the intro; actual history Back exposes useful content without replay. BFCache restoration itself is not claimed.",
+    "Initial and runtime reduced motion bypass/cancel movement; keyboard input during intro reveals the site immediately.",
+    "No-JavaScript content/navigation/image links/public contact and blocked-network-module inline safety exit stay usable.",
+    "Icon-only 48px disclosure, anchored nonmodal navigation with no top-layer dialog/backdrop/inert content/focus trap; Escape, same-trigger toggle, outside click, focus leaving, desktop resize, rapid toggles, landscape and 200% text.",
+    "Escape focus return followed by click reopen stays expanded; actual Contact navigation works with normal and reduced motion in all three engines.",
+    "Filters retain count/URL across reload, original PDF remains retrievable, native gallery image zoom remains functional, and its immediate Escape is preserved while a dropdown exit runs.",
+    "Two WCAG 2 A/AA, 2.1 AA and 2.2 AA axe scans (Home and expanded mobile dropdown) report zero violations; no uncaught application errors in the final engine runs."
+  ],
+  "resolvedRegressions": [
+    {
+      "issue": "Reduced-motion pointer selection of a dropdown anchor lost navigation in Chromium/Firefox because focusout inspected transient BODY focus before destination focus.",
+      "resolution": "Close on actual document focusin outside the header and window blur; outside pointer handling remains direct. Anchor selection cleanup is deferred until native activation."
+    },
+    {
+      "issue": "WebKit Escape focus return followed by click reopening was canceled by a stale null-destination focusout timer.",
+      "resolution": "Removed deferred focus inspection; confirmed stable reopen plus actual Contact activation in normal and reduced motion."
+    },
+    {
+      "issue": "An exiting dropdown consumed immediate Escape intended for a newly opened native image viewer.",
+      "resolution": "Only an open dropdown handles Escape. Native viewer Escape verified before the 150ms dropdown exit finished in all three engines."
+    }
+  ],
+  "acceptedScenariosByStage": {
+    "full-acceptance": [
+      "chromium 320px centered full-screen intro appears before site and fully releases",
+      "chromium 390px centered full-screen intro appears before site and fully releases",
+      "chromium 768px centered full-screen intro appears before site and fully releases",
+      "chromium 1440px centered full-screen intro appears before site and fully releases",
+      "chromium reload replays centered intro and releases content",
+      "chromium changing reduced motion during intro immediately reveals site",
+      "chromium keyboard input during intro releases page without trapping focus",
+      "history Back returns to useful content without replaying the blocking intro",
+      "axe mobile Home",
+      "firefox 320px centered full-screen intro appears before site and fully releases",
+      "firefox 390px centered full-screen intro appears before site and fully releases",
+      "firefox 768px centered full-screen intro appears before site and fully releases",
+      "firefox 1440px centered full-screen intro appears before site and fully releases",
+      "firefox reload replays centered intro and releases content",
+      "firefox changing reduced motion during intro immediately reveals site",
+      "firefox keyboard input during intro releases page without trapping focus",
+      "webkit 320px centered full-screen intro appears before site and fully releases",
+      "webkit 390px centered full-screen intro appears before site and fully releases",
+      "webkit 768px centered full-screen intro appears before site and fully releases",
+      "webkit 1440px centered full-screen intro appears before site and fully releases",
+      "webkit reload replays centered intro and releases content",
+      "webkit changing reduced motion during intro immediately reveals site",
+      "webkit keyboard input during intro releases page without trapping focus",
+      "no JavaScript has no covering intro and keeps navigation, image links, projects and public contact usable",
+      "blocked network JavaScript modules cannot leave the intro covering or hiding the site"
+    ],
+    "dropdown-repair": [
+      "chromium open dropdown closes on desktop resize",
+      "chromium rapid open-close-open keeps dropdown expanded and runtime reduced motion finishes exit",
+      "chromium short landscape dropdown scrolls to Contact",
+      "chromium initial reduced motion exposes site immediately without active intro or dropdown movement",
+      "chromium dynamic reduced motion cancels dropdown entrance",
+      "chromium real filter, image modal zoom, dropdown Contact link and CV remain functional",
+      "320px 200% text keeps dropdown links reachable without overflow",
+      "axe mobile expanded dropdown",
+      "firefox open dropdown closes on desktop resize",
+      "firefox rapid open-close-open keeps dropdown expanded and runtime reduced motion finishes exit",
+      "firefox short landscape dropdown scrolls to Contact",
+      "firefox initial reduced motion exposes site immediately without active intro or dropdown movement",
+      "firefox dynamic reduced motion cancels dropdown entrance",
+      "firefox real filter, image modal zoom, dropdown Contact link and CV remain functional",
+      "webkit open dropdown closes on desktop resize",
+      "webkit rapid open-close-open keeps dropdown expanded and runtime reduced motion finishes exit",
+      "webkit short landscape dropdown scrolls to Contact",
+      "webkit initial reduced motion exposes site immediately without active intro or dropdown movement",
+      "webkit dynamic reduced motion cancels dropdown entrance",
+      "webkit real filter, image modal zoom, dropdown Contact link and CV remain functional"
+    ],
+    "final-keyboard-gallery": [
+      "chromium burger opens an anchored nonmodal dropdown with native keyboard flow",
+      "chromium no uncaught browser application errors",
+      "firefox burger opens an anchored nonmodal dropdown with native keyboard flow",
+      "firefox no uncaught browser application errors",
+      "webkit burger opens an anchored nonmodal dropdown with native keyboard flow",
+      "webkit no uncaught browser application errors",
+      "chromium no-preference dropdown Escape then click reopen stays open and Contact activates",
+      "chromium reduce dropdown Escape then click reopen stays open and Contact activates",
+      "firefox no-preference dropdown Escape then click reopen stays open and Contact activates",
+      "firefox reduce dropdown Escape then click reopen stays open and Contact activates",
+      "webkit no-preference dropdown Escape then click reopen stays open and Contact activates",
+      "webkit reduce dropdown Escape then click reopen stays open and Contact activates",
+      "chromium gallery opened during dropdown exit accepts immediate Escape",
+      "firefox gallery opened during dropdown exit accepts immediate Escape",
+      "webkit gallery opened during dropdown exit accepts immediate Escape"
+    ]
+  },
+  "sourceHashes": {
+    "src/components/PageMotion.astro": "fdbad3979c3bb726e40b5ed79b1d9c245b2ab52d260b7f9d3805da487abdcca6",
+    "src/layouts/SiteLayout.astro": "49f0e6984666bdf6fe0f588dd4e6608fc865756a0a01f5f00ccb1f951429a7cf",
+    "src/styles/motion.css": "76e7866d2b5512e232b1cb45c16d64f54046076cdc425caae90fc1b2ff373bef",
+    "src/scripts/motion.ts": "89c9fa9ee232d9d4af7d4d2f7b3adcea8b60bbc88472e0a43885e7e0e093d471",
+    "src/components/SiteHeader.astro": "9af25ceee9e48be43a93e4aa6836f898e48c97d2eec830e4c3f4d1a8f09cbe5e",
+    "src/styles/global.css": "edaca1ad79b0580c64ef9365e10aca87bef5652289a3356ac020bebe1643cec7"
+  },
+  "reviewArtifacts": {
+    "base": "http://127.0.0.1:4331",
+    "captured": "2026-10-14T15:53:36.209Z",
+    "recording": "output/intro-dropdown/mobile-intro-dropdown-review.webm",
+    "screenshots": [
+      "output/intro-dropdown/mobile-fullscreen-AA.png",
+      "output/intro-dropdown/mobile-dropdown.png",
+      "output/intro-dropdown/desktop-fullscreen-AA.png"
+    ],
+    "note": "Actual Playwright screen recording and unmodified rendered screenshots; no slowed animation clock or composed mockup.",
+    "mp4": "output/intro-dropdown/mobile-intro-dropdown-review.mp4",
+    "durationSeconds": 5.72,
+    "screenshotsVisuallyInspected": true
+  },
+  "testGuard": {
+    "review": "clean",
+    "notes": "Assertions inspect real visible geometry, hit testing, keyboard/pointer results, native destinations and reduced-motion behavior. Media emulation and failed HTTP script requests are browser/system boundaries; no internal application mocks."
+  },
+  "limitations": [
+    "Automated desktop Chromium, Firefox and WebKit engines with mobile-sized viewports; no physical mobile hardware or screen reader.",
+    "Finite intro, dropdown and focused existing interaction regressions; not a repeat of the earlier full-site route matrix.",
+    "First-paint observations are requestAnimationFrame samples; a real recording and screenshots accompany the behavior checks."
+  ]
+}

@@ -1,5 +1,7 @@
 # Motion refinement and Astra debate
 
+This records the initial motion release. The user's subsequent explicit correction is specified in [the fullscreen intro and dropdown direction](intro-dropdown-direction.md).
+
 The user requested an icon-only hamburger, a more professional menu, an animated reload experience and visibly richer animation throughout the portfolio. This update extends the approved warm-paper/rust design with motion; the editable Figcraft baseline and approved imagery remain the saved reference.
 
 The implementation direction was debated with **GPT-6 Astra**. The initial proposal included an opaque 450ms loading screen. Astra challenged the artificial wait, potential LCP delay and dependence on JavaScript/font readiness. The accepted direction uses a conspicuous **AA signature and rust stroke in the header band**, with readable content and immediate interaction throughout. AA represents Ayman Ashraf.

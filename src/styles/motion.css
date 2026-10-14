@@ -3,19 +3,32 @@
 }
 
 .page-arrival {
-  position: absolute;
-  top: 12px;
-  left: max(290px, calc((100vw - 1280px) / 2 + 210px));
-  width: 64px;
-  height: 64px;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: none;
+  place-items: center;
+  background: var(--paper);
   color: var(--rust);
-  opacity: 0;
   pointer-events: none;
 }
 
 .page-arrival svg {
   display: block;
+  width: clamp(112px, 12vw, 152px);
+  height: auto;
   overflow: visible;
+}
+
+html.intro-active .page-arrival {
+  display: grid;
+  animation: intro-dismiss 360ms ease-in-out 640ms forwards;
+}
+
+html.intro-active .site-content {
+  visibility: hidden;
+  opacity: 0;
+  animation: site-appear 480ms var(--motion-ease) 640ms forwards;
 }
 
 .page-arrival__ring,
@@ -31,6 +44,48 @@
   stroke-dasharray: 1;
   transform: rotate(-90deg);
   transform-origin: center;
+}
+
+html.intro-active .page-arrival__ring {
+  animation: signature-draw 560ms var(--motion-ease) both;
+}
+
+html.intro-active .page-arrival__mark {
+  stroke-dasharray: 1;
+  animation: signature-draw 460ms var(--motion-ease) 100ms both;
+}
+
+@keyframes signature-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes intro-dismiss {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes site-appear {
+  from {
+    opacity: 0;
+    visibility: visible;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
 }
 
 .image-viewer[open] {
@@ -113,30 +168,16 @@
   }
 }
 
-@media (max-width: 1199px) {
-  .page-arrival {
-    left: auto;
-    right: 112px;
-  }
-}
-
-@media (max-width: 699px) {
-  .page-arrival {
-    top: 29px;
-    right: 90px;
-    width: 30px;
-    height: 30px;
-  }
-
-  .page-arrival svg {
-    width: 30px;
-    height: 30px;
-  }
-}
-
 @media (prefers-reduced-motion: reduce) {
-  .page-arrival {
+  html.intro-active .page-arrival {
     display: none;
+  }
+
+  html.intro-active .site-content {
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    animation: none;
   }
 
   .button:hover,

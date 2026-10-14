@@ -29,7 +29,6 @@ const links = [
     id="open-menu"
     type="button"
     aria-label="Open navigation"
-    aria-haspopup="dialog"
     aria-controls="mobile-menu"
     aria-expanded="false"
     hidden
@@ -40,17 +39,12 @@ const links = [
       <path d="M3 18h18" />
     </svg>
   </button>
-</header>
-<dialog id="mobile-menu" class="mobile-menu" aria-labelledby="menu-title">
-  <div class="menu-heading">
-    <h2 id="menu-title">Navigation</h2>
-    <button type="button" id="close-menu" aria-label="Close navigation">
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="m6 6 12 12M18 6 6 18" />
-      </svg>
-    </button>
-  </div>
-  <nav aria-label="Mobile navigation">
+  <nav
+    id="mobile-menu"
+    class="mobile-menu"
+    aria-label="Mobile navigation"
+    hidden
+  >
     {[['Home', '/'], ...links].map(([label, href]) => (
       <a href={href} aria-current={current === href ? 'page' : undefined}>
         <span>{label}</span>
@@ -60,7 +54,7 @@ const links = [
       </a>
     ))}
   </nav>
-</dialog>
+</header>
 <noscript>
   <nav
     class="no-script-nav container"
@@ -72,11 +66,12 @@ const links = [
   </nav>
 </noscript>
 <script>
-  const menu = document.querySelector<HTMLDialogElement>('#mobile-menu')!;
+  const menu = document.querySelector<HTMLElement>('#mobile-menu')!;
   const trigger = document.querySelector<HTMLButtonElement>('#open-menu')!;
-  const closeButton = document.querySelector<HTMLButtonElement>('#close-menu')!;
+  const header = trigger.closest<HTMLElement>('.site-header')!;
+  const menuLinks = menu.querySelectorAll<HTMLAnchorElement>('a');
   const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
-  const menuLinks = menu.querySelectorAll<HTMLAnchorElement>('nav a');
+  const desktopViewport = matchMedia('(min-width: 1200px)');
   let state: 'closed' | 'open' | 'closing' = 'closed';
   let animations: Animation[] = [];
 
@@ -85,27 +80,51 @@ const links = [
     animations = [];
   }
 
+  function syncDisclosureState() {
+    const expanded = state === 'open';
+    trigger.setAttribute('aria-expanded', String(expanded));
+    trigger.setAttribute(
+      'aria-label',
+      expanded ? 'Close navigation' : 'Open navigation',
+    );
+    menuLinks.forEach((link) => {
+      if (expanded) link.removeAttribute('tabindex');
+      else link.tabIndex = -1;
+    });
+  }
+
+  function sizeDropdown() {
+    if (menu.hidden) return;
+    const available =
+      window.innerHeight - menu.getBoundingClientRect().top - 16;
+    menu.style.setProperty(
+      '--menu-available-height',
+      `${Math.max(48, available)}px`,
+    );
+  }
+
   function finishClose() {
     cancelAnimations();
-    menu.classList.remove('is-closing');
-    if (menu.open) menu.close();
+    state = 'closed';
+    menu.hidden = true;
+    syncDisclosureState();
   }
 
   function closeMenu() {
     if (state !== 'open') return;
-    state = 'closing';
-    cancelAnimations();
     if (motionPreference.matches) {
       finishClose();
       return;
     }
-    menu.classList.add('is-closing');
+    state = 'closing';
+    syncDisclosureState();
+    cancelAnimations();
     const closing = menu.animate(
       [
         { opacity: 1, transform: 'translateY(0) scale(1)' },
-        { opacity: 0, transform: 'translateY(8px) scale(.99)' },
+        { opacity: 0, transform: 'translateY(-6px) scale(.99)' },
       ],
-      { duration: 140, easing: 'cubic-bezier(.4, 0, 1, 1)', fill: 'both' },
+      { duration: 150, easing: 'cubic-bezier(.4, 0, 1, 1)', fill: 'both' },
     );
     animations.push(closing);
     void closing.finished.then(finishClose, (error: unknown) => {
@@ -115,80 +134,100 @@ const links = [
     });
   }
 
-  trigger.hidden = false;
-  trigger.addEventListener('click', () => {
-    if (state !== 'closed') return;
+  function openMenu() {
+    cancelAnimations();
     state = 'open';
-    menu.showModal();
-    trigger.setAttribute('aria-expanded', 'true');
+    menu.hidden = false;
+    syncDisclosureState();
+    sizeDropdown();
     if (motionPreference.matches) return;
+    animateDropdown();
+    animateLinks();
+  }
+
+  function animateDropdown() {
     animations.push(
       menu.animate(
         [
-          { opacity: 0, transform: 'translateY(12px) scale(.985)' },
+          { opacity: 0, transform: 'translateY(-8px) scale(.985)' },
           { opacity: 1, transform: 'translateY(0) scale(1)' },
         ],
-        { duration: 240, easing: 'cubic-bezier(.2, .7, .2, 1)' },
+        { duration: 220, easing: 'cubic-bezier(.22, 1, .36, 1)' },
       ),
     );
+  }
+
+  function animateLinks() {
     menuLinks.forEach((link, index) => {
       animations.push(
         link.animate(
           [
-            { opacity: 0, transform: 'translateY(8px)' },
+            { opacity: 0, transform: 'translateY(-4px)' },
             { opacity: 1, transform: 'translateY(0)' },
           ],
           {
-            duration: 220,
-            delay: Math.min(index * 35, 175),
-            easing: 'cubic-bezier(.2, .7, .2, 1)',
+            duration: 180,
+            delay: index * 15,
+            easing: 'cubic-bezier(.22, 1, .36, 1)',
             fill: 'backwards',
           },
         ),
       );
     });
+  }
+
+  trigger.hidden = false;
+  trigger.addEventListener('click', () => {
+    if (state === 'open') closeMenu();
+    else openMenu();
   });
-  closeButton.addEventListener('click', closeMenu);
-  menu.addEventListener('focusin', ({ target }) => {
-    if (!(target instanceof HTMLAnchorElement)) return;
-    target.getAnimations().forEach((animation) => {
-      if (animations.includes(animation)) animation.cancel();
-    });
-  });
-  menu.addEventListener('cancel', (event) => {
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape' || state !== 'open') return;
     event.preventDefault();
+    trigger.focus({ preventScroll: true });
     closeMenu();
   });
-  menu.addEventListener('click', (event) => {
-    if (event.target !== menu) return;
-    const { left, right, top, bottom } = menu.getBoundingClientRect();
-    if (
-      event.clientX < left ||
-      event.clientX > right ||
-      event.clientY < top ||
-      event.clientY > bottom
-    ) {
+  document.addEventListener('pointerdown', (event) => {
+    if (!event.composedPath().includes(header)) closeMenu();
+  });
+  document.addEventListener('focusin', (event) => {
+    if (event.target instanceof Node && !header.contains(event.target)) {
       closeMenu();
     }
   });
-  menu.addEventListener('close', () => {
+  window.addEventListener('blur', closeMenu);
+  menu.addEventListener('focusin', () => {
+    if (state === 'closing') openMenu();
     cancelAnimations();
-    state = 'closed';
-    menu.classList.remove('is-closing');
-    trigger.setAttribute('aria-expanded', 'false');
-    if (document.activeElement !== trigger)
-      trigger.focus({ preventScroll: true });
+  });
+  menu.addEventListener('click', (event) => {
+    if (event.target instanceof Element && event.target.closest('a')) {
+      // Keep the anchor rendered until its native click activation completes.
+      window.setTimeout(finishClose, 0);
+    }
   });
   motionPreference.addEventListener('change', () => {
     if (!motionPreference.matches) return;
     cancelAnimations();
     if (state === 'closing') finishClose();
   });
+  desktopViewport.addEventListener('change', () => {
+    if (desktopViewport.matches) finishClose();
+  });
+  window.addEventListener('resize', sizeDropdown);
+  window.addEventListener('pagehide', finishClose);
+  window.addEventListener('pageshow', (event) => {
+    if (event.persisted) finishClose();
+  });
 </script>
 
 <style>
-  .menu-trigger,
-  .menu-heading button {
+  .site-header {
+    position: relative;
+    z-index: 20;
+  }
+  .menu-trigger {
+    display: none;
     width: 48px;
     height: 48px;
     padding: 12px;
@@ -202,12 +241,8 @@ const links = [
       border-color 160ms,
       background-color 160ms;
   }
-  .menu-trigger {
-    display: none;
-  }
   .menu-trigger svg,
-  .menu-heading button svg,
-  .mobile-menu nav svg {
+  .mobile-menu svg {
     display: block;
     width: 24px;
     height: 24px;
@@ -217,105 +252,99 @@ const links = [
     stroke-linecap: round;
     stroke-linejoin: round;
   }
-  .menu-trigger:hover,
-  .menu-heading button:hover {
+  .menu-trigger[aria-expanded='true'] {
     color: var(--rust);
     border-color: var(--rust);
     background: var(--surface);
   }
   .burger-icon path {
-    transform-origin: center;
-    transition: transform 180ms ease;
+    transform-origin: 12px 12px;
+    transition:
+      transform 180ms cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 140ms;
+  }
+  .menu-trigger[aria-expanded='true'] .burger-icon path:first-child {
+    transform: rotate(45deg) translateY(6px);
+  }
+  .menu-trigger[aria-expanded='true'] .burger-icon path:nth-child(2) {
+    opacity: 0;
+  }
+  .menu-trigger[aria-expanded='true'] .burger-icon path:last-child {
+    transform: rotate(-45deg) translateY(-6px);
   }
   .mobile-menu {
-    padding: 24px 28px 28px;
-    border-radius: 12px;
-    box-shadow: 0 24px 72px rgb(38 37 31 / 0.18);
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    width: min(100%, 360px);
+    max-height: var(--menu-available-height, calc(100dvh - 116px));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    display: grid;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--paper);
+    box-shadow: 0 16px 32px rgb(38 37 31 / 0.12);
+    transform-origin: top right;
   }
-  .mobile-menu::backdrop {
-    background: rgb(38 37 31 / 0.5);
-    animation: menu-backdrop-enter 180ms ease-out;
-  }
-  .mobile-menu.is-closing::backdrop {
-    animation: menu-backdrop-exit 140ms ease-in both;
-  }
-  .menu-heading {
-    padding-bottom: 20px;
-    margin-bottom: 8px;
-    border-bottom: 1px solid var(--line);
-  }
-  .menu-heading h2 {
-    color: var(--muted);
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.035em;
-  }
-  .menu-heading button svg {
-    transition: transform 180ms ease;
-  }
-  .mobile-menu nav a {
+  .mobile-menu a {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 16px;
-    min-height: 62px;
+    min-height: 52px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
     transition:
       color 160ms,
-      transform 180ms ease;
+      background-color 160ms;
   }
-  .mobile-menu nav a:hover {
+  .mobile-menu a[aria-current] {
     color: var(--rust);
+    background: var(--surface);
   }
-  .mobile-menu nav svg {
+  .mobile-menu svg {
     width: 20px;
     height: 20px;
+    flex-shrink: 0;
     opacity: 0.55;
-  }
-  @keyframes menu-backdrop-enter {
-    from {
-      background: rgb(38 37 31 / 0);
-    }
-    to {
-      background: rgb(38 37 31 / 0.5);
-    }
-  }
-  @keyframes menu-backdrop-exit {
-    to {
-      background: rgb(38 37 31 / 0);
-    }
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1);
   }
   @media (max-width: 1199px) {
+    .site-header {
+      flex-wrap: nowrap;
+    }
+    .wordmark {
+      flex: 1;
+    }
     .menu-trigger {
       display: grid;
       place-content: center;
     }
   }
   @media (hover: hover) and (pointer: fine) {
-    .menu-trigger:hover .burger-icon path:first-child {
-      transform: translateX(2px) scaleX(0.8);
+    .menu-trigger:hover,
+    .mobile-menu a:hover {
+      color: var(--rust);
+      background: var(--surface);
     }
-    .menu-trigger:hover .burger-icon path:last-child {
-      transform: translateX(-2px) scaleX(0.8);
+    .menu-trigger:hover {
+      border-color: var(--rust);
     }
-    .menu-heading button:hover svg {
-      transform: rotate(90deg);
-    }
-    .mobile-menu nav a:hover {
-      transform: translateX(4px);
+    .mobile-menu a:hover svg {
+      transform: translateX(3px);
     }
   }
   @media (prefers-reduced-motion: reduce) {
-    .menu-trigger:hover .burger-icon path,
-    .menu-heading button:hover svg,
-    .mobile-menu nav a:hover {
-      transform: none;
-    }
     .burger-icon path,
-    .menu-heading button svg,
-    .mobile-menu nav a {
+    .mobile-menu svg {
       transition: none;
     }
-    .mobile-menu::backdrop,
-    .mobile-menu.is-closing::backdrop {
-      animation: none;
+    .mobile-menu a:hover svg {
+      transform: none;
     }
   }
 </style>

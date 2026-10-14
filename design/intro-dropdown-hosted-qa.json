@@ -1,0 +1,47 @@
+{
+  "started": "2026-10-14T15:56:20.954Z",
+  "base": "https://aymanashraf.me",
+  "immutable": "https://255c86a4.ayman-portfolio-v2.pages.dev",
+  "checks": [
+    {
+      "name": "live and immutable match final artifact /",
+      "sha256": "68c08bb0dad7848ef15e156d8a68517826e2f76a343b2c93888832cc4eb14f2d"
+    },
+    {
+      "name": "live and immutable match final artifact /projects",
+      "sha256": "d05b73d97d15b9a2599528fb1f3c40aeeeabf35eb5b7c79dae4db37f90cc446a"
+    },
+    {
+      "name": "live and immutable match final artifact /contact",
+      "sha256": "b96d5961138c8af93922089ca24ac214593dfb73ac857b0ef66c8e97d54aba46"
+    },
+    {
+      "name": "original CV bytes retained",
+      "sha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696"
+    },
+    {
+      "name": "live nonmodal dropdown native Contact navigation no-preference",
+      "browser": "153.0.8010.12",
+      "reducedMotion": "no-preference",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "live nonmodal dropdown native Contact navigation reduce",
+      "browser": "153.0.8010.12",
+      "reducedMotion": "reduce",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "failures": [],
+  "completed": "2026-10-14T15:56:28.432Z",
+  "summary": {
+    "passed": 6,
+    "failed": 0
+  }
+}

@@ -71,11 +71,11 @@ Fourteen active media assets have 42 responsive WebP variants: **13 genuine phot
 
 The static build also supplies a sitemap, robots response and an HTML redirect page for the old `/portfolio-landing-page` alias. The production build adds real HTTP 301 redirects for both forms of that legacy path. The production `www` hostname redirects to the apex over HTTPS while preserving path and query. Hosted preview checks confirm direct entry, refresh, alias navigation and actual unknown-path HTTP 404 responses. Cloudflare Pages normalizes directory routes with trailing slashes; the filters and navigation were checked against that hosted behavior. [Production release evidence](design/production-release.md) distinguishes the domain checks from earlier preview checks.
 
-Project filters retain category state in the URL. Without JavaScript, the complete collection remains readable. The mobile navigation and image viewer use native dialogs; the image viewer supplies full-size images, zoom, pan and pinch controls. Browser verification must confirm keyboard, focus, Escape, touch and reduced-motion behavior.
+Project filters retain category state in the URL. Without JavaScript, the complete collection remains readable. Mobile navigation uses a header-anchored dropdown with native links; the image viewer uses a native dialog with full-size images, zoom, pan and pinch controls. Browser verification must confirm keyboard, focus, Escape, touch and reduced-motion behavior.
 
-The post-release [motion refinement](design/motion-direction.md) adds an icon-only hamburger, animated menu, nonblocking AA arrival signature, page-lead settling and finite section/card/timeline entrances. It uses native browser APIs without an animation dependency or client router. Reduced-motion preferences cancel movement immediately; page content and ordinary links remain available throughout.
+The user's latest [intro and dropdown refinement](design/intro-dropdown-direction.md) adds a fullscreen, centered AA signature followed by a smooth site reveal. Its inline bootstrap and CSS complete without waiting for images or bundled modules, with cleanup after 1.2 seconds. Keyboard or pointer input dismisses the intro immediately; reduced motion and history Back skip it, and no JavaScript leaves the content visible. The hamburger opens an attached dropdown without a backdrop or focus trap. Existing finite section/card/timeline entrances remain.
 
-The [motion release record](design/motion-release.md) links browser acceptance, measured performance and hosted verification for this refinement.
+The [fullscreen intro and dropdown release](design/intro-dropdown-release.md) links current browser, performance and hosted verification. The [initial motion release record](design/motion-release.md) preserves the preceding version's evidence.
 
 ## Verification and release
 

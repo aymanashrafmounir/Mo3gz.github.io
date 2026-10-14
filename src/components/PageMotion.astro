@@ -2,12 +2,41 @@
 import '../styles/motion.css';
 ---
 
+<script is:inline>
+  (() => {
+    const preference = matchMedia('(prefers-reduced-motion: reduce)');
+    const navigation = performance.getEntriesByType('navigation')[0];
+    if (preference.matches || navigation?.type === 'back_forward') return;
+
+    const root = document.documentElement;
+    const finish = () => {
+      clearTimeout(timeout);
+      root.classList.remove('intro-active');
+      document.removeEventListener('keydown', finish, true);
+      document.removeEventListener('pointerdown', finish, true);
+      preference.removeEventListener('change', onPreference);
+      window.removeEventListener('pagehide', finish);
+    };
+    const onPreference = () => {
+      if (preference.matches) finish();
+    };
+
+    root.classList.add('intro-active');
+    const timeout = setTimeout(finish, 1200);
+    document.addEventListener('keydown', finish, true);
+    document.addEventListener('pointerdown', finish, true);
+    preference.addEventListener('change', onPreference);
+    window.addEventListener('pagehide', finish);
+  })();
+</script>
+
 <div class="page-arrival" aria-hidden="true">
   <svg viewBox="0 0 64 64" width="64" height="64" focusable="false">
     <circle class="page-arrival__ring" cx="32" cy="32" r="27" pathLength="1" />
     <path
       class="page-arrival__mark"
       d="m14 40 9-19 9 19m-14-7h10m4 7 9-19 9 19m-14-7h10"
+      pathLength="1"
     />
   </svg>
 </div>

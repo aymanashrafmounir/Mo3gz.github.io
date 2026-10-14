@@ -96,43 +96,12 @@ function observeSections() {
   }
 }
 
-function hasHeaderSpace(seal: Element) {
-  const bounds = seal.getBoundingClientRect();
-  return ![
-    ...document.querySelectorAll('.wordmark, .desktop-nav, .menu-trigger'),
-  ].some((element) => {
-    const occupied = element.getBoundingClientRect();
-    return (
-      occupied.width > 0 &&
-      occupied.height > 0 &&
-      bounds.left < occupied.right + 4 &&
-      bounds.right > occupied.left - 4 &&
-      bounds.top < occupied.bottom + 4 &&
-      bounds.bottom > occupied.top - 4
-    );
-  });
-}
-
 function arrive() {
-  if (reducedMotion.matches) return;
-  const seal = document.querySelector('.page-arrival');
-  if (seal && hasHeaderSpace(seal)) {
-    play(
-      seal,
-      [
-        { opacity: 0, transform: 'scale(0.94)' },
-        { opacity: 1, transform: 'scale(1)', offset: 0.2 },
-        { opacity: 1, transform: 'scale(1)', offset: 0.72 },
-        { opacity: 0, transform: 'scale(1.02)' },
-      ],
-      { duration: 600 },
-    );
-    const ring = seal.querySelector('.page-arrival__ring');
-    if (ring)
-      play(ring, [{ strokeDashoffset: '1' }, { strokeDashoffset: '0' }], {
-        duration: 480,
-      });
-  }
+  if (
+    reducedMotion.matches ||
+    document.documentElement.classList.contains('intro-active')
+  )
+    return;
   if (window.location.hash || window.scrollY > 0) return;
   const lead = document.querySelector(
     '.hero-copy, .page-lead, .projects-heading, .project-case__intro',
