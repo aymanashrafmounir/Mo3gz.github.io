@@ -1,0 +1,605 @@
+{
+  "started": "2026-10-14T16:11:18.465Z",
+  "base": "http://127.0.0.1:4331",
+  "browsers": {
+    "chromium": "153.0.8010.12",
+    "firefox": "155.0",
+    "webkit": "26.6"
+  },
+  "scenarios": [
+    {
+      "name": "chromium 390px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 69
+    },
+    {
+      "name": "chromium 390px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 4,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 3,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 4,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "chromium 390px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 6,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 5,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "chromium 390px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "chromium 390px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "chromium 1440px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 66
+    },
+    {
+      "name": "chromium 1440px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 1440px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 4,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 1440px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 6,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 1440px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "chromium 1440px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 6,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 6,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "chromium 1440px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 75
+    },
+    {
+      "name": "chromium 1440px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "chromium: external referring page shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://entry-test.example/",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 71
+    },
+    {
+      "name": "chromium: reduced motion shows content immediately",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 6,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium: changing reduced motion cancels active intro",
+      "passed": true,
+      "introCanceled": true
+    },
+    {
+      "name": "chromium: JavaScript disabled keeps native navigation and content visible",
+      "passed": true,
+      "contentVisible": true,
+      "mailtoVisible": true,
+      "nativeProjectsNavigation": true
+    },
+    {
+      "name": "firefox 390px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 200
+    },
+    {
+      "name": "firefox 390px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 27,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 390px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 36,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 390px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 26,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 390px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 200
+    },
+    {
+      "name": "firefox 390px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 12,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 11,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "firefox 390px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 200
+    },
+    {
+      "name": "firefox 390px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "firefox 1440px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 154
+    },
+    {
+      "name": "firefox 1440px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 21,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 1440px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 20,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 1440px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 16,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox 1440px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 175
+    },
+    {
+      "name": "firefox 1440px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 12,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 11,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "firefox 1440px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 178
+    },
+    {
+      "name": "firefox 1440px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "firefox: external referring page shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://entry-test.example/",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 200
+    },
+    {
+      "name": "firefox: reduced motion shows content immediately",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 10,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "firefox: changing reduced motion cancels active intro",
+      "passed": true,
+      "introCanceled": true
+    },
+    {
+      "name": "firefox: JavaScript disabled keeps native navigation and content visible",
+      "passed": true,
+      "contentVisible": true,
+      "mailtoVisible": true,
+      "nativeProjectsNavigation": true
+    },
+    {
+      "name": "webkit 390px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 71
+    },
+    {
+      "name": "webkit 390px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 390px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 390px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 7,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 390px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 75
+    },
+    {
+      "name": "webkit 390px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 5,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 5,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "webkit 390px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "webkit 390px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "webkit 1440px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 68
+    },
+    {
+      "name": "webkit 1440px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 6,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 1440px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects",
+      "path": "/projects/helixtra",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 1440px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": false,
+      "frames": 6,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit 1440px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "http://127.0.0.1:4331/projects/helixtra",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 75
+    },
+    {
+      "name": "webkit 1440px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects",
+        "path": "/projects/helixtra",
+        "introObserved": false,
+        "frames": 6,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "http://127.0.0.1:4331/projects/helixtra",
+        "path": "/contact",
+        "introObserved": false,
+        "frames": 5,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "webkit 1440px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "webkit 1440px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "webkit: external referring page shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://entry-test.example/",
+      "path": "/contact",
+      "introObserved": true,
+      "frames": 75
+    },
+    {
+      "name": "webkit: reduced motion shows content immediately",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects",
+      "introObserved": false,
+      "frames": 4,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "webkit: changing reduced motion cancels active intro",
+      "passed": true,
+      "introCanceled": true
+    },
+    {
+      "name": "webkit: JavaScript disabled keeps native navigation and content visible",
+      "passed": true,
+      "contentVisible": true,
+      "mailtoVisible": true,
+      "nativeProjectsNavigation": true
+    }
+  ],
+  "failures": [],
+  "scope": "Focused regression: fullscreen AA on fresh site entry and refresh; no replay on internal route navigation or history traversal.",
+  "limitations": [
+    "Desktop browser engines with desktop/mobile viewport sizes; no physical mobile devices or screen reader.",
+    "Visibility observations use document initialization, root-class mutation records, and real animation frames; no fake clocks or source-string assertions."
+  ],
+  "finished": "2026-10-14T16:12:01.738Z",
+  "passed": 60,
+  "failed": 0
+}

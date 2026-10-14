@@ -6,7 +6,15 @@ import '../styles/motion.css';
   (() => {
     const preference = matchMedia('(prefers-reduced-motion: reduce)');
     const navigation = performance.getEntriesByType('navigation')[0];
-    if (preference.matches || navigation?.type === 'back_forward') return;
+    const internalNavigation =
+      document.referrer !== '' &&
+      new URL(document.referrer).origin === location.origin;
+    if (
+      preference.matches ||
+      navigation?.type === 'back_forward' ||
+      (internalNavigation && navigation?.type !== 'reload')
+    )
+      return;
 
     const root = document.documentElement;
     const finish = () => {

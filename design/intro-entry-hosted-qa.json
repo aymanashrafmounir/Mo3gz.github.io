@@ -1,0 +1,131 @@
+{
+  "started": "2026-10-14T16:15:01.141Z",
+  "base": "https://aymanashraf.me",
+  "browsers": {
+    "chromium": "153.0.8010.12"
+  },
+  "scenarios": [
+    {
+      "name": "chromium 390px: fresh homepage shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/",
+      "introObserved": true,
+      "frames": 67
+    },
+    {
+      "name": "chromium 390px: internal navigation to Projects skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "https://aymanashraf.me/",
+      "path": "/projects/",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: internal project case link skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "https://aymanashraf.me/projects/",
+      "path": "/projects/helixtra/",
+      "introObserved": false,
+      "frames": 5,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: internal Contact navigation skips intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "https://aymanashraf.me/projects/helixtra/",
+      "path": "/contact/",
+      "introObserved": false,
+      "frames": 4,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium 390px: reload after internal navigation shows intro",
+      "passed": true,
+      "type": "reload",
+      "referrer": "https://aymanashraf.me/projects/helixtra/",
+      "path": "/contact/",
+      "introObserved": true,
+      "frames": 74
+    },
+    {
+      "name": "chromium 390px: Back then Forward skip intro",
+      "passed": true,
+      "back": {
+        "type": "back_forward",
+        "referrer": "https://aymanashraf.me/projects/",
+        "path": "/projects/helixtra/",
+        "introObserved": false,
+        "frames": 4,
+        "restoredFromBFCache": false
+      },
+      "forward": {
+        "type": "back_forward",
+        "referrer": "https://aymanashraf.me/projects/helixtra/",
+        "path": "/contact/",
+        "introObserved": false,
+        "frames": 6,
+        "restoredFromBFCache": false
+      }
+    },
+    {
+      "name": "chromium 390px: fresh direct deep URL shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/blitzchatbot/",
+      "introObserved": true,
+      "frames": 75
+    },
+    {
+      "name": "chromium 390px: no runtime errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "chromium: external referring page shows intro",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "http://entry-test.example/",
+      "path": "/contact/",
+      "introObserved": true,
+      "frames": 68
+    },
+    {
+      "name": "chromium: reduced motion shows content immediately",
+      "passed": true,
+      "type": "navigate",
+      "referrer": "",
+      "path": "/projects/",
+      "introObserved": false,
+      "frames": 6,
+      "restoredFromBFCache": false
+    },
+    {
+      "name": "chromium: changing reduced motion cancels active intro",
+      "passed": true,
+      "introCanceled": true
+    },
+    {
+      "name": "chromium: JavaScript disabled keeps native navigation and content visible",
+      "passed": true,
+      "contentVisible": true,
+      "mailtoVisible": true,
+      "nativeProjectsNavigation": true
+    }
+  ],
+  "failures": [],
+  "scope": "Focused regression: fullscreen AA on fresh site entry and refresh; no replay on internal route navigation or history traversal.",
+  "limitations": [
+    "Desktop browser engines with desktop/mobile viewport sizes; no physical mobile devices or screen reader.",
+    "Visibility observations use document initialization, root-class mutation records, and real animation frames; no fake clocks or source-string assertions."
+  ],
+  "finished": "2026-10-14T16:15:12.065Z",
+  "passed": 12,
+  "failed": 0
+}

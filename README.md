@@ -73,9 +73,11 @@ The static build also supplies a sitemap, robots response and an HTML redirect p
 
 Project filters retain category state in the URL. Without JavaScript, the complete collection remains readable. Mobile navigation uses a header-anchored dropdown with native links; the image viewer uses a native dialog with full-size images, zoom, pan and pinch controls. Browser verification must confirm keyboard, focus, Escape, touch and reduced-motion behavior.
 
-The user's latest [intro and dropdown refinement](design/intro-dropdown-direction.md) adds a fullscreen, centered AA signature followed by a smooth site reveal. Its inline bootstrap and CSS complete without waiting for images or bundled modules, with cleanup after 1.2 seconds. Keyboard or pointer input dismisses the intro immediately; reduced motion and history Back skip it, and no JavaScript leaves the content visible. The hamburger opens an attached dropdown without a backdrop or focus trap. Existing finite section/card/timeline entrances remain.
+The user's latest [intro and dropdown refinement](design/intro-dropdown-direction.md) adds a fullscreen, centered AA signature on direct/external site entry and refresh, followed by a smooth site reveal. Internal page links and history traversal skip the intro. Its inline bootstrap and CSS complete without waiting for images or bundled modules, with cleanup after 1.2 seconds. Keyboard or pointer input dismisses the intro immediately; reduced motion skips it, and no JavaScript leaves the content visible. The hamburger opens an attached dropdown without a backdrop or focus trap. Existing finite section/card/timeline entrances remain.
 
 The [fullscreen intro and dropdown release](design/intro-dropdown-release.md) links current browser, performance and hosted verification. The [initial motion release record](design/motion-release.md) preserves the preceding version's evidence.
+
+The subsequent [entry/refresh correction](design/intro-entry-release.md) records focused local and hosted verification for skipping the intro on internal page links.
 
 ## Verification and release
 
