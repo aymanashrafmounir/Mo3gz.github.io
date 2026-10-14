@@ -1,0 +1,133 @@
+{
+  "publishedAt": "2026-10-14T14:40:10.139625Z",
+  "accountId": "947dc4e40901fd4d5e90c10035a04435",
+  "zoneId": "f4dd69fbac1852ab22a88dbd85da81c1",
+  "project": "ayman-portfolio-v2",
+  "branch": "main",
+  "environment": "production",
+  "deploymentId": "a7b80225-9acd-4bf6-a72b-ccb692e504fc",
+  "url": "https://a7b80225.ayman-portfolio-v2.pages.dev",
+  "productionUrl": "https://aymanashraf.me",
+  "deploymentStatus": "success",
+  "domains": [
+    {
+      "name": "aymanashraf.me",
+      "id": "5b3ccc89-744b-4770-a8fe-015c3066800e",
+      "status": "active",
+      "certificateAuthority": "google",
+      "validation": {
+        "status": "active",
+        "method": "http"
+      },
+      "verification": {
+        "status": "active"
+      },
+      "zoneId": "f4dd69fbac1852ab22a88dbd85da81c1"
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "id": "26ba2b87-50f7-4262-8736-1fb2a8c9393d",
+      "status": "active",
+      "certificateAuthority": "google",
+      "validation": {
+        "status": "active",
+        "method": "http"
+      },
+      "verification": {
+        "status": "active"
+      },
+      "zoneId": "f4dd69fbac1852ab22a88dbd85da81c1"
+    }
+  ],
+  "previewProjectUnchanged": true,
+  "gitCommitCreated": false,
+  "domainActivationVerifiedAt": "2026-10-14T14:33:28.319Z",
+  "dnsRecords": {
+    "method": "Authenticated Cloudflare DNS dashboard UI; existing Wrangler OAuth does not expose DNS permissions",
+    "baselineTotalRecords": 0,
+    "afterTotalRecords": 2,
+    "added": [
+      {
+        "name": "aymanashraf.me",
+        "type": "CNAME",
+        "content": "ayman-portfolio-v2.pages.dev",
+        "proxied": true,
+        "ttl": "Auto"
+      },
+      {
+        "name": "www.aymanashraf.me",
+        "type": "CNAME",
+        "content": "ayman-portfolio-v2.pages.dev",
+        "proxied": true,
+        "ttl": "Auto"
+      }
+    ],
+    "replacedRecords": []
+  },
+  "wwwRedirect": {
+    "id": "f64436445784461c9fa1fc0ec80bd562",
+    "status": "Active",
+    "source": "https://www.aymanashraf.me/*",
+    "target": "https://aymanashraf.me/${1}",
+    "statusCode": 301,
+    "preserveQueryString": true,
+    "verified": {
+      "request": "https://www.aymanashraf.me/projects?category=public",
+      "location": "https://aymanashraf.me/projects?category=public",
+      "status": 301,
+      "tlsVerification": true,
+      "dnsPath": "Explicit public Cloudflare DNS answer via curl --resolve"
+    }
+  },
+  "ordinaryUserChrome": {
+    "checkedAt": "2026-10-14T14:33:28.321Z",
+    "urls": ["https://aymanashraf.me/", "https://aymanashraf.me/contact/"],
+    "result": "Rendered approved Home and Contact, new social/email icons visible",
+    "dnsOverride": false,
+    "certificateBypass": false
+  },
+  "previewVerification": {
+    "project": "ayman-portfolio-v2-preview",
+    "deploymentId": "14a3e489-ce57-46ce-a791-743b11cf62db",
+    "canonicalProductionDeployment": null,
+    "unchanged": true
+  },
+  "httpsEnforcement": {
+    "setting": "Always Use HTTPS",
+    "previousValue": false,
+    "value": true,
+    "verification": "Authenticated dashboard switch on; last-changed confirmation visible after save",
+    "checkedAt": "2026-10-14T14:34:20.058Z",
+    "scope": "aymanashraf.me zone",
+    "universalCertificate": {
+      "hosts": ["*.aymanashraf.me", "aymanashraf.me"],
+      "status": "Active",
+      "expiresOn": "2027-01-11"
+    },
+    "otherTlsSettingsChanged": false
+  },
+  "initialPublishedAt": "2026-10-14T14:24:37.056Z",
+  "finalVerificationAt": "2026-10-14T14:43:30.052Z",
+  "previousDeployments": [
+    {
+      "id": "04e6cdce-42aa-4b1a-aff3-c86eb09a18db",
+      "url": "https://04e6cdce.ayman-portfolio-v2.pages.dev",
+      "environment": "production",
+      "createdOn": "2026-10-14T14:38:15.615761Z",
+      "status": "success"
+    },
+    {
+      "id": "e90831bc-36e3-42bc-a398-ce0c92df9e92",
+      "url": "https://e90831bc.ayman-portfolio-v2.pages.dev",
+      "environment": "production",
+      "createdOn": "2026-10-14T14:23:27.287605Z",
+      "status": "success"
+    }
+  ],
+  "publicEmailHandling": {
+    "scope": "Contact public-email section only",
+    "method": "Cloudflare email_off exclusion comments emitted as constant Astro Fragment HTML",
+    "reason": "Keep visible public email and both mailto links usable without JavaScript",
+    "zoneObfuscationSettingChanged": false
+  }
+}

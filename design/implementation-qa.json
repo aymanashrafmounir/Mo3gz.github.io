@@ -1,0 +1,1361 @@
+{
+  "base": "http://127.0.0.1:4321",
+  "started": "2026-10-14T12:31:09.474Z",
+  "browsers": {
+    "chromium": {
+      "version": "153.0.8010.12",
+      "launched": true
+    },
+    "firefox": {
+      "version": "155.0",
+      "launched": true
+    },
+    "webkit": {
+      "version": "26.6",
+      "launched": true
+    }
+  },
+  "routes": [
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/about",
+      "status": 200,
+      "title": "About Ayman — Ayman Ashraf Mounir",
+      "description": "Meet Ayman Ashraf Mounir, a Cairo-based software engineer focused on backend systems and complete product delivery.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "About Ayman"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 14,
+      "canonical": "https://aymanashraf.me/about",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact — Ayman Ashraf Mounir",
+      "description": "Contact Ayman Ashraf Mounir about a product, backend challenge or software engineering role.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Let's talk"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/contact",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/experience",
+      "status": 200,
+      "title": "Experience — Ayman Ashraf Mounir",
+      "description": "Ayman Ashraf Mounir's experience in backend engineering, product delivery and technical evaluation.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Experience"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/experience",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/resume",
+      "status": 200,
+      "title": "Resume — Ayman Ashraf Mounir",
+      "description": "Read Ayman Ashraf Mounir's experience, education, technical skills and project experience, or download the original CV.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Resume"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 13,
+      "canonical": "https://aymanashraf.me/resume",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects",
+      "status": 200,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/helixtra",
+      "status": 200,
+      "title": "Helixtra — Ayman Ashraf Mounir",
+      "description": "Coordinating patient care, appointments and clinic operations in a multi-tenant platform.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Helixtra"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/helixtra",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/wear-instant",
+      "status": 200,
+      "title": "Wear Instant — Ayman Ashraf Mounir",
+      "description": "Private image handling and reliable asynchronous processing for virtual garment try-on.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Wear Instant"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/wear-instant",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/ibrahim-awad",
+      "status": 200,
+      "title": "Ibrahim Awad — Ayman Ashraf Mounir",
+      "description": "An Arabic RTL clinic website with crawlable pages and capability-aware contact and booking surfaces.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ibrahim Awad"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 5,
+      "canonical": "https://aymanashraf.me/projects/ibrahim-awad",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/maysa-waheed",
+      "status": 200,
+      "title": "Maysa Waheed — Ayman Ashraf Mounir",
+      "description": "A couture presentation supported by catalog, order-request and atelier management workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Maysa Waheed"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 4,
+      "canonical": "https://aymanashraf.me/projects/maysa-waheed",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/supreme-sparkle",
+      "status": 200,
+      "title": "Supreme Sparkle — Ayman Ashraf Mounir",
+      "description": "An Egyptian beauty storefront with cash-on-delivery checkout and practical administrative workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Supreme Sparkle"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 4,
+      "canonical": "https://aymanashraf.me/projects/supreme-sparkle",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/arkedia",
+      "status": 200,
+      "title": "Arkedia — Ayman Ashraf Mounir",
+      "description": "A product catalog and operations platform with role-based storefront and administrative workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Arkedia"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/arkedia",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/tapora",
+      "status": 200,
+      "title": "Tapora — Ayman Ashraf Mounir",
+      "description": "A physical memory-card experience connected to personalized digital pages and ordering workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Tapora"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/tapora",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/blitzchatbot",
+      "status": 200,
+      "title": "BlitzChatbot — Ayman Ashraf Mounir",
+      "description": "Tenant-scoped WhatsApp messaging, real-time updates and validated third-party integration.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "BlitzChatbot"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/blitzchatbot",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/artline",
+      "status": 200,
+      "title": "Artline — Ayman Ashraf Mounir",
+      "description": "Interactive panoramas and image-enhancement controls around a multimodal AI workflow.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Artline"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/artline",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/quantitator",
+      "status": 200,
+      "title": "Quantitator — Ayman Ashraf Mounir",
+      "description": "Java services and Python optimization modules for constrained fashion pricing and production.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Quantitator"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/quantitator",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/cheque-printer",
+      "status": 200,
+      "title": "Cheque Printer — Ayman Ashraf Mounir",
+      "description": "Document layout, printing and searchable cheque history in Arabic and English.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Cheque Printer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 5,
+      "canonical": "https://aymanashraf.me/projects/cheque-printer",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects/secure-notes-organizer",
+      "status": 200,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/404",
+      "status": 200,
+      "title": "Page not found — Ayman Ashraf Mounir",
+      "description": "This address doesn't point to a page. Return to Ayman Ashraf Mounir's portfolio or explore his projects.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Page not found"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/404",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/",
+      "status": 200,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/about",
+      "status": 200,
+      "title": "About Ayman — Ayman Ashraf Mounir",
+      "description": "Meet Ayman Ashraf Mounir, a Cairo-based software engineer focused on backend systems and complete product delivery.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "About Ayman"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 14,
+      "canonical": "https://aymanashraf.me/about",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/contact",
+      "status": 200,
+      "title": "Contact — Ayman Ashraf Mounir",
+      "description": "Contact Ayman Ashraf Mounir about a product, backend challenge or software engineering role.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Let's talk"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/contact",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/experience",
+      "status": 200,
+      "title": "Experience — Ayman Ashraf Mounir",
+      "description": "Ayman Ashraf Mounir's experience in backend engineering, product delivery and technical evaluation.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Experience"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/experience",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/resume",
+      "status": 200,
+      "title": "Resume — Ayman Ashraf Mounir",
+      "description": "Read Ayman Ashraf Mounir's experience, education, technical skills and project experience, or download the original CV.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Resume"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 13,
+      "canonical": "https://aymanashraf.me/resume",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects",
+      "status": 200,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/helixtra",
+      "status": 200,
+      "title": "Helixtra — Ayman Ashraf Mounir",
+      "description": "Coordinating patient care, appointments and clinic operations in a multi-tenant platform.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Helixtra"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/helixtra",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/wear-instant",
+      "status": 200,
+      "title": "Wear Instant — Ayman Ashraf Mounir",
+      "description": "Private image handling and reliable asynchronous processing for virtual garment try-on.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Wear Instant"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/wear-instant",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/ibrahim-awad",
+      "status": 200,
+      "title": "Ibrahim Awad — Ayman Ashraf Mounir",
+      "description": "An Arabic RTL clinic website with crawlable pages and capability-aware contact and booking surfaces.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ibrahim Awad"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 5,
+      "canonical": "https://aymanashraf.me/projects/ibrahim-awad",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/maysa-waheed",
+      "status": 200,
+      "title": "Maysa Waheed — Ayman Ashraf Mounir",
+      "description": "A couture presentation supported by catalog, order-request and atelier management workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Maysa Waheed"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 4,
+      "canonical": "https://aymanashraf.me/projects/maysa-waheed",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/supreme-sparkle",
+      "status": 200,
+      "title": "Supreme Sparkle — Ayman Ashraf Mounir",
+      "description": "An Egyptian beauty storefront with cash-on-delivery checkout and practical administrative workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Supreme Sparkle"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 4,
+      "canonical": "https://aymanashraf.me/projects/supreme-sparkle",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/arkedia",
+      "status": 200,
+      "title": "Arkedia — Ayman Ashraf Mounir",
+      "description": "A product catalog and operations platform with role-based storefront and administrative workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Arkedia"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/arkedia",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/tapora",
+      "status": 200,
+      "title": "Tapora — Ayman Ashraf Mounir",
+      "description": "A physical memory-card experience connected to personalized digital pages and ordering workflows.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Tapora"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/tapora",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/blitzchatbot",
+      "status": 200,
+      "title": "BlitzChatbot — Ayman Ashraf Mounir",
+      "description": "Tenant-scoped WhatsApp messaging, real-time updates and validated third-party integration.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "BlitzChatbot"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/blitzchatbot",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/artline",
+      "status": 200,
+      "title": "Artline — Ayman Ashraf Mounir",
+      "description": "Interactive panoramas and image-enhancement controls around a multimodal AI workflow.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Artline"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/artline",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/quantitator",
+      "status": 200,
+      "title": "Quantitator — Ayman Ashraf Mounir",
+      "description": "Java services and Python optimization modules for constrained fashion pricing and production.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Quantitator"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/quantitator",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/cheque-printer",
+      "status": 200,
+      "title": "Cheque Printer — Ayman Ashraf Mounir",
+      "description": "Document layout, printing and searchable cheque history in Arabic and English.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Cheque Printer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 5,
+      "canonical": "https://aymanashraf.me/projects/cheque-printer",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects/secure-notes-organizer",
+      "status": 200,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/404",
+      "status": 200,
+      "title": "Page not found — Ayman Ashraf Mounir",
+      "description": "This address doesn't point to a page. Return to Ayman Ashraf Mounir's portfolio or explore his projects.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Page not found"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 2,
+      "canonical": "https://aymanashraf.me/404",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/projects",
+      "status": 200,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/projects/secure-notes-organizer",
+      "status": 200,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/",
+      "status": 304,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/projects",
+      "status": 304,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/projects/secure-notes-organizer",
+      "status": 304,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/",
+      "status": 200,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/projects",
+      "status": 200,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/projects/secure-notes-organizer",
+      "status": 200,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/",
+      "status": 304,
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "description": "Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Ayman AshrafMounir"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 33,
+      "canonical": "https://aymanashraf.me/",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/projects",
+      "status": 304,
+      "title": "Projects — Ayman Ashraf Mounir",
+      "description": "Products, client work and public engineering projects by Ayman Ashraf Mounir.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Projects"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 43,
+      "canonical": "https://aymanashraf.me/projects",
+      "errors": []
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/projects/secure-notes-organizer",
+      "status": 304,
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "description": "A C++/Qt notes application built for the Siemens DISW internship final project, with encrypted storage and client-server communication.",
+      "robots": "noindex, nofollow",
+      "h1s": [
+        "Secure Notes Organizer"
+      ],
+      "overflow": 0,
+      "brokenImages": [],
+      "images": 6,
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "errors": []
+    }
+  ],
+  "responsive": [
+    {
+      "width": 320,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 360,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 375,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 390,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 414,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 768,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 1024,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 1280,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 1440,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 1920,
+      "overflow": 0,
+      "brokenImages": []
+    },
+    {
+      "width": 2560,
+      "overflow": 0,
+      "brokenImages": []
+    }
+  ],
+  "interactions": [
+    {
+      "name": "chromium 390px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "chromium 390px /about",
+      "passed": true,
+      "images": 14
+    },
+    {
+      "name": "chromium 390px /contact",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "chromium 390px /experience",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "chromium 390px /resume",
+      "passed": true,
+      "images": 13
+    },
+    {
+      "name": "chromium 390px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "chromium 390px /projects/helixtra",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/wear-instant",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/ibrahim-awad",
+      "passed": true,
+      "images": 5
+    },
+    {
+      "name": "chromium 390px /projects/maysa-waheed",
+      "passed": true,
+      "images": 4
+    },
+    {
+      "name": "chromium 390px /projects/supreme-sparkle",
+      "passed": true,
+      "images": 4
+    },
+    {
+      "name": "chromium 390px /projects/arkedia",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/tapora",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/blitzchatbot",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/artline",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/quantitator",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /projects/cheque-printer",
+      "passed": true,
+      "images": 5
+    },
+    {
+      "name": "chromium 390px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 390px /404",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "chromium 1440px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "chromium 1440px /about",
+      "passed": true,
+      "images": 14
+    },
+    {
+      "name": "chromium 1440px /contact",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "chromium 1440px /experience",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "chromium 1440px /resume",
+      "passed": true,
+      "images": 13
+    },
+    {
+      "name": "chromium 1440px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "chromium 1440px /projects/helixtra",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/wear-instant",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/ibrahim-awad",
+      "passed": true,
+      "images": 5
+    },
+    {
+      "name": "chromium 1440px /projects/maysa-waheed",
+      "passed": true,
+      "images": 4
+    },
+    {
+      "name": "chromium 1440px /projects/supreme-sparkle",
+      "passed": true,
+      "images": 4
+    },
+    {
+      "name": "chromium 1440px /projects/arkedia",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/tapora",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/blitzchatbot",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/artline",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/quantitator",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /projects/cheque-printer",
+      "passed": true,
+      "images": 5
+    },
+    {
+      "name": "chromium 1440px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "chromium 1440px /404",
+      "passed": true,
+      "images": 2
+    },
+    {
+      "name": "unique route titles and descriptions",
+      "passed": true
+    },
+    {
+      "name": "home responsive 320px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 360px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 375px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 390px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 414px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 768px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 1024px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 1280px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 1440px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 1920px",
+      "passed": true
+    },
+    {
+      "name": "home responsive 2560px",
+      "passed": true
+    },
+    {
+      "name": "project category URL, visible counts and back navigation",
+      "passed": true,
+      "total": 12,
+      "client": 8,
+      "public": 4
+    },
+    {
+      "name": "mobile menu keyboard, Escape and focus restoration",
+      "passed": true
+    },
+    {
+      "name": "application screenshot enlarge, zoom, Escape and focus restoration",
+      "passed": true
+    },
+    {
+      "name": "download serves original CV bytes",
+      "passed": true,
+      "sha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+      "filename": "ayman-ashraf-mounir-cv.pdf"
+    },
+    {
+      "name": "unknown URL uses custom non-indexable 404",
+      "passed": true
+    },
+    {
+      "name": "no JavaScript retains complete collection and navigation",
+      "passed": true
+    },
+    {
+      "name": "axe / 1440px",
+      "passed": true
+    },
+    {
+      "name": "axe / 390px",
+      "passed": true
+    },
+    {
+      "name": "axe /experience 390px",
+      "passed": true
+    },
+    {
+      "name": "axe /resume 1440px",
+      "passed": true
+    },
+    {
+      "name": "axe /projects/secure-notes-organizer 1440px",
+      "passed": true
+    },
+    {
+      "name": "axe /projects/blitzchatbot 390px",
+      "passed": true
+    },
+    {
+      "name": "screenshot home-1440",
+      "passed": true
+    },
+    {
+      "name": "screenshot home-390",
+      "passed": true
+    },
+    {
+      "name": "screenshot projects-1440",
+      "passed": true
+    },
+    {
+      "name": "screenshot experience-390",
+      "passed": true
+    },
+    {
+      "name": "screenshot blitzchatbot-390",
+      "passed": true
+    },
+    {
+      "name": "firefox 390px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "firefox 390px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "firefox 390px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "firefox 1440px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "firefox 1440px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "firefox 1440px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "webkit 390px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "webkit 390px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "webkit 390px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    },
+    {
+      "name": "webkit 1440px /",
+      "passed": true,
+      "images": 33
+    },
+    {
+      "name": "webkit 1440px /projects",
+      "passed": true,
+      "images": 43
+    },
+    {
+      "name": "webkit 1440px /projects/secure-notes-organizer",
+      "passed": true,
+      "images": 6
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "mobile menu",
+      "violations": [],
+      "incompleteCount": 1
+    },
+    {
+      "name": "mobile screenshot viewer",
+      "violations": [],
+      "incompleteCount": 0
+    },
+    {
+      "name": "/ 1440px",
+      "violations": [],
+      "incompleteCount": 1
+    },
+    {
+      "name": "/ 390px",
+      "violations": [],
+      "incompleteCount": 1
+    },
+    {
+      "name": "/experience 390px",
+      "violations": [],
+      "incompleteCount": 0
+    },
+    {
+      "name": "/resume 1440px",
+      "violations": [],
+      "incompleteCount": 0
+    },
+    {
+      "name": "/projects/secure-notes-organizer 1440px",
+      "violations": [],
+      "incompleteCount": 0
+    },
+    {
+      "name": "/projects/blitzchatbot 390px",
+      "violations": [],
+      "incompleteCount": 0
+    }
+  ],
+  "screenshots": [
+    "output/screenshots/home-1440.png",
+    "output/screenshots/home-390.png",
+    "output/screenshots/projects-1440.png",
+    "output/screenshots/experience-390.png",
+    "output/screenshots/blitzchatbot-390.png"
+  ],
+  "failures": [],
+  "finished": "2026-10-14T12:32:15.249Z",
+  "summary": {
+    "routeChecks": 50,
+    "responsiveWidths": 11,
+    "scenarios": 79,
+    "accessibilityScans": 8,
+    "failures": 0
+  },
+  "postReviewChecks": [
+    "Final mobile role text and desktop location text verified after removing generated CSS copy."
+  ]
+}

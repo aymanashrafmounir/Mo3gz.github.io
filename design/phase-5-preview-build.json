@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-14T14:03:40.544Z",
+  "origin": "https://review.ayman-portfolio-v2-preview.pages.dev",
+  "htmlFiles": 20,
+  "bytes": 8949127,
+  "homeSha256": "343481ca216acc3d23b537442aed325f361d6531187634e115bfd639bcd20779",
+  "originalCvSha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+  "previewRobots": "User-agent: *\nDisallow: /\n",
+  "customDomainChanges": false,
+  "rebuildVerifiedAt": "2026-10-14T14:14:01.987Z",
+  "fileCount": 114,
+  "htmlMetaNoindexCount": 20,
+  "globalNoindexHeader": "/*\n  X-Robots-Tag: noindex, nofollow\n",
+  "allHtmlResponsesNoindex": true,
+  "approvedNativeSha256": "c961aadd12e7335a5db33987f019985a29915b84d759f40cf28ef07ba822bc43",
+  "rebuildMatchesRemoteHomeAndAssetHashes": true
+}

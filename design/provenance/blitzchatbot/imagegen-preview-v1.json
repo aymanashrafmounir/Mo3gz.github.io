@@ -1,0 +1,12 @@
+{
+  "classification": "AI-edited application preview with fictional demo content",
+  "tool": "built-in image_gen__imagegen",
+  "permission": "User explicitly requested image generator to add chats and contacts after approving the blank main-chats screenshot.",
+  "input": "blitz-main-chats-desktop-1440.png",
+  "generated": "blitz-main-chats-generated-v1.png",
+  "prompt": "imagegen-prompt-v1.txt",
+  "reviewedAs": "Preview only; not installed in the approved portfolio/native document or active genuine-capture manifests.",
+  "data": "Six fictional Arabic first names and fictional generic chat. No real accounts, contacts, phone numbers, emails or message records supplied.",
+  "disclosure": "Visible small Arabic label: بيانات تجريبية",
+  "date": "2026-10-14"
+}

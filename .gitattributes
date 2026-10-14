@@ -1,0 +1,3 @@
+# Preserve the bundled upstream font license verbatim.
+design/assets/fonts/OFL.txt -text -whitespace
+public/fonts/OFL.txt -text -whitespace

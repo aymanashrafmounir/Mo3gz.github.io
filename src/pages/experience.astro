@@ -1,0 +1,35 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import CareerTimeline from '../components/CareerTimeline.astro';
+---
+
+<SiteLayout
+  title="Experience"
+  description="Ayman Ashraf Mounir's experience in backend engineering, product delivery and technical evaluation."
+  active="/experience/"
+>
+  <section class="page-lead">
+    <h1>Experience</h1>
+    <p class="lede">
+      Backend engineering, product delivery and technical evaluation.
+      Overlapping roles are shown with their original dates.
+    </p>
+  </section>
+  <section aria-labelledby="career-history">
+    <h2 class="sr-only" id="career-history">
+      Career history
+    </h2>
+    <CareerTimeline />
+  </section>
+  <div class="actions experience-actions">
+    <a class="button" href="/ayman-ashraf-mounir-cv.pdf" download>
+      Download CV
+    </a>
+  </div>
+</SiteLayout>
+
+<style>
+  .experience-actions {
+    margin-top: 64px;
+  }
+</style>

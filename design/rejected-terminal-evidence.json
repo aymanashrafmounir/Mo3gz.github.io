@@ -1,0 +1,45 @@
+{
+  "decision": "User rejected terminal screenshots as application imagery.",
+  "active": false,
+  "assets": [
+    {
+      "project": "secure-notes-organizer",
+      "assetKey": "secure-notes-organizer",
+      "path": "design/assets/captures/secure-notes-integration.png",
+      "source": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/add%20tag.png",
+      "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+      "sha256": "B62536392C002F087DDC85DE78BA6A4A0F97CFEE8D4FF6E8D7248FD9D2DA2FAA",
+      "observed": "2026-10-14",
+      "classification": "genuine-repository-integration-test-screenshot",
+      "caption": "Tag creation and malformed requests \u00b7 GTest integration-test repository capture.",
+      "use": "User requested use of original repository screenshots. Preserve test-evidence labels; no fresh test-run claim.",
+      "framing": "Complete original capture, fit without crop."
+    },
+    {
+      "project": "secure-notes-organizer",
+      "assetKey": "secure-notes-create-note",
+      "path": "design/assets/captures/secure-notes-create-note.png",
+      "source": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/create%20note.png",
+      "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+      "sha256": "32E03B63CEB17877F89D8973E11B507B4D8C73AACB45EE9A5DDB8E88B0DB20C0",
+      "observed": "2026-10-14",
+      "classification": "genuine-repository-integration-test-screenshot",
+      "caption": "Note creation and malformed requests \u00b7 GTest integration-test repository capture.",
+      "use": "User requested use of original repository screenshots. Preserve test-evidence labels; no fresh test-run claim.",
+      "framing": "Complete original capture, fit without crop."
+    },
+    {
+      "project": "secure-notes-organizer",
+      "assetKey": "secure-notes-list-tags",
+      "path": "design/assets/captures/secure-notes-list-tags.png",
+      "source": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/list%20note%20tags.png",
+      "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+      "sha256": "D78FB200A772446EEBDEDDBF0A19B71EAC51F2335E0DDBB3E21DBE3C9B7063C3",
+      "observed": "2026-10-14",
+      "classification": "genuine-repository-integration-test-screenshot",
+      "caption": "Listing note tags and invalid requests \u00b7 GTest integration-test repository capture.",
+      "use": "User requested use of original repository screenshots. Preserve test-evidence labels; no fresh test-run claim.",
+      "framing": "Complete original capture, fit without crop."
+    }
+  ]
+}

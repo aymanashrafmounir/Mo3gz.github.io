@@ -1,0 +1,26 @@
+{
+  "method": "Final metadata-only rename; all font tables other than name and checksum header byte-identical to the 5076-comparison browser-tested subsets",
+  "fonts": [
+    {
+      "weight": "Regular",
+      "allNonNameTablesUnchanged": true,
+      "primaryTypographicAndWWSNamesRenamed": true
+    },
+    {
+      "weight": "Medium",
+      "allNonNameTablesUnchanged": true,
+      "primaryTypographicAndWWSNamesRenamed": true
+    },
+    {
+      "weight": "SemiBold",
+      "allNonNameTablesUnchanged": true,
+      "primaryTypographicAndWWSNamesRenamed": true
+    },
+    {
+      "weight": "Bold",
+      "allNonNameTablesUnchanged": true,
+      "primaryTypographicAndWWSNamesRenamed": true
+    }
+  ],
+  "webBytes": 145204
+}

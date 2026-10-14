@@ -1,0 +1,23 @@
+{
+  "classification": "ai-edited-application-demo",
+  "project": "blitzchatbot",
+  "approvedAt": "2026-10-14",
+  "approval": "User approved the generated fictional chat and contacts preview for use in the final design.",
+  "tool": "built-in image_gen__imagegen",
+  "image": {
+    "path": "design/assets/captures/blitzchatbot-demo.png",
+    "sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e"
+  },
+  "originalBase": {
+    "path": "design/assets/source/blitzchatbot-blank-base.png",
+    "sha256": "cce3a739b2812cdaf019bf58ddc0ca706686fb50c46608a8822d8b666550c097"
+  },
+  "prompt": "design/provenance/blitzchatbot/imagegen-prompt-v1.txt",
+  "baseCaptureProvenance": "design/provenance/blitzchatbot/blank-capture-provenance.json",
+  "sourceProvenance": "design/provenance/blitzchatbot/source-provenance.json",
+  "captureHarness": "design/provenance/blitzchatbot/capture.cjs",
+  "sourceGitCommit": "09b4368b422752b62e48fcbc9de3bb9f38bb07a0",
+  "data": "Six fictional Arabic first names and a fictional generic exchange. No real account, phone number, contact or message records were supplied.",
+  "disclosure": "The image includes the Arabic label \u0628\u064a\u0627\u0646\u0627\u062a \u062a\u062c\u0631\u064a\u0628\u064a\u0629; native case-study caption also identifies an AI-edited demo.",
+  "limits": "This is an image-generator edit of an original empty app interface, not a genuine populated application capture or evidence of delivered messages."
+}

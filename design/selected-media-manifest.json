@@ -1,0 +1,537 @@
+{
+  "direction": "A",
+  "selected": "2026-10-14",
+  "images": [
+    {
+      "slug": "ayman-portrait",
+      "path": "design/assets/personal/ayman-original.jpg",
+      "classification": "original-personal-photograph",
+      "permission": "Direction A explicitly selected with this original portfolio photograph.",
+      "alt": "Ayman at a programming competition, photographed outdoors.",
+      "intendedRoutes": [
+        "/",
+        "/about"
+      ],
+      "width": 1536,
+      "height": 2048,
+      "sha256": "fbacbc6c924d1c143b4e7ee17d4e046d1b52441fbb56fd77ff6039ca4cefcd14",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/ayman-portrait-480.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 29584,
+          "sha256": "5f107f4e58e4e2bfd54312976c7df3fd745e7f50ddb65bde70ea8275912ed7ed"
+        },
+        {
+          "path": "design/assets/selected-web/ayman-portrait-960.webp",
+          "width": 960,
+          "height": 1280,
+          "bytes": 75388,
+          "sha256": "10377af19c1daf7a47cb82c5e99aef8fe78ac27d93ae158691799b540aa77fc3"
+        },
+        {
+          "path": "design/assets/selected-web/ayman-portrait-1440.webp",
+          "width": 1440,
+          "height": 1920,
+          "bytes": 124138,
+          "sha256": "181cdaf47f44ae1dcd7557127e17727b0039a266a1fdb666adbdcf87b9ade400"
+        }
+      ]
+    },
+    {
+      "slug": "helixtra",
+      "path": "design/assets/captures/helixtra-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://helixtra.com",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Genuine public marketing website capture. The site's clinic preview is illustrative.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/helixtra"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/helixtra-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 10882,
+          "sha256": "6df78ddd96d89743ff5139df3ed388e618506befa1ddef9aaacabbd31fe5a587"
+        },
+        {
+          "path": "design/assets/selected-web/helixtra-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 27788,
+          "sha256": "675ff09045ba18b25a6c6a46a170c01cdf1a07317e5808f6d098817af50aeb68"
+        },
+        {
+          "path": "design/assets/selected-web/helixtra-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 46780,
+          "sha256": "5b556c2d7ca7f64b4ccfb91ccade3b5528be4fe7e70e9d618a76b7e72a3eec80"
+        }
+      ]
+    },
+    {
+      "slug": "wear-instant",
+      "path": "design/assets/captures/wear-instant-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://wearinstant.com",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Genuine public marketing capture. Promotional imagery is not a captured shopper-generation result.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/wear-instant"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "4a2f0cfa7b5ad300dcfa6bced80967d3b99f8a23d83a028c6eac6d61a06f412b",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/wear-instant-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 14234,
+          "sha256": "fdb3584d1e84f7acab680d9aa907ce347694eaee16c52aa8f8451376183242c3"
+        },
+        {
+          "path": "design/assets/selected-web/wear-instant-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 35204,
+          "sha256": "0885b2d4bde5dad1f77db9f0bf8492286707d3e3ba9499b3a7faa7c3e8d70511"
+        },
+        {
+          "path": "design/assets/selected-web/wear-instant-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 59264,
+          "sha256": "baf1a90c322004548835f846362f8d2fbdbdb98a9e0e27c64757e44958f04b2a"
+        }
+      ]
+    },
+    {
+      "slug": "ibrahim-awad",
+      "path": "design/assets/captures/ibrahim-awad-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://ibrahim-awad-clinic.aamiraclee.workers.dev",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Public Arabic RTL clinic review website.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/ibrahim-awad"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "feb27d3af0df59d5b0e605ea02bdb7004c7b5b1c12a2a554cd943dcb758830b1",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/ibrahim-awad-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 14622,
+          "sha256": "348c85e3606a19e400e31aa2303ae4cc3259ff779ccd080eecc8acc78ba10051"
+        },
+        {
+          "path": "design/assets/selected-web/ibrahim-awad-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 45522,
+          "sha256": "c99f2f2b84d672d6b0b2052425afae3af8fae55a7fb79e4a75cdf8c91b533ead"
+        },
+        {
+          "path": "design/assets/selected-web/ibrahim-awad-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 83118,
+          "sha256": "91a3df240ee1f0974c1a5bc9dc77b15f159c0affba733900da24c9f29ada071f"
+        }
+      ]
+    },
+    {
+      "slug": "tapora",
+      "path": "design/assets/captures/tapora-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://taporaeg.com",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Genuine public website capture. Private memory pages and messages are excluded.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/tapora"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "ea64ee921a5d2b8104427d99c033e02c290323fae4a8bf58595b3f1273c4f696",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/tapora-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 14550,
+          "sha256": "0bf83e05a3d50af10d0fd7856fc4abe8c92de90f5560ad223826d9820a7ae727"
+        },
+        {
+          "path": "design/assets/selected-web/tapora-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 35180,
+          "sha256": "fc35dc41545e34a55da986f13fa6997c30670667bc87c10bd676762700557f0b"
+        },
+        {
+          "path": "design/assets/selected-web/tapora-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 56956,
+          "sha256": "964a5cd6120679fb60ccb0914edb8d9c2a4f9cfb4a2bb98eb95d76ed4dac39af"
+        }
+      ]
+    },
+    {
+      "slug": "maysa-waheed",
+      "path": "design/assets/captures/maysa-waheed-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://maysawaheed.com",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Public couture website and catalog presentation.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/maysa-waheed"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "16661037a0a0522ffbb37bc572131293a2959beec86d5b75b3fc1e23d32689b5",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/maysa-waheed-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 17824,
+          "sha256": "2a4023d5c9b715961796b42e94178324035be33fc0d42f367bd39ba2f579174d"
+        },
+        {
+          "path": "design/assets/selected-web/maysa-waheed-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 45642,
+          "sha256": "d1300863c56525b917a87d6c144240020ef4e426293ad5fcfb7b571734d3d313"
+        },
+        {
+          "path": "design/assets/selected-web/maysa-waheed-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 72710,
+          "sha256": "720d6e35002cf7f217ec780e197b72bc488e53b21d47f146478bbf7aded8867f"
+        }
+      ]
+    },
+    {
+      "slug": "supreme-sparkle",
+      "path": "design/assets/captures/supreme-sparkle-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://supreme-sparkle.pages.dev",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Genuine public storefront capture.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/supreme-sparkle"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "561bba6cf79d9be9160b819803f540189dd17245560bf25f82b9c96121f38f8f",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/supreme-sparkle-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 20320,
+          "sha256": "fe1f295ebcab0cc45b4093534fbf22bfeb6803ef3cad9dd16bbb214652b1d767"
+        },
+        {
+          "path": "design/assets/selected-web/supreme-sparkle-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 56478,
+          "sha256": "c3bb1000ae5db7a3625d684142662b5e8604fed4200865e5d757d820134d60cc"
+        },
+        {
+          "path": "design/assets/selected-web/supreme-sparkle-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 98394,
+          "sha256": "f36c40ba8df68c125c5d1f52f2b5f0a5ed113c5aac50dd22a4a77d7c6163fe67"
+        }
+      ]
+    },
+    {
+      "slug": "blitzchatbot",
+      "path": "design/assets/captures/blitzchatbot-demo.png",
+      "classification": "ai-edited-application-demo",
+      "source": "design/assets/source/blitzchatbot-blank-base.png",
+      "permission": "User approved for the final portfolio design and implementation on 2026-10-14.",
+      "alt": "AI-edited preview with fictional contacts and chat.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/blitzchatbot"
+      ],
+      "width": 1505,
+      "height": 1045,
+      "sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/blitzchatbot-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 6732,
+          "sha256": "7be0e378027e20222ed461e7d1f8544f15ee098542ba2473728a003f0b795eb6"
+        },
+        {
+          "path": "design/assets/selected-web/blitzchatbot-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 20210,
+          "sha256": "0e1e2da8418996ab2335e0a7c7a5a5a500d3fec7e5c5f59e0adae7f38732f081"
+        },
+        {
+          "path": "design/assets/selected-web/blitzchatbot-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 37376,
+          "sha256": "b09472492fd41d5c536f426eb9fd1aee10052f75d2b890d9844b4dbb5d44edfe"
+        }
+      ]
+    },
+    {
+      "slug": "arkedia",
+      "path": "design/assets/captures/arkedia-loaded.png",
+      "classification": "genuine-public-site-capture",
+      "source": "https://arkediainternational.com",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Public catalog and storefront presentation.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/arkedia"
+      ],
+      "width": 1440,
+      "height": 1000,
+      "sha256": "fe407dd13766fec202196e90c01a41a9f77c440fa2284a12a789c841d496cb05",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/arkedia-480.webp",
+          "width": 480,
+          "height": 333,
+          "bytes": 18514,
+          "sha256": "60998f9f58c48148ff2db11d25eef2b4fed4a85e407dffacfbdd1799b6a869c6"
+        },
+        {
+          "path": "design/assets/selected-web/arkedia-960.webp",
+          "width": 960,
+          "height": 667,
+          "bytes": 51264,
+          "sha256": "b49b0fd703efe69c969aa9f2b236a04249dd53ce494e7943bdb402b3ed367344"
+        },
+        {
+          "path": "design/assets/selected-web/arkedia-1440.webp",
+          "width": 1440,
+          "height": 1000,
+          "bytes": 91956,
+          "sha256": "33c621e77b7087cbf5db337f3fab83ab15d8ae77902bcfcac1a72fe675f01067"
+        }
+      ]
+    },
+    {
+      "slug": "cheque-printer",
+      "path": "design/assets/captures/cheque-printer-app.png",
+      "classification": "genuine-original-application-capture",
+      "source": "https://github.com/aymanashrafmounir/Cheque_printer/blob/81622e2f86183ae4d2be7e0b01b9542f751d9982/Screenshots/Main%20Page.png",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Original desktop app capture; entry fields and table are empty.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/cheque-printer"
+      ],
+      "width": 1917,
+      "height": 1032,
+      "sha256": "4698e3eac37884a41a20010a7e3c2e0808f6bfcb30c6c07f9481b066e1168f6f",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/cheque-printer-480.webp",
+          "width": 480,
+          "height": 258,
+          "bytes": 5118,
+          "sha256": "86b2487d9a0076cf9a6347d333c3498748e5e9cd36bc152b5f834a6d17b508b6"
+        },
+        {
+          "path": "design/assets/selected-web/cheque-printer-960.webp",
+          "width": 960,
+          "height": 517,
+          "bytes": 16028,
+          "sha256": "7efdbe49eb5e48c7f85b78891a9299b99696d64454f13aa07a74907e2c8f5c61"
+        },
+        {
+          "path": "design/assets/selected-web/cheque-printer-1440.webp",
+          "width": 1440,
+          "height": 775,
+          "bytes": 31490,
+          "sha256": "99815087921e10eac086b00700d206ed4fc36799aecd13309869eb1b9d80227c"
+        }
+      ]
+    },
+    {
+      "slug": "artline",
+      "path": "design/assets/captures/artline-app.png",
+      "classification": "genuine-original-application-capture",
+      "source": "https://github.com/aymanashrafmounir/Artline/tree/7234390dfcfc2ec89ec359fb598bbcca1b9ac87a/frontend",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Original public frontend captured locally, unchanged; empty uploader.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/artline"
+      ],
+      "width": 1600,
+      "height": 1190,
+      "sha256": "f09ac26b88f34dc46009f2ba80e35e17d7b53cb2d761f96e9b3c9345a9e779e0",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/artline-480.webp",
+          "width": 480,
+          "height": 357,
+          "bytes": 8580,
+          "sha256": "fbc104550dee9c7433a0a7e8170e25bb5c1c22d86959e579962de6cf50bc2807"
+        },
+        {
+          "path": "design/assets/selected-web/artline-960.webp",
+          "width": 960,
+          "height": 714,
+          "bytes": 24432,
+          "sha256": "2a7a1e5f7ae62bd0b4a057943bcc537e9254f2433a43feacbf64286e183df25d"
+        },
+        {
+          "path": "design/assets/selected-web/artline-1440.webp",
+          "width": 1440,
+          "height": 1071,
+          "bytes": 41836,
+          "sha256": "65d6bcd27011eb413ff037645dd8d1766d9d4647f0588fc309415460161357af"
+        }
+      ]
+    },
+    {
+      "slug": "quantitator",
+      "path": "design/assets/captures/quantitator-app.png",
+      "classification": "genuine-original-application-capture",
+      "source": "https://github.com/aymanashrafmounir/Quantitator/blob/1982ca641e06c51bdec7de168ae689191b62e82d/Screenshots/Upload_File_Page.png",
+      "permission": "Native design review. Preserve stated project publication status.",
+      "alt": "Original public input-mapping and optimization-parameter interface. Values are configuration inputs, not achieved results.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/quantitator"
+      ],
+      "width": 1914,
+      "height": 942,
+      "sha256": "0b0d4649b02f26a6eb92cc5e98b0a8f2a1c3e577528e24a71fcf26538f01bdba",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/quantitator-480.webp",
+          "width": 480,
+          "height": 236,
+          "bytes": 6058,
+          "sha256": "c3de4c5766ca5dd61d2ad0103bd0c96cf4057043bcde4b83070ad1d31b80f620"
+        },
+        {
+          "path": "design/assets/selected-web/quantitator-960.webp",
+          "width": 960,
+          "height": 472,
+          "bytes": 17358,
+          "sha256": "99518a365e2668d99808e55372578a60e006ebeac239f9503d37b211de8e2a24"
+        },
+        {
+          "path": "design/assets/selected-web/quantitator-1440.webp",
+          "width": 1440,
+          "height": 709,
+          "bytes": 31624,
+          "sha256": "c12eddba85d21fa537ada47f4c4e7c2dc2ff77ff2e24185d89735051f1abd357"
+        }
+      ]
+    },
+    {
+      "slug": "secure-notes-organizer",
+      "path": "design/assets/captures/secure-notes-editor-app.png",
+      "classification": "genuine-original-application-capture",
+      "source": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+      "permission": "Original application interface captured locally for the requested native portfolio review.",
+      "alt": "Notes editor · Original Qt application interface.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/secure-notes-organizer"
+      ],
+      "width": 1280,
+      "height": 800,
+      "sha256": "b51d82426b4751ad7b76af222bb37aab2baf980c1c4cb17a4ba58c8cd44e8ba6",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/secure-notes-organizer-480.webp",
+          "width": 480,
+          "height": 300,
+          "bytes": 1780,
+          "sha256": "9ff2fd2ea5352a4b76789e09af8571dcb79c0a757b6569fa8558b38997762ce7"
+        },
+        {
+          "path": "design/assets/selected-web/secure-notes-organizer-960.webp",
+          "width": 960,
+          "height": 600,
+          "bytes": 4620,
+          "sha256": "27f59ba22206c5e79f9d4012f955b7fda15656a60b883efa2e0e795a18ed9663"
+        },
+        {
+          "path": "design/assets/selected-web/secure-notes-organizer-1440.webp",
+          "width": 1280,
+          "height": 800,
+          "bytes": 6376,
+          "sha256": "62ee33b15b99a92217ad2167717f030d2f2d4c4d732866b0c4a3ec9820f37925"
+        }
+      ]
+    },
+    {
+      "slug": "secure-notes-sign-in-app",
+      "path": "design/assets/captures/secure-notes-sign-in-app.png",
+      "classification": "genuine-original-application-capture",
+      "source": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+      "permission": "Original application interface captured locally for the requested native portfolio review.",
+      "alt": "Sign-in screen · Siemens DISW internship project.",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/secure-notes-organizer"
+      ],
+      "width": 542,
+      "height": 642,
+      "sha256": "229d1a498e8eb31eaed5d2394bec1f41e7ef5a684370c2bc68beb8b5012265d6",
+      "variants": [
+        {
+          "path": "design/assets/selected-web/secure-notes-sign-in-app-480.webp",
+          "width": 480,
+          "height": 569,
+          "bytes": 8424,
+          "sha256": "770730e8f3288e59866e02e70210fd96ce8db9dd2d0e03c7e17d3449c145c3da"
+        },
+        {
+          "path": "design/assets/selected-web/secure-notes-sign-in-app-960.webp",
+          "width": 542,
+          "height": 642,
+          "bytes": 9766,
+          "sha256": "769d1ced1fbef4152d3e8a0b14db4999a1429383f7e246e17cfc55a7588cd8e1"
+        },
+        {
+          "path": "design/assets/selected-web/secure-notes-sign-in-app-1440.webp",
+          "width": 542,
+          "height": 642,
+          "bytes": 9766,
+          "sha256": "769d1ced1fbef4152d3e8a0b14db4999a1429383f7e246e17cfc55a7588cd8e1"
+        }
+      ]
+    }
+  ]
+}

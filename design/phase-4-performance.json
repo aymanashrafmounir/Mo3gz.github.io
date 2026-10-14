@@ -1,0 +1,958 @@
+{
+  "status": "representative-local-lab-targets-met",
+  "generatedAt": "2026-10-14T13:47:49.857Z",
+  "environment": {
+    "lighthouseVersion": "13.5.0",
+    "chromiumExecutable": "C:\\Users\\sigma\\AppData\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe",
+    "method": "Lighthouse CLI; default simulated mobile and desktop preset; cold browser storage",
+    "base": "http://127.0.0.1:4321",
+    "mobile": {
+      "viewport": "412x823 @ 1.75 DPR",
+      "simulatedNetwork": "150 ms RTT; 1638.4 Kbps throughput",
+      "cpuSlowdownMultiplier": 4
+    },
+    "desktop": {
+      "viewport": "1350x940 @ 1 DPR",
+      "simulatedNetwork": "40 ms RTT; 10240 Kbps throughput",
+      "cpuSlowdownMultiplier": 1
+    }
+  },
+  "finalBuild": {
+    "homeHtmlSha256": "c80adc14bb14c613f0a401b4cab693592f0af0c2335e2899d05e8999f5e9af17",
+    "isolatedIndexableHomeHtmlSha256": "e6f5273a75c03a0b387ab5dc100a8d0174095b18f6c8d9f2e6a4e4ca8ae0e755",
+    "fontMetadataEvidence": "design/phase-4-font-metadata.json",
+    "rawPerformanceSummary": "output/lighthouse/final-verified/summary.json",
+    "rawSeoSummary": "output/lighthouse/indexable-seo/summary.json"
+  },
+  "targets": {
+    "mobilePerformance": 90,
+    "accessibility": 95,
+    "bestPractices": 95,
+    "seo": 95,
+    "lcpMs": 2500,
+    "cls": 0.1,
+    "inpMs": 200
+  },
+  "scope": {
+    "performanceAudits": 8,
+    "uniquePerformanceRoutes": 7,
+    "mobilePerformanceAudits": 7,
+    "desktopPerformanceAudits": 1,
+    "indexableSeoAudits": 6,
+    "uniqueIndexableSeoRoutes": 5
+  },
+  "finalRanges": {
+    "mobilePerformance": [99, 100],
+    "mobileLcpMs": [1880.6212, 2257.1215],
+    "accessibility": 100,
+    "bestPractices": 100,
+    "cls": 0,
+    "maxTbtMs": 6,
+    "indexableSeo": 100,
+    "previewSeo": 69
+  },
+  "final": [
+    {
+      "name": "home-mobile",
+      "route": "/",
+      "preset": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 633.83685,
+        "lcpMs": 1955.6737000000003,
+        "speedIndexMs": 994.1741369851268,
+        "tbtMs": 3,
+        "cls": 0,
+        "transferredBytes": 268671
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.97,
+          "displayValue": "2.0 s",
+          "numericValue": 1955.6737000000003
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "2.0 s",
+          "numericValue": 1970.6737000000003
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 62 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/home-mobile.report.json"
+    },
+    {
+      "name": "home-desktop",
+      "route": "/",
+      "preset": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 178.82805,
+        "lcpMs": 425.6560999999999,
+        "speedIndexMs": 266.63746958296144,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 252351
+      },
+      "findings": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 27 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/home-desktop.report.json"
+    },
+    {
+      "name": "projects-mobile",
+      "route": "/projects",
+      "preset": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 642.10435,
+        "lcpMs": 1956.2087000000001,
+        "speedIndexMs": 788.3875221250976,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 422676
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.97,
+          "displayValue": "2.0 s",
+          "numericValue": 1956.2087000000001
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "2.0 s",
+          "numericValue": 1971.2087000000001
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 207 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/projects-mobile.report.json"
+    },
+    {
+      "name": "blitzchatbot-mobile",
+      "route": "/projects/blitzchatbot",
+      "preset": "mobile",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 634.8106,
+        "lcpMs": 1880.6212,
+        "speedIndexMs": 1088.2256016811834,
+        "tbtMs": 4,
+        "cls": 0,
+        "transferredBytes": 182683
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.98,
+          "displayValue": "1.9 s",
+          "numericValue": 1880.6212
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 17 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 150
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/blitzchatbot-mobile.report.json"
+    },
+    {
+      "name": "secure-notes-mobile",
+      "route": "/projects/secure-notes-organizer",
+      "preset": "mobile",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 637.48055,
+        "lcpMs": 1881.9611,
+        "speedIndexMs": 990.9260040280074,
+        "tbtMs": 3,
+        "cls": 0,
+        "transferredBytes": 175411
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.98,
+          "displayValue": "1.9 s",
+          "numericValue": 1881.9611
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/secure-notes-mobile.report.json"
+    },
+    {
+      "name": "resume-mobile",
+      "route": "/resume",
+      "preset": "mobile",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 635.8588,
+        "lcpMs": 1880.7176,
+        "speedIndexMs": 731.7003553258767,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 176426
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.98,
+          "displayValue": "1.9 s",
+          "numericValue": 1880.7176
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/resume-mobile.report.json"
+    },
+    {
+      "name": "supreme-sparkle-mobile",
+      "route": "/projects/supreme-sparkle",
+      "preset": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 633.56075,
+        "lcpMs": 2257.1215,
+        "speedIndexMs": 1009.9094212415807,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 216672
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.94,
+          "displayValue": "2.3 s",
+          "numericValue": 2257.1215
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "2.3 s",
+          "numericValue": 2257.1215
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 47 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 450
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/supreme-sparkle-mobile.report.json"
+    },
+    {
+      "name": "arkedia-mobile",
+      "route": "/projects/arkedia",
+      "preset": "mobile",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 637.8557,
+        "lcpMs": 2182.7114,
+        "speedIndexMs": 950.2526571560468,
+        "tbtMs": 6,
+        "cls": 0,
+        "transferredBytes": 213800
+      },
+      "findings": [
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.95,
+          "displayValue": "2.2 s",
+          "numericValue": 2182.7114
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "displayValue": "2.2 s",
+          "numericValue": 2190.2114
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 43 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          }
+        }
+      ],
+      "rawReport": "output/lighthouse/final-verified/arkedia-mobile.report.json"
+    }
+  ],
+  "seo": {
+    "previewBase": "http://127.0.0.1:4321",
+    "previewRobots": "noindex, nofollow",
+    "previewRawScore": 69,
+    "previewOnlyWeightedFailure": "is-crawlable",
+    "indexableBase": "http://127.0.0.1:4322",
+    "indexableRobots": "index, follow",
+    "buildInput": "PUBLIC_SITE_INDEXABLE=true",
+    "genuineSeparateBuild": true,
+    "previewIndexingUnchanged": true,
+    "cases": [
+      {
+        "name": "home-mobile",
+        "route": "/",
+        "preset": "mobile",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/home-mobile.report.json"
+      },
+      {
+        "name": "home-desktop",
+        "route": "/",
+        "preset": "desktop",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/home-desktop.report.json"
+      },
+      {
+        "name": "projects-mobile",
+        "route": "/projects",
+        "preset": "mobile",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/projects-mobile.report.json"
+      },
+      {
+        "name": "blitzchatbot-mobile",
+        "route": "/projects/blitzchatbot",
+        "preset": "mobile",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/blitzchatbot-mobile.report.json"
+      },
+      {
+        "name": "secure-notes-mobile",
+        "route": "/projects/secure-notes-organizer",
+        "preset": "mobile",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/secure-notes-mobile.report.json"
+      },
+      {
+        "name": "resume-mobile",
+        "route": "/resume",
+        "preset": "mobile",
+        "score": 100,
+        "rawReport": "output/lighthouse/indexable-seo/resume-mobile.report.json"
+      }
+    ],
+    "temporaryServerStoppedAfterMeasurement": true,
+    "retainedBuild": "output/seo-dist"
+  },
+  "baseline": [
+    {
+      "name": "home-mobile",
+      "route": "/",
+      "preset": "mobile",
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 2567.45895,
+        "lcpMs": 4967.45895,
+        "speedIndexMs": 2567.45895,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 762762
+      },
+      "rawReport": "output/lighthouse/baseline/home-mobile.report.json",
+      "findings": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 140 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 300
+          }
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 1,810 ms",
+          "metricSavings": {
+            "FCP": 1800,
+            "LCP": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "home-desktop",
+      "route": "/",
+      "preset": "desktop",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 531.23965,
+        "lcpMs": 931.2396500000001,
+        "speedIndexMs": 531.23965,
+        "tbtMs": 0,
+        "cls": 0.0002530753603178909,
+        "transferredBytes": 716958
+      },
+      "rawReport": "output/lighthouse/baseline/home-desktop.report.json",
+      "findings": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 80 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 50
+          }
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 330 ms",
+          "metricSavings": {
+            "FCP": 350,
+            "LCP": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "projects-mobile",
+      "route": "/projects",
+      "preset": "mobile",
+      "scores": {
+        "performance": 78,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 2562.4873500000003,
+        "lcpMs": 4962.48735,
+        "speedIndexMs": 2562.4873500000003,
+        "tbtMs": 0,
+        "cls": 0.0002934857473502394,
+        "transferredBytes": 861748
+      },
+      "rawReport": "output/lighthouse/baseline-rest/projects-mobile.report.json",
+      "findings": [
+        {
+          "id": "label-content-name-mismatch",
+          "title": "Elements with visible text labels do not have matching accessible names.",
+          "score": 0
+        },
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "displayValue": "Est savings of 231 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 0
+          }
+        },
+        {
+          "id": "lcp-discovery-insight",
+          "title": "LCP request discovery",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 1,830 ms",
+          "metricSavings": {
+            "FCP": 1850,
+            "LCP": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "blitzchatbot-mobile",
+      "route": "/projects/blitzchatbot",
+      "preset": "mobile",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 2408.4557999999997,
+        "lcpMs": 4211.274399999999,
+        "speedIndexMs": 2408.4557999999997,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 607130
+      },
+      "rawReport": "output/lighthouse/baseline-rest/blitzchatbot-mobile.report.json",
+      "findings": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "displayValue": "Est savings of 17 KiB",
+          "metricSavings": {
+            "FCP": 0,
+            "LCP": 150
+          }
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 1,700 ms",
+          "metricSavings": {
+            "FCP": 1700,
+            "LCP": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "secure-notes-mobile",
+      "route": "/projects/secure-notes-organizer",
+      "preset": "mobile",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 2407.0908,
+        "lcpMs": 4132.0908,
+        "speedIndexMs": 2407.0908,
+        "tbtMs": 0,
+        "cls": 0,
+        "transferredBytes": 599858
+      },
+      "rawReport": "output/lighthouse/baseline-rest/secure-notes-mobile.report.json",
+      "findings": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 1,710 ms",
+          "metricSavings": {
+            "FCP": 1700,
+            "LCP": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "resume-mobile",
+      "route": "/resume",
+      "preset": "mobile",
+      "scores": {
+        "performance": 83,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 69,
+        "agentic-browsing": 100
+      },
+      "metrics": {
+        "fcpMs": 2409.6573,
+        "lcpMs": 4134.657300000001,
+        "speedIndexMs": 2409.6573,
+        "tbtMs": 0,
+        "cls": 0.0006137758095988889,
+        "transferredBytes": 600303
+      },
+      "rawReport": "output/lighthouse/baseline-rest/resume-mobile.report.json",
+      "findings": [
+        {
+          "id": "is-crawlable",
+          "title": "Page is blocked from indexing",
+          "score": 0
+        },
+        {
+          "id": "network-dependency-tree-insight",
+          "title": "Network dependency tree",
+          "score": 0,
+          "metricSavings": {
+            "LCP": 0
+          }
+        },
+        {
+          "id": "render-blocking-insight",
+          "title": "Render-blocking requests",
+          "score": 0,
+          "displayValue": "Est savings of 1,720 ms",
+          "metricSavings": {
+            "FCP": 1700,
+            "LCP": 1700
+          }
+        }
+      ]
+    }
+  ],
+  "optimizationMeasurements": [
+    {
+      "label": "optimized",
+      "cases": [
+        {
+          "name": "home-mobile",
+          "performance": 96,
+          "fcpMs": 1656.9013499999999,
+          "lcpMs": 2556.90135,
+          "bytes": 373353,
+          "rawReport": "output/lighthouse/optimized/home-mobile.report.json"
+        },
+        {
+          "name": "projects-mobile",
+          "performance": 96,
+          "fcpMs": 1662.1113,
+          "lcpMs": 2562.1113,
+          "bytes": 518122,
+          "rawReport": "output/lighthouse/optimized/projects-mobile.report.json"
+        }
+      ]
+    },
+    {
+      "label": "inlined-initial",
+      "cases": [
+        {
+          "name": "home-mobile",
+          "performance": 97,
+          "fcpMs": 1355.0592,
+          "lcpMs": 2555.0592,
+          "bytes": 371893,
+          "rawReport": "output/lighthouse/inlined-initial/home-mobile.report.json"
+        },
+        {
+          "name": "projects-mobile",
+          "performance": 97,
+          "fcpMs": 1355.0146,
+          "lcpMs": 2555.0145999999995,
+          "bytes": 516951,
+          "rawReport": "output/lighthouse/inlined-initial/projects-mobile.report.json"
+        }
+      ]
+    },
+    {
+      "label": "preloaded-initial",
+      "cases": [
+        {
+          "name": "home-mobile",
+          "performance": 97,
+          "fcpMs": 637.8638,
+          "lcpMs": 2555.7276,
+          "bytes": 371903,
+          "rawReport": "output/lighthouse/preloaded-initial/home-mobile.report.json"
+        },
+        {
+          "name": "projects-mobile",
+          "performance": 97,
+          "fcpMs": 635.87395,
+          "lcpMs": 2555.7479,
+          "bytes": 516961,
+          "rawReport": "output/lighthouse/preloaded-initial/projects-mobile.report.json"
+        }
+      ]
+    },
+    {
+      "label": "avif-initial",
+      "cases": [
+        {
+          "name": "home-mobile",
+          "performance": 97,
+          "fcpMs": 638.7887,
+          "lcpMs": 2555.5774,
+          "bytes": 348290,
+          "rawReport": "output/lighthouse/avif-initial/home-mobile.report.json"
+        },
+        {
+          "name": "projects-mobile",
+          "performance": 97,
+          "fcpMs": 638.79375,
+          "lcpMs": 2555.5874999999996,
+          "bytes": 502296,
+          "rawReport": "output/lighthouse/avif-initial/projects-mobile.report.json"
+        }
+      ]
+    },
+    {
+      "label": "subset-initial",
+      "cases": [
+        {
+          "name": "home-mobile",
+          "performance": 99,
+          "fcpMs": 637.4324,
+          "lcpMs": 1954.8648000000003,
+          "bytes": 268679,
+          "rawReport": "output/lighthouse/subset-initial/home-mobile.report.json"
+        },
+        {
+          "name": "projects-mobile",
+          "performance": 99,
+          "fcpMs": 637.13095,
+          "lcpMs": 1956.2619,
+          "bytes": 422684,
+          "rawReport": "output/lighthouse/subset-initial/projects-mobile.report.json"
+        }
+      ]
+    }
+  ],
+  "fontDelivery": {
+    "originalTtfFileBytes": 568556,
+    "fullWoff2FileBytes": 224832,
+    "finalSubsetWoff2FileBytes": 145204,
+    "baselineFontTransferBytes": 569836,
+    "finalFontTransferBytes": 146484,
+    "originalFullTtfsRetained": true,
+    "subsetScope": "Latin-1, general punctuation, currencies, arrows, minus and checkmark; available source glyphs only",
+    "derivativeFamily": "Ayman Sans Web",
+    "originalTypeface": "Mona Sans",
+    "renderedTextAdvanceComparisons": 5076,
+    "maximumAdvanceDifferencePx": 0,
+    "geometryChecks": 36,
+    "evidence": [
+      "design/assets/fonts/web/coverage.json",
+      "design/phase-4-fonts.json",
+      "design/phase-4-font-metadata.json"
+    ]
+  },
+  "inp": {
+    "targetMs": 200,
+    "fieldMeasurement": "not-yet-available",
+    "navigationLighthouseMeasuresInp": false,
+    "tbtIsNotInp": true
+  },
+  "limitations": [
+    "Representative navigation lab audits do not prove every route/device combination or production delivery.",
+    "SEO100 was measured against a genuine isolated local indexable build; the normal preview intentionally remains noindex and scores69.",
+    "Production network, cache headers, HTTPS and real visitor interaction distributions remain unmeasured.",
+    "INP<=200ms requires suitable interaction/field measurement; TBT0–6ms is not that proof."
+  ],
+  "sources": [
+    "https://github.com/GoogleChrome/lighthouse/blob/main/readme.md",
+    "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring",
+    "https://web.dev/articles/inp"
+  ]
+}

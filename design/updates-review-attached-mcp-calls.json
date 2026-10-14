@@ -1,0 +1,168 @@
+[
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 1
+    },
+    "success": true
+  },
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\checkpoints\\Timeline review.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 0
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "file.revert",
+      "params": {}
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "file.rename",
+      "params": {
+        "name": "Timeline review"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "save_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\checkpoints\\Timeline review.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "get_node",
+    "arguments": {
+      "id": 1283,
+      "depth": 8
+    },
+    "success": true
+  },
+  {
+    "name": "select",
+    "arguments": {
+      "ids": [
+        1283
+      ]
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "view.zoomAt",
+      "params": {
+        "x": 24940.0,
+        "y": 120,
+        "width": 1200,
+        "height": 1280
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_ui",
+    "arguments": {},
+    "success": true
+  },
+  {
+    "name": "screenshot",
+    "arguments": {
+      "window": true,
+      "maxSize": 1800
+    },
+    "success": true
+  },
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 0
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "file.revert",
+      "params": {}
+    },
+    "success": true
+  },
+  {
+    "name": "get_node",
+    "arguments": {
+      "id": 41,
+      "depth": 6
+    },
+    "success": true
+  },
+  {
+    "name": "select",
+    "arguments": {
+      "ids": [
+        41
+      ]
+    },
+    "success": true
+  },
+  {
+    "name": "select",
+    "arguments": {
+      "ids": []
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "view.zoomAt",
+      "params": {
+        "x": 48.0,
+        "y": 720.0,
+        "width": 1344,
+        "height": 1340.0
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_ui",
+    "arguments": {},
+    "success": true
+  },
+  {
+    "name": "inspect_ui",
+    "arguments": {},
+    "success": true
+  },
+  {
+    "name": "screenshot",
+    "arguments": {
+      "window": true,
+      "maxSize": 1800
+    },
+    "success": true
+  }
+]

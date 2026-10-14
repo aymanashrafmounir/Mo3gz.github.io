@@ -1,0 +1,650 @@
+[
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 20,
+      "allPages": true
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 7908,
+        "x": 0,
+        "y": 0,
+        "width": 315.0,
+        "height": 177.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          7909
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7908
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 8457,
+        "x": 0,
+        "y": 0,
+        "width": 404.0,
+        "height": 224.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8458
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          8457
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 4478,
+        "x": 0,
+        "y": 0,
+        "width": 590.0,
+        "height": 410.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4479
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          4478
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 8701,
+        "x": 0,
+        "y": 0,
+        "width": 404.0,
+        "height": 224.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8702
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          8701
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 7944,
+        "x": 0,
+        "y": 0,
+        "width": 240.0,
+        "height": 150.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          7945
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7944
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 8954,
+        "x": 0,
+        "y": 0,
+        "width": 331.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8955
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          8954
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 4665,
+        "x": 0,
+        "y": 0,
+        "width": 688.0,
+        "height": 365.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4666
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          4665
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 9198,
+        "x": 0,
+        "y": 0,
+        "width": 331.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          9199
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          9198
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 7980,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 213.75,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          7981
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7980
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 9451,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          9452
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          9451
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 4852,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 235.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4853
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          4852
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\blitzchatbot-demo.png",
+        "parent": 9695,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          9696
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          9695
+        ],
+        "name": "AI-edited demo / blitzchatbot"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7853
+        ],
+        "name": "Open approved full-size demo"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7854
+        ],
+        "characters": "AI-edited demo \u00b7 View full-size \u2197",
+        "name": "AI-edited demo \u00b7 View full-size"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.set",
+      "params": {
+        "id": 7853,
+        "index": 0,
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-demo.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7875
+        ],
+        "name": "Open approved full-size demo"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7876
+        ],
+        "characters": "AI-edited demo \u00b7 View full-size \u2197",
+        "name": "AI-edited demo \u00b7 View full-size"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.set",
+      "params": {
+        "id": 7875,
+        "index": 0,
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-demo.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7897
+        ],
+        "name": "Open approved full-size demo"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "node.set",
+      "params": {
+        "ids": [
+          7898
+        ],
+        "characters": "AI-edited demo \u00b7 View full-size \u2197",
+        "name": "AI-edited demo \u00b7 View full-size"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.set",
+      "params": {
+        "id": 7897,
+        "index": 0,
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-demo.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "save_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 20,
+      "allPages": true
+    },
+    "success": true
+  }
+]

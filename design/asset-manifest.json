@@ -1,0 +1,558 @@
+{
+  "version": 1,
+  "created": "2026-10-14",
+  "phase": "1",
+  "assets": [
+    {
+      "slug": "portfolio-hero",
+      "prompt": "Create a premium widescreen 16:9 conceptual hero artwork for Ayman Ashraf Mounir's software engineering portfolio. This is an original bitmap illustration, not a website mockup and not a screenshot. Art direction: dark ink navy #10151D, graphite surfaces #19222D, precise cool white edges, restrained electric blue #5D9EFF and cyan #67D8E4. Subject: one carefully engineered architectural assembly of interlocking machined graphite modules, slender structural channels and a controlled continuous blue signal path, suggesting reliable backend systems and modular product engineering. An elegant physical sculpture, tangible materials and sophisticated studio lighting; architectural, calm, purposeful. Composition: asymmetric focal assembly on the right two-thirds; left third is clean dark negative space for HTML headline placement, no baked-in words. Strong silhouette, close editorial framing, subtle surface texture, controlled depth, crisp shadows. Keep the essential assembly within the central area for mobile-safe crops. No text, no numbers, no logos, no UI panels, no fake dashboards, no terminal windows, no glowing orbs, no purple, no stock developer/person photographs, no random floating cubes. A single coherent memorable object, exceptionally polished product-presentation quality.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-9d7af267-1bdd-4aad-aa9e-54eb57412112.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/",
+        "/about"
+      ],
+      "master": "design/assets/masters/portfolio-hero.png",
+      "alt": "Graphite architectural modules connected by a controlled blue signal path.",
+      "variants": [
+        {
+          "path": "design/assets/web/portfolio-hero-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 14680,
+          "sha256": "6f16665b6d75c18424c928ce451114af8f08aa9999a0ad640d7d5be30aeee05c"
+        },
+        {
+          "path": "design/assets/web/portfolio-hero-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 48942,
+          "sha256": "8bb7227caccda34d41fdfb4ee3f2172176a6f0b34a259162e8917e2bb563a778"
+        },
+        {
+          "path": "design/assets/web/portfolio-hero-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 96904,
+          "sha256": "ea5117eb1d890e1e2a5ac6dd99b94ba48254061030107cb6086fda5bb254273b"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "d317085e07469483767800b0a13c019440efd6409b455184a2d8c2b4a32c6abb",
+      "masterBytes": 2052105,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "helixtra",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Clinic management SaaS conceptual cover. Three distinct, elegantly machined blue-and-white architectural modules arranged in a coherent stepped assembly, separate solid enclosures linked by subtle thin blue channels, evoking coordinated care and per-clinic isolation. Precise clean ceramic and anodized metal, a pale blue internal accent, calm trustworthy sculptural object. This is a metaphor, not a factual infrastructure diagram. Do not show medical charts or patient data.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-11eca73f-80dd-4122-92ef-53e0995f3274.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/helixtra",
+        "/"
+      ],
+      "master": "design/assets/masters/helixtra.png",
+      "alt": "Three white and blue architectural modules linked in a coordinated assembly.",
+      "variants": [
+        {
+          "path": "design/assets/web/helixtra-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 15742,
+          "sha256": "973f3c9b64255ad8f7b724bd30df4ba10b8967ac3b55d3c7ddcb47627a14c1b6"
+        },
+        {
+          "path": "design/assets/web/helixtra-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 45858,
+          "sha256": "2bcd310aac95ebae4136e7c0e0d649e5765dfb5c3f538965eac406c3dd6ce4ca"
+        },
+        {
+          "path": "design/assets/web/helixtra-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 84480,
+          "sha256": "07fc36b49f63f13db5a352e067c7f4bb75b83fdcd32fb2f8fab1df9127c28b2b"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "1a7fdaf6f47c79ce149c5f2dd018a36a9801b5408005698fae1fb792ee0c9823",
+      "masterBytes": 1975237,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "wear-instant",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Virtual try-on SaaS conceptual cover. A beautifully draped emerald satin garment on a minimal faceless sculptural dress form, beside a thin smoky translucent overlay that subtly traces the same silhouette. Tangible fabric folds and a dark navy plinth, restrained cool teal rim light. Fashion-editorial meets precise technology. No humans, no body details, no before/after user result, no mirrors showing invented real shoppers.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-bc53b982-1888-4441-94e9-71af97eb37cd.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/wear-instant",
+        "/"
+      ],
+      "master": "design/assets/masters/wear-instant.png",
+      "alt": "An emerald garment beside a transparent silhouette on a dress form.",
+      "variants": [
+        {
+          "path": "design/assets/web/wear-instant-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 15816,
+          "sha256": "cfae27cf5d0b5a6bf961a07ef92562b41c2c8f6aa924ee051f73ad4b7b1dcee2"
+        },
+        {
+          "path": "design/assets/web/wear-instant-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 51310,
+          "sha256": "1d71b0e172d8329d90c8373bc3801228cfbc40fdcdee167f03eed648460bf715"
+        },
+        {
+          "path": "design/assets/web/wear-instant-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 96646,
+          "sha256": "c3f56a2b5c9a7381ba5074fd78d51e0bda74436284215f055f5bc4f79e264f4b"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "8684464a5573f128de2c5be12b3953a0dd05ac4050ca626f2408d1720e11da3f",
+      "masterBytes": 1993115,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "ibrahim-awad",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Plastic-surgery practice website conceptual cover, focused on brand presentation rather than clinical promises. One elegant ivory abstract sculptural contour formed by nested thin brass-gold ribbons, set on a midnight navy stage. Refined curving surfaces, precise architectural craftsmanship, calm warm gold light and negative space. No patients, no medical equipment, no anatomy, no human faces, no claims or marks.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-212e3d33-caf9-4347-96bd-b85a72da6db1.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/ibrahim-awad"
+      ],
+      "master": "design/assets/masters/ibrahim-awad.png",
+      "alt": "An ivory sculptural contour with restrained gold accents.",
+      "variants": [
+        {
+          "path": "design/assets/web/ibrahim-awad-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 15572,
+          "sha256": "6c7de13a5d191d3403c0522b253101f4811f6c70914f841e4530110b73bce11b"
+        },
+        {
+          "path": "design/assets/web/ibrahim-awad-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 46582,
+          "sha256": "d0d2304e966e202e907462f15f98202109b6681a04b93b23bbf51614c5cbc5f0"
+        },
+        {
+          "path": "design/assets/web/ibrahim-awad-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 87164,
+          "sha256": "fa5b6678d59e6f55c0f46de723fc7917593155300a0d4f1e7cb4a4feca2a0e3c"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "dae1f19369ab778ab826e5c94d22dd4b9cdcbe01019eba43b1dbdbe888fad693",
+      "masterBytes": 1946316,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "tapora",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Memory-card and digital-memory product conceptual cover. One beautifully crafted unbranded NFC card in graphite with a small honest copper coil structure visible through a precisely cut translucent corner, set at a dynamic angle on a solid navy pedestal. A warm butter-yellow slab and a restrained lavender edge echo the playful real brand, balanced by refined dark lighting. A physical object render with no writing, no bogus chip numbers, no fabricated product logo, no screenshots or personal photos.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-429daa1a-dee5-4f67-88aa-d6250ac670f9.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/tapora",
+        "/"
+      ],
+      "master": "design/assets/masters/tapora.png",
+      "alt": "A blank dark memory card in a yellow and purple studio composition.",
+      "variants": [
+        {
+          "path": "design/assets/web/tapora-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 7106,
+          "sha256": "c03c19eb2c1cf09bb6e4bc1ec3cda651d96fae07d57e411bca07efa3c22d0a7f"
+        },
+        {
+          "path": "design/assets/web/tapora-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 25800,
+          "sha256": "3ddca5c921ae31db12588f22ecd96b8fa302e2e2b71b907fc36b26cf3a4378c4"
+        },
+        {
+          "path": "design/assets/web/tapora-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 59698,
+          "sha256": "216153434f0c19fa8d685f7a9ba2cb7348f89fafb3528f862a708b5a043d6ce2"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "603e7b4e641e70fe64731d7c9246774918caecf09fe77632cf45bb9085dbc0f3",
+      "masterBytes": 1920441,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "maysa-waheed",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Couture catalog and atelier conceptual cover. Close editorial still-life of champagne ivory silk folded into one elegant sculptural sweep, detailed stitching, a fine metallic dressmaking pin and restrained gold architectural surface. Warm ivory material against a dark graphite/navy studio backdrop, tactile luxury, beautiful soft light and shadows. No finished designer garment copied, no model or person, no invented brand wordmark.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-6f93b8f7-a259-43b7-999f-6cba0d9a65d4.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/maysa-waheed"
+      ],
+      "master": "design/assets/masters/maysa-waheed.png",
+      "alt": "Ivory silk folds draped over a gold surface.",
+      "variants": [
+        {
+          "path": "design/assets/web/maysa-waheed-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 16986,
+          "sha256": "07389463d680e3da5d7b7544a2d4b6ee44aedac33a5af085613a8f7fabfd00e0"
+        },
+        {
+          "path": "design/assets/web/maysa-waheed-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 72474,
+          "sha256": "b756ef5d02f1ec9d3fb47b34d1a56ac968bebdc5ec91ad7e51ca495f7b99b12b"
+        },
+        {
+          "path": "design/assets/web/maysa-waheed-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 171768,
+          "sha256": "5f2a836d166fd1c4e24d3955d769ba4301883ef5880b2e6898d112aeebb6b95a"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "87392c62f55d5f8001d63d28c11c4cf841e4114100136bd8f9e5ff894a917b51",
+      "masterBytes": 2642631,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "supreme-sparkle",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Beauty ecommerce conceptual cover. Art-directed still life of rose-pink pigment powder formed into precise soft ridges, one unbranded elegant smoked-glass cosmetic container and a glossy rose-gold rounded lid on a dark navy studio stage. Refined material contrast, expressive macro texture, warm blush accents. No known product packaging, no invented cosmetics brand, no label or lettering, no product efficacy claim, not a real product catalog photo.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-df030bda-20b8-4bec-a702-e550992fd6b9.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/supreme-sparkle"
+      ],
+      "master": "design/assets/masters/supreme-sparkle.png",
+      "alt": "Unbranded cosmetic containers surrounded by rose pigment.",
+      "variants": [
+        {
+          "path": "design/assets/web/supreme-sparkle-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 36252,
+          "sha256": "0ef8e259d66ebedec6dd1922fe0e99f51a9b7891c139c34f2db83db7adc65f9b"
+        },
+        {
+          "path": "design/assets/web/supreme-sparkle-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 127732,
+          "sha256": "9bdbf04f42f14e17d2d4e19e6f67c826fc4e8a85e7fa441232c03c38ab691524"
+        },
+        {
+          "path": "design/assets/web/supreme-sparkle-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 250384,
+          "sha256": "80100ba51976af3b4398d13b01d5cf1160cde83f8341c56538319bde223fe07c"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "13c59cbb63a7c9d6fead3bb93d5b00f44e49ac67599c1d64be1ce8badb1da014",
+      "masterBytes": 2960996,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "blitzchatbot",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Multi-tenant messaging platform conceptual cover. A single elegant branching structure of thin milled graphite channels carrying tiny cyan light lines between three distinct opaque conversation-shaped ceramic tiles. The tiles are blank geometric speech-bubble outlines, no actual messages, no contact names, no fabricated app. Subtle pale teal accent, meticulously controlled studio light, coherent solid construction suggesting realtime communication rather than a network infographic.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-7b77e674-8656-4450-8eff-1d4b8f201ad5.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/blitzchatbot"
+      ],
+      "master": "design/assets/masters/blitzchatbot.png",
+      "alt": "Three blank speech-bubble forms connected by cyan paths.",
+      "variants": [
+        {
+          "path": "design/assets/web/blitzchatbot-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 7882,
+          "sha256": "22614cfd405feb495b4493cae0cecf81ffc0da267988ae52c789e8addac89c87"
+        },
+        {
+          "path": "design/assets/web/blitzchatbot-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 25770,
+          "sha256": "2f07286586c53ff50fdb808bf78dc991ac51e1240074a3626d98855b4a5acd57"
+        },
+        {
+          "path": "design/assets/web/blitzchatbot-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 51928,
+          "sha256": "bcdfae04e0bb84002af13fce88cd2968dc64481a7d8a7dcec01bf6f3a8aedd90"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "94e5d760ee1a249d78ad9e3f9f58dd28bab380286c6f58b708e2112d90a8d038",
+      "masterBytes": 1841108,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "arkedia",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Pharmaceutical catalog and commerce platform conceptual cover. Organized unbranded ivory cylindrical containers and rounded rectangular product cartons on precisely aligned graphite shelves, with one restrained deep-red translucent vertical divider. Clean real materials, a small burgundy material accent, calm product-catalog precision. No company logos, no labels, no medication names, no prescriptions, no scientific claims and no health efficacy imagery; this is a generic conceptual object composition.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-599c7835-c1fa-40b3-98e0-4cca4629339d.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/arkedia",
+        "/"
+      ],
+      "master": "design/assets/masters/arkedia.png",
+      "alt": "Unbranded product forms and ivory boxes arranged on dark shelves.",
+      "variants": [
+        {
+          "path": "design/assets/web/arkedia-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 13976,
+          "sha256": "7afb26952d461b23022886be5f6096d487126ec1cbd45b521d1d81e4d8cfedc4"
+        },
+        {
+          "path": "design/assets/web/arkedia-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 34844,
+          "sha256": "7b3c59a48de737924e31c5e07201e731967ee952547d5f7564f2e4d4b7f19bf3"
+        },
+        {
+          "path": "design/assets/web/arkedia-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 61686,
+          "sha256": "fc06f03b2cbb844319ad373423a17b0e14676172a682884b257f6c47c9d32f65"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "048fd10afafd70afa45fa6658f7a9f880efe2d68e75971ff6d05a555bc928ced",
+      "masterBytes": 1733215,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "cheque-printer",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Bilingual desktop document printing application conceptual cover. A beautiful minimalist graphite paper-feed and print-alignment mechanism, with precisely aligned blank ivory sheets, a fine brushed metal registration guide and an elegant small deep-blue geometric accent. Editorial studio close-up, tangible paper grain, precise equipment detail. No real bank forms, no printed account numbers, no signatures, no money, no typography, no invented cheque screenshot.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-947a9bc5-827a-4706-b0b3-5d798d8a9076.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/cheque-printer"
+      ],
+      "master": "design/assets/masters/cheque-printer.png",
+      "alt": "Blank paper aligned in a precision printing mechanism.",
+      "variants": [
+        {
+          "path": "design/assets/web/cheque-printer-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 12512,
+          "sha256": "b2ee7dbb3e130fd95158f29e981d2ae4569694a9634d06a2bf339f8ab46eaea9"
+        },
+        {
+          "path": "design/assets/web/cheque-printer-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 39490,
+          "sha256": "18c49c06519acad3690795c61d84dd258d6cfee4c1b4ec7165061791f898e2f9"
+        },
+        {
+          "path": "design/assets/web/cheque-printer-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 81404,
+          "sha256": "5712de07392a02dc04f4041cb2a15ed4bc3c10b2a5311f58728c30874531f3ff"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "e35ce69425b4fc50401c686f96da0a4032aaf2550eb6d48c2b31438bba2a91b0",
+      "masterBytes": 2114416,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "artline",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. AI panorama and image transformation application conceptual cover. A single translucent curved panoramic band displaying a beautiful invented architectural landscape that smoothly shifts from matte ivory geometry to reflective warm brushed-metal geometry, suspended firmly on a graphite crescent base. Wide cinematic perspective, one orange-gold highlight against midnight navy. The artwork is a conceptual visualization, not an actual software output; no app UI, no existing famous building, no generated labels or interface.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-d2adee61-01cb-489e-a62f-a004409bc1f4.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/artline"
+      ],
+      "master": "design/assets/masters/artline.png",
+      "alt": "A curved panorama suspended in a dark studio composition.",
+      "variants": [
+        {
+          "path": "design/assets/web/artline-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 18040,
+          "sha256": "8d75631087bd4e32229e34da9f6a2903e0fc0b544a0d6dce418086bf324f2176"
+        },
+        {
+          "path": "design/assets/web/artline-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 53924,
+          "sha256": "b4bb3cbfaafb6566703a1c2edb03d0670f4a8c1e3d1852e2be3beae0da0fd86d"
+        },
+        {
+          "path": "design/assets/web/artline-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 101376,
+          "sha256": "ab595e37b02bd48531f2e2289c508f1df532f54b87df38413a873a50b42fca15"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "2c8b020f43a48b0f221f631fa9c557b009efbe73e6248e037471b20eea55ddc7",
+      "masterBytes": 1997669,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "quantitator",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Fashion optimization software conceptual cover. A coherent sculptural field of neatly arranged slender graphite columns and ivory fabric swatches, with one emerald-green continuous ribbon finding a precise path through the arranged structures. Physical studio object, no actual chart axes or numerical data, no spurious measured results. Metaphor for optimization under constraints, refined dark cinematic light, clear ordered forms and exceptionally crisp materials.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-843b1cbc-4b5e-4965-adf5-721ae0903cdf.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/quantitator"
+      ],
+      "master": "design/assets/masters/quantitator.png",
+      "alt": "An emerald path crossing a structured sequence of fabric and graphite forms.",
+      "variants": [
+        {
+          "path": "design/assets/web/quantitator-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 18346,
+          "sha256": "b57914a5c1bf44a5661cd0393d310ba1181756dcf302d5df685ce716444c7193"
+        },
+        {
+          "path": "design/assets/web/quantitator-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 62410,
+          "sha256": "7f2415b1f4d5b8d9cd7dbc9fb579bf9c57f13446c1aa4fe0012ea61ecfc7c578"
+        },
+        {
+          "path": "design/assets/web/quantitator-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 122858,
+          "sha256": "4a2caa03c22bcd7e9b7cbe1ac6342be8340652c254929f9c1c9b49fe41d648a6"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "34fab4d39ab54281e123518f8413af3b8b8ce772e84839ee293826563b11c400",
+      "masterBytes": 2331076,
+      "selectedDirectionUse": false
+    },
+    {
+      "slug": "secure-notes-organizer",
+      "prompt": "Generate one original widescreen 16:9 premium conceptual project-cover artwork for an engineering portfolio. NOT a webpage, NOT a UI mockup, NOT a screenshot. Shared series art direction: dark ink navy #10151D backdrop, tangible materials, sophisticated studio lighting, meticulous textures and shadows, restrained product-editorial composition. One intentional visual idea with strong silhouette; focal subject inside central 65 percent, suitable for mobile cropping. No text, letters, numbers, logos, people, fake UI, fictional operational data, glowing orbs, random floating cubes or generic stock photography. Excellent high-end product-presentation craft. Encrypted desktop notes application conceptual cover. A stack of refined blank ivory note sheets partially enclosed in a fitted smoked graphite protective sleeve, one transparent blue lamina revealing the paper layers, held by a precise brushed-metal clasp. Quiet intimate studio lighting, subtle cobalt blue edge accent, tactile paper detail and disciplined composition. No padlock icon clich\u00c3\u00a9, no security certifications, no text, no real note content or personal information, no fictional screenshot.",
+      "generatedSource": "C:\\Users\\sigma\\.codex\\generated_images\\01a136ab-670d-7453-af1b-b5143288b0d0\\exec-893d62e0-8f90-43b6-8168-868252baa3ae.png",
+      "classification": "conceptual-illustration",
+      "generationTool": "image_gen",
+      "permission": "User-approved Phase 1 original generation",
+      "intendedRoutes": [
+        "/projects",
+        "/projects/secure-notes-organizer"
+      ],
+      "master": "design/assets/masters/secure-notes-organizer.png",
+      "alt": "A layered blank document stack enclosed by a graphite cover and blue bands.",
+      "variants": [
+        {
+          "path": "design/assets/web/secure-notes-organizer-480.webp",
+          "width": 480,
+          "format": "webp",
+          "bytes": 15216,
+          "sha256": "bd8d6a14349c2b7e2665f86e32bbc979df79783b5f4b0b8f61ff03dfa5074d4e"
+        },
+        {
+          "path": "design/assets/web/secure-notes-organizer-960.webp",
+          "width": 960,
+          "format": "webp",
+          "bytes": 55172,
+          "sha256": "f9f8c7b0342a67bc12c34624bea52718a35abf883eb099f3f6bf03611fcb4095"
+        },
+        {
+          "path": "design/assets/web/secure-notes-organizer-1440.webp",
+          "width": 1440,
+          "format": "webp",
+          "bytes": 111298,
+          "sha256": "86fe020c416568cc6ef4ebebfa796b5412bf3b82cd30175cf6165f7570ad9cbb"
+        }
+      ],
+      "width": 1672,
+      "height": 941,
+      "masterSha256": "bd6a6cceae9f9fc17ee1f6583581408663fce9891b9d9c95c484ddb19fce2014",
+      "masterBytes": 2257606,
+      "selectedDirectionUse": false
+    }
+  ],
+  "status": "Rejected artwork series. Not used in selected direction A."
+}

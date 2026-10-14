@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-10-14T13:28:16.680Z",
+  "originalsVerified": 14,
+  "webpVerified": 42,
+  "avifDerivatives": 8,
+  "method": "Sharp0.35.5 from approved originals, resize without enlargement, AVIFquality60 effort5; source and existingWebP hashes checked",
+  "sources": [
+    {
+      "slug": "ayman-portrait",
+      "sha256": "fbacbc6c924d1c143b4e7ee17d4e046d1b52441fbb56fd77ff6039ca4cefcd14"
+    },
+    {
+      "slug": "helixtra",
+      "sha256": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1"
+    },
+    {
+      "slug": "wear-instant",
+      "sha256": "4a2f0cfa7b5ad300dcfa6bced80967d3b99f8a23d83a028c6eac6d61a06f412b"
+    },
+    {
+      "slug": "ibrahim-awad",
+      "sha256": "feb27d3af0df59d5b0e605ea02bdb7004c7b5b1c12a2a554cd943dcb758830b1"
+    },
+    {
+      "slug": "tapora",
+      "sha256": "ea64ee921a5d2b8104427d99c033e02c290323fae4a8bf58595b3f1273c4f696"
+    },
+    {
+      "slug": "maysa-waheed",
+      "sha256": "16661037a0a0522ffbb37bc572131293a2959beec86d5b75b3fc1e23d32689b5"
+    },
+    {
+      "slug": "supreme-sparkle",
+      "sha256": "561bba6cf79d9be9160b819803f540189dd17245560bf25f82b9c96121f38f8f"
+    },
+    {
+      "slug": "blitzchatbot",
+      "sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e"
+    },
+    {
+      "slug": "arkedia",
+      "sha256": "fe407dd13766fec202196e90c01a41a9f77c440fa2284a12a789c841d496cb05"
+    },
+    {
+      "slug": "cheque-printer",
+      "sha256": "4698e3eac37884a41a20010a7e3c2e0808f6bfcb30c6c07f9481b066e1168f6f"
+    },
+    {
+      "slug": "artline",
+      "sha256": "f09ac26b88f34dc46009f2ba80e35e17d7b53cb2d761f96e9b3c9345a9e779e0"
+    },
+    {
+      "slug": "quantitator",
+      "sha256": "0b0d4649b02f26a6eb92cc5e98b0a8f2a1c3e577528e24a71fcf26538f01bdba"
+    },
+    {
+      "slug": "secure-notes-organizer",
+      "sha256": "b51d82426b4751ad7b76af222bb37aab2baf980c1c4cb17a4ba58c8cd44e8ba6"
+    },
+    {
+      "slug": "secure-notes-sign-in-app",
+      "sha256": "229d1a498e8eb31eaed5d2394bec1f41e7ef5a684370c2bc68beb8b5012265d6"
+    }
+  ],
+  "avif": [
+    {
+      "path": "/media/ayman-portrait-480.avif",
+      "width": 480,
+      "height": 640,
+      "bytes": 20614,
+      "sha256": "bd8007c624d3f3093b1fab8361cf1f404173346d3de6971c814ab8e1431a70c3"
+    },
+    {
+      "path": "/media/ayman-portrait-640.avif",
+      "width": 640,
+      "height": 853,
+      "bytes": 29846,
+      "sha256": "90f96bcdf551e3e8d694ee3eb001536340d8d72e40919adf5bbcc90333e2b349"
+    },
+    {
+      "path": "/media/ayman-portrait-960.avif",
+      "width": 960,
+      "height": 1280,
+      "bytes": 49818,
+      "sha256": "a8d6163d39bf4fc3cfaecab1753e36876c4114c069ca120c2b4b5f5468fba55c"
+    },
+    {
+      "path": "/media/ayman-portrait-1440.avif",
+      "width": 1440,
+      "height": 1920,
+      "bytes": 85716,
+      "sha256": "71b52e4b31eac37a7fc7a5d4f038e343d873cd918cf5b942a988c3f005fd30aa"
+    },
+    {
+      "path": "/media/helixtra-480.avif",
+      "width": 480,
+      "height": 333,
+      "bytes": 7749,
+      "sha256": "abe2a0590e006f73239bd54bd28306369cb2d6bc4e13a027f75f4a940a6656a2"
+    },
+    {
+      "path": "/media/helixtra-640.avif",
+      "width": 640,
+      "height": 444,
+      "bytes": 13067,
+      "sha256": "ee89ad51b0ed14bf05d829da3577239ddc39a6716f24e8479ae362f113410705"
+    },
+    {
+      "path": "/media/helixtra-960.avif",
+      "width": 960,
+      "height": 667,
+      "bytes": 21788,
+      "sha256": "61280efebae6d61746c5152f41d6d0f3e72266af5851611b838d4549dd5b14f7"
+    },
+    {
+      "path": "/media/helixtra-1440.avif",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 31948,
+      "sha256": "c886b863ae6ca57a57df174cd99636f2941d7ed5d697957dc0d944c4cf3a18b1"
+    }
+  ]
+}

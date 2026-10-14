@@ -1,0 +1,66 @@
+{
+  "status": "preliminary-first-release",
+  "deployment": "e90831bc-36e3-42bc-a398-ce0c92df9e92",
+  "immutable": "https://e90831bc.ayman-portfolio-v2.pages.dev",
+  "base": "https://aymanashraf.me",
+  "observedAt": "2026-10-14T14:35:00Z",
+  "observationTimePrecision": "Approximate minute; observations are from the completed initial Chromium and HTTP phases of the first-release verifier run.",
+  "source": "Actual successful assertion output from output/production/verify-production.mjs in the agent tool transcript. The run was stopped during repeated Firefox Cloudflare-DNS-over-HTTPS transport timeouts; its final full per-observation JSON had not yet been flushed.",
+  "passed": {
+    "assetShaAndMimeChecks": 93,
+    "chromiumRouteWidthObservations": 38,
+    "chromiumWidths": [390, 1440],
+    "allNineteenRoutesDirectAndRefresh": true,
+    "eighteenIndexableContentPagesAndNoindex404": true,
+    "productionCanonicalOgSitemapRobots": true,
+    "privateAndUnknownPathsReturning404": 11,
+    "legacyAliasesHttp301": [
+      "/portfolio-landing-page",
+      "/portfolio-landing-page/"
+    ],
+    "httpsWwwToApex301PreservesQuery": true,
+    "httpApexToHttps301PreservesQuery": true,
+    "filterReloadBackForward": true,
+    "mobileMenuEscapeFocusAndActualNavigation": true,
+    "blitzAndSecureGalleryZoomEscapeFocus": true,
+    "contactSocialMailAndCaseLinkIcons": true,
+    "actualOriginalCvDownloadSha": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+    "automatedAccessibilityScans": 3,
+    "accessibilityViolations": 0
+  },
+  "initialFindings": [
+    {
+      "name": "Contact strict HTML byte comparison differs",
+      "cause": "Existing Cloudflare zone Email Address Obfuscation rewrites public email text and mailto links and adds its decoder script. Normal JavaScript rendering restores the correct email and mailto values.",
+      "rawEvidence": "output/production/contact-apex-source.html",
+      "rootFollowUp": "Root is adding documented email_off markers only around the Contact public email section to retain direct no-JavaScript email behavior. Final release requires focused verification."
+    },
+    {
+      "name": "Default local DNS and Firefox Cloudflare DNS over HTTPS reachability",
+      "cause": "Default Node/Chromium retained ENOTFOUND. Google public DNS returned 104.21.60.170 and 172.67.198.110; Node and Chromium using the published 104.21.60.170 answer passed normal TLS. Firefox Cloudflare DoH first returned Home 200, then repeated timeouts during the complete run. A separate Firefox Google DoH Home probe returned 200.",
+      "action": "Stopped repeated Firefox transport timeouts. Final focused Firefox verification will use per-browser Google DoH; no machine DNS settings or TLS verification changed."
+    }
+  ],
+  "screenshots": [
+    "output/production/contact-desktop-first-release.png",
+    "output/production/chromium-390-contact.png",
+    "output/production/chromium-1440-home.png",
+    "output/production/chromium-390-home.png",
+    "output/production/chromium-1440-blitzchatbot.png",
+    "output/production/chromium-390-blitzchatbot.png"
+  ],
+  "limitations": [
+    "Summarized successful first-run assertions are preserved here; full per-observation in-memory results were not flushed before the Firefox transport phase was stopped.",
+    "Automated Node/Chromium used a current public DNS answer in-process while retaining the actual HTTPS hostname, SNI and ordinary certificate validation. Root separately verified normal user Chrome Home and Contact without DNS override.",
+    "No physical devices, OS screen readers, worldwide DNS propagation or field Web Vitals are claimed."
+  ],
+  "screenshotTimestamps": {
+    "output/production/chromium-390-contact.png": "2026-10-14T14:34:53.846Z",
+    "output/production/chromium-1440-home.png": "2026-10-14T14:35:12.381Z",
+    "output/production/chromium-390-home.png": "2026-10-14T14:34:51.838Z",
+    "output/production/chromium-1440-blitzchatbot.png": "2026-10-14T14:35:18.282Z",
+    "output/production/chromium-390-blitzchatbot.png": "2026-10-14T14:34:58.909Z",
+    "output/production/contact-desktop-first-release.png": "2026-10-14T14:35:14.106Z"
+  },
+  "recordedAt": "2026-10-14T14:40:11.884Z"
+}

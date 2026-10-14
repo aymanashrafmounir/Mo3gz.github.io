@@ -1,0 +1,19 @@
+Use case: precise-object-edit / ui-mockup.
+Asset type: portfolio screenshot preview of the existing BlitzChatbot messenger.
+Input image 1 is the EDIT TARGET, an actual 1440x1000 capture of the app with empty data.
+Primary request: populate ONLY the empty contact/conversation data areas with convincing, fully fictional Arabic demo contacts and a short sample chat. This is an image-generator edit, not a claim about live users or a running chat.
+
+INVARIANTS: Preserve the entire original app layout, 1440x1000 framing/aspect where possible, flat screenshot appearance, sharp typography, right-side navigation rail, exact rail icons/positions, right-hand chats sidebar width, the Arabic heading "الدردشات", search box, filter chips, pale gray message canvas, top toolbar, bottom composer and its icons. No redesign, no zoom, no crop, no perspective, no device frame, no decorative background or marketing copy. Keep the existing light white/slate palette. Match original UI scale and spacing.
+
+EDIT ONLY:
+1. Populate the right conversations sidebar below the existing filters with six tidy compact real-app-style conversation rows. Use fictional Arabic first names: "عمر", "ليلى", "يوسف", "نور", "مريم", "سيف". Use simple muted pastel circle avatars with initials or generic person glyphs, no real faces. Add one-line fictional message previews, subtle short times and at most two tiny unread badges. Highlight the first selected row in the existing subtle pale background. Never show phone numbers, email addresses, company/customer records, tokens or identifiers.
+2. Fill the existing blank active-chat header name area with "عمر". Keep the existing avatar and action icons. Add a very small subdued text label "بيانات تجريبية" near the name so the fictional preview is clearly marked.
+3. Add a natural, restrained six-message Arabic exchange into the central chat canvas, with alternating incoming white and outgoing pale mint rounded bubbles. Keep a generous amount of empty canvas below; don't fill the whole screen or clutter it. Use sensible readable Arabic right-to-left text and small subtle times, matching this app's visual density. Use these messages in order:
+"صباح الخير، هل النسخة التجريبية جاهزة؟"
+"صباح النور، جاهزة للمراجعة."
+"ممتاز، نبدأ بواجهة المحادثات؟"
+"أكيد، وبعدها نراجع جهات الاتصال."
+"تمام، التصميم واضح وسهل."
+"جميل، نكمل باقي الخطوات."
+No attachments or personal information. Bottom composer remains empty with its original placeholder.
+Overall result should look like the SAME original app populated with safe fictional demo content, retaining the original interface instead of inventing a different messenger. Arabic must be legible and correctly formed. No additional branding.

@@ -1,0 +1,80 @@
+---
+interface Props {
+  active?: string;
+}
+const { active } = Astro.props;
+const current = active?.replace(/\/$/, '');
+const links = [
+  ['Projects', '/projects'],
+  ['About', '/about'],
+  ['Experience', '/experience'],
+  ['Resume', '/resume'],
+  ['Contact', '/contact'],
+];
+---
+
+<header class="site-header container">
+  <a class="wordmark" href="/">
+    Ayman Ashraf Mounir
+  </a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    {links.map(([label, href]) => (
+      <a href={href} aria-current={current === href ? 'page' : undefined}>
+        {label}
+      </a>
+    ))}
+  </nav>
+  <button
+    class="menu-trigger"
+    id="open-menu"
+    type="button"
+    aria-controls="mobile-menu"
+    aria-expanded="false"
+  >
+    Menu
+  </button>
+</header>
+<dialog id="mobile-menu" class="mobile-menu" aria-labelledby="menu-title">
+  <div class="menu-heading">
+    <h2 id="menu-title">Navigation</h2>
+    <button type="button" id="close-menu" aria-label="Close navigation">
+      Close ×
+    </button>
+  </div>
+  <nav aria-label="Mobile navigation">
+    <a href="/">Home</a>
+    {links.map(([label, href]) => (
+      <a href={href} aria-current={current === href ? 'page' : undefined}>
+        {label}
+      </a>
+    ))}
+  </nav>
+</dialog>
+<noscript>
+  <nav
+    class="no-script-nav container"
+    aria-label="Navigation without JavaScript"
+  >
+    {links.map(([label, href]) => (
+      <a href={href}>{label}</a>
+    ))}
+  </nav>
+</noscript>
+<script>
+  const menu = document.querySelector<HTMLDialogElement>('#mobile-menu')!;
+  const trigger = document.querySelector<HTMLButtonElement>('#open-menu')!;
+  trigger.addEventListener('click', () => {
+    menu.showModal();
+    trigger.setAttribute('aria-expanded', 'true');
+  });
+  document
+    .querySelector('#close-menu')!
+    .addEventListener('click', () => menu.close());
+  menu.addEventListener('click', (event) => {
+    if (event.target === menu) menu.close();
+  });
+  menu.addEventListener('close', () => {
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.focus();
+  });
+</script>

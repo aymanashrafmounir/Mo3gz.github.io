@@ -1,0 +1,71 @@
+{
+  "approvedAt": "2026-10-14",
+  "recordedAtUtc": "2026-10-14T12:13:58.817379+00:00",
+  "userApproval": "approved 5alas m7tag 2abl ma tbd2 feh w kda ht3ml save for desing inside repo w t3ml cleanup lel data w projects ale nta nazltha w m3mltlha run deh w tms7ha kda from temp data/ cache bs w yala start phase ale b3dha",
+  "status": "approved-design-saved-and-verified-before-frontend-implementation",
+  "direction": "A / warm paper and rust",
+  "nativeDocument": {
+    "path": "design/ayman-portfolio-v2.figcraft",
+    "sha256": "c961aadd12e7335a5db33987f019985a29915b84d759f40cf28ef07ba822bc43",
+    "bytes": 10135069
+  },
+  "routeFrames": 57,
+  "stateFrames": 11,
+  "exportedScreens": 68,
+  "viewports": [
+    1440,
+    768,
+    390
+  ],
+  "routeFrameIdsPreserved": true,
+  "frameManifest": {
+    "path": "design/screen-manifest.json",
+    "sha256": "bc333ff845c6c3f59a080acd8dc9e7368c3e86a345d0a0bae4a7cc43077c0e62"
+  },
+  "activeMedia": {
+    "assets": 14,
+    "genuineAssets": 13,
+    "aiEditedDemoAssets": 1,
+    "responsiveWebPVariants": 42,
+    "classifications": {
+      "original-personal-photograph": 1,
+      "genuine-public-site-capture": 7,
+      "ai-edited-application-demo": 1,
+      "genuine-original-application-capture": 5
+    },
+    "manifest": "design/selected-media-manifest.json",
+    "sha256": "380edc72cce7fbf1ffd7c004905b50f5bcd06239f6fd4ca441d900f2b90f07ec"
+  },
+  "approvedBlitzDemo": {
+    "image": "design/assets/captures/blitzchatbot-demo.png",
+    "sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e",
+    "provenance": "design/provenance/blitzchatbot/approved-demo.json",
+    "nativeImageWrappers": 12,
+    "data": "Fictional contacts and chat; visible demo disclosure; AI-edited classification."
+  },
+  "selectedWork": [
+    "helixtra",
+    "wear-instant",
+    "blitzchatbot",
+    "secure-notes-organizer"
+  ],
+  "experienceTimeline": {
+    "blocks": 9,
+    "rolesPerBlock": 5,
+    "routes": [
+      "/",
+      "/experience",
+      "/resume"
+    ]
+  },
+  "verification": {
+    "report": "design/screen-qa.json",
+    "issues": [],
+    "prototypeActions": 852,
+    "reopened": true,
+    "documentPages": 4,
+    "sharedStyles": 10,
+    "visualReview": "Desktop and mobile Blitz case exports reviewed after replacing the approved demo."
+  },
+  "scope": "Design handoff only. Frontend implementation and browser validation are the next phase."
+}

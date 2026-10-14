@@ -1,0 +1,95 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import LinkIcon from '../components/LinkIcon.astro';
+import { profile } from '../data/profile';
+---
+
+<SiteLayout
+  title="Contact"
+  description="Contact Ayman Ashraf Mounir about a product, backend challenge or software engineering role."
+  active="/contact/"
+>
+  <section class="page-lead">
+    <h1>Let's talk</h1>
+  </section>
+  <section class="contact-introduction" aria-labelledby="contact-invitation">
+    <h2 id="contact-invitation">
+      Have a product, backend challenge or engineering role in mind?
+    </h2>
+    <p class="reading">
+      Email is the direct way to reach me. You can also inspect my public work
+      and professional profile.
+    </p>
+  </section>
+  <Fragment set:html="<!--email_off-->" />
+  <section class="contact-email" aria-labelledby="email-label">
+    <h2 id="email-label">Professional email</h2>
+    <a class="email-address" href={`mailto:${profile.email}`}>
+      {profile.email}
+    </a>
+    <div class="actions">
+      <a class="button" href={`mailto:${profile.email}`}>
+        <LinkIcon name="mail" />
+        Send an email
+      </a>
+    </div>
+  </section>
+  <Fragment set:html="<!--/email_off-->" />
+  <div class="contact-profiles">
+    <div class="actions">
+      <a class="button secondary" href={profile.github}>
+        <LinkIcon name="github" />
+        GitHub
+      </a>
+      <a class="button secondary" href={profile.linkedin}>
+        <LinkIcon name="linkedin" />
+        LinkedIn
+      </a>
+    </div>
+    <p>{profile.location}</p>
+  </div>
+</SiteLayout>
+
+<style>
+  .contact-introduction h2 {
+    max-width: 960px;
+    margin: 0 0 32px;
+    font-size: clamp(1.75rem, 2.8vw, 2.25rem);
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  .contact-introduction p {
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(1.125rem, 1.7vw, 1.3125rem);
+    line-height: 1.5;
+  }
+  .contact-email {
+    margin-top: 64px;
+  }
+  .contact-email h2 {
+    margin: 0 0 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--rust);
+  }
+  .email-address {
+    display: inline-block;
+    margin-bottom: 40px;
+    overflow-wrap: anywhere;
+    font-size: clamp(1.375rem, 2.8vw, 2.25rem);
+    font-weight: 500;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
+  }
+  .contact-profiles {
+    margin-top: 64px;
+    padding-top: 44px;
+    border-top: 1px solid var(--line);
+  }
+  .contact-profiles p {
+    margin: 40px 0 0;
+    color: var(--muted);
+  }
+</style>

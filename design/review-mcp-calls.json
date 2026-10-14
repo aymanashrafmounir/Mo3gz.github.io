@@ -1,0 +1,101 @@
+[
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 0,
+      "allPages": true
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "page.select",
+      "params": {
+        "id": 38
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "get_node",
+    "arguments": {
+      "id": 41,
+      "depth": 1
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "slice",
+      "name": "Homepage first fold",
+      "parent": 41,
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 940
+    },
+    "success": true
+  },
+  {
+    "name": "export",
+    "arguments": {
+      "ids": [
+        9984
+      ],
+      "path": "D:\\aymanashraf.me\\design\\screens\\home-preview-1440.png",
+      "format": "png"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "page.select",
+      "params": {
+        "id": 40
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "get_node",
+    "arguments": {
+      "id": 2952,
+      "depth": 1
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "slice",
+      "name": "Homepage first fold",
+      "parent": 2952,
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 940
+    },
+    "success": true
+  },
+  {
+    "name": "export",
+    "arguments": {
+      "ids": [
+        9985
+      ],
+      "path": "D:\\aymanashraf.me\\design\\screens\\home-preview-390.png",
+      "format": "png"
+    },
+    "success": true
+  }
+]

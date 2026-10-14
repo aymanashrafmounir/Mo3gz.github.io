@@ -1,0 +1,397 @@
+{
+  "backend": "FigCraft is an interface design tool (Figma-class): pages hold frames, groups, shapes, text, components and instances, with auto layout, styles, variables and prototyping. Coordinates are page units (1 unit = 1 px at 100% zoom), x right and y DOWN. create_node and set_properties take x/y RELATIVE TO THE PARENT (the page when there is no parent, so page coordinates); inspect_document reports both x/y relative to the parent frame (groups don't count) and absoluteBounds in page coordinates. Children of an auto-layout frame are positioned by the layout (set layout, gap, padding, mainAlign, crossAlign, sizingH/sizingV instead). Every menu item, panel action and shortcut is a command: find ids and params with list_commands (use a filter) and run them with run_command, or several as one undo step with batch. Commands act on `ids` when given, else on the selection; new layers become the selection. Colours are \"#RRGGBB\" or \"#RRGGBBAA\". Verify your work: inspect_document / get_node return the layer tree as JSON (check sizes, fills, layout, overrides), and screenshot returns a PNG of the page or of given layers to look at. undo/redo step through history. Resources: figcraft://document, figcraft://node/{id}, figcraft://command/{id}. prompts/list has workflows. Backend: attached to the FigCraft app at 127.0.0.1:47802.",
+  "views": [
+    {
+      "section": "Experience timeline",
+      "window": 0,
+      "ui": {
+        "annotationFilter": "all",
+        "branchReview": null,
+        "canvas": {
+          "rect": [
+            305.21875,
+            40.0,
+            1680.0,
+            1032.0
+          ],
+          "renderWork": {
+            "kind": "reused"
+          }
+        },
+        "colorProfileDialog": null,
+        "comments": {
+          "draft": null,
+          "editing": null,
+          "filter": "open",
+          "mentions": [],
+          "open": null,
+          "search": "",
+          "sort": "date"
+        },
+        "dark": true,
+        "devCompare": null,
+        "devFocus": null,
+        "focus": {
+          "control": "",
+          "keyboard": false,
+          "region": "canvas"
+        },
+        "frameMs": 0.8618,
+        "framesDrawn": 3359,
+        "home": false,
+        "lastError": null,
+        "leftTab": "File",
+        "live": {
+          "advanced": false,
+          "chat": "",
+          "chatBox": null,
+          "chats": {},
+          "code": null,
+          "cursorsShown": [],
+          "follow": null,
+          "joinDialog": false,
+          "joinField": "",
+          "local": false,
+          "ownerDialog": false,
+          "peers": 0,
+          "publishDialog": false,
+          "publishInfo": null,
+          "readOnly": null,
+          "report": null,
+          "role": null,
+          "session": null,
+          "sessions": 0,
+          "share": null,
+          "signals": false,
+          "spotlight": null,
+          "spotlighting": false,
+          "status": "off"
+        },
+        "mainMenu": false,
+        "palette": false,
+        "presentOptions": {
+          "comments": false,
+          "deviceFrame": true,
+          "hotspotHints": true,
+          "inspect": false,
+          "scale": "fit"
+        },
+        "presenter": null,
+        "presenting": false,
+        "preview": null,
+        "reduceMotion": false,
+        "renderMs": 2.5477999999999996,
+        "repaintCauses": [
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\tooltip.rs:262",
+            "count": 71058
+          },
+          {
+            "at": "crates\\ui-egui\\src\\lib.rs:794",
+            "count": 3357
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\context.rs:538",
+            "count": 2628
+          },
+          {
+            "at": "crates\\ui-egui\\src\\render_worker.rs:124",
+            "count": 708
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:921",
+            "count": 166
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:753",
+            "count": 113
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\area.rs:642",
+            "count": 92
+          },
+          {
+            "at": "apps\\figcraft\\src\\control_server.rs:53",
+            "count": 35
+          },
+          {
+            "at": "crates\\ui-egui\\src\\control.rs:110",
+            "count": 33
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:1473",
+            "count": 17
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\context.rs:4024",
+            "count": 14
+          },
+          {
+            "at": "crates\\ui-egui\\src\\control.rs:124",
+            "count": 7
+          }
+        ],
+        "rightTab": "Design",
+        "status": {
+          "dirty": false,
+          "document": "Timeline review",
+          "documents": 2,
+          "page": 38,
+          "path": "D:\\aymanashraf.me\\design\\checkpoints\\Timeline review.figcraft",
+          "redo": 0,
+          "selection": [
+            1283
+          ],
+          "tool": "hand",
+          "undo": 1,
+          "zoom": 0.675
+        },
+        "stylePicker": null,
+        "stylePickerView": "list",
+        "textPreview": false,
+        "tool": {
+          "arcHandles": null,
+          "busy": false,
+          "overlay": {
+            "arc": null,
+            "arc_hover": null,
+            "brush": null,
+            "builder_regions": [],
+            "builder_remove": false,
+            "cursor": "Grab",
+            "drop_cell": null,
+            "drop_target": null,
+            "face": [],
+            "guides": [],
+            "insert_line": null,
+            "lasso": [],
+            "marquee": null,
+            "measure_box": null,
+            "pen": [],
+            "rubber": null,
+            "scale": null,
+            "shape": null,
+            "shape_hover": null,
+            "swap_target": null,
+            "vector_hover": null,
+            "vector_hover_on": null,
+            "width_hover": null
+          },
+          "shapeHandles": [],
+          "tool": "hand"
+        },
+        "variables": false,
+        "versionHistory": false,
+        "window": 0,
+        "windows": [
+          {
+            "active": "Timeline review",
+            "files": [
+              "Timeline review",
+              "Ayman Portfolio V2"
+            ],
+            "focused": true,
+            "id": 0,
+            "main": true,
+            "title": "Timeline review \u2013 FigCraft"
+          }
+        ]
+      }
+    },
+    {
+      "section": "Selected work",
+      "window": 0,
+      "ui": {
+        "annotationFilter": "all",
+        "branchReview": null,
+        "canvas": {
+          "rect": [
+            305.21875,
+            40.0,
+            1680.0,
+            1032.0
+          ],
+          "renderWork": {
+            "kind": "full"
+          }
+        },
+        "colorProfileDialog": null,
+        "comments": {
+          "draft": null,
+          "editing": null,
+          "filter": "open",
+          "mentions": [],
+          "open": null,
+          "search": "",
+          "sort": "date"
+        },
+        "dark": true,
+        "devCompare": null,
+        "devFocus": null,
+        "focus": {
+          "control": "",
+          "keyboard": false,
+          "region": "canvas"
+        },
+        "frameMs": 0.5003,
+        "framesDrawn": 3451,
+        "home": false,
+        "lastError": null,
+        "leftTab": "File",
+        "live": {
+          "advanced": false,
+          "chat": "",
+          "chatBox": null,
+          "chats": {},
+          "code": null,
+          "cursorsShown": [],
+          "follow": null,
+          "joinDialog": false,
+          "joinField": "",
+          "local": false,
+          "ownerDialog": false,
+          "peers": 0,
+          "publishDialog": false,
+          "publishInfo": null,
+          "readOnly": null,
+          "report": null,
+          "role": null,
+          "session": null,
+          "sessions": 0,
+          "share": null,
+          "signals": false,
+          "spotlight": null,
+          "spotlighting": false,
+          "status": "off"
+        },
+        "mainMenu": false,
+        "palette": false,
+        "presentOptions": {
+          "comments": false,
+          "deviceFrame": true,
+          "hotspotHints": true,
+          "inspect": false,
+          "scale": "fit"
+        },
+        "presenter": null,
+        "presenting": false,
+        "preview": null,
+        "reduceMotion": false,
+        "renderMs": 14.2804,
+        "repaintCauses": [
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\tooltip.rs:262",
+            "count": 71058
+          },
+          {
+            "at": "crates\\ui-egui\\src\\lib.rs:794",
+            "count": 3449
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\context.rs:538",
+            "count": 2630
+          },
+          {
+            "at": "crates\\ui-egui\\src\\render_worker.rs:124",
+            "count": 712
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:921",
+            "count": 234
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:753",
+            "count": 153
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\area.rs:642",
+            "count": 92
+          },
+          {
+            "at": "apps\\figcraft\\src\\control_server.rs:53",
+            "count": 48
+          },
+          {
+            "at": "crates\\ui-egui\\src\\control.rs:110",
+            "count": 45
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:1473",
+            "count": 17
+          },
+          {
+            "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\context.rs:4024",
+            "count": 16
+          },
+          {
+            "at": "crates\\ui-egui\\src\\control.rs:124",
+            "count": 10
+          }
+        ],
+        "rightTab": "Design",
+        "status": {
+          "dirty": false,
+          "document": "Ayman Portfolio V2",
+          "documents": 2,
+          "page": 38,
+          "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft",
+          "redo": 0,
+          "selection": [],
+          "tool": "hand",
+          "undo": 0,
+          "zoom": 0.6447761194029851
+        },
+        "stylePicker": null,
+        "stylePickerView": "list",
+        "textPreview": false,
+        "tool": {
+          "arcHandles": null,
+          "busy": false,
+          "overlay": {
+            "arc": null,
+            "arc_hover": null,
+            "brush": null,
+            "builder_regions": [],
+            "builder_remove": false,
+            "cursor": "Grab",
+            "drop_cell": null,
+            "drop_target": null,
+            "face": [],
+            "guides": [],
+            "insert_line": null,
+            "lasso": [],
+            "marquee": null,
+            "measure_box": null,
+            "pen": [],
+            "rubber": null,
+            "scale": null,
+            "shape": null,
+            "shape_hover": null,
+            "swap_target": null,
+            "vector_hover": null,
+            "vector_hover_on": null,
+            "width_hover": null
+          },
+          "shapeHandles": [],
+          "tool": "hand"
+        },
+        "variables": false,
+        "versionHistory": false,
+        "window": 0,
+        "windows": [
+          {
+            "active": "Ayman Portfolio V2",
+            "files": [
+              "Timeline review",
+              "Ayman Portfolio V2"
+            ],
+            "focused": true,
+            "id": 0,
+            "main": true,
+            "title": "Ayman Portfolio V2 \u2013 FigCraft"
+          }
+        ]
+      }
+    }
+  ]
+}

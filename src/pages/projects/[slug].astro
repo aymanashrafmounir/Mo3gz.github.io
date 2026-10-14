@@ -1,0 +1,193 @@
+---
+import type { Project } from '../../lib/projects';
+import { getProjects } from '../../lib/projects';
+import { displayStack } from '../../lib/technologies';
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProjectImage from '../../components/ProjectImage.astro';
+import Stack from '../../components/Stack.astro';
+import LinkIcon from '../../components/LinkIcon.astro';
+import '../../styles/projects.css';
+
+export async function getStaticPaths() {
+  const projects = await getProjects();
+  return projects.map((project, index) => ({
+    params: { slug: project.slug },
+    props: {
+      project,
+      previous: projects[(index + projects.length - 1) % projects.length],
+      next: projects[(index + 1) % projects.length],
+    },
+  }));
+}
+
+interface Props {
+  project: Project;
+  previous: Project;
+  next: Project;
+}
+const { project, previous, next } = Astro.props;
+const visualTitle = project.live
+  ? 'Public presentation'
+  : 'Application interface';
+const sections = [
+  { id: 'overview', title: 'Overview' },
+  ...(project.role ? [{ id: 'contribution', title: 'My contribution' }] : []),
+  { id: 'engineering', title: 'Engineering' },
+  { id: 'stack', title: 'Technical stack' },
+  ...(project.gallery.length
+    ? [{ id: 'visual', title: 'Selected visual' }]
+    : []),
+];
+---
+
+<SiteLayout
+  title={project.title}
+  description={project.summary}
+  active="/projects"
+  ogImage={`/media/${project.slug}-1440.webp`}
+>
+  <article class="project-case">
+    <a class="project-back" href="/projects">
+      All projects
+    </a>
+    <header class="project-case__hero">
+      <div class="project-case__intro">
+        <p class="project-case__kind">{project.kind}</p>
+        <h1>{project.title}</h1>
+        <p class="project-case__summary">{project.summary}</p>
+        <p class="project-case__status">{project.status}</p>
+        {(project.live || project.github) && (
+          <div class="project-case__actions">
+            {project.live && (
+              <a class="project-action" href={project.live}>
+                <LinkIcon name="external" />
+                Visit website
+              </a>
+            )}
+            {project.github && (
+              <a
+                class:list={[
+                  'project-action',
+                  { 'project-action--secondary': !!project.live },
+                ]}
+                href={project.github}
+              >
+                <LinkIcon name="github" />
+                View public code
+              </a>
+            )}
+          </div>
+        )}
+        <Stack items={displayStack(project.stack)} />
+      </div>
+      <div class="project-case__cover">
+        <ProjectImage
+          slug={project.slug}
+          alt={`${project.title} ${project.demo ? 'preview with fictional contacts and chat' : 'interface'}`}
+          caption={project.caption ?? undefined}
+          eager
+        />
+      </div>
+    </header>
+
+    <div class="project-case__body">
+      <aside class="project-case__aside">
+        <nav aria-label="Case study sections">
+          {sections.map((section) => (
+            <a href={`#${section.id}`}>{section.title}</a>
+          ))}
+        </nav>
+      </aside>
+      <div class="project-case__reading">
+        <section
+          class="project-case__section"
+          id="overview"
+          aria-labelledby="overview-title"
+        >
+          <h2 id="overview-title">Overview</h2>
+          <p>{project.overview}</p>
+        </section>
+        {project.role && (
+          <section
+            class="project-case__section"
+            id="contribution"
+            aria-labelledby="contribution-title"
+          >
+            <h2 id="contribution-title">My contribution</h2>
+            <p>{project.role}</p>
+          </section>
+        )}
+        <section
+          class="project-case__section"
+          aria-labelledby="capabilities-title"
+        >
+          <h2 id="capabilities-title">Product capabilities</h2>
+          <ul class="project-case__features">
+            {project.features.map((feature) => (
+              <li>{feature}</li>
+            ))}
+          </ul>
+        </section>
+        <section
+          class="project-case__section"
+          id="engineering"
+          aria-labelledby="engineering-title"
+        >
+          <h2 id="engineering-title">{project.challenge}</h2>
+          <p>{project.engineering}</p>
+        </section>
+        <section
+          class="project-case__section"
+          id="stack"
+          aria-labelledby="stack-title"
+        >
+          <h2 id="stack-title">Technical stack</h2>
+          <ul class="project-case__tags" role="list">
+            {project.stack.map((technology) => (
+              <li>{technology}</li>
+            ))}
+          </ul>
+        </section>
+        <section
+          class="project-case__section"
+          aria-labelledby="validation-title"
+        >
+          <h2 id="validation-title">Testing and reliability</h2>
+          <p>{project.validation}</p>
+        </section>
+        {project.gallery.length > 0 && (
+          <section
+            class="project-case__section project-case__visual"
+            id="visual"
+            aria-labelledby="visual-title"
+          >
+            <h2 id="visual-title">{visualTitle}</h2>
+            {project.gallery.map((slug) => (
+              <ProjectImage
+                slug={slug}
+                alt={
+                  slug === 'secure-notes-sign-in-app'
+                    ? 'Secure Notes Organizer sign-in interface with empty account fields'
+                    : `${project.title} ${project.demo ? 'preview with fictional contacts and chat' : 'interface'}`
+                }
+                caption={
+                  slug === 'secure-notes-sign-in-app'
+                    ? 'Sign-in screen · Original Qt application interface.'
+                    : (project.caption ?? undefined)
+                }
+              />
+            ))}
+          </section>
+        )}
+      </div>
+    </div>
+
+    <nav class="project-case__more" aria-labelledby="more-work-title">
+      <h2 id="more-work-title">Explore more work</h2>
+      <div class="project-case__neighbors">
+        <a href={`/projects/${previous.slug}`}>Previous: {previous.title}</a>
+        <a href={`/projects/${next.slug}`}>Next: {next.title}</a>
+      </div>
+    </nav>
+  </article>
+</SiteLayout>

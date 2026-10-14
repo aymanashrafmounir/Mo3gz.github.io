@@ -1,0 +1,20 @@
+{
+  "java": 4275,
+  "spring": 4278,
+  "typescript": 4281,
+  "cloudflare": 4285,
+  "react": 4290,
+  "python": 4295,
+  "cplusplus": 4303,
+  "qt": 4309,
+  "postgresql": 4312,
+  "mysql": 4318,
+  "sqlite": 4321,
+  "docker": 4326,
+  "git": 4344,
+  "vitest": 4347,
+  "playwright": 4352,
+  "github": 4361,
+  "linkedin": 4366,
+  "javascript": 4370
+}

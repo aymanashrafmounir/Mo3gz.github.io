@@ -1,0 +1,37 @@
+{
+  "scope": "Native design verification only; no website/browser QA",
+  "route_frames": 57,
+  "state_frames": 11,
+  "routes_by_width": {
+    "1440": 19,
+    "768": 19,
+    "390": 19
+  },
+  "layer_types": {
+    "FRAME": 1113,
+    "TEXT": 2589,
+    "RECTANGLE": 545,
+    "INSTANCE": 83
+  },
+  "prototype_actions": 772,
+  "text_contrast_on_ink": {
+    "Foreground": 15.66,
+    "Secondary": 8.78,
+    "Quiet": 5.79,
+    "Signal blue": 6.8,
+    "Cyan": 10.91,
+    "helixtra": 6.8,
+    "wear-instant": 10.6,
+    "ibrahim-awad": 9.65,
+    "tapora": 12.55,
+    "maysa-waheed": 10.01,
+    "supreme-sparkle": 9.79,
+    "blitzchatbot": 10.48,
+    "arkedia": 6.53,
+    "cheque-printer": 7.75,
+    "artline": 10.24,
+    "quantitator": 8.92,
+    "secure-notes-organizer": 8.79
+  },
+  "issues": []
+}

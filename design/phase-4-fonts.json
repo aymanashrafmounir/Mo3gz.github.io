@@ -1,0 +1,1088 @@
+{
+  "started": "2026-10-14T13:37:54.722Z",
+  "base": "http://127.0.0.1:4321",
+  "scope": {
+    "routes": [
+      "/",
+      "/about",
+      "/contact",
+      "/experience",
+      "/resume",
+      "/projects",
+      "/projects/helixtra",
+      "/projects/wear-instant",
+      "/projects/ibrahim-awad",
+      "/projects/maysa-waheed",
+      "/projects/supreme-sparkle",
+      "/projects/arkedia",
+      "/projects/tapora",
+      "/projects/blitzchatbot",
+      "/projects/artline",
+      "/projects/quantitator",
+      "/projects/cheque-printer",
+      "/projects/secure-notes-organizer",
+      "/qa-missing-page-93825"
+    ],
+    "geometryRoutes": [
+      "/",
+      "/projects",
+      "/resume"
+    ],
+    "widths": [
+      320,
+      390,
+      768,
+      1440
+    ],
+    "fontFamily": "Ayman Sans Web",
+    "comparisonFamily": "OriginalMona",
+    "method": "Actual rendered text nodes across all19 routes are collected with their computed font sizes. Original full TTFs are loaded through FontFace data URLs; canvas.measureText compares each string at weights400/500/600/700 against the delivered subset. Maximum allowed advance-width difference is0.01px. Only browser network requests to /fonts/ count as runtime font delivery."
+  },
+  "hashes": {
+    "unchangedOriginalTTFs": 4,
+    "matchingSubsetCopies": 12
+  },
+  "browsers": {
+    "chromium": {
+      "version": "153.0.8010.12",
+      "samples": 423,
+      "actualCodepoints": 77,
+      "subsetSupportedActualCodepoints": 76,
+      "originalUnsupportedFallbackCodepoints": [
+        8599
+      ],
+      "fontRequests": [
+        "/fonts/AymanSansWeb-Bold.woff2",
+        "/fonts/AymanSansWeb-Medium.woff2",
+        "/fonts/AymanSansWeb-Regular.woff2",
+        "/fonts/AymanSansWeb-SemiBold.woff2"
+      ],
+      "comparisons": 1692,
+      "maximumDifference": 0,
+      "mismatches": [],
+      "passed": true
+    },
+    "webkit": {
+      "version": "26.6",
+      "samples": 423,
+      "actualCodepoints": 77,
+      "subsetSupportedActualCodepoints": 76,
+      "originalUnsupportedFallbackCodepoints": [
+        8599
+      ],
+      "fontRequests": [
+        "/fonts/AymanSansWeb-Bold.woff2",
+        "/fonts/AymanSansWeb-Medium.woff2",
+        "/fonts/AymanSansWeb-Regular.woff2",
+        "/fonts/AymanSansWeb-SemiBold.woff2"
+      ],
+      "comparisons": 1692,
+      "maximumDifference": 0,
+      "mismatches": [],
+      "passed": true
+    },
+    "firefox": {
+      "version": "155.0",
+      "samples": 423,
+      "actualCodepoints": 77,
+      "subsetSupportedActualCodepoints": 76,
+      "originalUnsupportedFallbackCodepoints": [
+        8599
+      ],
+      "fontRequests": [
+        "/fonts/AymanSansWeb-Bold.woff2",
+        "/fonts/AymanSansWeb-Medium.woff2",
+        "/fonts/AymanSansWeb-Regular.woff2",
+        "/fonts/AymanSansWeb-SemiBold.woff2"
+      ],
+      "comparisons": 1692,
+      "maximumDifference": 0,
+      "mismatches": [],
+      "passed": true
+    }
+  },
+  "geometry": [
+    {
+      "browser": "chromium",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 272,
+        "height": 172.5,
+        "top": 178,
+        "right": 296,
+        "bottom": 350.5,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 272,
+        "height": 1034.15625,
+        "top": 88,
+        "right": 296,
+        "bottom": 1122.15625,
+        "left": 24
+      },
+      "portrait": {
+        "x": 30,
+        "y": 685.5,
+        "width": 260,
+        "height": 346.65625,
+        "top": 685.5,
+        "right": 290,
+        "bottom": 1032.15625,
+        "left": 30
+      },
+      "stack": {
+        "x": 24,
+        "y": 1064.15625,
+        "width": 272,
+        "height": 58,
+        "top": 1064.15625,
+        "right": 296,
+        "bottom": 1122.15625,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 320,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 272,
+        "height": 60,
+        "top": 148,
+        "right": 296,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 320,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 272,
+        "height": 57.5,
+        "top": 132,
+        "right": 296,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 342,
+        "height": 115,
+        "top": 178,
+        "right": 366,
+        "bottom": 293,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 342,
+        "height": 912.65625,
+        "top": 88,
+        "right": 366,
+        "bottom": 1000.65625,
+        "left": 24
+      },
+      "portrait": {
+        "x": 65,
+        "y": 564,
+        "width": 260,
+        "height": 346.65625,
+        "top": 564,
+        "right": 325,
+        "bottom": 910.65625,
+        "left": 65
+      },
+      "stack": {
+        "x": 24,
+        "y": 942.65625,
+        "width": 342,
+        "height": 58,
+        "top": 942.65625,
+        "right": 366,
+        "bottom": 1000.65625,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 342,
+        "height": 60,
+        "top": 148,
+        "right": 366,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 390,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 342,
+        "height": 57.5,
+        "top": 132,
+        "right": 366,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 178,
+        "width": 688,
+        "height": 150,
+        "top": 178,
+        "right": 728,
+        "bottom": 328,
+        "left": 40
+      },
+      "hero": {
+        "x": 40,
+        "y": 88,
+        "width": 688,
+        "height": 951,
+        "top": 88,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "portrait": {
+        "x": 234,
+        "y": 577,
+        "width": 300,
+        "height": 400,
+        "top": 577,
+        "right": 534,
+        "bottom": 977,
+        "left": 234
+      },
+      "stack": {
+        "x": 40,
+        "y": 1015,
+        "width": 688,
+        "height": 24,
+        "top": 1015,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 150,
+        "width": 688,
+        "height": 60,
+        "top": 150,
+        "right": 728,
+        "bottom": 210,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 142,
+        "width": 688,
+        "height": 57.5,
+        "top": 142,
+        "right": 728,
+        "bottom": 199.5,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 203,
+        "width": 760,
+        "height": 200,
+        "top": 203,
+        "right": 840,
+        "bottom": 403,
+        "left": 80
+      },
+      "hero": {
+        "x": 80,
+        "y": 88,
+        "width": 1280,
+        "height": 613,
+        "top": 88,
+        "right": 1360,
+        "bottom": 701,
+        "left": 80
+      },
+      "portrait": {
+        "x": 962,
+        "y": 164,
+        "width": 360,
+        "height": 537,
+        "top": 164,
+        "right": 1322,
+        "bottom": 701,
+        "left": 962
+      },
+      "stack": {
+        "x": 80,
+        "y": 677,
+        "width": 760,
+        "height": 24,
+        "top": 677,
+        "right": 840,
+        "bottom": 701,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 150,
+        "width": 1280,
+        "height": 85,
+        "top": 150,
+        "right": 1360,
+        "bottom": 235,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 142,
+        "width": 1280,
+        "height": 85,
+        "top": 142,
+        "right": 1360,
+        "bottom": 227,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 272,
+        "height": 172.5,
+        "top": 178,
+        "right": 296,
+        "bottom": 350.5,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 272,
+        "height": 1034.15625,
+        "top": 88,
+        "right": 296,
+        "bottom": 1122.15625,
+        "left": 24
+      },
+      "portrait": {
+        "x": 30,
+        "y": 685.5,
+        "width": 260,
+        "height": 346.65625,
+        "top": 685.5,
+        "right": 290,
+        "bottom": 1032.15625,
+        "left": 30
+      },
+      "stack": {
+        "x": 24,
+        "y": 1064.15625,
+        "width": 272,
+        "height": 58,
+        "top": 1064.15625,
+        "right": 296,
+        "bottom": 1122.15625,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 320,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 272,
+        "height": 60,
+        "top": 148,
+        "right": 296,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 320,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 272,
+        "height": 57.5,
+        "top": 132,
+        "right": 296,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 342,
+        "height": 115,
+        "top": 178,
+        "right": 366,
+        "bottom": 293,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 342,
+        "height": 912.65625,
+        "top": 88,
+        "right": 366,
+        "bottom": 1000.65625,
+        "left": 24
+      },
+      "portrait": {
+        "x": 65,
+        "y": 564,
+        "width": 260,
+        "height": 346.65625,
+        "top": 564,
+        "right": 325,
+        "bottom": 910.65625,
+        "left": 65
+      },
+      "stack": {
+        "x": 24,
+        "y": 942.65625,
+        "width": 342,
+        "height": 58,
+        "top": 942.65625,
+        "right": 366,
+        "bottom": 1000.65625,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 342,
+        "height": 60,
+        "top": 148,
+        "right": 366,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 390,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 342,
+        "height": 57.5,
+        "top": 132,
+        "right": 366,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 178,
+        "width": 688,
+        "height": 150,
+        "top": 178,
+        "right": 728,
+        "bottom": 328,
+        "left": 40
+      },
+      "hero": {
+        "x": 40,
+        "y": 88,
+        "width": 688,
+        "height": 951,
+        "top": 88,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "portrait": {
+        "x": 234,
+        "y": 577,
+        "width": 300,
+        "height": 400,
+        "top": 577,
+        "right": 534,
+        "bottom": 977,
+        "left": 234
+      },
+      "stack": {
+        "x": 40,
+        "y": 1015,
+        "width": 688,
+        "height": 24,
+        "top": 1015,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 768,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 150,
+        "width": 688,
+        "height": 60,
+        "top": 150,
+        "right": 728,
+        "bottom": 210,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 768,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 142,
+        "width": 688,
+        "height": 57.5,
+        "top": 142,
+        "right": 728,
+        "bottom": 199.5,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 203,
+        "width": 760,
+        "height": 200,
+        "top": 203,
+        "right": 840,
+        "bottom": 403,
+        "left": 80
+      },
+      "hero": {
+        "x": 80,
+        "y": 88,
+        "width": 1280,
+        "height": 613,
+        "top": 88,
+        "right": 1360,
+        "bottom": 701,
+        "left": 80
+      },
+      "portrait": {
+        "x": 962,
+        "y": 164,
+        "width": 360,
+        "height": 537,
+        "top": 164,
+        "right": 1322,
+        "bottom": 701,
+        "left": 962
+      },
+      "stack": {
+        "x": 80,
+        "y": 677,
+        "width": 760,
+        "height": 24,
+        "top": 677,
+        "right": 840,
+        "bottom": 701,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 150,
+        "width": 1280,
+        "height": 85,
+        "top": 150,
+        "right": 1360,
+        "bottom": 235,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "webkit",
+      "width": 1440,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 142,
+        "width": 1280,
+        "height": 85,
+        "top": 142,
+        "right": 1360,
+        "bottom": 227,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 320,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 272,
+        "height": 172.5,
+        "top": 178,
+        "right": 296,
+        "bottom": 350.5,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 272,
+        "height": 1034.1666259765625,
+        "top": 88,
+        "right": 296,
+        "bottom": 1122.1666259765625,
+        "left": 24
+      },
+      "portrait": {
+        "x": 30,
+        "y": 685.5,
+        "width": 260,
+        "height": 346.66668701171875,
+        "top": 685.5,
+        "right": 290,
+        "bottom": 1032.1666870117188,
+        "left": 30
+      },
+      "stack": {
+        "x": 24,
+        "y": 1064.1666259765625,
+        "width": 272,
+        "height": 58,
+        "top": 1064.1666259765625,
+        "right": 296,
+        "bottom": 1122.1666259765625,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 320,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 272,
+        "height": 60,
+        "top": 148,
+        "right": 296,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 320,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 272,
+        "height": 57.5,
+        "top": 132,
+        "right": 296,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 178,
+        "width": 342,
+        "height": 115,
+        "top": 178,
+        "right": 366,
+        "bottom": 293,
+        "left": 24
+      },
+      "hero": {
+        "x": 24,
+        "y": 88,
+        "width": 342,
+        "height": 912.6666870117188,
+        "top": 88,
+        "right": 366,
+        "bottom": 1000.6666870117188,
+        "left": 24
+      },
+      "portrait": {
+        "x": 65,
+        "y": 564,
+        "width": 260,
+        "height": 346.66668701171875,
+        "top": 564,
+        "right": 325,
+        "bottom": 910.6666870117188,
+        "left": 65
+      },
+      "stack": {
+        "x": 24,
+        "y": 942.6666870117188,
+        "width": 342,
+        "height": 58,
+        "top": 942.6666870117188,
+        "right": 366,
+        "bottom": 1000.6666870117188,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 148,
+        "width": 342,
+        "height": 60,
+        "top": 148,
+        "right": 366,
+        "bottom": 208,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 390,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 24,
+        "y": 132,
+        "width": 342,
+        "height": 57.5,
+        "top": 132,
+        "right": 366,
+        "bottom": 189.5,
+        "left": 24
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 178,
+        "width": 688,
+        "height": 150,
+        "top": 178,
+        "right": 728,
+        "bottom": 328,
+        "left": 40
+      },
+      "hero": {
+        "x": 40,
+        "y": 88,
+        "width": 688,
+        "height": 951,
+        "top": 88,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "portrait": {
+        "x": 234,
+        "y": 577,
+        "width": 300,
+        "height": 400,
+        "top": 577,
+        "right": 534,
+        "bottom": 977,
+        "left": 234
+      },
+      "stack": {
+        "x": 40,
+        "y": 1015,
+        "width": 688,
+        "height": 24,
+        "top": 1015,
+        "right": 728,
+        "bottom": 1039,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 150,
+        "width": 688,
+        "height": 60,
+        "top": 150,
+        "right": 728,
+        "bottom": 210,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 40,
+        "y": 142,
+        "width": 688,
+        "height": 57.5,
+        "top": 142,
+        "right": 728,
+        "bottom": 199.5,
+        "left": 40
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 203,
+        "width": 760,
+        "height": 200,
+        "top": 203,
+        "right": 840,
+        "bottom": 403,
+        "left": 80
+      },
+      "hero": {
+        "x": 80,
+        "y": 88,
+        "width": 1280,
+        "height": 613,
+        "top": 88,
+        "right": 1360,
+        "bottom": 701,
+        "left": 80
+      },
+      "portrait": {
+        "x": 962,
+        "y": 164,
+        "width": 360,
+        "height": 537,
+        "top": 164,
+        "right": 1322,
+        "bottom": 701,
+        "left": 962
+      },
+      "stack": {
+        "x": 80,
+        "y": 677,
+        "width": 760,
+        "height": 24,
+        "top": 677,
+        "right": 840,
+        "bottom": 701,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/projects",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 150,
+        "width": 1280,
+        "height": 85,
+        "top": 150,
+        "right": 1360,
+        "bottom": 235,
+        "left": 80
+      },
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "route": "/resume",
+      "overflow": 0,
+      "h1": {
+        "x": 80,
+        "y": 142,
+        "width": 1280,
+        "height": 85,
+        "top": 142,
+        "right": 1360,
+        "bottom": 227,
+        "left": 80
+      },
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "finished": "2026-10-14T13:38:02.691Z",
+  "summary": {
+    "browsers": 3,
+    "advanceComparisons": 5076,
+    "maximumAdvanceDifferencePx": 0,
+    "geometryChecks": 36,
+    "unchangedOriginalTTFs": 4,
+    "failures": 0
+  }
+}

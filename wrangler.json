@@ -1,0 +1,6 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ayman-portfolio-v2-preview",
+  "pages_build_output_dir": "./output/preview-dist",
+  "compatibility_date": "2026-10-14"
+}

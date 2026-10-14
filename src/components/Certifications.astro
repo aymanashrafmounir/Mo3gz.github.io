@@ -1,0 +1,38 @@
+---
+import { certifications } from '../data/profile';
+---
+
+<ul class="certifications">
+  {certifications.map((qualification) => (
+    <li>
+      <h3>{qualification.title}</h3>
+      <p>
+        {qualification.issuer} <span aria-hidden="true">/</span>{' '}
+        {qualification.date}
+      </p>
+    </li>
+  ))}
+</ul>
+
+<style>
+  .certifications {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li + li {
+    margin-top: 28px;
+  }
+  h3 {
+    margin: 0 0 8px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.45;
+  }
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+</style>

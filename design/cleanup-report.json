@@ -1,0 +1,2237 @@
+{
+  "Task": "Portfolio V2 task-owned research and cache cleanup",
+  "StartedAtUtc": "2026-10-14T12:13:59.5114248Z",
+  "WorkspaceRoot": "D:\\aymanashraf.me",
+  "Authorization": "User explicitly requested removal of downloaded/run research projects, temporary data and cache; approved assets/provenance preserved before deletion.",
+  "Status": "Partially complete: exact task Docker image and 12 cache records removed; filesystem cleanup blocked by automatic approval policy, no stated reason.",
+  "Directories": [
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates",
+      "FileCount": 12268,
+      "Bytes": 233964133.0,
+      "Removed": false
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\.tools\\__pycache__",
+      "FileCount": 7,
+      "Bytes": 221857.0,
+      "Removed": false
+    }
+  ],
+  "Preserved": [
+    "design/ayman-portfolio-v2.figcraft",
+    "design/assets",
+    "design/screens",
+    "design/provenance",
+    "design/secure-notes-application-provenance.json",
+    "design/capture-manifest.json",
+    "design/selected-media-manifest.json",
+    "design/checkpoints",
+    "reference",
+    "Original external user repositories"
+  ],
+  "PreservedResearchAudit": [
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\artline-ui.provenance.json",
+      "Sha256": "ab286434c625fc915c638610b2ad06d15938cb041c0e333d876b9953a300a3e7",
+      "Content": {
+        "sourceRepository": "https://github.com/aymanashrafmounir/Artline",
+        "sourceCommit": "7234390dfcfc2ec89ec359fb598bbcca1b9ac87a",
+        "sourceSubdirectory": "frontend",
+        "captureDateUtc": "2026-10-14T10:46:40.616Z",
+        "screenshotPath": "D:/aymanashraf.me/design/research-candidates/artline-ui.png",
+        "screenshotSha256": "f09ac26b88f34dc46009f2ba80e35e17d7b53cb2d761f96e9b3c9345a9e779e0",
+        "method": "npm ci --ignore-scripts; npm run build; vite preview; unmodified app captured using headless Playwright Chromium",
+        "viewport": {
+          "width": 1600,
+          "height": 1100
+        },
+        "fullPage": true,
+        "state": "Original initial Panorama Maker screen, empty image uploader; no images or user data supplied; generation not invoked. Static preview has no API backend, and /api/usage does not provide a data response.",
+        "privacyReview": "Visual review complete: no contacts, accounts, customer records, personal notes, or uploaded photos. Genuine empty upload UI. All fonts and icons loaded.",
+        "visibleText": "auto_awesome\nArtline\npanorama_photosphere\nPanorama Maker\nauto_awesome\nRealistic\nCreate immersive worlds in 4 steps\n\nFollow this simple process to generate your stunning 360° view using our AI engine.\n\ncloud_upload\nUpload Photos\n\nUpload 2-12 overlapping photos from any device.\n\nextension\nAuto-Stitch\n\nOur engine seamlessly connects images together.\n\nauto_awesome\nAI Enhancement\n\nEnhance resolution and fill gaps with AI.\n\nview_in_ar\nView in 360°\n\nExplore your world in VR or share it instantly.\n\nadd_a_photo\n\nStart your creation\n\nDrag & drop 2-12 images here or Browse.\nSupports JPG, PNG, WebP. Max 50MB per file.\n\nfolder_open\nSelect Files\n\nPowered by Gemini AI | Built for Google DeepMind Hackathon 2026",
+        "diagnostics": {
+          "errors": [],
+          "failedRequests": [],
+          "apiRequests": [
+            {
+              "method": "GET",
+              "url": "http://127.0.0.1:4189/api/usage"
+            }
+          ]
+        },
+        "allOriginalSourceFilesUnchanged": true,
+        "sourceVerification": [
+          {
+            "repositoryPath": "frontend/Dockerfile",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/index.html",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/netlify.toml",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/nginx.conf",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/package-lock.json",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/package.json",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/postcss.config.js",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/App.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/api/panoramaService.js",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/ClientImageStitcher.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/DownloadButton.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/ImageGallery.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/ImageStitcher.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/ImageUploader.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/LoadingState.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/PanoramaMaker.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/PanoramaViewer.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/RealisticImageGenerator.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/components/StitchedConverter.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/index.css",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/main.jsx",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/src/services/clientStitchingService.js",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/tailwind.config.js",
+            "unchanged": true
+          },
+          {
+            "repositoryPath": "frontend/vite.config.js",
+            "unchanged": true
+          }
+        ],
+        "screenshotDimensions": {
+          "width": 1600,
+          "height": 1190
+        }
+      }
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\provenance.json",
+      "Sha256": "f2e04154be374e46c590203928d2d202be6d3e8481c5376959da781bd638dbea",
+      "Content": [
+        {
+          "slug": "helixtra",
+          "requestedURL": "https://helixtra.com",
+          "startedAt": "2026-10-14T10:45:09.72Z",
+          "status": 200,
+          "waitSeconds": 19.965,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://helixtra.com/",
+          "title": "نظام متكامل لإدارة العيادات",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 2,
+          "imagesLoaded": 2,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://helixtra.com/_next/image?url=%2Fbrand%2Fhelixtra-wordmark.webp&w=1920&q=75",
+              "loaded": true,
+              "complete": true,
+              "width": 1659,
+              "height": 528,
+              "visible": true
+            },
+            {
+              "src": "https://helixtra.com/_next/image?url=%2Fbrand%2Fhelixtra-wordmark.webp&w=1920&q=75",
+              "loaded": true,
+              "complete": true,
+              "width": 1659,
+              "height": 528,
+              "visible": false
+            }
+          ],
+          "pageHeight": 3904,
+          "errors": []
+        },
+        {
+          "slug": "wearinstant",
+          "requestedURL": "https://wearinstant.com",
+          "startedAt": "2026-10-14T10:45:09.719Z",
+          "status": 200,
+          "waitSeconds": 21.403,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://wearinstant.com/",
+          "title": "وير إنستانت | تنسيق افتراضي للمتاجر الإلكترونية",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 18,
+          "imagesLoaded": 18,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://wearinstant.com/images/logo-unified-v2.png",
+              "loaded": true,
+              "complete": true,
+              "width": 2169,
+              "height": 725,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/campaign-hero.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1672,
+              "height": 941,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/hero-look-woman.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1672,
+              "height": 941,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/hero-look-both.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1672,
+              "height": 941,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/hero-flying-dress.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 650,
+              "height": 1300,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/hero-flying-jacket.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 650,
+              "height": 636,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/look-maya-midnight-satin-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 542,
+              "height": 1448,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/look-omar-smart-casual-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 512,
+              "height": 1536,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/look-nadia-linen-elegance-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 512,
+              "height": 1536,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/look-hassan-heritage-knit-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 512,
+              "height": 1536,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/look-lina-weekend-color-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 512,
+              "height": 1536,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/look-youssef-sporty-casual-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 512,
+              "height": 1536,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/clothes-maya.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 840,
+              "height": 840,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/clothes-maya.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 840,
+              "height": 840,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/clothes-maya.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 840,
+              "height": 840,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/clothes-maya.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 840,
+              "height": 840,
+              "visible": false
+            },
+            {
+              "src": "https://wearinstant.com/images/look-maya-midnight-satin-before.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 542,
+              "height": 1448,
+              "visible": true
+            },
+            {
+              "src": "https://wearinstant.com/images/logo-unified-v2.png",
+              "loaded": true,
+              "complete": true,
+              "width": 2169,
+              "height": 725,
+              "visible": false
+            }
+          ],
+          "pageHeight": 7545,
+          "errors": []
+        },
+        {
+          "slug": "ibrahim-awad",
+          "requestedURL": "https://ibrahim-awad-clinic.aamiraclee.workers.dev",
+          "startedAt": "2026-10-14T10:45:09.716Z",
+          "status": 200,
+          "waitSeconds": 19.411,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/",
+          "title": "جراحات التجميل وتنسيق القوام | د. إبراهيم عوض",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 3,
+          "imagesLoaded": 3,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/media/brand/logo-320.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 210,
+              "height": 126,
+              "visible": true
+            },
+            {
+              "src": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/media/contour.svg",
+              "loaded": true,
+              "complete": true,
+              "width": 640,
+              "height": 690,
+              "visible": true
+            },
+            {
+              "src": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/media/brand/logo-320.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 210,
+              "height": 126,
+              "visible": false
+            }
+          ],
+          "pageHeight": 3295,
+          "errors": []
+        },
+        {
+          "slug": "tapora",
+          "requestedURL": "https://taporaeg.com",
+          "startedAt": "2026-10-14T10:45:31.213Z",
+          "status": 200,
+          "waitSeconds": 20.771,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://taporaeg.com/",
+          "title": "Tapora - The Fun One",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 1,
+          "imagesLoaded": 1,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://taporaeg.com/assets/Logo-LylGXG8F.png",
+              "loaded": true,
+              "complete": true,
+              "width": 100,
+              "height": 60,
+              "visible": true
+            }
+          ],
+          "pageHeight": 4063,
+          "errors": []
+        },
+        {
+          "slug": "maysa",
+          "requestedURL": "https://maysawaheed.com",
+          "startedAt": "2026-10-14T10:45:31.23Z",
+          "status": 200,
+          "waitSeconds": 23.123,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://maysawaheed.com/",
+          "title": "Maysa Waheed · Cairo",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 17,
+          "imagesLoaded": 17,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://maysawaheed.com/Background.png",
+              "loaded": true,
+              "complete": true,
+              "width": 1788,
+              "height": 880,
+              "visible": true
+            },
+            {
+              "src": "https://maysawaheed.com/IMG_8474.PNG",
+              "loaded": true,
+              "complete": true,
+              "width": 1320,
+              "height": 1956,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/1778674647726-hz2vz2-img_9079.jpg.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1650,
+              "height": 2200,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/1778750857650-132spj-img_9162.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1468,
+              "height": 2200,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/1778762719930-wbstmq-fa704d7d-f1e2-4ad1-9270-0b4aa443c53b.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 729,
+              "height": 972,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/1778762851307-m0unj6-img_9620.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 756,
+              "height": 1008,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/products/gold-sequin-crystal-gown-01.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1067,
+              "height": 1600,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/products/noir-asymmetric-satin-hem-dress-01.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1122,
+              "height": 1600,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/1778686058664-y846oz-06334f6a-6ff7-46b2-95e8-d1d5d6e6bccc.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 2774,
+              "height": 4160,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/uploads/products/geometric-lace-sweetheart-gown-01.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1280,
+              "height": 1600,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1778683071421-0bo8wl-img_2188-2.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 2200,
+              "height": 1467,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1779098837557-zkm4g0-dsc03379.avif",
+              "loaded": true,
+              "complete": true,
+              "width": 1146,
+              "height": 1400,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1779098699752-iv5elc-dsc03805.avif",
+              "loaded": true,
+              "complete": true,
+              "width": 1000,
+              "height": 1400,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1779098557784-3tibnw-dsc08846.avif",
+              "loaded": true,
+              "complete": true,
+              "width": 1400,
+              "height": 933,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1778761978536-pw1hwn-img_7503.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1050,
+              "height": 1400,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1778762096958-3ar0gf-img_9633.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1050,
+              "height": 1400,
+              "visible": false
+            },
+            {
+              "src": "https://maysawaheed.com/r2/story-sliders/1779098234944-ah9nwv-43b391c2-8ad2-4a82-8df6-0099c900fa17.jpeg",
+              "loaded": true,
+              "complete": true,
+              "width": 2774,
+              "height": 4160,
+              "visible": false
+            }
+          ],
+          "pageHeight": 9508,
+          "errors": []
+        },
+        {
+          "slug": "supreme-sparkle",
+          "requestedURL": "https://supreme-sparkle.pages.dev",
+          "startedAt": "2026-10-14T10:45:31.24Z",
+          "status": 200,
+          "waitSeconds": 20.101,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://supreme-sparkle.pages.dev/",
+          "title": "Supreme Sparkle - Soft glam, real skin, everyday confidence.",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 18,
+          "imagesLoaded": 18,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/supreme-sparkle-logo.png",
+              "loaded": true,
+              "complete": true,
+              "width": 1528,
+              "height": 731,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/promotions/6/4ce12d95b9118188ee5e6550dbb7e7be.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1600,
+              "height": 718,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/promotions/5/f6f6d6c5ccdc3c6b58c6a8ca8e152e38.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1600,
+              "height": 718,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/promotions/7/e7a87e93efda4e213f9399824eb879cd.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1600,
+              "height": 718,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/promotions/8/aa1e78ff013848adc4a0e718351c6640.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1600,
+              "height": 718,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/promotions/4/6420376613f56796d626fdaa99c95078.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1600,
+              "height": 719,
+              "visible": true
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/face.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/products/2.2.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 1999,
+              "height": 1999,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/lip.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/cheek.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/gifts.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/tools.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/fragrance.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/img/category-cutouts/sale.webp",
+              "loaded": true,
+              "complete": true,
+              "width": 820,
+              "height": 820,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/products/drunk-eleohant-jelly-cleanser/gallery/01.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 900,
+              "height": 900,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/products/fable-mane-holiroots-hair-oil/gallery/01.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1200,
+              "height": 1200,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/products/fable-mane-sahascalp-amla-soothing-serum/gallery/07.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1200,
+              "height": 1200,
+              "visible": false
+            },
+            {
+              "src": "https://supreme-sparkle.pages.dev/api/media/products/patrick-ta-very-cherry-blush-bundle/shades/she-s-giving-standard/hero-sx.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 2000,
+              "height": 2000,
+              "visible": false
+            }
+          ],
+          "pageHeight": 2875,
+          "errors": []
+        },
+        {
+          "slug": "arkedia",
+          "requestedURL": "https://arkediainternational.com/ar",
+          "startedAt": "2026-10-14T10:45:54.423Z",
+          "status": 200,
+          "waitSeconds": 20.332,
+          "minimumPostNavigationWaitSeconds": 12,
+          "lazyScroll": true,
+          "finalURL": "https://arkediainternational.com/ar",
+          "title": "الرئيسية | Arkedia",
+          "viewport": {
+            "width": 1440,
+            "height": 1000,
+            "devicePixelRatio": 1,
+            "scale": 1
+          },
+          "imageCount": 13,
+          "imagesLoaded": 13,
+          "imagesBroken": 0,
+          "imagesPending": 0,
+          "images": [
+            {
+              "src": "https://arkediainternational.com/Logo.png",
+              "loaded": true,
+              "complete": true,
+              "width": 377,
+              "height": 398,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/Logo.png",
+              "loaded": true,
+              "complete": true,
+              "width": 377,
+              "height": 398,
+              "visible": false
+            },
+            {
+              "src": "https://arkediainternational.com/media/hero-slides/71e395eb-df65-417a-bc2e-ac05071f0984-original.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1920,
+              "height": 1080,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/hero-slides/51aaa0a2-dce0-454f-a190-3ad4f05b65f5-original.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1920,
+              "height": 1080,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/hero-slides/eaa3923d-6070-4209-9813-50129541908b-original.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1920,
+              "height": 1080,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/hero-slides/e161b074-377f-4590-ab8a-860b664b789e-original.jpg",
+              "loaded": true,
+              "complete": true,
+              "width": 1920,
+              "height": 1080,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/products/arkedia-hs-heat-cream-3.png",
+              "loaded": true,
+              "complete": true,
+              "width": 880,
+              "height": 800,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/products/biostrine-daily-mouthwash-10.png",
+              "loaded": true,
+              "complete": true,
+              "width": 880,
+              "height": 800,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/products/good-eve-feminine-wash-1.png",
+              "loaded": true,
+              "complete": true,
+              "width": 880,
+              "height": 800,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/products/hustozinc-plus-cream-14.png",
+              "loaded": true,
+              "complete": true,
+              "width": 880,
+              "height": 800,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/media/products/mebeyork-ointment-17.png",
+              "loaded": true,
+              "complete": true,
+              "width": 880,
+              "height": 800,
+              "visible": true
+            },
+            {
+              "src": "https://arkediainternational.com/Logo.png",
+              "loaded": true,
+              "complete": true,
+              "width": 377,
+              "height": 398,
+              "visible": false
+            },
+            {
+              "src": "https://arkediainternational.com/Logo.png",
+              "loaded": true,
+              "complete": true,
+              "width": 377,
+              "height": 398,
+              "visible": false
+            }
+          ],
+          "pageHeight": 2924,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\audit.json",
+      "Sha256": "cc6682462d3336f1c487e06ea3273089ec230b8d07279bf98c934293c1da10c4",
+      "Content": {
+        "auditDateUtc": "2026-10-14T11:23:36.935501Z",
+        "currentRepository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+        "currentDefaultBranch": "main",
+        "currentCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+        "checked": [
+          "Full current default-branch recursive tree, not truncated",
+          "Current README and four historical README versions including external image URLs",
+          "All 59 public commits via API, and historical image additions/removals via existing local Git log",
+          "Linked upstream AMF777 main, plus SNO-36, SNO-120, front-end, full-project branches",
+          "Upstream 5 PR bodies, issue comments and review comments; no screenshot attachments",
+          "Both repositories releases/tags metadata; no release media",
+          "Project-description PDF pages 1-2 visually/text inspected, no UI images",
+          "Database-schema PDF text/vector diagram inspection; no UI images",
+          "All current application img paths inventoried; g.png is code screenshot, kitten.jpeg is fixture photo",
+          "Current Gtest captures visually inspected; six safe candidates downloaded unchanged"
+        ],
+        "finding": "Repository does contain genuine screenshots usable as integration-test evidence. No Qt graphical-application screenshot was found in these sources.",
+        "safeCandidates": [
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\create-note-integration.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/create%20note.png",
+            "sha256": "32E03B63CEB17877F89D8973E11B507B4D8C73AACB45EE9A5DDB8E88B0DB20C0",
+            "caption": "Original integration-test output for note creation and malformed requests."
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\update-note-integration.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/update%20note.png",
+            "sha256": "A90715CB9575C1471350CB3AE5EB87619D544458A1C5AB6899EDF9B754866969",
+            "caption": "Original integration-test output for note updates and invalid requests."
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\add-tag-integration.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/add%20tag.png",
+            "sha256": "B62536392C002F087DDC85DE78BA6A4A0F97CFEE8D4FF6E8D7248FD9D2DA2FAA",
+            "caption": "Original integration-test output for adding tags and handling malformed requests."
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-note-tags-integration.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/list%20note%20tags.png",
+            "sha256": "D78FB200A772446EEBDEDDBF0A19B71EAC51F2335E0DDBB3E21DBE3C9B7063C3",
+            "caption": "Original integration-test output listing note tags and malformed-request responses."
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-components-integration.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/list%20components.png",
+            "sha256": "27DD85E665B31E6BDDFECF1A62DA36B70510CA9F4760FB832C3C62234C734C8B",
+            "caption": "Original integration-test output listing stored note components and malformed-request responses."
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\test-summary.png",
+            "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/104%20test%20case%20passed.png",
+            "sha256": "E304E611EDFBD3569344E00611B63C3DFFF574870D3B08AA659347B2DEB1DB2F",
+            "caption": "Original repository capture of 104 passing GTest cases; historical test output, not a new test run."
+          }
+        ],
+        "affiliationWording": "A C++/Qt team project developed during my Siemens Digital Industries Software internship.",
+        "affiliationBasis": [
+          "User direct clarification authorizes internship affiliation",
+          "Public repository About: This is a repo to deliver Siemens Final Project",
+          "README lists six authors including Ayman Ashraf and embeds Siemens logo",
+          "Project-description PDF page 1 annotations assign user authentication (login) to Ayman",
+          "PROJECT_CONTENT.md records Siemens Digital Industries Software internship October 2023-February 2024"
+        ],
+        "affiliationLimit": "Does not establish corporate ownership, endorsement, or official Siemens product status.",
+        "supportingEvidence": [
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\project-description.pdf",
+            "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+            "sourceUrl": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer/blob/bee56c5cd8de4504fd601f090c12145ec5be234e/Documents/Project%20Description/Secure_Notes_Organizer.pdf",
+            "sha256": "4D1EAB66AD53DB26E040F0488E4DBC865EABB9740986C8E233D22312C9226E3F"
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\database-schema.pdf",
+            "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+            "sourceUrl": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer/blob/bee56c5cd8de4504fd601f090c12145ec5be234e/Server/Database/DatabaseSchema.pdf",
+            "sha256": "6BC978404F2ACB545B1B928D7BC897A3686A002A6418F9B477953FE99B8828B2"
+          },
+          {
+            "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\Readme.md",
+            "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+            "sourceUrl": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer/blob/bee56c5cd8de4504fd601f090c12145ec5be234e/Readme.md",
+            "sha256": "8F59991231590348882F80E7406949B6624F6FA94F9EF53B789564A916C0BCA9"
+          }
+        ],
+        "visuallyReviewedCurrentTestScreenshots": 21
+      }
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\download-provenance.json",
+      "Sha256": "4453094ae67e4576974df082195565af3357ebfd5475f22faef2fb894e0b117a",
+      "Content": [
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\create-note-integration.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/create note.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/create%20note.png",
+          "sha256": "32E03B63CEB17877F89D8973E11B507B4D8C73AACB45EE9A5DDB8E88B0DB20C0",
+          "width": 1620,
+          "height": 364,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original integration-test output for note creation and malformed requests.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\update-note-integration.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/update note.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/update%20note.png",
+          "sha256": "A90715CB9575C1471350CB3AE5EB87619D544458A1C5AB6899EDF9B754866969",
+          "width": 1627,
+          "height": 453,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original integration-test output for note updates and invalid requests.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\add-tag-integration.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/add tag.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/add%20tag.png",
+          "sha256": "B62536392C002F087DDC85DE78BA6A4A0F97CFEE8D4FF6E8D7248FD9D2DA2FAA",
+          "width": 1634,
+          "height": 632,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original integration-test output for adding tags and handling malformed requests.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-note-tags-integration.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/list note tags.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/list%20note%20tags.png",
+          "sha256": "D78FB200A772446EEBDEDDBF0A19B71EAC51F2335E0DDBB3E21DBE3C9B7063C3",
+          "width": 1579,
+          "height": 473,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original integration-test output listing note tags and malformed-request responses.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-components-integration.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/list components.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/list%20components.png",
+          "sha256": "27DD85E665B31E6BDDFECF1A62DA36B70510CA9F4760FB832C3C62234C734C8B",
+          "width": 1573,
+          "height": 507,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original integration-test output listing stored note components and malformed-request responses.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\test-summary.png",
+          "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+          "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+          "sourcePath": "Gtest/Photos/104 test case passed.png",
+          "sourceUrl": "https://raw.githubusercontent.com/aymanashrafmounir/Secure-Notes-Organizer/bee56c5cd8de4504fd601f090c12145ec5be234e/Gtest/Photos/104%20test%20case%20passed.png",
+          "sha256": "E304E611EDFBD3569344E00611B63C3DFFF574870D3B08AA659347B2DEB1DB2F",
+          "width": 803,
+          "height": 95,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Original repository capture of 104 passing GTest cases; historical test output, not a new test run.",
+          "edited": false,
+          "publicationCandidate": true,
+          "privacyReview": "Visually inspected: no credentials, personal contacts, real account names, or private note contents; generic integration-test fixtures only."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\upstream-SNO120-login-audit.png",
+          "repository": "https://github.com/AMF777/Secure-Notes-Organizer",
+          "sourceCommit": "abba7ab8034ef254ed4dc1c0fa5a2c1a51f8f2c6",
+          "sourcePath": "Gtest/Photos/Login.png",
+          "sourceUrl": "https://raw.githubusercontent.com/AMF777/Secure-Notes-Organizer/abba7ab8034ef254ed4dc1c0fa5a2c1a51f8f2c6/Gtest/Photos/Login.png",
+          "sha256": "D0098100AC48206CBC3E69A12FA7D87A89D38893BBBE2F7784D1323F9005C7A6",
+          "width": 1701,
+          "height": 585,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Audit-only older branch screenshot; privacy decision pending.",
+          "edited": false,
+          "publicationCandidate": false,
+          "privacyReview": "Exclude from portfolio: older terminal screenshots show a workstation username and local directory path. No Qt interface appears."
+        },
+        {
+          "localPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\upstream-SNO120-list-search-audit.png",
+          "repository": "https://github.com/AMF777/Secure-Notes-Organizer",
+          "sourceCommit": "abba7ab8034ef254ed4dc1c0fa5a2c1a51f8f2c6",
+          "sourcePath": "Gtest/Photos/ListNotes&SearchByTitle.png",
+          "sourceUrl": "https://raw.githubusercontent.com/AMF777/Secure-Notes-Organizer/abba7ab8034ef254ed4dc1c0fa5a2c1a51f8f2c6/Gtest/Photos/ListNotes%26SearchByTitle.png",
+          "sha256": "054DD12C7F99FC1C22A6CD2892721A367E526DFF8D40BE6DBB2FEC9A68FF67AA",
+          "width": 1712,
+          "height": 943,
+          "classification": "genuine-repository-integration-test-screenshot",
+          "caption": "Audit-only older branch screenshot; privacy decision pending.",
+          "edited": false,
+          "publicationCandidate": false,
+          "privacyReview": "Exclude from portfolio: older terminal screenshots show a workstation username and local directory path. No Qt interface appears."
+        }
+      ]
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\provenance.json",
+      "Sha256": "689d3e731e3152ad95d6bc03738c7dab738d0403ceb21a3eb1df05f1e4fda589",
+      "Content": {
+        "auditedAt": "2026-10-14T14:24:34.903904+03:00",
+        "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+        "commit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+        "method": "Read-only inspection of exact Git blobs; original bytes preserved.",
+        "forms": [
+          {
+            "path": "ClientController/mainwindow.ui",
+            "widgets": [
+              {
+                "class": "QMainWindow",
+                "name": "MainWindow"
+              },
+              {
+                "class": "QWidget",
+                "name": "centralwidget"
+              },
+              {
+                "class": "QMenuBar",
+                "name": "menubar"
+              },
+              {
+                "class": "QStatusBar",
+                "name": "statusbar"
+              }
+            ],
+            "customWidgets": 0
+          },
+          {
+            "path": "secure-notes-ogranizer/widget.ui",
+            "widgets": [
+              {
+                "class": "QWidget",
+                "name": "Widget"
+              }
+            ],
+            "customWidgets": 0
+          }
+        ],
+        "files": {
+          "ClientController/mainwindow.ui": {
+            "sha256": "6c3cacceb80f241361c47b38a386cce18588fdd6be0071043970120d02023a06",
+            "bytes": 692,
+            "gitBlob": "cd4835efadc953ae113c5738463089885d8c7668"
+          },
+          "secure-notes-ogranizer/res.qrc": {
+            "sha256": "597544e671318ae350bb18b800f1cfbd52604e7e2d41e42209c1869f853fc586",
+            "bytes": 687,
+            "gitBlob": "91db6a031261d3bc265ac5eadfa39bfc2ff9d4fb"
+          },
+          "secure-notes-ogranizer/img/edit.png": {
+            "sha256": "014e6a04b73f37758e93d61209e5444f15d4d193d69494b3d7a56be55387c632",
+            "bytes": 1200,
+            "gitBlob": "4ca7ae1bed4df42a69e5c4a1bd96b0a46aed46a3"
+          },
+          "secure-notes-ogranizer/img/logout.png": {
+            "sha256": "da9fc5c45502b13ea6534f291679fa69dcf708be74a2718bcdfdd1d8d4dfcbda",
+            "bytes": 783,
+            "gitBlob": "fb8e60145ae7785861f3fc9ac9ee4e787a85470d"
+          },
+          "secure-notes-ogranizer/img/plus.png": {
+            "sha256": "ca2337b7f73118bcca32727aae33d5267a58a93ad95f9ad7e0cbb8bba95cf652",
+            "bytes": 1924,
+            "gitBlob": "7f6a581c2fbe50fe1623cfec718849ed15ef0bec"
+          },
+          "secure-notes-ogranizer/img/profile.png": {
+            "sha256": "8d3b35b552ef319cb2bf0dd708191ac1a316e569df8be66c7026abdf4b46db72",
+            "bytes": 2828,
+            "gitBlob": "997b91f48a2428507a08f0c3c181844a09d0a8ad"
+          },
+          "secure-notes-ogranizer/img/siemens-logo.png": {
+            "sha256": "062b3077ee652f11d80b75faa8f7eceb7d882bb2e4661070ea012d6245ad3830",
+            "bytes": 10703,
+            "gitBlob": "f818d46dced28be6d97d3684fc9e4b9dccc1bda1"
+          },
+          "secure-notes-ogranizer/img/g.png": {
+            "sha256": "6beac78c81ad857f1eee696ecdde862b907defbeef03aa9afac11de2ab5d36f8",
+            "bytes": 50829,
+            "gitBlob": "9157a1f0ae983dc75aeda5f802ce1ff525c7b98d"
+          },
+          "secure-notes-ogranizer/img/select_column.png": {
+            "sha256": "9c55b9c76a4fa8af063c797c9fe1ad4fad34c58e67fbdd44a790cd1e6ca33195",
+            "bytes": 214,
+            "gitBlob": "9ebc60c0ba9bcf86247db79c5e37ea630df63455"
+          },
+          "secure-notes-ogranizer/img/share.png": {
+            "sha256": "172e8b167f3a24db62936a16461c2353303be3c2f01a993b6d5258f0b10cc1a7",
+            "bytes": 1153,
+            "gitBlob": "be6758cbb0eadf2db12b78632f6ff6c2b7d878bc"
+          },
+          "secure-notes-ogranizer/styles/styles.qss": {
+            "sha256": "7b8d79103a3d414781bbf4a29bf9d359b4687320fb2a3ff961a7b40a11f756f4",
+            "bytes": 5044,
+            "gitBlob": "cc21686c20c14fe884fe65eec470e17ac00deae5"
+          },
+          "secure-notes-ogranizer/img/file.png": {
+            "sha256": "e74326669b46dde8a02bfa0b8e15de5bc3bebd0d580d5e9f883c16f3b474b02f",
+            "bytes": 428,
+            "gitBlob": "7a53331808d87935767de2711027e4202f4343ff"
+          },
+          "secure-notes-ogranizer/img/avatar.png": {
+            "sha256": "f2e77d7e1bdedc5ebf28ad23bfb07145a12a87df4ca4ece6619785b3bb7776b9",
+            "bytes": 2831,
+            "gitBlob": "038aa125ccd4c16cd0bafa9b46837d3bafcd1bd1"
+          },
+          "secure-notes-ogranizer/img/camera.png": {
+            "sha256": "192975318191f4b30828e11be000063807cfaafbd6cae5d6387a96b75c770da3",
+            "bytes": 6330,
+            "gitBlob": "17fd412208fe2d62698a374dfbf9cc691763de55"
+          },
+          "secure-notes-ogranizer/img/kitten.jpeg": {
+            "sha256": "6a4a12c3e402ca3f2f60b77afe7af3a4b13d1c55f9b02cf58d742eee6b699c10",
+            "bytes": 142386,
+            "gitBlob": "f40c2e958fb2643e1ab674a046f2e81f7afc04b9"
+          },
+          "secure-notes-ogranizer/img/cancel.png": {
+            "sha256": "b97cab85131d915cfef25c3c4834accd2f16ffef3fb9ce11de0f47348d46e921",
+            "bytes": 2074,
+            "gitBlob": "8eedc79a1530f70e7acd6d7bb40024bee6eca8da"
+          },
+          "secure-notes-ogranizer/img/note-icon.png": {
+            "sha256": "16c120fc8cb6987fe3c5e953bc7be2404495a88c5e06a968fd0d6f18bba58995",
+            "bytes": 499,
+            "gitBlob": "1d44f377bc55c60a0fbad798bdf033e9050b2f53"
+          },
+          "secure-notes-ogranizer/img/saveNote.png": {
+            "sha256": "4b4e08a200ba77b9c9069b119dd78af1c509ff90fcea8973e6a194914aa321a8",
+            "bytes": 2362,
+            "gitBlob": "0e57abae8a416e2532d134103bcbac024144c3d1"
+          },
+          "secure-notes-ogranizer/img/deleteNote.png": {
+            "sha256": "1670116730fa7f5ae92e535353dce52cbabe358056f65eeb2a485ea320e3e574",
+            "bytes": 3522,
+            "gitBlob": "7ec363e42f31fc258f4dd8955017a99ecbdcac0f"
+          },
+          "secure-notes-ogranizer/widget.ui": {
+            "sha256": "d64ea5fab8ffcafa2a7bc5c4aaa60c6f70fe957e544c7871b5d72f563039e531",
+            "bytes": 379,
+            "gitBlob": "b90248d1302f26f09c3985b7150b73962bf5cbb0"
+          },
+          "secure-notes-ogranizer/main_window.cpp": {
+            "sha256": "c52af9cd80d186548afc6ba042fe69f430a479b89eb3ea125a7be51a8cdb322e",
+            "bytes": 8068,
+            "gitBlob": "fa3202013e12cb61da2aaa96eee387071f54d1bd"
+          },
+          "secure-notes-ogranizer/main_window.h": {
+            "sha256": "2ff5f5762c72be547c6afac394523d8fde527964deea7fe5bf1334d91439e5fb",
+            "bytes": 1221,
+            "gitBlob": "b3b689e65dbb942ebe4810c724a39875e55b748a"
+          },
+          "secure-notes-ogranizer/CMakeLists.txt": {
+            "sha256": "87c991e6490f3fc5f8deed199fd0ff31fd8bf66abc3ba1ff8d9977177bb71a73",
+            "bytes": 3515,
+            "gitBlob": "b362a08d6d844917cc30f3ea936f033cefb7a7e9"
+          }
+        },
+        "runtimeAvailable": {
+          "systemPython": "3.14.3; PySide6 absent",
+          "bundledPython": "3.12.14; PySide6 absent"
+        },
+        "result": "No useful original Qt Designer layout preview is possible.",
+        "reason": "Both original .ui forms are empty shells. The notes screen is constructed in C++ main_window using custom sidebar_vlayout, edit_notes_vlayout and NoteEditor classes, with User and client dependencies. QUiLoader of the unchanged forms would not represent the notes interface.",
+        "screenshotCreated": false,
+        "packagesInstalled": false,
+        "applicationExecuted": false,
+        "recommendation": "Prefer genuine repository UI captures or an existing compiled application. Do not substitute a reconstruction or blank form as product evidence."
+      }
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-real-app\\capture-provenance.json",
+      "Sha256": "89998e31116c07b2bbcf7a10657ad8fbb7314149623a83ef4dc42eef208dfa8f",
+      "Content": {
+        "capturedAt": "2026-10-14T14:48:42.691239+03:00",
+        "repository": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+        "commit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+        "sourceFileCount": 86,
+        "sourceHashesFile": "source-provenance.json",
+        "sourceVerifiedUnchangedLocallyAndInBuiltImage": true,
+        "originalWidgetSourceChanges": [],
+        "originalStyleChanges": [],
+        "originalAssetChanges": [],
+        "captureHarness": {
+          "file": "capture.cpp",
+          "mainEditor": "Construct original main_window() offline overload; invoke original swapToEditNote Qt slot; resize actual window to 1280x800; QTimer waits 800ms; QWidget::grab saves PNG. No widget reconstruction, manual layout, or invented contents.",
+          "auth": "Construct original switcher_widget; clear all existing QLineEdit values; capture sign-in; invoke original switchWidgets slot; clear inputs again; capture sign-up.",
+          "stylesheet": "Original :/res/styles/styles.qss loaded through QFile/QTextStream, matching original main.cpp.",
+          "resources": "Original res.qrc compiled with Qt RCC; original logo and icon bitmaps rendered.",
+          "data": "Empty local editor. No User object, notes, account, server responses, fixture data, login or saving performed.",
+          "limits": "This is a real running original Qt widget capture under a capture harness. It does not verify authenticated server or persistence workflows. Offline constructor is intentional and implemented in original main_window.cpp."
+        },
+        "buildAdjustments": [
+          "Separate CMake target replaces only main.cpp entry point with capture.cpp; includes the original application classes and res.qrc.",
+          "Unused widget.cpp/widget.h empty Designer-shell class excluded, consistent with the original project CMake target.",
+          "A separately force-included qt64-logging-compat.h provides std::string QDebug output for Qt6.4; the original project used Qt6.6. This affects logging only."
+        ],
+        "environment": {
+          "platform": "Ubuntu24.04 Docker linux/amd64",
+          "qtPlatform": "offscreen",
+          "qtScaleFactor": 1,
+          "network": "none",
+          "font": "Qt platform default; DejaVu Core installed; original QSS has no font-family override",
+          "packages": "fonts-dejavu-core\t2.37-8\ng++\t4:13.2.0-7ubuntu1\nlibboost-system-dev:amd64\t1.83.0.1ubuntu2\nqt6-base-dev:amd64\t6.4.2+dfsg-21.1build5",
+          "imageId": "sha256:9cfc17c680a502b39c556fda55016444f640d9da31ab5758724f32a559588e02",
+          "imageSizeBytes": 291465164
+        },
+        "harnessSha256": {
+          "capture.cpp": "2e8031bf96d12303891bf2e270342b780846a4121ce82fc1fb696353960d95af",
+          "CMakeLists.txt": "d11ce6fcf2214c00011abac613117296d3f90fd5b41ff9f74802aebc77984038",
+          "Dockerfile": "909bf9ee9cdb3f5421b7b8e5688b71dca6cd0e8dc3b5af55536d1eefd329ae7e",
+          "qt64-logging-compat.h": "62e4ed6320c39ed42caaeefa08e29fa4fd3a13e8bc1552f54f7493a0f8f7f429"
+        },
+        "captures": [
+          {
+            "path": "output/secure-notes-original-editor.png",
+            "width": 1280,
+            "height": 800,
+            "sha256": "b51d82426b4751ad7b76af222bb37aab2baf980c1c4cb17a4ba58c8cd44e8ba6",
+            "bytes": 15023
+          },
+          {
+            "path": "output/secure-notes-sign-in.png",
+            "width": 542,
+            "height": 642,
+            "sha256": "229d1a498e8eb31eaed5d2394bec1f41e7ef5a684370c2bc68beb8b5012265d6",
+            "bytes": 23216
+          },
+          {
+            "path": "output/secure-notes-sign-up.png",
+            "width": 542,
+            "height": 642,
+            "sha256": "3adaa913957c84b7313cc72634ad96621248ce5e71cbbc6e12df1ff5d7be709e",
+            "bytes": 23904
+          }
+        ],
+        "visualInspection": "All three PNGs inspected. Editor controls/sidebar icons and empty local note are visible. Siemens logos render. Sign-in and sign-up account fields are empty. No screenshot editing or compositing.",
+        "runtimeWarnings": "Original client connection to container localhost refused (expected with no server). Original layout reports an already-parented QVBoxLayout; actual editor renders successfully. See runtime.log.",
+        "recommendedCover": "output/secure-notes-original-editor.png",
+        "recommendedSecondary": "output/secure-notes-sign-in.png",
+        "recommendedCaption": "Original C++/Qt note editor, captured locally with an empty note."
+      }
+    },
+    {
+      "OriginalPath": "D:\\aymanashraf.me\\design\\research-candidates\\secure-real-app\\source-provenance.json",
+      "Sha256": "442414c77035106084578f0c3036f8b26e7086f5841257baed8308e3cabd3b8f",
+      "Content": {
+        "commit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+        "source": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+        "sha256": {
+          "add_note_dialog.cpp": "7183b5ae939dddf90c56272d3190c31a75c805d9e8984ed88da89a3a824e64c8",
+          "add_note_dialog.h": "b74b78247b8010052b576de2be7de0f9c3966cd7f5b8921f7d16760b64e8a384",
+          "button_icon_vlayout.cpp": "07fadd927076580d210873bed897ef33d1b2625b21e2f25cda2a428d6fac4771",
+          "button_icon_vlayout.h": "dc4250ba3c67bc954820cc052602837c05e7b24f48592bafa18da25905ee0672",
+          "clickable_label.cpp": "09aaf08b6c3341d66d7749278806911daf28938354eb491c95e92dedbb12a660",
+          "clickable_label.h": "c3449b620d6a2d4fc4d3518c9f7ab857cd9f6b4bd2584b17cc16c9326143554b",
+          "CMakeLists.txt": "87c991e6490f3fc5f8deed199fd0ff31fd8bf66abc3ba1ff8d9977177bb71a73",
+          "CMakeLists.txt.user": "ba6d3a0538e3d7b89df23c0b7e14ad1ef144d9674ace0b61247e8dd3cd7c7e3a",
+          "CMakeLists.txt.user.0b5ff1e": "33b4c375b45b1ae54f5fa1b22e27c3aecfb79b40e242bf964d58a80a63bf50a1",
+          "CMakeLists.txt.user.994ec18": "e5514afe4f5456aae805e407b7b979b73f3709404cc99fe0b6d7d490ac2b9d81",
+          "component.cpp": "db21644ec6c95900eb02b0fd273ee7ab6e5f4437dc57b4993f8dd15fccd9d7f8",
+          "component.h": "daa4862f10e13951468527014bf001247634dfc36ec10ce6c78eb5a266dff286",
+          "constants.cpp": "2360f15e6dcbfe88f30e0e6ff666d217ab190f01a7c030078708eb76e9493a33",
+          "constants.h": "cee0b6712c983655a3f8a65e30db048dce6b86041bc1d36baa10b4380fd65b07",
+          "custom_widget.cpp": "94c096fffe4195a2f0bae49368205d23e4288ac0719b41063f182db193fbeb97",
+          "custom_widget.h": "ba6dfb31b2941deba8c14f033b016998933f89839e700280585d8aa98c2a40dd",
+          "dropdown_label.cpp": "2c8797cab11534dc90ed9486dec0b68050bc67343b0bf68dd6e39a4a80938eef",
+          "dropdown_label.h": "3cdd330bdef8a735024c941cd20608cb760ad4e2ea52729efc84843d63782560",
+          "img_msg_vlayout.cpp": "49d9386b4a64191fd076463b00084a5067591fcc451fd4bb1fd557cdc56cd8e6",
+          "img_msg_vlayout.h": "cb67aa7433fa7d60a8015ece487ce6e9b290e0f728f18f1fbe08ac2ead83022b",
+          "label_input_vlayout.cpp": "3527586ce405729b7df52f50466d7a9624a974582b605e4340a5259ccae6be26",
+          "label_input_vlayout.h": "685a00ca665fce954a437e802f5d5f8f8940423987f05345e7f6a5829591f42b",
+          "main.cpp": "ae8c76a2ce6c726997b5ee2f88d95229db8d204ece6398e4a34a5100aeb924f4",
+          "main_window.cpp": "c52af9cd80d186548afc6ba042fe69f430a479b89eb3ea125a7be51a8cdb322e",
+          "main_window.h": "2ff5f5762c72be547c6afac394523d8fde527964deea7fe5bf1334d91439e5fb",
+          "note_editor.cpp": "72ee7742db35ac9227731573a899efb88a9e96fabdc18564b441fdad1dd8224e",
+          "note_editor.h": "58c45939967e87d622f93622b3872a508bc622168acb918042070baccdf03074",
+          "note_widget.cpp": "6d9ed3c1830b44eb006c49d2c23ad65d38e7ad3ae41c657d0cd5f43344987e75",
+          "note_widget.h": "df98aa96206ca262a28d6a65850e6080ed8a7278c0cacd68c1920d8c53525682",
+          "profile_dialog.cpp": "fb3cc93a9bcf85eba9cc3f3297e3a787eea11a3a7e24d03b134535d3ad65745a",
+          "profile_dialog.h": "5b0964f688c31b1f0a06e866ccaa40104e713f989b0d6f48569df4ee5e5a7f5c",
+          "res.qrc": "597544e671318ae350bb18b800f1cfbd52604e7e2d41e42209c1869f853fc586",
+          "round_img_label.cpp": "a578f514b6b9ec40061a4949c64ecbac6380a5f63950cae5328955c143c5e124",
+          "round_img_label.h": "45ce001693bf0a74354f15eb0589dab62172321255313a3ad335fafec9f16de5",
+          "show_notes_vlayout.cpp": "d83afa5a71a99b234611f60c6a4fde1de448c4f6f972405f9525d01a591d5402",
+          "show_notes_vlayout.h": "f0f066de4f6d01fa98b75ca066dd0ffbbf722cbc3e3436fac46df10c0307a73c",
+          "sidebar_vlayout.cpp": "2bc3304e0e532453cf51a5a376fb7f11569c42810b83bafe311b0b1221ff592f",
+          "sidebar_vlayout.h": "bb94a321083feb7b510a0b8397960bc9aa7fb0d989f0b9e8bd3afaf3d7edace3",
+          "signin.cpp": "01e739077410be104ef7d1e4a508f4ed9f887842791af53545e21c501434d68e",
+          "signin.h": "ac9897eb585236049f78170e370df41e11254a0b0af81906328f2487d3bc56c5",
+          "signout.cpp": "9948a146181fd9982ce384af99fe3e19f35288f58a0724a55ba6b6887af72389",
+          "signout.h": "51cda575e1b7348d1f117c847ed709a77d06031c4d3bb52cfc04e390adc0b8ba",
+          "signup.cpp": "cd63a0b94c19f2dac61ebccce9be9365671881b1cf9b1bff4c519c75762d3634",
+          "signup.h": "bb4489b30281e23f7fc1d7b5450addb316d00a54fdd451383bb1bc65af5dfe47",
+          "switcher_widget.cpp": "cb75a9eb857c88e9c1c8fbcf172894ea322279769cf64363eaace6072c398561",
+          "switcher_widget.h": "276e0115b5b1fff3655e67d5c48ea2abbd6d58744a0b99602a8586a4a5c0dc03",
+          "tags_hlayout.cpp": "929d128c4d430394be1d46adc50ef81a5351cce21d489db8646907f3ce52139e",
+          "tags_hlayout.h": "8fea1622b4cdfc7e668a18a59c624aaaffcc01c7485f6b671c388f0c69ccac64",
+          "tag_widget.cpp": "5aa4ecd407c68ed0c6ffaa7b5537d218a298d07b42819bb1cf5a4d65b754aa22",
+          "tag_widget.h": "de03cad6a65abc26c74eaaecca29cc3d4a5e492d9ac223fb4a801cec147e4426",
+          "textedit_template.cpp": "a35ea9dbf83f8c3435a09ec8372d4faa781985f6fa6693507d34b3a166bbf578",
+          "textedit_template.h": "620b3463d5594b0b28307f8cc7a529fe2c7c24cd425572bc08e3dc29256384d7",
+          "widget.cpp": "caaf5850830eaa0342c5893a46533c965d372e0d17ef8b6690ddd6355220c8d4",
+          "widget.h": "60a557f5a8b34f4f6c9e6d61fd0d879d71fd9b853eeb67b024003067573e101e",
+          "widget.ui": "d64ea5fab8ffcafa2a7bc5c4aaa60c6f70fe957e544c7871b5d72f563039e531",
+          "back-end/clientconnection.cpp": "34c747a408ad4bfab72e3a439ce9627c882f9139a9d4ba8776207386d01775b9",
+          "back-end/clientconnection.h": "a9dd3bee49c48fc126e6950c38bd31d068ee433ed0f5badcb5ae985072cd52c6",
+          "back-end/clientcontroller.cpp": "ab700e7c74523eeb365200e251f2242dcb2e67adca0feff03408dd15e57d561b",
+          "back-end/clientcontroller.h": "8de6de372435055e1cece43050951633776ba6768699f4cbbab81f6eeeebf81e",
+          "back-end/json.h": "059743e48b37e41579ee3a92e82e984bfa0d2a9a2b20b175d04db8089f46f047",
+          "back-end/json.hpp": "059743e48b37e41579ee3a92e82e984bfa0d2a9a2b20b175d04db8089f46f047",
+          "back-end/Note.cpp": "aad02175291de7f2edeca231e4664d1dad5a199e89e53e899be20bec34e559af",
+          "back-end/Note.h": "62380e5428451c695c8c9aeea3f7fb144a50fd934b301006cbfe28c0a75f5902",
+          "back-end/NoteComponent.cpp": "29f589870e6217fd7b3a1da3d41222a6c4808c881e047e5ffde89359abe34409",
+          "back-end/NoteComponent.h": "18330cdbf0a5df69d6790ba431bfa50ebc14a16a8278b5b021e5e273f00bee34",
+          "back-end/Tag.cpp": "66d6f4bbdc142e7243768545645a574a5ac8e571478ebb894f6255d0595be966",
+          "back-end/Tag.h": "f43dc32f615723906a219e42c83624663ce293ce27c36ef15ca5839fe8506678",
+          "back-end/User.cpp": "a5b5f05d57cc34e9ee694ba1805d78ab46fb76f4baf4d926b83294d0f661e7e8",
+          "back-end/User.h": "a2a655283c2e9a1e8becead53b75b735e982d48100d73d11077c29d6e862fd36",
+          "img/avatar.png": "f2e77d7e1bdedc5ebf28ad23bfb07145a12a87df4ca4ece6619785b3bb7776b9",
+          "img/camera.png": "192975318191f4b30828e11be000063807cfaafbd6cae5d6387a96b75c770da3",
+          "img/cancel.png": "b97cab85131d915cfef25c3c4834accd2f16ffef3fb9ce11de0f47348d46e921",
+          "img/deleteNote.png": "1670116730fa7f5ae92e535353dce52cbabe358056f65eeb2a485ea320e3e574",
+          "img/edit.png": "014e6a04b73f37758e93d61209e5444f15d4d193d69494b3d7a56be55387c632",
+          "img/file.png": "e74326669b46dde8a02bfa0b8e15de5bc3bebd0d580d5e9f883c16f3b474b02f",
+          "img/g.png": "6beac78c81ad857f1eee696ecdde862b907defbeef03aa9afac11de2ab5d36f8",
+          "img/kitten.jpeg": "6a4a12c3e402ca3f2f60b77afe7af3a4b13d1c55f9b02cf58d742eee6b699c10",
+          "img/logout.png": "da9fc5c45502b13ea6534f291679fa69dcf708be74a2718bcdfdd1d8d4dfcbda",
+          "img/note-icon.png": "16c120fc8cb6987fe3c5e953bc7be2404495a88c5e06a968fd0d6f18bba58995",
+          "img/plus.png": "ca2337b7f73118bcca32727aae33d5267a58a93ad95f9ad7e0cbb8bba95cf652",
+          "img/profile.png": "8d3b35b552ef319cb2bf0dd708191ac1a316e569df8be66c7026abdf4b46db72",
+          "img/saveNote.png": "4b4e08a200ba77b9c9069b119dd78af1c509ff90fcea8973e6a194914aa321a8",
+          "img/select_column.png": "9c55b9c76a4fa8af063c797c9fe1ad4fad34c58e67fbdd44a790cd1e6ca33195",
+          "img/share.png": "172e8b167f3a24db62936a16461c2353303be3c2f01a993b6d5258f0b10cc1a7",
+          "img/siemens-logo.png": "062b3077ee652f11d80b75faa8f7eceb7d882bb2e4661070ea012d6245ad3830",
+          "styles/styles.qss": "7b8d79103a3d414781bbf4a29bf9d359b4687320fb2a3ff961a7b40a11f756f4"
+        }
+      }
+    }
+  ],
+  "RemovedResearchCaptureHashes": [
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\artline-ui.png",
+      "Bytes": 164898,
+      "Sha256": "f09ac26b88f34dc46009f2ba80e35e17d7b53cb2d761f96e9b3c9345a9e779e0"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-labels-desktop.png",
+      "Bytes": 48611,
+      "Sha256": "f0bcde9eb1533718c2f495cec788fa4e0773c0e465c3c2a40edfa6a2fdb123a9"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-labels-mobile.png",
+      "Bytes": 39512,
+      "Sha256": "5e9fef387c5a750ec2cc54d44544e9c7f673172d553969d91c7c5cd23d03c87e"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\cheque-database.png",
+      "Bytes": 103307,
+      "Sha256": "4359784e74933b9cca66bb173d12e84506bc390c6feddbb695b15330584830a6"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\cheque-main.png",
+      "Bytes": 326104,
+      "Sha256": "4698e3eac37884a41a20010a7e3c2e0808f6bfcb30c6c07f9481b066e1168f6f"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\quantitator-chat.png",
+      "Bytes": 136901,
+      "Sha256": "4f5c4ba956efbcb995ec9999327f9e5058a82399f9ec7f6d26a535cd249848ee"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\quantitator-main.png",
+      "Bytes": 69556,
+      "Sha256": "dd8d2effb20bf726d4ce087a36c1afc29d9cd77fbf1b212eb08143221265efdf"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\quantitator-result.png",
+      "Bytes": 99214,
+      "Sha256": "94e43f1dda6b09f82e34a570f151bf636de29bf9b162c63e7a597c736fca6610"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\quantitator-upload.png",
+      "Bytes": 106694,
+      "Sha256": "0b0d4649b02f26a6eb92cc5e98b0a8f2a1c3e577528e24a71fcf26538f01bdba"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\quantitator-visualization.png",
+      "Bytes": 136495,
+      "Sha256": "fbb34688ef9d9049a5ebfc1a27492a3aaca60f29b908d4c8a1aeb77643d5fbdc"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-tests.png",
+      "Bytes": 15856,
+      "Sha256": "e304e611edfbd3569344e00611b63c3dfff574870d3b08aa659347b2deb1db2f"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-main-chat\\blitz-main-chats-desktop-1440.png",
+      "Bytes": 23859,
+      "Sha256": "cce3a739b2812cdaf019bf58ddc0ca706686fb50c46608a8822d8b666550c097"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-main-chat\\blitz-main-chats-generated-v1.png",
+      "Bytes": 1131255,
+      "Sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-main-chat\\figcraft-preview-window.png",
+      "Bytes": 221622,
+      "Sha256": "e6d46a284724768b95209b49d3d1edbf70d250093b7810066acc96e4f196c567"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\arkedia-full.png",
+      "Bytes": 1436577,
+      "Sha256": "318cbf8b4cfc1d0c89bb0d6d1a6b9dfd0f7166f564f89fb9412c1ce0469fe12c"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\arkedia-loaded.png",
+      "Bytes": 664550,
+      "Sha256": "fe407dd13766fec202196e90c01a41a9f77c440fa2284a12a789c841d496cb05"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\helixtra-full.png",
+      "Bytes": 293525,
+      "Sha256": "6b4b0507627d611bfaeb51e99b735f85eb3d5d184d91b60b13b649088fa6eba8"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\helixtra-loaded.png",
+      "Bytes": 97000,
+      "Sha256": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\ibrahim-awad-full.png",
+      "Bytes": 664410,
+      "Sha256": "97d4defa2ac44558d5f2c9b09b656ea26566ad6fdad13aa143921d95f0fa9629"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\ibrahim-awad-loaded.png",
+      "Bytes": 426069,
+      "Sha256": "feb27d3af0df59d5b0e605ea02bdb7004c7b5b1c12a2a554cd943dcb758830b1"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\maysa-full.png",
+      "Bytes": 5291664,
+      "Sha256": "03a44ef3374563231c98c861b466222bcb37098b14516123617e5c1f38db182a"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\maysa-loaded.png",
+      "Bytes": 1282713,
+      "Sha256": "16661037a0a0522ffbb37bc572131293a2959beec86d5b75b3fc1e23d32689b5"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\supreme-sparkle-full.png",
+      "Bytes": 1458899,
+      "Sha256": "125e1b04af3d4a6872a2702bb16f602ff9dc8bd96e231146565c9fcd7acbbef0"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\supreme-sparkle-loaded.png",
+      "Bytes": 686691,
+      "Sha256": "561bba6cf79d9be9160b819803f540189dd17245560bf25f82b9c96121f38f8f"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\tapora-full.png",
+      "Bytes": 763625,
+      "Sha256": "c43cf32b178090f6bb7face4bdf0d123262b81fa77007e9e0a15d9fe1c79c3c6"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\tapora-loaded.png",
+      "Bytes": 302017,
+      "Sha256": "ea64ee921a5d2b8104427d99c033e02c290323fae4a8bf58595b3f1273c4f696"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\wearinstant-full.png",
+      "Bytes": 1091655,
+      "Sha256": "59ef75c2b424e0d173ba5f137e9b83b9865125162fc57a037d0f92527617ed8e"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\live-captures\\wearinstant-loaded.png",
+      "Bytes": 462252,
+      "Sha256": "4a2f0cfa7b5ad300dcfa6bced80967d3b99f8a23d83a028c6eac6d61a06f412b"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\rejected-terminal-covers\\secure-notes-create-note.png",
+      "Bytes": 71517,
+      "Sha256": "32e03b63ceb17877f89d8973e11b507b4d8c73aacb45ee9a5ddb8e88b0db20c0"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\rejected-terminal-covers\\secure-notes-integration.png",
+      "Bytes": 129564,
+      "Sha256": "b62536392c002f087ddc85de78ba6a4a0f97cfee8d4ff6e8d7248fd9d2da2faa"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\rejected-terminal-covers\\secure-notes-list-tags.png",
+      "Bytes": 94681,
+      "Sha256": "d78fb200a772446eebdeddbf0a19b71eac51f2335e0ddbb3e21dbe3c9b7063c3"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\add-tag-integration.png",
+      "Bytes": 129564,
+      "Sha256": "b62536392c002f087ddc85de78ba6a4a0f97cfee8d4ff6e8d7248fd9d2da2faa"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\create-note-integration.png",
+      "Bytes": 71517,
+      "Sha256": "32e03b63ceb17877f89d8973e11b507b4d8c73aacb45ee9a5ddb8e88b0db20c0"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-components-integration.png",
+      "Bytes": 109499,
+      "Sha256": "27dd85e665b31e6bddfecf1a62da36b70510ca9f4760fb832c3c62234c734c8b"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\list-note-tags-integration.png",
+      "Bytes": 94681,
+      "Sha256": "d78fb200a772446eebdeddbf0a19b71eac51f2335e0ddbb3e21dbe3c9b7063c3"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\project-description-1.png",
+      "Bytes": 213363,
+      "Sha256": "4d58e98749c8effd1b09060874506289cea634c36a0c1fd39f596c4a3cf6b509"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\project-description-2.png",
+      "Bytes": 174116,
+      "Sha256": "929aa3127238adeddc3954f106639a800f50404edaddbd8a36f6cf8b729dee0e"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\test-summary.png",
+      "Bytes": 15856,
+      "Sha256": "e304e611edfbd3569344e00611b63c3dfff574870d3b08aa659347b2deb1db2f"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\update-note-integration.png",
+      "Bytes": 91167,
+      "Sha256": "a90715cb9575c1471350cb3ae5eb87619d544458a1c5ab6899edf9b754866969"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\upstream-SNO120-list-search-audit.png",
+      "Bytes": 283434,
+      "Sha256": "054dd12c7f99fc1c22a6cd2892721a367e526dff8d40be6dbb2fec9a68ff67aa"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-current\\upstream-SNO120-login-audit.png",
+      "Bytes": 160116,
+      "Sha256": "d0098100ac48206cbc3e69a12fa7d87a89d38893bbbe2f7784d1323f9005c7a6"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\avatar.png",
+      "Bytes": 2831,
+      "Sha256": "f2e77d7e1bdedc5ebf28ad23bfb07145a12a87df4ca4ece6619785b3bb7776b9"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\camera.png",
+      "Bytes": 6330,
+      "Sha256": "192975318191f4b30828e11be000063807cfaafbd6cae5d6387a96b75c770da3"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\cancel.png",
+      "Bytes": 2074,
+      "Sha256": "b97cab85131d915cfef25c3c4834accd2f16ffef3fb9ce11de0f47348d46e921"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\deleteNote.png",
+      "Bytes": 3522,
+      "Sha256": "1670116730fa7f5ae92e535353dce52cbabe358056f65eeb2a485ea320e3e574"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\edit.png",
+      "Bytes": 1200,
+      "Sha256": "014e6a04b73f37758e93d61209e5444f15d4d193d69494b3d7a56be55387c632"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\file.png",
+      "Bytes": 428,
+      "Sha256": "e74326669b46dde8a02bfa0b8e15de5bc3bebd0d580d5e9f883c16f3b474b02f"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\g.png",
+      "Bytes": 50829,
+      "Sha256": "6beac78c81ad857f1eee696ecdde862b907defbeef03aa9afac11de2ab5d36f8"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\logout.png",
+      "Bytes": 783,
+      "Sha256": "da9fc5c45502b13ea6534f291679fa69dcf708be74a2718bcdfdd1d8d4dfcbda"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\note-icon.png",
+      "Bytes": 499,
+      "Sha256": "16c120fc8cb6987fe3c5e953bc7be2404495a88c5e06a968fd0d6f18bba58995"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\plus.png",
+      "Bytes": 1924,
+      "Sha256": "ca2337b7f73118bcca32727aae33d5267a58a93ad95f9ad7e0cbb8bba95cf652"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\profile.png",
+      "Bytes": 2828,
+      "Sha256": "8d3b35b552ef319cb2bf0dd708191ac1a316e569df8be66c7026abdf4b46db72"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\saveNote.png",
+      "Bytes": 2362,
+      "Sha256": "4b4e08a200ba77b9c9069b119dd78af1c509ff90fcea8973e6a194914aa321a8"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\select_column.png",
+      "Bytes": 214,
+      "Sha256": "9c55b9c76a4fa8af063c797c9fe1ad4fad34c58e67fbdd44a790cd1e6ca33195"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\share.png",
+      "Bytes": 1153,
+      "Sha256": "172e8b167f3a24db62936a16461c2353303be3c2f01a993b6d5258f0b10cc1a7"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-notes-ui-source\\secure-notes-ogranizer\\img\\siemens-logo.png",
+      "Bytes": 10703,
+      "Sha256": "062b3077ee652f11d80b75faa8f7eceb7d882bb2e4661070ea012d6245ad3830"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-real-app\\output\\secure-notes-original-editor.png",
+      "Bytes": 15023,
+      "Sha256": "b51d82426b4751ad7b76af222bb37aab2baf980c1c4cb17a4ba58c8cd44e8ba6"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-real-app\\output\\secure-notes-sign-in.png",
+      "Bytes": 23216,
+      "Sha256": "229d1a498e8eb31eaed5d2394bec1f41e7ef5a684370c2bc68beb8b5012265d6"
+    },
+    {
+      "Path": "D:\\aymanashraf.me\\design\\research-candidates\\secure-real-app\\output\\secure-notes-sign-up.png",
+      "Bytes": 23904,
+      "Sha256": "3adaa913957c84b7313cc72634ad96621248ce5e71cbbc6e12df1ff5d7be709e"
+    }
+  ],
+  "BuildLog": "#0 building with \"desktop-linux\" instance using docker driver\r\n\r\n#1 [internal] load build definition from Dockerfile\r\n#1 transferring dockerfile: 552B done\r\n#1 DONE 0.0s\r\n\r\n#2 [internal] load metadata for docker.io/library/ubuntu:24.04\r\n#2 DONE 0.6s\r\n\r\n#3 [internal] load .dockerignore\r\n#3 transferring context: 2B done\r\n#3 DONE 0.0s\r\n\r\n#4 [1/6] FROM docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55\r\n#4 resolve docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55 0.1s done\r\n#4 DONE 0.1s\r\n\r\n#5 [internal] load build context\r\n#5 transferring context: 6.95kB done\r\n#5 DONE 0.0s\r\n\r\n#6 [2/6] RUN apt-get update && apt-get install -y --no-install-recommends g++ cmake make qt6-base-dev libboost-system-dev fonts-dejavu-core && rm -rf /var/lib/apt/lists/*\r\n#6 CACHED\r\n\r\n#7 [3/6] WORKDIR /capture\r\n#7 CACHED\r\n\r\n#8 [4/6] COPY original/secure-notes-ogranizer /capture/original\r\n#8 CACHED\r\n\r\n#9 [5/6] COPY CMakeLists.txt capture.cpp qt64-logging-compat.h /capture/\r\n#9 DONE 0.1s\r\n\r\n#10 [6/6] RUN cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4\r\n#10 0.420 -- The CXX compiler identification is GNU 13.3.0\r\n#10 0.447 -- Detecting CXX compiler ABI info\r\n#10 0.581 -- Detecting CXX compiler ABI info - done\r\n#10 0.592 -- Check for working CXX compiler: /usr/bin/c++ - skipped\r\n#10 0.593 -- Detecting CXX compile features\r\n#10 0.593 -- Detecting CXX compile features - done\r\n#10 0.605 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD\r\n#10 0.744 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\r\n#10 0.745 -- Found Threads: TRUE  \r\n#10 0.757 -- Performing Test HAVE_STDATOMIC\r\n#10 0.923 -- Performing Test HAVE_STDATOMIC - Success\r\n#10 0.924 -- Found WrapAtomic: TRUE  \r\n#10 0.944 -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \r\n#10 0.945 -- Found WrapOpenGL: TRUE  \r\n#10 0.949 -- Could NOT find XKB (missing: XKB_LIBRARY XKB_INCLUDE_DIR) (Required is at least version \"0.5.0\")\r\n#10 0.983 -- Found WrapVulkanHeaders: /usr/include  \r\n#10 1.002 -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version \"1.83.0\") found components: system \r\n#10 1.004 -- Configuring done (0.7s)\r\n#10 1.056 -- Generating done (0.0s)\r\n#10 1.061 -- Build files have been written to: /capture/build\r\n#10 1.142 [  0%] Built target capture_autogen_timestamp_deps\r\n#10 1.170 [  2%] Automatic MOC for target capture\r\n#10 4.295 [  2%] Built target capture_autogen\r\n#10 4.310 [  5%] Automatic RCC for original/res.qrc\r\n#10 4.415 [ 16%] Building CXX object CMakeFiles/capture.dir/original/add_note_dialog.cpp.o\r\n#10 4.415 [ 13%] Building CXX object CMakeFiles/capture.dir/original/back-end/Note.cpp.o\r\n#10 4.415 [ 16%] Building CXX object CMakeFiles/capture.dir/capture.cpp.o\r\n#10 4.415 [ 16%] Building CXX object CMakeFiles/capture.dir/capture_autogen/mocs_compilation.cpp.o\r\n#10 7.340 [ 19%] Building CXX object CMakeFiles/capture.dir/original/back-end/NoteComponent.cpp.o\r\n#10 9.544 [ 22%] Building CXX object CMakeFiles/capture.dir/original/back-end/Tag.cpp.o\r\n#10 9.769 [ 25%] Building CXX object CMakeFiles/capture.dir/original/back-end/User.cpp.o\r\n#10 10.14 [ 27%] Building CXX object CMakeFiles/capture.dir/original/back-end/clientconnection.cpp.o\r\n#10 10.67 [ 30%] Building CXX object CMakeFiles/capture.dir/original/back-end/clientcontroller.cpp.o\r\n#10 12.33 [ 33%] Building CXX object CMakeFiles/capture.dir/original/button_icon_vlayout.cpp.o\r\n#10 12.75 [ 36%] Building CXX object CMakeFiles/capture.dir/original/clickable_label.cpp.o\r\n#10 13.99 [ 38%] Building CXX object CMakeFiles/capture.dir/original/component.cpp.o\r\n#10 14.28 [ 41%] Building CXX object CMakeFiles/capture.dir/original/constants.cpp.o\r\n#10 15.50 [ 44%] Building CXX object CMakeFiles/capture.dir/original/custom_widget.cpp.o\r\n#10 16.72 [ 47%] Building CXX object CMakeFiles/capture.dir/original/dropdown_label.cpp.o\r\n#10 17.61 [ 50%] Building CXX object CMakeFiles/capture.dir/original/img_msg_vlayout.cpp.o\r\n#10 18.44 [ 52%] Building CXX object CMakeFiles/capture.dir/original/label_input_vlayout.cpp.o\r\n#10 19.33 [ 55%] Building CXX object CMakeFiles/capture.dir/original/main_window.cpp.o\r\n#10 19.60 [ 58%] Building CXX object CMakeFiles/capture.dir/original/note_editor.cpp.o\r\n#10 20.26 [ 61%] Building CXX object CMakeFiles/capture.dir/original/note_widget.cpp.o\r\n#10 21.09 [ 63%] Building CXX object CMakeFiles/capture.dir/original/profile_dialog.cpp.o\r\n#10 25.53 [ 66%] Building CXX object CMakeFiles/capture.dir/original/round_img_label.cpp.o\r\n#10 25.64 [ 69%] Building CXX object CMakeFiles/capture.dir/original/show_notes_vlayout.cpp.o\r\n#10 25.90 [ 72%] Building CXX object CMakeFiles/capture.dir/original/sidebar_vlayout.cpp.o\r\n#10 27.53 [ 75%] Building CXX object CMakeFiles/capture.dir/original/signin.cpp.o\r\n#10 27.88 [ 77%] Building CXX object CMakeFiles/capture.dir/original/signout.cpp.o\r\n#10 30.44 [ 80%] Building CXX object CMakeFiles/capture.dir/original/signup.cpp.o\r\n#10 33.65 [ 83%] Building CXX object CMakeFiles/capture.dir/original/switcher_widget.cpp.o\r\n#10 34.00 [ 86%] Building CXX object CMakeFiles/capture.dir/original/tag_widget.cpp.o\r\n#10 35.41 [ 88%] Building CXX object CMakeFiles/capture.dir/original/tags_hlayout.cpp.o\r\n#10 36.67 [ 91%] Building CXX object CMakeFiles/capture.dir/original/textedit_template.cpp.o\r\n#10 38.62 [ 94%] Building CXX object CMakeFiles/capture.dir/capture_autogen/VXEXECDSVZ/qrc_res.cpp.o\r\n#10 42.40 [ 97%] Linking CXX executable capture\r\n#10 43.20 [100%] Built target capture\r\n#10 DONE 43.3s\r\n\r\n#11 exporting to image\r\n#11 exporting layers\r\n#11 exporting layers 34.6s done\r\n#11 exporting manifest sha256:f6ffe384b4b73b1fa20da8fd859a27254a7c7424ba865d6c93a940c374504820 0.0s done\r\n#11 exporting config sha256:cf3dabf0f46939dc230a7810ab94fbb50b75010683acd4d09e990bd2f72fcf5d 0.0s done\r\n#11 exporting attestation manifest sha256:c78e4c3cb9b801d9ea2802dcfc6682259f0d884dca1f7c10a23e8ff6f122a15e 0.0s done\r\n#11 exporting manifest list sha256:9cfc17c680a502b39c556fda55016444f640d9da31ab5758724f32a559588e02\r\n#11 exporting manifest list sha256:9cfc17c680a502b39c556fda55016444f640d9da31ab5758724f32a559588e02 0.0s done\r\n#11 naming to docker.io/library/codex-secure-notes-capture:local done\r\n#11 unpacking to docker.io/library/codex-secure-notes-capture:local\r\n#11 unpacking to docker.io/library/codex-secure-notes-capture:local 21.7s done\r\n#11 DONE 56.5s\r\n",
+  "RuntimeLog": "Error: connect: Connection refused [system:111 at /usr/include/boost/asio/detail/reactive_socket_service.hpp:589 in function 'connect']\r\nQStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'\r\nThis plugin does not support propagateSizeHints()\r\nQLayout::addChildLayout: layout QVBoxLayout \"\" already has a parent\r\n\"\"\r\n",
+  "ExternalTemporaryTargets": [
+    {
+      "Path": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013",
+      "FileCount": 12,
+      "Bytes": 4674307.0,
+      "Removed": false,
+      "Reason": "Not attempted after automatic approval policy rejected filesystem cleanup",
+      "Children": [
+        {
+          "Name": "arkedia.png",
+          "Bytes": 791108,
+          "Sha256": "f451c59d109da72103b98c282a43b6a0c629e8089caa17f14490a27d9737dc3f"
+        },
+        {
+          "Name": "cv-1.png",
+          "Bytes": 287402,
+          "Sha256": "2307f59d62f1e0dd11c872fa1df2405bab4024d235d143541da07baeba8d0528"
+        },
+        {
+          "Name": "cv-2.png",
+          "Bytes": 325824,
+          "Sha256": "b5863ddc266ecc66665d6e8f54f45ccd1086d0a4bec2479d42264c8a393759ce"
+        },
+        {
+          "Name": "helixtra-marketing.png",
+          "Bytes": 97000,
+          "Sha256": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1"
+        },
+        {
+          "Name": "ibrahim-review.png",
+          "Bytes": 426069,
+          "Sha256": "feb27d3af0df59d5b0e605ea02bdb7004c7b5b1c12a2a554cd943dcb758830b1"
+        },
+        {
+          "Name": "maysa.png",
+          "Bytes": 716578,
+          "Sha256": "7f8a41a4f56d262bd1f4e9d8d8304bfa20986fb7c6fb78d00aec1dade02b2ee1"
+        },
+        {
+          "Name": "old-portfolio-desktop.png",
+          "Bytes": 455992,
+          "Sha256": "81d0179d5989cf0c4948860b40364cbbaecff49df0e14060939b51b282d6898b"
+        },
+        {
+          "Name": "old-portfolio-mobile.png",
+          "Bytes": 176893,
+          "Sha256": "32c00a1fface9f664c18d6e8e3e56e7d226d72b7d1c5ea88994b24977151e5ce"
+        },
+        {
+          "Name": "public-site-audit.json",
+          "Bytes": 8460,
+          "Sha256": "fc56254d732c43b7020354fe32462cb56deca5f6a9ec90e622d7af2690fd249c"
+        },
+        {
+          "Name": "supreme-sparkle.png",
+          "Bytes": 599021,
+          "Sha256": "fefa7c7eddee45e813159d3194c7e02a9e2059e30ea6d8ad9591cb5c4867cc79"
+        },
+        {
+          "Name": "tapora.png",
+          "Bytes": 309194,
+          "Sha256": "15f7a83bac2f65b2c7e200a195a0f523cd9b6dec9b35ab596b82d2c5228db72c"
+        },
+        {
+          "Name": "wear-instant-marketing.png",
+          "Bytes": 480766,
+          "Sha256": "06a567bd98a5b127301b1c590e8c18d0860dee6c0051ea85a16f356e23f22f90"
+        }
+      ],
+      "Audit": {
+        "Sha256": "fc56254d732c43b7020354fe32462cb56deca5f6a9ec90e622d7af2690fd249c",
+        "Content": [
+          {
+            "name": "old-portfolio",
+            "url": "https://aymanashraf.me",
+            "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://aymanashraf.me/"
+          },
+          {
+            "name": "wear-instant-marketing",
+            "url": "https://wearinstant.com",
+            "status": 200,
+            "finalUrl": "https://wearinstant.com/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\wear-instant-marketing.png",
+            "title": "وير إنستانت | تنسيق افتراضي للمتاجر الإلكترونية",
+            "h1": [
+              "غرفة قياس افتراضية لمتجرك."
+            ],
+            "canonical": "https://wear-instant.pages.dev/",
+            "images": 18,
+            "missingImages": 0,
+            "bodyExcerpt": "التجربة\nالتجربة\nأسعار تجريبية\nالأسئلة الشائعة\nEnglish\n\nWear Instant للمتاجر الإلكترونية\n\nغرفة قياس افتراضية لمتجرك.\n\nتجربة ملابس بالذكاء الاصطناعي، مصمّمة عشان عميلك يشوف القطعة عليه من صفحة المنتج، قبل قرار الشراء.\n\nجرّب المعاينة\n←\nشخصيتك. اختيارك. إطلالتك.\n\nاختار الشخصية والملابس، وشوف الإطلالة قبل وبعد.\n\n01\nاختار الشخصية\nمايا\nعمر\nنادية\nحسن\nلينا\nيوسف\n02\nاختار الملابس\n✓\nفستان ساتان ليلي\nبليزر وجينز\nفستان أخضر\nتريكو وبنطلون\nجرّب الإطلالة\n↗\nمقارنة",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "helixtra-marketing",
+            "url": "https://helixtra.com",
+            "status": 200,
+            "finalUrl": "https://helixtra.com/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\helixtra-marketing.png",
+            "title": "نظام متكامل لإدارة العيادات",
+            "h1": [
+              "خلّي يوم عيادتك أوضح لفريقك."
+            ],
+            "canonical": "https://helixtra.com/",
+            "images": 2,
+            "missingImages": 0,
+            "bodyExcerpt": "انتقل إلى المحتوى\nالرئيسية\nالمميزات\nالأسعار\nالأسئلة الشائعة\nتواصل معنا\nاطلب عرضًا توضيحيًا\nEnglish\n\n يوم العيادة، بصورة أوضح\n\nخلّي يوم عيادتك أوضح لفريقك.\n\nتابع شغل المرضى والمواعيد والعمليات اليومية في مكان واحد، وشوف إزاي الإعداد يناسب فريقك.\n\nاطلب عرضًا توضيحيًا\nاستكشف المميزات\n\nعرض شخصي يتظبط على احتياجات عيادتك\n\nمساحة توضيحية\nH\nمساحة المرضى\nط\nمعاينة توضيحية\nنظرة عامة على المريض\nم\nمريض افتراضي\nسجل توضيحي\nحالي\nنظرة عامة\nالزيارات\nالملاحظات\nتاري",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "ibrahim-review",
+            "url": "https://ibrahim-awad-clinic.aamiraclee.workers.dev",
+            "status": 200,
+            "finalUrl": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\ibrahim-review.png",
+            "title": "جراحات التجميل وتنسيق القوام | د. إبراهيم عوض",
+            "h1": [
+              "د. إبراهيم عوض"
+            ],
+            "canonical": "https://ibrahim-awad-clinic.aamiraclee.workers.dev/",
+            "images": 3,
+            "missingImages": 0,
+            "bodyExcerpt": "انتقل إلى المحتوى\nالرئيسية\nعن الطبيب\nبروتوكول 7D\nالإجراءات\nالحالات\nالسياحة العلاجية\nتواصل معنا\nطلب موعد\nISAPS Member\nBoard Certified\n+15 سنة خبرة\nد. إبراهيم عوض\n\nDR IBRAHIM AWAD · PLASTIC SURGEON\n\nالرائد في\n\nالنحت الديناميكي السبع مراحل\n\n7D Dynamic Body Contouring\n\nتقنية حصرية متكاملة تجمع بين أحدث تقنيات الفيزر وبلازما الجيل الرابع J-Plasma ونحت الظلال العضلية الرياضية في بروتوكول جراحي سباعي المراحل لا مثيل له في المنطقة.\n\nطلب موعد للاستشارة\nاس",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "maysa",
+            "url": "https://maysawaheed.com",
+            "status": 200,
+            "finalUrl": "https://maysawaheed.com/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\maysa.png",
+            "title": "Maysa Waheed · Cairo",
+            "h1": [
+              "DressYourDream"
+            ],
+            "images": 17,
+            "missingImages": 0,
+            "bodyExcerpt": "COLLECTIONS\nATELIER\nJOURNEY\nMAYSA WAHEED\nHAUTE COUTURE · EST. CAIRO\nBRIDAL\nEVENING\nBEGIN YOUR COUTURE JOURNEY\nDress\nYour\nDream\n\nBespoke bridal couture and eveningwear, handcrafted with sculpted silhouettes and refined detail.\n\nBEGIN YOUR COUTURE JOURNEY\nEXPLORE THE COLLECTIONS\nATELIER NOTES\n8 EL MANSOUR MOHAMED, ZAMALEK. BY APPOINTMENT\nSCROLL\nHOUSE LINE\nBRIDAL. EVENING. CUSTOM.\nA couture house for women drawn to timeless elegance.\n\nMaysa Waheed c",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "tapora",
+            "url": "https://taporaeg.com",
+            "status": 200,
+            "finalUrl": "https://taporaeg.com/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\tapora.png",
+            "title": "Tapora - The Fun One",
+            "h1": [
+              "Tap. Zap.Boop.Done.",
+              "TAPORA"
+            ],
+            "images": 1,
+            "missingImages": 0,
+            "bodyExcerpt": "Shop Stuff\nWhat is this?\nWeddings & Booze\nYell at Us\nUser Login\nNOW AVAILABLE IN EGYPT\nTap. Zap.\nBoop.\n\nDone.\n\nThe plastic rectangle that saves memories better than your grandma's photobook. No apps. No login. Just tap.\n\nBuy the Thing\nHuh?\n🤔\nTapora\n\nbeep boop\n\nwifi\nActually Works!\nIt's Not Rocket Surgery\n\nIf you can open a fridge, you can use Tapora.\n\n1\nGet The Card\n\nOrder one. It arrives. You hold it. It feels smooth. Nice.\n\n2\nTap Phones\n\nSmack",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "supreme-sparkle",
+            "url": "https://supreme-sparkle.pages.dev",
+            "status": 200,
+            "finalUrl": "https://supreme-sparkle.pages.dev/",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\supreme-sparkle.png",
+            "title": "Supreme Sparkle - Soft glam, real skin, everyday confidence.",
+            "h1": [],
+            "images": 18,
+            "missingImages": 0,
+            "bodyExcerpt": "Authentic beauty picks - fast confirmation on WhatsApp - pay on delivery\n100% authentic - sourced directly\nPay on delivery across Egypt\nWhatsapp shade consultations - daily\nNew Arrivals\nMakeup\nSkincare\nOffers\nBrands\n‹\n›\n- SHOP BY CATEGORY\nFind your everyday.\n\nEight chapters, one boutique. Each section is curated by our in-house artist - no random listings, no padding the shelf.\n\n01\nFace\nSHOP FACE\n02\nEye\nSHOP EYE\n03\nLip\nSHOP LIP\n04\nCheek\nSHOP CHEE",
+            "overflow": false,
+            "pageErrors": []
+          },
+          {
+            "name": "arkedia",
+            "url": "https://arkediainternational.com",
+            "status": 200,
+            "finalUrl": "https://arkediainternational.com/ar",
+            "image": "C:\\Users\\sigma\\AppData\\Local\\Temp\\ayman-portfolio-phase0-20261013\\arkedia.png",
+            "title": "الرئيسية | Arkedia",
+            "h1": [],
+            "canonical": "https://arkediainternational.com/ar",
+            "images": 4,
+            "missingImages": 0,
+            "bodyExcerpt": "انتقل إلى المحتوى الرئيسي\nالرئيسية\nالمنتجات\nمن نحن\nتواصل معنا\nEN\nAR\nمختارات مميزة\nمنتجات مميزة\n\nمجموعة مختارة من المنتجات بناءً على الجودة والطلب.\n\nعرض كل المنتجات\nتصنيع مضبوط الجودة\n\nكل خط منتجات يتبع إجراءات جودة محددة لضمان الاتساق والسلامة.\n\nمعلومات منتج منظمة\n\nكل صفحة منتج تقدم إرشادات عملية حول دواعي الاستعمال وطريقة الاستخدام والاحتياطات.\n\nدعم مؤسسي موثوق\n\nاستفسارات الأطباء والموزعين والشراكات تتم إدارتها عبر فريق دعم سريع الاستجابة.\n\nأرقا",
+            "overflow": false,
+            "pageErrors": []
+          }
+        ]
+      }
+    }
+  ],
+  "Docker": {
+    "Image": "codex-secure-notes-capture:local",
+    "ExpectedImageId": "sha256:9cfc17c680a502b39c556fda55016444f640d9da31ab5758724f32a559588e02",
+    "Removed": true,
+    "ContainersBefore": 0,
+    "GlobalPruneUsed": false,
+    "BuildCacheBefore": [
+      {
+        "CreatedAt": "2026-10-14 11:38:12.836156999 +0000 UTC",
+        "Description": "local source for context",
+        "ID": "4pvym556b8pc14zyh1mgwbk6t",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": true,
+        "Parents": null,
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "4.096kB",
+        "Type": "source.local",
+        "UsageCount": 4
+      },
+      {
+        "CreatedAt": "2026-10-14 11:38:09.755719296 +0000 UTC",
+        "Description": "local source for dockerfile",
+        "ID": "ixip1i50vdaxr3j79t2l1a047",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": true,
+        "Parents": null,
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "8.192kB",
+        "Type": "source.local",
+        "UsageCount": 4
+      },
+      {
+        "CreatedAt": "2026-10-14 11:41:04.935518621 +0000 UTC",
+        "Description": "[3/6] WORKDIR /capture",
+        "ID": "orfxytfhq664uhpix66cap4pu",
+        "LastUsedAt": "32 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "mhw2yehf95ytzl5tt390jrczd"
+        ],
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "8.289kB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:41:05.187545509 +0000 UTC",
+        "Description": "[5/6] COPY CMakeLists.txt capture.cpp /capture/",
+        "ID": "rvxlrvmft3l8bxwnp8gtbk3r6",
+        "LastUsedAt": "32 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "sa3ca18i0i19k1ejpnvhz0xbj"
+        ],
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "16.38kB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:42:05.331752586 +0000 UTC",
+        "Description": "[5/6] COPY CMakeLists.txt capture.cpp /capture/",
+        "ID": "ywrvdjwvd7bmj59f48vgqbyzv",
+        "LastUsedAt": "31 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "sa3ca18i0i19k1ejpnvhz0xbj"
+        ],
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "16.38kB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:43:03.264261721 +0000 UTC",
+        "Description": "[5/6] COPY CMakeLists.txt capture.cpp qt64-logging-compat.h /capture/",
+        "ID": "ily6nadx35k8iwv8r8a1sfbsi",
+        "LastUsedAt": "30 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "sa3ca18i0i19k1ejpnvhz0xbj"
+        ],
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "20.48kB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:44:51.245185711 +0000 UTC",
+        "Description": "[5/6] COPY CMakeLists.txt capture.cpp qt64-logging-compat.h /capture/",
+        "ID": "vbc57224q4yjpl1o617hg2ein",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "sa3ca18i0i19k1ejpnvhz0xbj"
+        ],
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "21.93kB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:38:13.155402201 +0000 UTC",
+        "Description": "local source for context",
+        "ID": "2lea60jrxg4poomcehf24r7wd",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": true,
+        "Parents": null,
+        "Reclaimable": true,
+        "Shared": false,
+        "Size": "2.712MB",
+        "Type": "source.local",
+        "UsageCount": 4
+      },
+      {
+        "CreatedAt": "2026-10-14 11:41:05.065263235 +0000 UTC",
+        "Description": "[4/6] COPY original/secure-notes-ogranizer /capture/original",
+        "ID": "sa3ca18i0i19k1ejpnvhz0xbj",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "orfxytfhq664uhpix66cap4pu"
+        ],
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "3.282MB",
+        "Type": "regular",
+        "UsageCount": 4
+      },
+      {
+        "CreatedAt": "2026-10-14 11:45:34.564126957 +0000 UTC",
+        "Description": "mount / from exec /bin/sh -c cmake -S . -B build -DCMAKE_BUILD_TYPE=Release && cmake --build build -j 4",
+        "ID": "1gq8hiw30c5k1ftnv4bwt8i38",
+        "LastUsedAt": "27 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "vbc57224q4yjpl1o617hg2ein"
+        ],
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "11.41MB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:38:13.067276629 +0000 UTC",
+        "Description": "pulled from docker.io/library/ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55",
+        "ID": "lsc1ij9fo3i4p0nvyu3gq1tzq",
+        "LastUsedAt": "32 minutes ago",
+        "Mutable": false,
+        "Parents": null,
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "117.4MB",
+        "Type": "regular",
+        "UsageCount": 1
+      },
+      {
+        "CreatedAt": "2026-10-14 11:41:04.483372006 +0000 UTC",
+        "Description": "mount / from exec /bin/sh -c apt-get update && apt-get install -y --no-install-recommends g++ cmake make qt6-base-dev libboost-system-dev fonts-dejavu-core && rm -rf /var/lib/apt/lists/*",
+        "ID": "mhw2yehf95ytzl5tt390jrczd",
+        "LastUsedAt": "32 minutes ago",
+        "Mutable": false,
+        "Parents": [
+          "lsc1ij9fo3i4p0nvyu3gq1tzq"
+        ],
+        "Reclaimable": true,
+        "Shared": true,
+        "Size": "1.239GB",
+        "Type": "regular",
+        "UsageCount": 1
+      }
+    ],
+    "BuildCacheExecution": [
+      {
+        "Id": "1gq8hiw30c5k1ftnv4bwt8i38",
+        "ExitCode": 0,
+        "Output": "11.41MB reclaimed; exact ID only"
+      },
+      {
+        "Id": "vbc57224q4yjpl1o617hg2ein",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nvbc57224q4yjpl1o617hg2ein               \ttrue \t\t21.93kB   \t16 seconds ago\nTotal:\t21.93kB"
+      },
+      {
+        "Id": "ily6nadx35k8iwv8r8a1sfbsi",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nily6nadx35k8iwv8r8a1sfbsi               \ttrue \t\t20.48kB   \t30 minutes ago\nTotal:\t20.48kB"
+      },
+      {
+        "Id": "ywrvdjwvd7bmj59f48vgqbyzv",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nywrvdjwvd7bmj59f48vgqbyzv               \ttrue \t\t16.38kB   \t32 minutes ago\nTotal:\t16.38kB"
+      },
+      {
+        "Id": "rvxlrvmft3l8bxwnp8gtbk3r6",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nrvxlrvmft3l8bxwnp8gtbk3r6               \ttrue \t\t16.38kB   \t33 minutes ago\nTotal:\t16.38kB"
+      },
+      {
+        "Id": "sa3ca18i0i19k1ejpnvhz0xbj",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nsa3ca18i0i19k1ejpnvhz0xbj               \ttrue \t\t3.282MB   \tLess than a second ago\nTotal:\t3.282MB"
+      },
+      {
+        "Id": "orfxytfhq664uhpix66cap4pu",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\norfxytfhq664uhpix66cap4pu               \ttrue \t\t8.289kB   \tLess than a second ago\nTotal:\t8.289kB"
+      },
+      {
+        "Id": "mhw2yehf95ytzl5tt390jrczd",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nmhw2yehf95ytzl5tt390jrczd               \ttrue \t\t1.239GB   \tLess than a second ago\nTotal:\t1.239GB"
+      },
+      {
+        "Id": "lsc1ij9fo3i4p0nvyu3gq1tzq",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nlsc1ij9fo3i4p0nvyu3gq1tzq               \ttrue \t\t117.4MB   \t2 seconds ago\nTotal:\t117.4MB"
+      },
+      {
+        "Id": "2lea60jrxg4poomcehf24r7wd",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\n2lea60jrxg4poomcehf24r7wd*              \ttrue \t\t2.712MB   \t28 minutes ago\nTotal:\t2.712MB"
+      },
+      {
+        "Id": "4pvym556b8pc14zyh1mgwbk6t",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\n4pvym556b8pc14zyh1mgwbk6t*              \ttrue \t\t4.096kB   \t28 minutes ago\nTotal:\t4.096kB"
+      },
+      {
+        "Id": "ixip1i50vdaxr3j79t2l1a047",
+        "ExitCode": 0,
+        "Output": "ID\t\t\t\t\t\tRECLAIMABLE\tSIZE\t\tLAST ACCESSED\nixip1i50vdaxr3j79t2l1a047*              \ttrue \t\t8.192kB   \t28 minutes ago\nTotal:\t8.192kB"
+      }
+    ],
+    "BuildCacheAfter": [],
+    "ImagesAfter": [],
+    "ReclaimedLogicalBytesApproximate": 1373899747,
+    "ReclaimedByteLimit": "Approximate total from rounded Docker CLI sizes; Docker virtual-disk physical shrink was not measured."
+  },
+  "ProtectedScopesUntouched": [
+    "D:/AQ/BlitzChatbot",
+    "D:/Helixtra",
+    "Unrelated user projects",
+    "Figcraft processes and open windows",
+    "Global Node/npm/Python/browser caches"
+  ],
+  "AutomaticApprovalRejections": [
+    "Batched verified-path recursive PowerShell removal rejected: blocked by policy, no additional reason. No deletion occurred.",
+    "Simplified exact-literal-path recursive PowerShell removal rejected: blocked by policy, no additional reason. No deletion occurred."
+  ],
+  "FilesystemRemovedBytes": 0,
+  "FilesystemRemainingInventoriedBytes": 238860297.0,
+  "CompletedAtUtc": "2026-10-14T12:15:25.254065Z"
+}

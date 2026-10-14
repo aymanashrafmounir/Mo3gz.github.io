@@ -1,0 +1,118 @@
+{
+  "provider": "Devicon",
+  "license": "MIT; marks remain subject to their owners trademark terms",
+  "icons": [
+    {
+      "key": "java",
+      "label": "Java",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg",
+      "bytes": 1477
+    },
+    {
+      "key": "spring",
+      "label": "Spring Boot",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg",
+      "bytes": 943
+    },
+    {
+      "key": "typescript",
+      "label": "TypeScript",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+      "bytes": 943
+    },
+    {
+      "key": "cloudflare",
+      "label": "Cloudflare",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cloudflare/cloudflare-original.svg",
+      "bytes": 1175
+    },
+    {
+      "key": "python",
+      "label": "Python",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      "bytes": 2300
+    },
+    {
+      "key": "cplusplus",
+      "label": "C++",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+      "bytes": 1143
+    },
+    {
+      "key": "react",
+      "label": "React",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+      "bytes": 2387
+    },
+    {
+      "key": "postgresql",
+      "label": "PostgreSQL",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+      "bytes": 9178
+    },
+    {
+      "key": "mysql",
+      "label": "MySQL",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
+      "bytes": 2765
+    },
+    {
+      "key": "sqlite",
+      "label": "SQLite",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg",
+      "bytes": 2422
+    },
+    {
+      "key": "docker",
+      "label": "Docker",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+      "bytes": 4452
+    },
+    {
+      "key": "git",
+      "label": "Git",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+      "bytes": 778
+    },
+    {
+      "key": "vitest",
+      "label": "Vitest",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vitest/vitest-original.svg",
+      "bytes": 973
+    },
+    {
+      "key": "playwright",
+      "label": "Playwright",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/playwright/playwright-original.svg",
+      "bytes": 3760
+    },
+    {
+      "key": "qt",
+      "label": "Qt",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/qt/qt-original.svg",
+      "bytes": 1048
+    },
+    {
+      "key": "hono",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "key": "github",
+      "label": "GitHub",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg",
+      "bytes": 1866
+    },
+    {
+      "key": "linkedin",
+      "label": "LinkedIn",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg",
+      "bytes": 476
+    },
+    {
+      "key": "javascript",
+      "label": "JavaScript",
+      "source": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      "bytes": 1144
+    }
+  ]
+}

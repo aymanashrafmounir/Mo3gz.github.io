@@ -1,0 +1,123 @@
+{
+  "reopened": true,
+  "document": {
+    "colorProfile": "srgb",
+    "currentPage": 38,
+    "dirty": false,
+    "history": {
+      "redo": 0,
+      "undo": []
+    },
+    "images": 20,
+    "name": "Ayman Portfolio V2",
+    "pages": [
+      {
+        "background": "#F5F5F5",
+        "childCount": 2,
+        "id": 1,
+        "name": "Foundations and interaction states",
+        "type": "PAGE"
+      },
+      {
+        "background": "#F5F5F5",
+        "childCount": 22,
+        "flows": [
+          {
+            "description": "",
+            "name": "Portfolio 1440",
+            "start": 41
+          }
+        ],
+        "id": 38,
+        "name": "Desktop / 1440",
+        "type": "PAGE"
+      },
+      {
+        "background": "#F5F5F5",
+        "childCount": 23,
+        "flows": [
+          {
+            "description": "",
+            "name": "Portfolio 768",
+            "start": 1632
+          }
+        ],
+        "id": 39,
+        "name": "Tablet / 768",
+        "type": "PAGE"
+      },
+      {
+        "background": "#F5F5F5",
+        "childCount": 23,
+        "flows": [
+          {
+            "description": "",
+            "name": "Portfolio 390",
+            "start": 2952
+          }
+        ],
+        "id": 40,
+        "name": "Mobile / 390",
+        "type": "PAGE"
+      }
+    ],
+    "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft",
+    "selection": [],
+    "styles": [
+      {
+        "id": "S:1",
+        "name": "Color/Paper",
+        "type": "paint"
+      },
+      {
+        "id": "S:2",
+        "name": "Color/Surface",
+        "type": "paint"
+      },
+      {
+        "id": "S:3",
+        "name": "Color/Foreground",
+        "type": "paint"
+      },
+      {
+        "id": "S:4",
+        "name": "Color/Secondary",
+        "type": "paint"
+      },
+      {
+        "id": "S:5",
+        "name": "Color/Rust",
+        "type": "paint"
+      },
+      {
+        "id": "S:6",
+        "name": "Color/Focus",
+        "type": "paint"
+      },
+      {
+        "id": "S:7",
+        "name": "Type/Display",
+        "type": "text"
+      },
+      {
+        "id": "S:8",
+        "name": "Type/Heading",
+        "type": "text"
+      },
+      {
+        "id": "S:9",
+        "name": "Type/Body",
+        "type": "text"
+      },
+      {
+        "id": "S:10",
+        "name": "Type/Label",
+        "type": "text"
+      }
+    ],
+    "textEdit": null,
+    "variables": 0
+  },
+  "previewSource": "Native Figcraft slice export from reopened document",
+  "note": "Review slices are transient; the editable document is unchanged."
+}

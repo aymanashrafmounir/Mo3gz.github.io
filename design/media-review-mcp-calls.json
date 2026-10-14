@@ -1,0 +1,2970 @@
+[
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 20,
+      "allPages": true
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5055,
+          5060,
+          5061,
+          5065
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 6005,
+        "x": 0,
+        "y": 0,
+        "width": 404.0,
+        "height": 224.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          6006
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 4531,
+        "x": 0,
+        "y": 0,
+        "width": 590.0,
+        "height": 410.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4532
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5136,
+          5141,
+          5142,
+          5146
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5217,
+          5222,
+          5223,
+          5227
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 6256,
+        "x": 0,
+        "y": 0,
+        "width": 404.0,
+        "height": 224.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          6257
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5345,
+          5350,
+          5351,
+          5355
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 6498,
+        "x": 0,
+        "y": 0,
+        "width": 331.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          6499
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 4718,
+        "x": 0,
+        "y": 0,
+        "width": 688.0,
+        "height": 365.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4719
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5426,
+          5431,
+          5432,
+          5436
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5507,
+          5512,
+          5513,
+          5517
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 6749,
+        "x": 0,
+        "y": 0,
+        "width": 331.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          6750
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5636,
+          5641,
+          5642,
+          5646
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 6991,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          6992
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 4905,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 235.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          4906
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5717,
+          5722,
+          5723,
+          5727
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          5798,
+          5803,
+          5804,
+          5808
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "image.place",
+      "params": {
+        "path": "D:\\aymanashraf.me\\design\\assets\\captures\\quantitator-app.png",
+        "parent": 7242,
+        "x": 0,
+        "y": 0,
+        "width": 342.0,
+        "height": 210.0,
+        "mode": "fit"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          7243
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 295,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          297
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 273,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7841,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7841,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 381,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          383
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 359,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7843,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7843,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 467,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          469
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 445,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7845,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7845,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 551,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          553
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 529,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7847,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7847,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 635,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          637
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 611,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7849,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7849,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4465,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 695,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7851,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7851,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4478,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 774,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7853,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7853,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 871,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          873
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 849,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7855,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7855,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4506,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 937,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7857,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7857,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4517,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 1012,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7859,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7859,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4531,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 770.0,
+      "y": 596.0,
+      "width": 590.0,
+      "height": 44,
+      "parent": 1087,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 590.0,
+      "parent": 7861,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7861,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 1858,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          1860
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 1844,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7863,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7863,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 1925,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          1927
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 1911,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7865,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7865,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 1992,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          1994
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 1978,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7867,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7867,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 2057,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          2059
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2043,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7869,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7869,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 2124,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          2126
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2108,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7871,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7871,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4652,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2175,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7873,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7873,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4665,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 927.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2237,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7875,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7875,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 2309,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          2311
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2295,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7877,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7877,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4693,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 937.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2364,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7879,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7879,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4704,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2422,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7881,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7881,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4718,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 40.0,
+      "y": 963.0,
+      "width": 688.0,
+      "height": 44,
+      "parent": 2480,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 688.0,
+      "parent": 7883,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7883,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3178,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3180
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3164,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7885,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7885,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/helixtra-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3245,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3247
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3231,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7887,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7887,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/wear-instant-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3312,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3314
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3298,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7889,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7889,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/ibrahim-awad-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3377,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3379
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3363,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7891,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7891,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/tapora-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3444,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3446
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3428,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7893,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7893,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/maysa-waheed-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4839,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3495,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7895,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7895,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/supreme-sparkle-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4852,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 797.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3557,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7897,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7897,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/blitzchatbot-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 3629,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          3631
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3615,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7899,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7899,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/arkedia-loaded.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4880,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3684,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7901,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7901,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/cheque-printer-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4891,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3742,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7903,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7903,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/artline-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 4905,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "Open original full-size screenshot",
+      "x": 24.0,
+      "y": 848.0,
+      "width": 342.0,
+      "height": 44,
+      "parent": 3800,
+      "props": {
+        "fills": []
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "View full-size screenshot",
+      "text": "View full-size screenshot \u2197",
+      "x": 0,
+      "y": 11,
+      "width": 342.0,
+      "parent": 7905,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": 19,
+        "fill": "#AE3A24",
+        "textAutoResize": "height"
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 7905,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/quantitator-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "save_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  }
+]

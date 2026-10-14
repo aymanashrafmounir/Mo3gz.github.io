@@ -1,0 +1,2776 @@
+[
+  {
+    "key": "A",
+    "name": "Daylight / warm white + rust",
+    "bg": "#F5F2EC",
+    "fg": "#26251F",
+    "muted": "#645D53",
+    "accent": "#AE3A24",
+    "line": "#D4C9BC",
+    "scene": "Recruiter reading a personal portfolio on a laptop in daylight; natural portrait and bright canvas.",
+    "voice": [
+      "personal",
+      "sunlit",
+      "grounded"
+    ],
+    "id": 2,
+    "export": "D:\\aymanashraf.me\\design\\directions\\direction-A.png",
+    "node": {
+      "absoluteBounds": {
+        "height": 1180,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "children": [
+        {
+          "absoluteBounds": {
+            "height": 24,
+            "width": 430,
+            "x": 80,
+            "y": 32
+          },
+          "characters": "Ayman Ashraf Mounir",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 19,
+          "fontStyle": "SemiBold",
+          "height": 24,
+          "id": 3,
+          "letterSpacing": "0",
+          "lineHeight": "24",
+          "name": "Ayman Ashraf Mounir",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 430,
+          "x": 80,
+          "y": 32
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 910,
+            "y": 35
+          },
+          "characters": "Projects",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 4,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Projects",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 910,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 1030,
+            "y": 35
+          },
+          "characters": "About",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 5,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "About",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1030,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 1150,
+            "y": 35
+          },
+          "characters": "Resume",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 6,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Resume",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1150,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 1270,
+            "y": 35
+          },
+          "characters": "Contact",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 7,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Contact",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1270,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 1,
+            "width": 1280,
+            "x": 80,
+            "y": 86
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#D4C9BC",
+              "type": "solid"
+            }
+          ],
+          "height": 1,
+          "id": 8,
+          "name": "Header rule",
+          "type": "RECTANGLE",
+          "width": 1280,
+          "x": 80,
+          "y": 86
+        },
+        {
+          "absoluteBounds": {
+            "height": 21,
+            "width": 700,
+            "x": 80,
+            "y": 142
+          },
+          "characters": "Software Engineer · Cairo, Egypt",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#AE3A24",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 17,
+          "fontStyle": "SemiBold",
+          "height": 21,
+          "id": 9,
+          "letterSpacing": "0",
+          "lineHeight": "21",
+          "name": "Software Engineer · Cairo, Egypt",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 700,
+          "x": 80,
+          "y": 142
+        },
+        {
+          "absoluteBounds": {
+            "height": 200,
+            "width": 760,
+            "x": 80,
+            "y": 202
+          },
+          "characters": "Ayman Ashraf\nMounir",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 80,
+          "fontStyle": "Bold",
+          "height": 200,
+          "id": 10,
+          "letterSpacing": "-1.5",
+          "lineHeight": "100",
+          "name": "Ayman Ashraf\nMounir",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 760,
+          "x": 80,
+          "y": 202
+        },
+        {
+          "absoluteBounds": {
+            "height": 56,
+            "width": 620,
+            "x": 80,
+            "y": 448
+          },
+          "characters": "I build backend systems and complete software products, from architecture to production.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#645D53",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 22,
+          "fontStyle": "Regular",
+          "height": 56,
+          "id": 11,
+          "letterSpacing": "0",
+          "lineHeight": "28",
+          "name": "I build backend systems and complete software products, from",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 80,
+          "y": 448
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 190,
+            "x": 80,
+            "y": 574
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 155,
+                "x": 100,
+                "y": 590
+              },
+              "characters": "Explore my work",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#F5F2EC",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 13,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "Explore my work",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 155,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#AE3A24",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 12,
+          "name": "Explore my work",
+          "type": "FRAME",
+          "width": 190,
+          "x": 80,
+          "y": 574
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 174,
+            "x": 290,
+            "y": 574
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 139,
+                "x": 310,
+                "y": 590
+              },
+              "characters": "Download CV",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#26251F",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 15,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "Download CV",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 139,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#F5F2EC",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 14,
+          "name": "Download CV",
+          "strokeAlign": "inside",
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "color": "#D4C9BC",
+              "type": "solid"
+            }
+          ],
+          "type": "FRAME",
+          "width": 174,
+          "x": 290,
+          "y": 574
+        },
+        {
+          "absoluteBounds": {
+            "height": 480,
+            "width": 360,
+            "x": 962,
+            "y": 163
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 480,
+                "width": 360,
+                "x": 962,
+                "y": 163
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "fbacbc6c924d1c143b4e7ee17d4e046d1b52441fbb56fd77ff6039ca4cefcd14",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 480,
+              "id": 17,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 360,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 480,
+          "id": 16,
+          "name": "Original portfolio portrait, unchanged",
+          "type": "FRAME",
+          "width": 360,
+          "x": 962,
+          "y": 163
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 360,
+            "x": 962,
+            "y": 663
+          },
+          "characters": "A face behind the work.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#645D53",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 18,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "A face behind the work.",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 360,
+          "x": 962,
+          "y": 663
+        },
+        {
+          "absoluteBounds": {
+            "height": 45,
+            "width": 700,
+            "x": 80,
+            "y": 760
+          },
+          "characters": "Selected work",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 36,
+          "fontStyle": "SemiBold",
+          "height": 45,
+          "id": 19,
+          "letterSpacing": "0",
+          "lineHeight": "45",
+          "name": "Selected work",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 700,
+          "x": 80,
+          "y": 760
+        },
+        {
+          "absoluteBounds": {
+            "height": 240,
+            "width": 620,
+            "x": 80,
+            "y": 835
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 240,
+                "width": 620,
+                "x": 80,
+                "y": 835
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 240,
+              "id": 21,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 620,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 5,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 240,
+          "id": 20,
+          "name": "Actual public project capture",
+          "type": "FRAME",
+          "width": 620,
+          "x": 80,
+          "y": 835
+        },
+        {
+          "absoluteBounds": {
+            "height": 29,
+            "width": 620,
+            "x": 80,
+            "y": 1096
+          },
+          "characters": "Helixtra",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 23,
+          "fontStyle": "SemiBold",
+          "height": 29,
+          "id": 22,
+          "letterSpacing": "0",
+          "lineHeight": "29",
+          "name": "Helixtra",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 80,
+          "y": 1096
+        },
+        {
+          "absoluteBounds": {
+            "height": 240,
+            "width": 620,
+            "x": 740,
+            "y": 835
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 240,
+                "width": 620,
+                "x": 740,
+                "y": 835
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "06a567bd98a5b127301b1c590e8c18d0860dee6c0051ea85a16f356e23f22f90",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 240,
+              "id": 24,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 620,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 5,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 240,
+          "id": 23,
+          "name": "Actual public project capture",
+          "type": "FRAME",
+          "width": 620,
+          "x": 740,
+          "y": 835
+        },
+        {
+          "absoluteBounds": {
+            "height": 29,
+            "width": 620,
+            "x": 740,
+            "y": 1096
+          },
+          "characters": "Wear Instant",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#26251F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 23,
+          "fontStyle": "SemiBold",
+          "height": 29,
+          "id": 25,
+          "letterSpacing": "0",
+          "lineHeight": "29",
+          "name": "Wear Instant",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 740,
+          "y": 1096
+        }
+      ],
+      "clip": true,
+      "fills": [
+        {
+          "color": "#F5F2EC",
+          "type": "solid"
+        }
+      ],
+      "height": 1180,
+      "id": 2,
+      "name": "A / Daylight / warm white + rust",
+      "type": "FRAME",
+      "width": 1440,
+      "x": 0,
+      "y": 0
+    }
+  },
+  {
+    "key": "B",
+    "name": "Charcoal / amber orange",
+    "bg": "#1C1B19",
+    "fg": "#F2EDE4",
+    "muted": "#BDB4A6",
+    "accent": "#F6A35F",
+    "line": "#51483F",
+    "scene": "Founder exploring actual shipped work in a quiet evening workspace; warm contrast and real product imagery.",
+    "voice": [
+      "direct",
+      "warm",
+      "practical"
+    ],
+    "id": 26,
+    "export": "D:\\aymanashraf.me\\design\\directions\\direction-B.png",
+    "node": {
+      "absoluteBounds": {
+        "height": 1180,
+        "width": 1440,
+        "x": 1640,
+        "y": 0
+      },
+      "children": [
+        {
+          "absoluteBounds": {
+            "height": 24,
+            "width": 430,
+            "x": 1720,
+            "y": 32
+          },
+          "characters": "Ayman Ashraf Mounir",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 19,
+          "fontStyle": "SemiBold",
+          "height": 24,
+          "id": 27,
+          "letterSpacing": "0",
+          "lineHeight": "24",
+          "name": "Ayman Ashraf Mounir",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 430,
+          "x": 80,
+          "y": 32
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 2550,
+            "y": 35
+          },
+          "characters": "Projects",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 28,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Projects",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 910,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 2670,
+            "y": 35
+          },
+          "characters": "About",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 29,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "About",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1030,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 2790,
+            "y": 35
+          },
+          "characters": "Resume",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 30,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Resume",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1150,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 2910,
+            "y": 35
+          },
+          "characters": "Contact",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 31,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Contact",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1270,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 1,
+            "width": 1280,
+            "x": 1720,
+            "y": 86
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#51483F",
+              "type": "solid"
+            }
+          ],
+          "height": 1,
+          "id": 32,
+          "name": "Header rule",
+          "type": "RECTANGLE",
+          "width": 1280,
+          "x": 80,
+          "y": 86
+        },
+        {
+          "absoluteBounds": {
+            "height": 23,
+            "width": 610,
+            "x": 1720,
+            "y": 148
+          },
+          "characters": "Software Engineer, Backend Focused",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F6A35F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 18,
+          "fontStyle": "Medium",
+          "height": 23,
+          "id": 33,
+          "letterSpacing": "0",
+          "lineHeight": "23",
+          "name": "Software Engineer, Backend Focused",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 610,
+          "x": 80,
+          "y": 148
+        },
+        {
+          "absoluteBounds": {
+            "height": 170,
+            "width": 680,
+            "x": 1720,
+            "y": 212
+          },
+          "characters": "Ayman\nAshraf Mounir",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 68,
+          "fontStyle": "Bold",
+          "height": 170,
+          "id": 34,
+          "letterSpacing": "-1.5",
+          "lineHeight": "85",
+          "name": "Ayman\nAshraf Mounir",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 680,
+          "x": 80,
+          "y": 212
+        },
+        {
+          "absoluteBounds": {
+            "height": 62,
+            "width": 590,
+            "x": 1720,
+            "y": 430
+          },
+          "characters": "Backend systems. Full product delivery.\nBuilt around real problems.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#BDB4A6",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 25,
+          "fontStyle": "Regular",
+          "height": 62,
+          "id": 35,
+          "letterSpacing": "0",
+          "lineHeight": "31",
+          "name": "Backend systems. Full product delivery.\nBuilt around real pr",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 590,
+          "x": 80,
+          "y": 430
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 174,
+            "x": 1720,
+            "y": 553
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 139,
+                "x": 1740,
+                "y": 569
+              },
+              "characters": "View projects",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#1C1B19",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 37,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "View projects",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 139,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#F6A35F",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 36,
+          "name": "View projects",
+          "type": "FRAME",
+          "width": 174,
+          "x": 80,
+          "y": 553
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 174,
+            "x": 1914,
+            "y": 553
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 139,
+                "x": 1934,
+                "y": 569
+              },
+              "characters": "Get in touch",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#F2EDE4",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 39,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "Get in touch",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 139,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#1C1B19",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 38,
+          "name": "Get in touch",
+          "strokeAlign": "inside",
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "color": "#51483F",
+              "type": "solid"
+            }
+          ],
+          "type": "FRAME",
+          "width": 174,
+          "x": 274,
+          "y": 553
+        },
+        {
+          "absoluteBounds": {
+            "height": 396,
+            "width": 570,
+            "x": 2430,
+            "y": 177
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 396,
+                "width": 570,
+                "x": 2430,
+                "y": 177
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 396,
+              "id": 41,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 570,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 8,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 396,
+          "id": 40,
+          "name": "Actual Helixtra marketing capture",
+          "type": "FRAME",
+          "width": 570,
+          "x": 790,
+          "y": 177
+        },
+        {
+          "absoluteBounds": {
+            "height": 323,
+            "width": 248,
+            "x": 2752,
+            "y": 487
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 12,
+          "fills": [
+            {
+              "color": "#1C1B19",
+              "type": "solid"
+            }
+          ],
+          "height": 323,
+          "id": 42,
+          "name": "Portrait backing",
+          "type": "RECTANGLE",
+          "width": 248,
+          "x": 1112,
+          "y": 487
+        },
+        {
+          "absoluteBounds": {
+            "height": 283,
+            "width": 212,
+            "x": 2770,
+            "y": 505
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 283,
+                "width": 212,
+                "x": 2770,
+                "y": 505
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "fbacbc6c924d1c143b4e7ee17d4e046d1b52441fbb56fd77ff6039ca4cefcd14",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 283,
+              "id": 44,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 212,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 7,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 283,
+          "id": 43,
+          "name": "Original personal portrait, unchanged",
+          "type": "FRAME",
+          "width": 212,
+          "x": 1130,
+          "y": 505
+        },
+        {
+          "absoluteBounds": {
+            "height": 30,
+            "width": 290,
+            "x": 2430,
+            "y": 600
+          },
+          "characters": "Helixtra",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 24,
+          "fontStyle": "SemiBold",
+          "height": 30,
+          "id": 45,
+          "letterSpacing": "0",
+          "lineHeight": "30",
+          "name": "Helixtra",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 290,
+          "x": 790,
+          "y": 600
+        },
+        {
+          "absoluteBounds": {
+            "height": 20,
+            "width": 290,
+            "x": 2430,
+            "y": 642
+          },
+          "characters": "Clinic management SaaS",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#BDB4A6",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 16,
+          "fontStyle": "Regular",
+          "height": 20,
+          "id": 46,
+          "letterSpacing": "0",
+          "lineHeight": "20",
+          "name": "Clinic management SaaS",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 290,
+          "x": 790,
+          "y": 642
+        },
+        {
+          "absoluteBounds": {
+            "height": 20,
+            "width": 500,
+            "x": 1720,
+            "y": 664
+          },
+          "characters": "Cairo, Egypt",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#BDB4A6",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 16,
+          "fontStyle": "Regular",
+          "height": 20,
+          "id": 47,
+          "letterSpacing": "0",
+          "lineHeight": "20",
+          "name": "Cairo, Egypt",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 500,
+          "x": 80,
+          "y": 664
+        },
+        {
+          "absoluteBounds": {
+            "height": 1,
+            "width": 1280,
+            "x": 1720,
+            "y": 828
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#51483F",
+              "type": "solid"
+            }
+          ],
+          "height": 1,
+          "id": 48,
+          "name": "Work divider",
+          "type": "RECTANGLE",
+          "width": 1280,
+          "x": 80,
+          "y": 828
+        },
+        {
+          "absoluteBounds": {
+            "height": 45,
+            "width": 640,
+            "x": 1720,
+            "y": 870
+          },
+          "characters": "A selection of my work",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 36,
+          "fontStyle": "SemiBold",
+          "height": 45,
+          "id": 49,
+          "letterSpacing": "0",
+          "lineHeight": "45",
+          "name": "A selection of my work",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 640,
+          "x": 80,
+          "y": 870
+        },
+        {
+          "absoluteBounds": {
+            "height": 35,
+            "width": 620,
+            "x": 1720,
+            "y": 966
+          },
+          "characters": "Wear Instant",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F6A35F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 28,
+          "fontStyle": "SemiBold",
+          "height": 35,
+          "id": 50,
+          "letterSpacing": "0",
+          "lineHeight": "35",
+          "name": "Wear Instant",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 80,
+          "y": 966
+        },
+        {
+          "absoluteBounds": {
+            "height": 23,
+            "width": 620,
+            "x": 1720,
+            "y": 1018
+          },
+          "characters": "Virtual try-on · private image handling",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#BDB4A6",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 18,
+          "fontStyle": "Regular",
+          "height": 23,
+          "id": 51,
+          "letterSpacing": "0",
+          "lineHeight": "23",
+          "name": "Virtual try-on · private image handling",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 80,
+          "y": 1018
+        },
+        {
+          "absoluteBounds": {
+            "height": 20,
+            "width": 620,
+            "x": 1720,
+            "y": 1080
+          },
+          "characters": "Explore project →",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 16,
+          "fontStyle": "Regular",
+          "height": 20,
+          "id": 52,
+          "letterSpacing": "0",
+          "lineHeight": "20",
+          "name": "Explore project →",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 80,
+          "y": 1080
+        },
+        {
+          "absoluteBounds": {
+            "height": 35,
+            "width": 620,
+            "x": 2380,
+            "y": 966
+          },
+          "characters": "Arkedia",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F6A35F",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 28,
+          "fontStyle": "SemiBold",
+          "height": 35,
+          "id": 53,
+          "letterSpacing": "0",
+          "lineHeight": "35",
+          "name": "Arkedia",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 740,
+          "y": 966
+        },
+        {
+          "absoluteBounds": {
+            "height": 23,
+            "width": 620,
+            "x": 2380,
+            "y": 1018
+          },
+          "characters": "Commerce · Java backend engineering",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#BDB4A6",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 18,
+          "fontStyle": "Regular",
+          "height": 23,
+          "id": 54,
+          "letterSpacing": "0",
+          "lineHeight": "23",
+          "name": "Commerce · Java backend engineering",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 740,
+          "y": 1018
+        },
+        {
+          "absoluteBounds": {
+            "height": 20,
+            "width": 620,
+            "x": 2380,
+            "y": 1080
+          },
+          "characters": "Explore project →",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#F2EDE4",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 16,
+          "fontStyle": "Regular",
+          "height": 20,
+          "id": 55,
+          "letterSpacing": "0",
+          "lineHeight": "20",
+          "name": "Explore project →",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 620,
+          "x": 740,
+          "y": 1080
+        }
+      ],
+      "clip": true,
+      "fills": [
+        {
+          "color": "#1C1B19",
+          "type": "solid"
+        }
+      ],
+      "height": 1180,
+      "id": 26,
+      "name": "B / Charcoal / amber orange",
+      "type": "FRAME",
+      "width": 1440,
+      "x": 1640,
+      "y": 0
+    }
+  },
+  {
+    "key": "C",
+    "name": "Evergreen / citron",
+    "bg": "#DBE78B",
+    "fg": "#173D31",
+    "muted": "#3C5740",
+    "accent": "#173D31",
+    "line": "#93A65D",
+    "scene": "Hiring manager opening a memorable personal introduction in a bright workspace; green and citron connect to the outdoor portrait.",
+    "voice": [
+      "lively",
+      "open",
+      "recognizable"
+    ],
+    "id": 56,
+    "export": "D:\\aymanashraf.me\\design\\directions\\direction-C.png",
+    "node": {
+      "absoluteBounds": {
+        "height": 1180,
+        "width": 1440,
+        "x": 3280,
+        "y": 0
+      },
+      "children": [
+        {
+          "absoluteBounds": {
+            "height": 24,
+            "width": 430,
+            "x": 3360,
+            "y": 32
+          },
+          "characters": "Ayman Ashraf Mounir",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 19,
+          "fontStyle": "SemiBold",
+          "height": 24,
+          "id": 57,
+          "letterSpacing": "0",
+          "lineHeight": "24",
+          "name": "Ayman Ashraf Mounir",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 430,
+          "x": 80,
+          "y": 32
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 4190,
+            "y": 35
+          },
+          "characters": "Projects",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 58,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Projects",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 910,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 4310,
+            "y": 35
+          },
+          "characters": "About",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 59,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "About",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1030,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 4430,
+            "y": 35
+          },
+          "characters": "Resume",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 60,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Resume",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1150,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 19,
+            "width": 100,
+            "x": 4550,
+            "y": 35
+          },
+          "characters": "Contact",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 15,
+          "fontStyle": "Regular",
+          "height": 19,
+          "id": 61,
+          "letterSpacing": "0",
+          "lineHeight": "19",
+          "name": "Contact",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 100,
+          "x": 1270,
+          "y": 35
+        },
+        {
+          "absoluteBounds": {
+            "height": 1,
+            "width": 1280,
+            "x": 3360,
+            "y": 86
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#93A65D",
+              "type": "solid"
+            }
+          ],
+          "height": 1,
+          "id": 62,
+          "name": "Header rule",
+          "type": "RECTANGLE",
+          "width": 1280,
+          "x": 80,
+          "y": 86
+        },
+        {
+          "absoluteBounds": {
+            "height": 440,
+            "width": 330,
+            "x": 3360,
+            "y": 167
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 440,
+                "width": 330,
+                "x": 3360,
+                "y": 167
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "fbacbc6c924d1c143b4e7ee17d4e046d1b52441fbb56fd77ff6039ca4cefcd14",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 440,
+              "id": 64,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 330,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 440,
+          "id": 63,
+          "name": "Original outdoor portrait, unchanged",
+          "type": "FRAME",
+          "width": 330,
+          "x": 80,
+          "y": 167
+        },
+        {
+          "absoluteBounds": {
+            "height": 23,
+            "width": 810,
+            "x": 3750,
+            "y": 169
+          },
+          "characters": "Software Engineer / Cairo",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 18,
+          "fontStyle": "Medium",
+          "height": 23,
+          "id": 65,
+          "letterSpacing": "0",
+          "lineHeight": "23",
+          "name": "Software Engineer / Cairo",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 810,
+          "x": 470,
+          "y": 169
+        },
+        {
+          "absoluteBounds": {
+            "height": 190,
+            "width": 850,
+            "x": 3750,
+            "y": 226
+          },
+          "characters": "Ayman Ashraf\nMounir.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 76,
+          "fontStyle": "Bold",
+          "height": 190,
+          "id": 66,
+          "letterSpacing": "-1.5",
+          "lineHeight": "95",
+          "name": "Ayman Ashraf\nMounir.",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 850,
+          "x": 470,
+          "y": 226
+        },
+        {
+          "absoluteBounds": {
+            "height": 58,
+            "width": 740,
+            "x": 3750,
+            "y": 452
+          },
+          "characters": "I build backend systems and complete software products, from architecture to production.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#3C5740",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 23,
+          "fontStyle": "Regular",
+          "height": 58,
+          "id": 67,
+          "letterSpacing": "0",
+          "lineHeight": "29",
+          "name": "I build backend systems and complete software products, from",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 740,
+          "x": 470,
+          "y": 452
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 194,
+            "x": 3750,
+            "y": 574
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 159,
+                "x": 3770,
+                "y": 590
+              },
+              "characters": "Explore my work",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#DBE78B",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 69,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "Explore my work",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 159,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 68,
+          "name": "Explore my work",
+          "type": "FRAME",
+          "width": 194,
+          "x": 470,
+          "y": 574
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 180,
+            "x": 3964,
+            "y": 574
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 19,
+                "width": 145,
+                "x": 3984,
+                "y": 590
+              },
+              "characters": "Download CV",
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "color": "#173D31",
+                  "type": "solid"
+                }
+              ],
+              "fontFamily": "Mona Sans",
+              "fontSize": 15,
+              "fontStyle": "SemiBold",
+              "height": 19,
+              "id": 71,
+              "letterSpacing": "0",
+              "lineHeight": "19",
+              "name": "Download CV",
+              "sizing": {
+                "horizontal": "fixed",
+                "vertical": "hug"
+              },
+              "textAlign": "left",
+              "textAutoResize": "height",
+              "type": "TEXT",
+              "width": 145,
+              "x": 20,
+              "y": 16
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 6,
+          "fills": [
+            {
+              "color": "#DBE78B",
+              "type": "solid"
+            }
+          ],
+          "height": 52,
+          "id": 70,
+          "name": "Download CV",
+          "strokeAlign": "inside",
+          "strokeWeight": 1,
+          "strokes": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "type": "FRAME",
+          "width": 180,
+          "x": 684,
+          "y": 574
+        },
+        {
+          "absoluteBounds": {
+            "height": 30,
+            "width": 1000,
+            "x": 3360,
+            "y": 660
+          },
+          "characters": "Backend focused. Built for people.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 24,
+          "fontStyle": "Medium",
+          "height": 30,
+          "id": 72,
+          "letterSpacing": "0",
+          "lineHeight": "30",
+          "name": "Backend focused. Built for people.",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 1000,
+          "x": 80,
+          "y": 660
+        },
+        {
+          "absoluteBounds": {
+            "height": 428,
+            "width": 1440,
+            "x": 3280,
+            "y": 752
+          },
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#173D31",
+              "type": "solid"
+            }
+          ],
+          "height": 428,
+          "id": 73,
+          "name": "Work surface",
+          "type": "RECTANGLE",
+          "width": 1440,
+          "x": 0,
+          "y": 752
+        },
+        {
+          "absoluteBounds": {
+            "height": 44,
+            "width": 480,
+            "x": 3360,
+            "y": 797
+          },
+          "characters": "Selected work",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#DBE78B",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 35,
+          "fontStyle": "SemiBold",
+          "height": 44,
+          "id": 74,
+          "letterSpacing": "0",
+          "lineHeight": "44",
+          "name": "Selected work",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 480,
+          "x": 80,
+          "y": 797
+        },
+        {
+          "absoluteBounds": {
+            "height": 34,
+            "width": 500,
+            "x": 3360,
+            "y": 898
+          },
+          "characters": "Helixtra",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#DBE78B",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 27,
+          "fontStyle": "SemiBold",
+          "height": 34,
+          "id": 75,
+          "letterSpacing": "0",
+          "lineHeight": "34",
+          "name": "Helixtra",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 500,
+          "x": 80,
+          "y": 898
+        },
+        {
+          "absoluteBounds": {
+            "height": 52,
+            "width": 500,
+            "x": 3360,
+            "y": 947
+          },
+          "characters": "Clinic workflows, role-scoped APIs\nand coordinated operations.",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#CAD6C5",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 21,
+          "fontStyle": "Regular",
+          "height": 52,
+          "id": 76,
+          "letterSpacing": "0",
+          "lineHeight": "26",
+          "name": "Clinic workflows, role-scoped APIs\nand coordinated operation",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 500,
+          "x": 80,
+          "y": 947
+        },
+        {
+          "absoluteBounds": {
+            "height": 21,
+            "width": 500,
+            "x": 3360,
+            "y": 1063
+          },
+          "characters": "Read the case study →",
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "fills": [
+            {
+              "color": "#DBE78B",
+              "type": "solid"
+            }
+          ],
+          "fontFamily": "Mona Sans",
+          "fontSize": 17,
+          "fontStyle": "Regular",
+          "height": 21,
+          "id": 77,
+          "letterSpacing": "0",
+          "lineHeight": "21",
+          "name": "Read the case study →",
+          "sizing": {
+            "horizontal": "fixed",
+            "vertical": "hug"
+          },
+          "textAlign": "left",
+          "textAutoResize": "height",
+          "type": "TEXT",
+          "width": 500,
+          "x": 80,
+          "y": 1063
+        },
+        {
+          "absoluteBounds": {
+            "height": 339,
+            "width": 610,
+            "x": 4030,
+            "y": 798
+          },
+          "children": [
+            {
+              "absoluteBounds": {
+                "height": 339,
+                "width": 610,
+                "x": 4030,
+                "y": 798
+              },
+              "constraints": {
+                "horizontal": "left",
+                "vertical": "top"
+              },
+              "fills": [
+                {
+                  "blend": "normal",
+                  "crop": null,
+                  "filters": {
+                    "contrast": 0,
+                    "exposure": 0,
+                    "highlights": 0,
+                    "saturation": 0,
+                    "shadows": 0,
+                    "temperature": 0,
+                    "tint": 0
+                  },
+                  "image": "12cb071f90d9b80c4a791d1011350f723571475efb38240ff3e1ef92645cddb1",
+                  "opacity": 1,
+                  "rotation": 0,
+                  "scale": 1,
+                  "scale_mode": "fill",
+                  "type": "image",
+                  "visible": true
+                }
+              ],
+              "height": 339,
+              "id": 79,
+              "name": "Image",
+              "type": "RECTANGLE",
+              "width": 610,
+              "x": 0,
+              "y": 0
+            }
+          ],
+          "clip": true,
+          "constraints": {
+            "horizontal": "left",
+            "vertical": "top"
+          },
+          "cornerRadius": 4,
+          "fills": [
+            {
+              "color": "#FFFFFF",
+              "type": "solid"
+            }
+          ],
+          "height": 339,
+          "id": 78,
+          "name": "Actual Helixtra public marketing capture",
+          "type": "FRAME",
+          "width": 610,
+          "x": 750,
+          "y": 798
+        }
+      ],
+      "clip": true,
+      "fills": [
+        {
+          "color": "#DBE78B",
+          "type": "solid"
+        }
+      ],
+      "height": 1180,
+      "id": 56,
+      "name": "C / Evergreen / citron",
+      "type": "FRAME",
+      "width": 1440,
+      "x": 3280,
+      "y": 0
+    }
+  }
+]

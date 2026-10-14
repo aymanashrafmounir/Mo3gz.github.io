@@ -1,0 +1,26 @@
+---
+import { technologyIcons } from '../lib/technologies';
+interface Props {
+  items: string[];
+}
+const { items } = Astro.props;
+---
+
+<ul class="technology-stack" aria-label="Technologies">
+  {items.map((technology) => (
+    <li>
+      {technologyIcons[technology] && (
+        <img
+          src={`/icons/${technologyIcons[technology]}.svg`}
+          width="20"
+          height="20"
+          alt=""
+          loading="lazy"
+        />
+      )}
+      <span>
+        {technology === 'Cloudflare Workers' ? 'Cloudflare' : technology}
+      </span>
+    </li>
+  ))}
+</ul>

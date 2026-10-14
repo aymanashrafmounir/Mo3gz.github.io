@@ -1,0 +1,233 @@
+{
+  "annotationFilter": "all",
+  "branchReview": null,
+  "canvas": {
+    "rect": [
+      296.0,
+      40.0,
+      1200.0,
+      900.0
+    ],
+    "renderWork": {
+      "kind": "full"
+    }
+  },
+  "colorProfileDialog": null,
+  "comments": {
+    "draft": null,
+    "editing": null,
+    "filter": "open",
+    "mentions": [],
+    "open": null,
+    "search": "",
+    "sort": "date"
+  },
+  "dark": true,
+  "devCompare": null,
+  "devFocus": null,
+  "focus": {
+    "control": "",
+    "keyboard": false,
+    "region": "canvas"
+  },
+  "frameMs": 0.7039000000000001,
+  "framesDrawn": 74,
+  "home": false,
+  "lastError": null,
+  "leftTab": "File",
+  "live": {
+    "advanced": false,
+    "chat": "",
+    "chatBox": null,
+    "chats": {},
+    "code": null,
+    "cursorsShown": [],
+    "follow": null,
+    "joinDialog": false,
+    "joinField": "",
+    "local": false,
+    "ownerDialog": false,
+    "peers": 0,
+    "publishDialog": false,
+    "publishInfo": null,
+    "readOnly": null,
+    "report": null,
+    "role": null,
+    "session": null,
+    "sessions": 0,
+    "share": null,
+    "signals": false,
+    "spotlight": null,
+    "spotlighting": false,
+    "status": "off"
+  },
+  "mainMenu": false,
+  "palette": false,
+  "presentOptions": {
+    "comments": false,
+    "deviceFrame": true,
+    "hotspotHints": true,
+    "inspect": false,
+    "scale": "fit"
+  },
+  "presenter": null,
+  "presenting": false,
+  "preview": null,
+  "reduceMotion": false,
+  "renderMs": 137.8761,
+  "repaintCauses": [
+    {
+      "at": "crates\\ui-egui\\src\\lib.rs:794",
+      "count": 72
+    },
+    {
+      "at": "crates\\ui-egui\\src\\lib.rs:979",
+      "count": 72
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:921",
+      "count": 54
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:753",
+      "count": 39
+    },
+    {
+      "at": "apps\\figcraft\\src\\main.rs:69",
+      "count": 11
+    },
+    {
+      "at": "apps\\figcraft\\src\\control_server.rs:53",
+      "count": 9
+    },
+    {
+      "at": "crates\\ui-egui\\src\\control.rs:110",
+      "count": 9
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\area.rs:642",
+      "count": 4
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\scroll_area.rs:1524",
+      "count": 4
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\context.rs:4024",
+      "count": 3
+    },
+    {
+      "at": "crates\\ui-egui\\src\\render_worker.rs:124",
+      "count": 3
+    },
+    {
+      "at": "C:\\Users\\runneradmin\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\egui-0.36.2\\src\\containers\\area.rs:554",
+      "count": 2
+    }
+  ],
+  "rightTab": "Design",
+  "status": {
+    "dirty": false,
+    "document": "Ayman Portfolio V2",
+    "documents": 1,
+    "page": 38,
+    "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft",
+    "redo": 0,
+    "selection": [
+      41
+    ],
+    "tool": "move",
+    "undo": 0,
+    "zoom": 0.5388888888888889
+  },
+  "stylePicker": null,
+  "stylePickerView": "list",
+  "textPreview": false,
+  "tool": {
+    "arcHandles": null,
+    "busy": false,
+    "overlay": {
+      "arc": null,
+      "arc_hover": null,
+      "brush": null,
+      "builder_regions": [],
+      "builder_remove": false,
+      "cursor": "Default",
+      "drop_cell": null,
+      "drop_target": null,
+      "face": [],
+      "guides": [],
+      "insert_line": null,
+      "lasso": [],
+      "marquee": null,
+      "measure_box": null,
+      "pen": [],
+      "rubber": null,
+      "scale": null,
+      "shape": null,
+      "shape_hover": null,
+      "swap_target": null,
+      "vector_hover": null,
+      "vector_hover_on": null,
+      "width_hover": null
+    },
+    "shapeHandles": [
+      {
+        "at": [
+          13.121569135420469,
+          13.121569135420469
+        ],
+        "handle": {
+          "corner": 0,
+          "kind": "radius"
+        }
+      },
+      {
+        "at": [
+          1426.8784308645795,
+          13.121569135420469
+        ],
+        "handle": {
+          "corner": 1,
+          "kind": "radius"
+        }
+      },
+      {
+        "at": [
+          1426.8784308645795,
+          5218.87843086458
+        ],
+        "handle": {
+          "corner": 2,
+          "kind": "radius"
+        }
+      },
+      {
+        "at": [
+          13.121569135420469,
+          5218.87843086458
+        ],
+        "handle": {
+          "corner": 3,
+          "kind": "radius"
+        }
+      }
+    ],
+    "tool": "move"
+  },
+  "variables": false,
+  "versionHistory": false,
+  "window": 0,
+  "windows": [
+    {
+      "active": "Ayman Portfolio V2",
+      "files": [
+        "Ayman Portfolio V2"
+      ],
+      "focused": true,
+      "id": 0,
+      "main": true,
+      "title": "Ayman Portfolio V2 \u2013 FigCraft"
+    }
+  ]
+}

@@ -1,7 +1,32 @@
 .DS_Store
 node_modules
 .idea
-package-lock.json
 .vscode/
 .idea/
 vite.config.*s.*
+
+/reference/
+
+# Local credentials and Wrangler state.
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+/.wrangler/
+
+/design/.tools/__pycache__/
+/design/pilot.figcraft
+/design/pilot-frames.json
+/design/pilot-mcp-calls.json
+
+# Local research includes rejected/private candidate captures and temporary builds.
+/design/research-candidates/
+/design/checkpoints/
+
+# Generated application output and local browser QA artifacts.
+/.astro/
+/dist/
+/output/
+/playwright-report/
+/test-results/

@@ -1,0 +1,104 @@
+---
+import { career } from '../data/profile';
+---
+
+<ol class="career-timeline" aria-label="Career history">
+  {career.map((role) => (
+    <li class:list={['career-role', { current: role.current }]}>
+      <p class="career-dates">{role.dates}</p>
+      <h3>{role.title}</h3>
+      <p class="career-company">{role.company}</p>
+      <p class="career-description">{role.description}</p>
+    </li>
+  ))}
+</ol>
+
+<style>
+  .career-timeline {
+    min-width: 0;
+    max-width: 980px;
+    margin: 0;
+    padding: 0 0 0 36px;
+    list-style: none;
+  }
+
+  .career-role {
+    position: relative;
+    padding-bottom: 44px;
+  }
+
+  .career-role:last-child {
+    padding-bottom: 0;
+  }
+
+  .career-role::before {
+    position: absolute;
+    top: 46px;
+    bottom: -46px;
+    left: -31px;
+    width: 1px;
+    background: var(--line);
+    content: '';
+  }
+
+  .career-role:last-child::before {
+    display: none;
+  }
+
+  .career-role::after {
+    position: absolute;
+    top: 41px;
+    left: -35px;
+    width: 10px;
+    height: 10px;
+    border: 1.5px solid var(--rust);
+    border-radius: 50%;
+    background: var(--paper);
+    content: '';
+  }
+
+  .career-role.current::after {
+    background: var(--rust);
+  }
+
+  .career-dates {
+    margin: 0 0 12px;
+    color: var(--rust);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: clamp(1.2rem, 2vw, 1.5rem);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .career-company {
+    margin: 0 0 14px;
+    font-size: 1rem;
+  }
+  .career-description {
+    max-width: 800px;
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  @media (max-width: 600px) {
+    .career-timeline {
+      padding-left: 28px;
+    }
+    .career-role::before {
+      left: -23px;
+    }
+    .career-role::after {
+      left: -27px;
+    }
+    .career-role {
+      padding-bottom: 36px;
+    }
+  }
+</style>

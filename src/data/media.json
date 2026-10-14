@@ -1,0 +1,194 @@
+{
+  "ayman-portrait": {
+    "original": "/media/originals/ayman-original.jpg",
+    "width": 1536,
+    "height": 2048,
+    "alt": "Ayman at a programming competition, photographed outdoors.",
+    "classification": "original-personal-photograph",
+    "variants": [
+      { "src": "/media/ayman-portrait-480.webp", "width": 480 },
+      { "src": "/media/ayman-portrait-960.webp", "width": 960 },
+      { "src": "/media/ayman-portrait-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": [
+      { "src": "/media/ayman-portrait-480.avif", "width": 480 },
+      { "src": "/media/ayman-portrait-640.avif", "width": 640 },
+      { "src": "/media/ayman-portrait-960.avif", "width": 960 },
+      { "src": "/media/ayman-portrait-1440.avif", "width": 1440 }
+    ]
+  },
+  "helixtra": {
+    "original": "/media/originals/helixtra-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Genuine public marketing website capture. The site's clinic preview is illustrative.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/helixtra-480.webp", "width": 480 },
+      { "src": "/media/helixtra-960.webp", "width": 960 },
+      { "src": "/media/helixtra-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": [
+      { "src": "/media/helixtra-480.avif", "width": 480 },
+      { "src": "/media/helixtra-640.avif", "width": 640 },
+      { "src": "/media/helixtra-960.avif", "width": 960 },
+      { "src": "/media/helixtra-1440.avif", "width": 1440 }
+    ]
+  },
+  "wear-instant": {
+    "original": "/media/originals/wear-instant-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Genuine public marketing capture. Promotional imagery is not a captured shopper-generation result.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/wear-instant-480.webp", "width": 480 },
+      { "src": "/media/wear-instant-960.webp", "width": 960 },
+      { "src": "/media/wear-instant-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "ibrahim-awad": {
+    "original": "/media/originals/ibrahim-awad-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Public Arabic RTL clinic review website.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/ibrahim-awad-480.webp", "width": 480 },
+      { "src": "/media/ibrahim-awad-960.webp", "width": 960 },
+      { "src": "/media/ibrahim-awad-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "tapora": {
+    "original": "/media/originals/tapora-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Genuine public website capture. Private memory pages and messages are excluded.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/tapora-480.webp", "width": 480 },
+      { "src": "/media/tapora-960.webp", "width": 960 },
+      { "src": "/media/tapora-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "maysa-waheed": {
+    "original": "/media/originals/maysa-waheed-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Public couture website and catalog presentation.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/maysa-waheed-480.webp", "width": 480 },
+      { "src": "/media/maysa-waheed-960.webp", "width": 960 },
+      { "src": "/media/maysa-waheed-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "supreme-sparkle": {
+    "original": "/media/originals/supreme-sparkle-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Genuine public storefront capture.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/supreme-sparkle-480.webp", "width": 480 },
+      { "src": "/media/supreme-sparkle-960.webp", "width": 960 },
+      { "src": "/media/supreme-sparkle-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "blitzchatbot": {
+    "original": "/media/originals/blitzchatbot-demo.png",
+    "width": 1505,
+    "height": 1045,
+    "alt": "AI-edited preview with fictional contacts and chat.",
+    "classification": "ai-edited-application-demo",
+    "variants": [
+      { "src": "/media/blitzchatbot-480.webp", "width": 480 },
+      { "src": "/media/blitzchatbot-960.webp", "width": 960 },
+      { "src": "/media/blitzchatbot-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "arkedia": {
+    "original": "/media/originals/arkedia-loaded.png",
+    "width": 1440,
+    "height": 1000,
+    "alt": "Public catalog and storefront presentation.",
+    "classification": "genuine-public-site-capture",
+    "variants": [
+      { "src": "/media/arkedia-480.webp", "width": 480 },
+      { "src": "/media/arkedia-960.webp", "width": 960 },
+      { "src": "/media/arkedia-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "cheque-printer": {
+    "original": "/media/originals/cheque-printer-app.png",
+    "width": 1917,
+    "height": 1032,
+    "alt": "Original desktop app capture; entry fields and table are empty.",
+    "classification": "genuine-original-application-capture",
+    "variants": [
+      { "src": "/media/cheque-printer-480.webp", "width": 480 },
+      { "src": "/media/cheque-printer-960.webp", "width": 960 },
+      { "src": "/media/cheque-printer-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "artline": {
+    "original": "/media/originals/artline-app.png",
+    "width": 1600,
+    "height": 1190,
+    "alt": "Original public frontend captured locally, unchanged; empty uploader.",
+    "classification": "genuine-original-application-capture",
+    "variants": [
+      { "src": "/media/artline-480.webp", "width": 480 },
+      { "src": "/media/artline-960.webp", "width": 960 },
+      { "src": "/media/artline-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "quantitator": {
+    "original": "/media/originals/quantitator-app.png",
+    "width": 1914,
+    "height": 942,
+    "alt": "Original public input-mapping and optimization-parameter interface. Values are configuration inputs, not achieved results.",
+    "classification": "genuine-original-application-capture",
+    "variants": [
+      { "src": "/media/quantitator-480.webp", "width": 480 },
+      { "src": "/media/quantitator-960.webp", "width": 960 },
+      { "src": "/media/quantitator-1440.webp", "width": 1440 }
+    ],
+    "avifVariants": []
+  },
+  "secure-notes-organizer": {
+    "original": "/media/originals/secure-notes-editor-app.png",
+    "width": 1280,
+    "height": 800,
+    "alt": "Notes editor · Original Qt application interface.",
+    "classification": "genuine-original-application-capture",
+    "variants": [
+      { "src": "/media/secure-notes-organizer-480.webp", "width": 480 },
+      { "src": "/media/secure-notes-organizer-960.webp", "width": 960 },
+      { "src": "/media/secure-notes-organizer-1440.webp", "width": 1280 }
+    ],
+    "avifVariants": []
+  },
+  "secure-notes-sign-in-app": {
+    "original": "/media/originals/secure-notes-sign-in-app.png",
+    "width": 542,
+    "height": 642,
+    "alt": "Sign-in screen · Siemens DISW internship project.",
+    "classification": "genuine-original-application-capture",
+    "variants": [
+      { "src": "/media/secure-notes-sign-in-app-480.webp", "width": 480 },
+      { "src": "/media/secure-notes-sign-in-app-960.webp", "width": 542 },
+      { "src": "/media/secure-notes-sign-in-app-1440.webp", "width": 542 }
+    ],
+    "avifVariants": []
+  }
+}

@@ -1,0 +1,440 @@
+[
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 20,
+      "allPages": true
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-editor-app",
+      "x": 770.0,
+      "y": 548.75,
+      "width": 590.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 1162,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Notes editor \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 590.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 12.0,
+        "lineHeight": 17,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9960,
+      "text": "Notes editor \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9960,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-editor-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8279
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-sign-in-app",
+      "x": 390.0,
+      "y": 3028.6,
+      "width": 800.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 1162,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Sign-in screen \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 800.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 14.0,
+        "lineHeight": 20,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9962,
+      "text": "Sign-in screen \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9962,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-sign-in-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8283
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-editor-app",
+      "x": 40.0,
+      "y": 994.0,
+      "width": 688.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 2538,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Notes editor \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 688.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 12.0,
+        "lineHeight": 17,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9964,
+      "text": "Notes editor \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9964,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-editor-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8304
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-sign-in-app",
+      "x": 40.0,
+      "y": 3289.94,
+      "width": 688.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 2538,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Sign-in screen \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 688.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 14.0,
+        "lineHeight": 20,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9966,
+      "text": "Sign-in screen \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9966,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-sign-in-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8308
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-editor-app",
+      "x": 24.0,
+      "y": 872.75,
+      "width": 342.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 3858,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Notes editor \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 342.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 12.0,
+        "lineHeight": 17,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9968,
+      "text": "Notes editor \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9968,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-editor-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8329
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "frame",
+      "name": "View full-size / secure-notes-sign-in-app",
+      "x": 24.0,
+      "y": 3039.85,
+      "width": 342.0,
+      "props": {
+        "fills": [],
+        "clip": false
+      },
+      "parent": 3858,
+      "height": 44
+    },
+    "success": true
+  },
+  {
+    "name": "create_node",
+    "arguments": {
+      "type": "text",
+      "name": "Sign-in screen \u00b7 View full-size \u2197",
+      "x": 0,
+      "y": 10,
+      "width": 342.0,
+      "props": {
+        "fontFamily": "Mona Sans",
+        "fontStyle": "Regular",
+        "fontSize": 14.0,
+        "lineHeight": 20,
+        "fill": "#AE3A24",
+        "textAutoResize": "height",
+        "letterSpacing": 0
+      },
+      "parent": 9970,
+      "text": "Sign-in screen \u00b7 View full-size \u2197"
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "proto.interaction.add",
+      "params": {
+        "id": 9970,
+        "trigger": {
+          "type": "onClick"
+        },
+        "action": {
+          "type": "openUrl",
+          "url": "file:///D:/aymanashraf.me/design/assets/captures/secure-notes-sign-in-app.png"
+        }
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "edit.delete",
+      "params": {
+        "ids": [
+          8333
+        ]
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "save_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 20,
+      "allPages": true
+    },
+    "success": true
+  }
+]

@@ -1,0 +1,75 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import { getProjects } from '../../lib/projects';
+import '../../styles/projects.css';
+
+const projects = await getProjects();
+---
+
+<SiteLayout
+  title="Projects"
+  description="Products, client work and public engineering projects by Ayman Ashraf Mounir."
+  active="/projects"
+>
+  <section
+    class="projects-collection"
+    aria-labelledby="projects-title"
+    data-project-collection
+  >
+    <header class="projects-heading">
+      <h1 id="projects-title">Projects</h1>
+      <p>Products, client work and public engineering projects.</p>
+    </header>
+    <nav class="project-filters" aria-label="Filter projects">
+      <a
+        href="/projects"
+        class="project-filter"
+        data-project-filter="all"
+        aria-current="true"
+      >
+        <span class="project-filter__wide">All projects</span>
+        <span class="project-filter__short">All</span>
+      </a>
+      <a
+        href="/projects?category=client"
+        class="project-filter"
+        data-project-filter="client"
+      >
+        <span class="project-filter__wide">Products &amp; Client Work</span>
+        <span class="project-filter__short">Client work</span>
+      </a>
+      <a
+        href="/projects?category=public"
+        class="project-filter"
+        data-project-filter="public"
+      >
+        <span class="project-filter__wide">Public Repositories</span>
+        <span class="project-filter__short">Public code</span>
+      </a>
+    </nav>
+    <p
+      class="project-count"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      data-project-count
+    >
+      {projects.length} projects
+    </p>
+    <div class="project-grid">
+      {projects.map((project, index) => (
+        <ProjectCard project={project} eager={index === 0} />
+      ))}
+    </div>
+    <noscript>
+      <p class="projects-no-script">
+        All projects are shown. Choose a case study to explore the work.
+      </p>
+    </noscript>
+  </section>
+</SiteLayout>
+
+<script>
+  import '../../scripts/project-filter';
+</script>

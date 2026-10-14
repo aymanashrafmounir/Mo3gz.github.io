@@ -1,70 +1,44 @@
 {
-  "name": "ayman_portfolio",
-  "version": "0.1.0",
+  "name": "ayman-portfolio-v2",
+  "version": "2.0.0",
   "private": true,
-  "homepage": "https://aymanashraf.me",
-  "dependencies": {
-    "@dhiwise/component-tagger": "^1.0.9",
-    "@reduxjs/toolkit": "^2.6.1",
-    "@tailwindcss/forms": "^0.5.7",
-    "@testing-library/jest-dom": "^5.15.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^1.8.4",
-    "d3": "^7.9.0",
-    "date-fns": "^4.1.0",
-    "dotenv": "^16.0.1",
-    "framer-motion": "^10.16.4",
-    "lucide-react": "^0.484.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-hook-form": "^7.55.0",
-    "react-router-dom": "6.0.2",
-    "react-router-hash-link": "^2.4.3",
-    "recharts": "^2.15.2",
-    "redux": "^5.0.1",
-    "tailwindcss-animate": "^1.0.7",
-    "tailwindcss-elevation": "^2.0.0",
-    "tailwindcss-fluid-type": "^2.0.7"
-  },
+  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "vite",
-    "build": "vite build --sourcemap",
-    "serve": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "prepare:content": "node scripts/prepare-content.mjs",
+    "dev": "npm run prepare:content && astro dev --host 127.0.0.1",
+    "build": "npm run prepare:content && astro build",
+    "build:preview": "node scripts/build-preview.mjs",
+    "deploy:preview": "npm run build:preview && wrangler pages deploy ./output/preview-dist --branch review --commit-dirty=true",
+    "build:production": "node scripts/build-production.mjs",
+    "deploy:production": "npm run build:production && wrangler pages deploy ./output/production-dist --project-name ayman-portfolio-v2 --branch main --commit-dirty=true",
+    "check": "astro check",
+    "lint": "prettier --check src scripts astro.config.mjs package.json tsconfig.json wrangler.json",
+    "format": "prettier --write src scripts astro.config.mjs package.json tsconfig.json wrangler.json",
+    "preview": "astro preview --host 127.0.0.1",
+    "test:smoke": "node scripts/verify-site.mjs",
+    "test:acceptance": "node scripts/verify-acceptance.mjs",
+    "test:media": "node scripts/verify-media.mjs",
+    "test:fonts": "node scripts/verify-fonts.mjs",
+    "test:performance": "node scripts/lighthouse-audit.mjs"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "dependencies": {
+    "astro": "7.3.8"
   },
   "devDependencies": {
-    "@tailwindcss/aspect-ratio": "^0.4.2",
-    "@tailwindcss/container-queries": "^0.1.1",
-    "@tailwindcss/line-clamp": "^0.1.0",
-    "@tailwindcss/typography": "^0.5.16",
-    "@vitejs/plugin-react": "4.3.4",
-    "autoprefixer": "10.4.2",
-    "gh-pages": "^6.3.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "3.4.6",
-    "vite": "^5.4.19",
-    "vite-tsconfig-paths": "3.6.0"
+    "@astrojs/check": "0.9.10",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/vite": "4.3.3",
+    "axe-core": "4.14.0",
+    "lighthouse": "13.5.0",
+    "prettier": "3.9.10",
+    "prettier-plugin-astro": "1.1.1",
+    "sharp": "0.35.5",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "wawoff2": "2.0.1",
+    "wrangler": "4.151.0"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   }
 }

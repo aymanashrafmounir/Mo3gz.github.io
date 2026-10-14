@@ -1,0 +1,40 @@
+---
+import { skills } from '../data/profile';
+import Stack from './Stack.astro';
+---
+
+<div class="skill-groups">
+  {skills.map((group) => (
+    <div class="skill-group">
+      <h3>{group.name}</h3>
+      <p>{group.technologies.join(', ')}</p>
+      <Stack items={group.marks} />
+    </div>
+  ))}
+</div>
+
+<style>
+  .skill-groups {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px 64px;
+  }
+  h3 {
+    margin: 0 0 12px;
+    font-size: 1.3125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  p {
+    margin: 0 0 18px;
+    color: var(--muted);
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  @media (max-width: 600px) {
+    .skill-groups {
+      grid-template-columns: 1fr;
+      gap: 32px;
+    }
+  }
+</style>

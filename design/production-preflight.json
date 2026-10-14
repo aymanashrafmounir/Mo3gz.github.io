@@ -1,0 +1,342 @@
+{
+  "checkedAt": "2026-10-14T14:19:26.396Z",
+  "purpose": "Read-only snapshot before authorized production deployment; no Cloudflare mutations performed by this audit.",
+  "accountId": "947dc4e40901fd4d5e90c10035a04435",
+  "zoneId": "f4dd69fbac1852ab22a88dbd85da81c1",
+  "hosts": ["aymanashraf.me", "www.aymanashraf.me"],
+  "dns": {
+    "apex": {
+      "success": false,
+      "httpStatus": 403,
+      "errors": [
+        {
+          "code": 10000,
+          "message": "Authentication error"
+        }
+      ],
+      "records": []
+    },
+    "www": {
+      "success": false,
+      "httpStatus": 403,
+      "errors": [
+        {
+          "code": 10000,
+          "message": "Authentication error"
+        }
+      ],
+      "records": []
+    }
+  },
+  "workerRoutes": {
+    "success": true,
+    "httpStatus": 200,
+    "errors": [],
+    "routes": []
+  },
+  "workerDomains": {
+    "success": true,
+    "httpStatus": 200,
+    "errors": [],
+    "domains": []
+  },
+  "pages": {
+    "httpStatus": 200,
+    "success": true,
+    "errors": [],
+    "projects": [
+      {
+        "name": "ayman-portfolio-v2-preview",
+        "subdomain": "ayman-portfolio-v2-preview.pages.dev",
+        "productionBranch": "main",
+        "domains": [],
+        "canonicalDeployment": null,
+        "latestDeployment": {
+          "id": "14a3e489-ce57-46ce-a791-743b11cf62db",
+          "url": "https://14a3e489.ayman-portfolio-v2-preview.pages.dev",
+          "environment": "preview"
+        }
+      }
+    ],
+    "projectCount": 3
+  },
+  "redirectRulesets": {
+    "success": false,
+    "httpStatus": 403,
+    "errors": [
+      {
+        "code": 10000,
+        "message": "Authentication error"
+      }
+    ],
+    "rulesets": []
+  },
+  "pageRules": {
+    "success": false,
+    "httpStatus": 403,
+    "errors": [
+      {
+        "code": 9109,
+        "message": "Unauthorized to access requested resource"
+      }
+    ],
+    "rules": []
+  },
+  "alwaysUseHttps": {
+    "success": false,
+    "httpStatus": 403,
+    "errors": [
+      {
+        "code": 10000,
+        "message": "Authentication error"
+      }
+    ]
+  },
+  "dnsResolution": [
+    {
+      "host": "aymanashraf.me",
+      "queries": [
+        {
+          "type": "A",
+          "error": "ECONNREFUSED"
+        },
+        {
+          "type": "AAAA",
+          "error": "ECONNREFUSED"
+        },
+        {
+          "type": "CNAME",
+          "error": "ECONNREFUSED"
+        }
+      ]
+    },
+    {
+      "host": "www.aymanashraf.me",
+      "queries": [
+        {
+          "type": "A",
+          "error": "ECONNREFUSED"
+        },
+        {
+          "type": "AAAA",
+          "error": "ECONNREFUSED"
+        },
+        {
+          "type": "CNAME",
+          "error": "ECONNREFUSED"
+        }
+      ]
+    }
+  ],
+  "publicHttp": [
+    {
+      "url": "http://aymanashraf.me/",
+      "error": "fetch failed",
+      "cause": "ENOTFOUND"
+    },
+    {
+      "url": "https://aymanashraf.me/",
+      "error": "fetch failed",
+      "cause": "ENOTFOUND"
+    },
+    {
+      "url": "http://www.aymanashraf.me/",
+      "error": "fetch failed",
+      "cause": "ENOTFOUND"
+    },
+    {
+      "url": "https://www.aymanashraf.me/",
+      "error": "fetch failed",
+      "cause": "ENOTFOUND"
+    }
+  ],
+  "documentation": [
+    "https://developers.cloudflare.com/pages/configuration/custom-domains/",
+    "https://developers.cloudflare.com/pages/how-to/www-redirect/",
+    "https://developers.cloudflare.com/api/resources/pages/subresources/projects/subresources/domains/methods/create/"
+  ],
+  "publicDoh": [
+    {
+      "name": "aymanashraf.me",
+      "type": "A",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "aymanashraf.me",
+      "type": "AAAA",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "aymanashraf.me",
+      "type": "CNAME",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "aymanashraf.me",
+      "type": "NS",
+      "status": 0,
+      "answers": [
+        {
+          "name": "aymanashraf.me",
+          "type": 2,
+          "ttl": 86400,
+          "data": "vida.ns.cloudflare.com."
+        },
+        {
+          "name": "aymanashraf.me",
+          "type": 2,
+          "ttl": 86400,
+          "data": "donald.ns.cloudflare.com."
+        }
+      ],
+      "authority": [],
+      "authenticated": true
+    },
+    {
+      "name": "aymanashraf.me",
+      "type": "CAA",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "type": "A",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "type": "AAAA",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "type": "CNAME",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "type": "NS",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    },
+    {
+      "name": "www.aymanashraf.me",
+      "type": "CAA",
+      "status": 0,
+      "answers": [],
+      "authority": [
+        {
+          "name": "aymanashraf.me",
+          "type": 6,
+          "data": "donald.ns.cloudflare.com. dns.cloudflare.com. 2417405151 10000 2400 604800 1800"
+        }
+      ],
+      "authenticated": true
+    }
+  ],
+  "zone": {
+    "success": true,
+    "httpStatus": 200,
+    "errors": [],
+    "id": "f4dd69fbac1852ab22a88dbd85da81c1",
+    "name": "aymanashraf.me",
+    "status": "active",
+    "type": "full",
+    "nameServers": ["donald.ns.cloudflare.com", "vida.ns.cloudflare.com"],
+    "originalNameServers": null
+  },
+  "updatedAt": "2026-10-14T14:20:13.339Z",
+  "conclusions": {
+    "targetStrategy": "Root selected separate production Pages project ayman-portfolio-v2 to keep the existing ayman-portfolio-v2-preview project operationally separate. Deploy approved indexable artifact to production main; retain review project and branch unchanged and noindex.",
+    "existingHostConflicts": "No Worker route, Worker Custom Domain, or Pages custom domain currently overlaps apex/www. Public DoH has no address/CNAME answers for either host; no existing hosted website was reachable.",
+    "dnsSnapshotLimitation": "Wrangler OAuth returns403 for DNS Read, so authoritative DNS record IDs/content cannot be audited or rollback-snapshotted with this credential. NODATA public responses do not prove the DNS zone has no unrelated apex TXT/MX records; leave all non-address records untouched. Root confirmed an authenticated Cloudflare Chrome dashboard session and will supplement exact DNS record snapshot through the UI before narrow DNS writes, without expanding OAuth token scopes.",
+    "productionRequirements": [
+      "Build with PUBLIC_SITE_INDEXABLE=true and production origin https://aymanashraf.me; remove preview-only X-Robots-Tag noindex header from production output.",
+      "Create separate production Pages project ayman-portfolio-v2, deploy main, and verify immutable production URL before binding host.",
+      "Associate aymanashraf.me through Pages Custom Domains API/dashboard before pointing DNS; CNAME-only without association can return522.",
+      "Bind and validate www if serving it, then redirect it permanently to apex while preserving path and query. Site _redirects can scope hostname without modifying unrelated zone redirect rules.",
+      "Verify active domain/certificate status, publicDNS, HTTPS, indexable robots and sitemap, canonical origins, core routes and downloaded CV.",
+      "If Pages association does not create needed CNAME automatically, DNS-write-capable authentication or a logged-in Cloudflare dashboard session is required; current OAuth DNS API is forbidden."
+    ],
+    "rollback": "Root will supplement exact current apex/www DNS records from authenticated Cloudflare UI before mutation. If first cutover fails, detach only newly attached apex/www Pages domains and remove/restore only portfolio address records documented by root; preserve original TXT/MX/nonweb DNS and existing unrelated projects and preview project."
+  },
+  "completedAt": "2026-10-14T14:21:06.814Z",
+  "authenticatedDashboardDns": {
+    "checkedAt": "2026-10-14T14:24:14.131Z",
+    "method": "Chrome Cloudflare DNS Records UI, same account and zone",
+    "url": "https://dash.cloudflare.com/947dc4e40901fd4d5e90c10035a04435/aymanashraf.me/dns/records",
+    "totalRecords": 0,
+    "records": [],
+    "visibleEvidence": "You have used 0 of 200 available DNS records in this domain. No DNS records. Add a DNS record individually or import a BIND file above."
+  }
+}

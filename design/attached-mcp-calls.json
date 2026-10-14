@@ -1,0 +1,78 @@
+[
+  {
+    "name": "inspect_document",
+    "arguments": {
+      "depth": 0,
+      "allPages": true
+    },
+    "success": true
+  },
+  {
+    "name": "open_file",
+    "arguments": {
+      "path": "D:\\aymanashraf.me\\design\\ayman-portfolio-v2.figcraft"
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_ui",
+    "arguments": {},
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "file.close",
+      "params": {
+        "index": 0,
+        "force": true
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "page.select",
+      "params": {
+        "id": 38
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "select",
+    "arguments": {
+      "ids": [
+        41
+      ]
+    },
+    "success": true
+  },
+  {
+    "name": "run_command",
+    "arguments": {
+      "command": "view.zoomAt",
+      "params": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 1050
+      }
+    },
+    "success": true
+  },
+  {
+    "name": "inspect_ui",
+    "arguments": {},
+    "success": true
+  },
+  {
+    "name": "screenshot",
+    "arguments": {
+      "window": true,
+      "maxSize": 1800
+    },
+    "success": true
+  }
+]

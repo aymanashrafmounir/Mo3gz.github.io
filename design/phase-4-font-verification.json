@@ -1,0 +1,44 @@
+{
+  "method": "wawoff2 2.0.1 compression/decompression, semantic comparison with fontTools",
+  "originalNativeFontsRetained": true,
+  "fonts": [
+    {
+      "weight": "Regular",
+      "originalBytes": 140880,
+      "woff2Bytes": 55996,
+      "glyphs": 797,
+      "sourceSha256": "ae4eb31f8cd332260a698b6a4391d5fff079e818c152d31d686ac0e1533cc0fa",
+      "woff2Sha256": "0dc5fa3bc3673846a7d24860894f7689782e95e11997baf1f38ef9086d119f69",
+      "checks": "glyph order, cmap, horizontal metrics, unitsPerEm, every glyph outline, GPOS/GSUB/GDEF/OS2/name retained"
+    },
+    {
+      "weight": "Medium",
+      "originalBytes": 140856,
+      "woff2Bytes": 55892,
+      "glyphs": 797,
+      "sourceSha256": "e5c608f35644eecba539cc37fdaa6cbe04a28ad780f0cfa85637779bdc7ef414",
+      "woff2Sha256": "f098fbeca2dafc07197d6a0e2a3453ad7a4990790dddacca39386d5e9e3f776c",
+      "checks": "glyph order, cmap, horizontal metrics, unitsPerEm, every glyph outline, GPOS/GSUB/GDEF/OS2/name retained"
+    },
+    {
+      "weight": "SemiBold",
+      "originalBytes": 142900,
+      "woff2Bytes": 56312,
+      "glyphs": 797,
+      "sourceSha256": "67636cd715fc8637df3d0f215f478af37924fa3f2c9ee0d3ed8f3147211811f2",
+      "woff2Sha256": "790f8b7d6aa7345a7b255e0222178896d54d1643c747a9d7b77911e54e06047d",
+      "checks": "glyph order, cmap, horizontal metrics, unitsPerEm, every glyph outline, GPOS/GSUB/GDEF/OS2/name retained"
+    },
+    {
+      "weight": "Bold",
+      "originalBytes": 143920,
+      "woff2Bytes": 56632,
+      "glyphs": 797,
+      "sourceSha256": "5ccaea90ac9d61a1503efb7b138bf4440313e7214432bdaa584189aba177e807",
+      "woff2Sha256": "f9ad5aa2c696ad2d16109355e1d56a172cfca0cad1fb660b54725a8923cf256a",
+      "checks": "glyph order, cmap, horizontal metrics, unitsPerEm, every glyph outline, GPOS/GSUB/GDEF/OS2/name retained"
+    }
+  ],
+  "originalBytes": 568556,
+  "woff2Bytes": 224832
+}

@@ -1,0 +1,151 @@
+[
+  {
+    "project": "helixtra",
+    "path": "design/assets/captures/helixtra-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://helixtra.com",
+    "caption": "Genuine public marketing website capture. The site's clinic preview is illustrative.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "wear-instant",
+    "path": "design/assets/captures/wear-instant-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://wearinstant.com",
+    "caption": "Genuine public marketing capture. Promotional imagery is not a captured shopper-generation result.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "ibrahim-awad",
+    "path": "design/assets/captures/ibrahim-awad-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://ibrahim-awad-clinic.aamiraclee.workers.dev",
+    "caption": "Public Arabic RTL clinic review website.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "tapora",
+    "path": "design/assets/captures/tapora-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://taporaeg.com",
+    "caption": "Genuine public website capture. Private memory pages and messages are excluded.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "maysa-waheed",
+    "path": "design/assets/captures/maysa-waheed-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://maysawaheed.com",
+    "caption": "Public couture website and catalog presentation.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "supreme-sparkle",
+    "path": "design/assets/captures/supreme-sparkle-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://supreme-sparkle.pages.dev",
+    "caption": "Genuine public storefront capture.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "blitzchatbot",
+    "path": "design/assets/captures/blitzchatbot-demo.png",
+    "classification": "ai-edited-application-demo",
+    "observed": "2026-10-14",
+    "source": "design/assets/source/blitzchatbot-blank-base.png",
+    "caption": "AI-edited preview with fictional contacts and chat.",
+    "use": "User approved for the final portfolio design and implementation on 2026-10-14.",
+    "framing": "Complete approved image; fit without zoom or crop.",
+    "sha256": "b918003e4dcaf195d9730d46b36a2c4a5c470a9b27d480a6f831982dc86e8c2e",
+    "sourceCommit": "09b4368b422752b62e48fcbc9de3bb9f38bb07a0",
+    "provenance": "design/provenance/blitzchatbot/approved-demo.json",
+    "captureDetails": "This is an image-generator edit of an original empty app interface, not a genuine populated application capture or evidence of delivered messages."
+  },
+  {
+    "project": "arkedia",
+    "path": "design/assets/captures/arkedia-loaded.png",
+    "classification": "genuine-public-site-capture",
+    "observed": "2026-10-14",
+    "source": "https://arkediainternational.com",
+    "caption": "Public catalog and storefront presentation.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop.",
+    "captureDetails": "1440x1000, DPR 1, browser scale 1, >=12s wait plus fonts and image decode."
+  },
+  {
+    "project": "cheque-printer",
+    "path": "design/assets/captures/cheque-printer-app.png",
+    "classification": "genuine-original-application-capture",
+    "observed": "2026-10-14",
+    "source": "https://github.com/aymanashrafmounir/Cheque_printer/blob/81622e2f86183ae4d2be7e0b01b9542f751d9982/Screenshots/Main%20Page.png",
+    "caption": "Original desktop app capture; entry fields and table are empty.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop."
+  },
+  {
+    "project": "artline",
+    "path": "design/assets/captures/artline-app.png",
+    "classification": "genuine-original-application-capture",
+    "observed": "2026-10-14",
+    "source": "https://github.com/aymanashrafmounir/Artline/tree/7234390dfcfc2ec89ec359fb598bbcca1b9ac87a/frontend",
+    "caption": "Original public frontend captured locally, unchanged; empty uploader.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop."
+  },
+  {
+    "project": "quantitator",
+    "path": "design/assets/captures/quantitator-app.png",
+    "classification": "genuine-original-application-capture",
+    "observed": "2026-10-14",
+    "source": "https://github.com/aymanashrafmounir/Quantitator/blob/1982ca641e06c51bdec7de168ae689191b62e82d/Screenshots/Upload_File_Page.png",
+    "caption": "Original public input-mapping and optimization-parameter interface. Values are configuration inputs, not achieved results.",
+    "use": "Native design review. Preserve stated project publication status.",
+    "framing": "Complete capture, fit without zoom or crop."
+  },
+  {
+    "project": "secure-notes-organizer",
+    "assetKey": "secure-notes-organizer",
+    "path": "design/assets/captures/secure-notes-editor-app.png",
+    "source": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+    "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+    "classification": "genuine-original-application-capture",
+    "observed": "2026-10-14",
+    "caption": "Notes editor \u00b7 Original Qt application interface.",
+    "captureDetails": "Original C++ Qt widget classes, resource assets and QSS rebuilt locally with Qt 6.4 in Docker. A separate QTimer/grab capture harness opens the existing offline main_window constructor and swapToEditNote slot. Authentication inputs are cleared. Original source files remain hash-identical; a separate compatibility header adds a Qt 6.4 std::string debug-logging overload. Backend disconnected; empty editor only, no saved records or end-to-end authentication claim.",
+    "use": "Original application interface captured locally for the requested native portfolio review.",
+    "framing": "Complete original application widget; fit without crop or zoom.",
+    "sha256": "b51d82426b4751ad7b76af222bb37aab2baf980c1c4cb17a4ba58c8cd44e8ba6"
+  },
+  {
+    "project": "secure-notes-organizer",
+    "assetKey": "secure-notes-sign-in-app",
+    "path": "design/assets/captures/secure-notes-sign-in-app.png",
+    "source": "https://github.com/aymanashrafmounir/Secure-Notes-Organizer",
+    "sourceCommit": "bee56c5cd8de4504fd601f090c12145ec5be234e",
+    "classification": "genuine-original-application-capture",
+    "observed": "2026-10-14",
+    "caption": "Sign-in screen \u00b7 Siemens DISW internship project.",
+    "captureDetails": "Original C++ Qt widget classes, resource assets and QSS rebuilt locally with Qt 6.4 in Docker. A separate QTimer/grab capture harness opens the existing offline main_window constructor and swapToEditNote slot. Authentication inputs are cleared. Original source files remain hash-identical; a separate compatibility header adds a Qt 6.4 std::string debug-logging overload. Backend disconnected; empty editor only, no saved records or end-to-end authentication claim.",
+    "use": "Original application interface captured locally for the requested native portfolio review.",
+    "framing": "Complete original application widget; fit without crop or zoom.",
+    "sha256": "229d1a498e8eb31eaed5d2394bec1f41e7ef5a684370c2bc68beb8b5012265d6"
+  }
+]

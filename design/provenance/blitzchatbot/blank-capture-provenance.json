@@ -1,0 +1,108 @@
+{
+  "capturedAt": "2026-10-14T12:04:20.202Z",
+  "source": "D:/AQ/BlitzChatbot/project-react",
+  "state": "Original main chats layout with one blank synthetic selected conversation and zero messages.",
+  "method": "Unmodified isolated frontend; API interception only; original Zustand selection action; no DOM, CSS or image edits.",
+  "privacy": "No live backend; all API routes mocked, media blocked, WebSocket disabled, fresh browser profile. Names, numbers, timestamps, labels, previews, messages and input values empty.",
+  "limits": "Shows original chat UI only; no delivery, messaging or account workflow verified.",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "deviceScaleFactor": 1,
+  "output": "D:\\aymanashraf.me\\design\\research-candidates\\blitz-main-chat\\blitz-main-chats-desktop-1440.png",
+  "sha256": "cce3a739b2812cdaf019bf58ddc0ca706686fb50c46608a8822d8b666550c097",
+  "privacyState": {
+    "conversations": [
+      {
+        "id": 1,
+        "contact_id": 1,
+        "phone_number": "",
+        "display_name": "",
+        "is_pinned": false,
+        "is_muted": false,
+        "is_archived": false,
+        "is_unread": false,
+        "unread_count": 0,
+        "last_message_at": null,
+        "last_message_body": "",
+        "last_message_direction": null,
+        "last_message_status": null,
+        "last_message_type": null,
+        "last_message_wa_id": null,
+        "window_open_until": "2026-10-14T13:04:16.712Z",
+        "labels": [],
+        "updated_at": "2026-10-14T12:04:18.328Z"
+      }
+    ],
+    "activeId": 1,
+    "messages": [],
+    "visibleText": "chat\ndescription\npeople\nsettings\ncontrast\nlogout\nالدردشات\nadd_comment\nsearch\nالكل\nغير مقروء\nالمؤرشفة\nperson\n\nperson\nedit\nsell\nmore_vert\nattach_file\nplace\nemoji_emotions\ndescription\nmic\n0 محددة\ncontent_copy\nنسخ\nsend\nإعادة إرسال\nإلغاء",
+    "iconFontLoaded": true,
+    "inputs": [
+      {
+        "placeholder": "بحث أو محادثة جديدة…",
+        "value": ""
+      },
+      {
+        "placeholder": "",
+        "value": ""
+      },
+      {
+        "placeholder": "اكتب رسالة...",
+        "value": ""
+      }
+    ]
+  },
+  "diagnostics": {
+    "pageErrors": [],
+    "api": [
+      {
+        "path": "/api/me",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/labels",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/conversations",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/labels",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/contacts/1",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/templates",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/conversations/1/messages",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/contacts/1",
+        "method": "GET",
+        "mocked": true
+      },
+      {
+        "path": "/api/templates",
+        "method": "GET",
+        "mocked": true
+      }
+    ],
+    "blocked": []
+  }
+}

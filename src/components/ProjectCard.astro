@@ -1,0 +1,58 @@
+---
+import type { Project } from '../lib/projects';
+import { displayStack } from '../lib/technologies';
+import ProjectImage from './ProjectImage.astro';
+import Stack from './Stack.astro';
+import '../styles/projects.css';
+
+interface Props {
+  project: Project;
+  layout?: 'card' | 'row';
+  eager?: boolean;
+  imageSizes?: string;
+}
+
+const {
+  project,
+  layout = 'card',
+  eager = false,
+  imageSizes = layout === 'row'
+    ? '(min-width:1101px) 315px, (min-width:601px) 240px, calc(100vw - 48px)'
+    : '(min-width:1440px) 404px, (min-width:1200px) calc(33.333333vw - 76px), (min-width:1101px) calc(33.333333vw - 49.333333px), (min-width:700px) calc(50vw - 54px), (min-width:601px) calc(50vw - 38px), calc(100vw - 48px)',
+} = Astro.props;
+const category =
+  project.category === 'Public Repositories' ? 'public' : 'client';
+---
+
+<article
+  class:list={['project-card', `project-card--${layout}`]}
+  data-project-category={category}
+>
+  <div class="project-card__media">
+    <ProjectImage
+      slug={project.slug}
+      alt={`${project.title} ${project.demo ? 'preview with fictional contacts and chat' : 'interface'}`}
+      caption={project.demo ? (project.caption ?? undefined) : undefined}
+      clickable={false}
+      eager={eager}
+      sizes={imageSizes}
+    />
+  </div>
+  <div class="project-card__copy">
+    <h2 class="project-card__title">
+      <a href={`/projects/${project.slug}`}>{project.title}</a>
+    </h2>
+    <p class="project-card__kind">{project.kind}</p>
+    <p class="project-card__summary">{project.summary}</p>
+    <div class="project-card__stack">
+      <Stack items={displayStack(project.stack)} />
+    </div>
+    <a
+      class="project-read-link"
+      href={`/projects/${project.slug}`}
+      aria-label={`Read case study: ${project.title}`}
+    >
+      Read case study <span aria-hidden="true">→</span>
+    </a>
+  </div>
+</article>

@@ -1,0 +1,143 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import CareerTimeline from '../components/CareerTimeline.astro';
+import Education from '../components/Education.astro';
+import SkillGroups from '../components/SkillGroups.astro';
+import Certifications from '../components/Certifications.astro';
+import { profile } from '../data/profile';
+import { getProjects } from '../lib/projects';
+
+const projects = await getProjects();
+const cvSlugs = [
+  'helixtra',
+  'wear-instant',
+  'blitzchatbot',
+  'arkedia',
+  'artline',
+  'quantitator',
+  'secure-notes-organizer',
+];
+const cvProjects = cvSlugs.map((slug) => {
+  const project = projects.find((entry) => entry.slug === slug);
+  if (!project) throw new Error(`CV project is missing: ${slug}`);
+  return { slug, title: project.title, summary: project.summary };
+});
+cvProjects.splice(5, 0, {
+  slug: '',
+  title: 'Hala Kazim',
+  summary:
+    'Retreat booking platform built with Next.js, TypeScript, Prisma and PostgreSQL.',
+});
+---
+
+<SiteLayout
+  title="Resume"
+  description="Read Ayman Ashraf Mounir's experience, education, technical skills and project experience, or download the original CV."
+  active="/resume/"
+>
+  <section class="page-lead">
+    <h1>Resume</h1>
+  </section>
+  <section class="resume-introduction" aria-labelledby="resume-name">
+    <h2 id="resume-name">{profile.name}</h2>
+    <p class="resume-meta">Software Engineer / {profile.location}</p>
+    <a class="button" href="/ayman-ashraf-mounir-cv.pdf" download>
+      Download original CV
+    </a>
+    <p class="resume-summary reading">
+      Software Engineer with experience building Java backend systems,
+      serverless SaaS platforms and full-stack applications. Object-Oriented
+      Design and SOLID principles, REST APIs, performance-focused refactoring
+      and Agile/SCRUM collaboration.
+    </p>
+  </section>
+  <section class="section-space" aria-labelledby="resume-experience">
+    <h2 class="section-title" id="resume-experience">
+      Experience
+    </h2>
+    <CareerTimeline />
+  </section>
+  <section class="section-space" aria-labelledby="resume-education">
+    <h2 class="section-title" id="resume-education">
+      Education
+    </h2>
+    <Education />
+  </section>
+  <section class="section-space" aria-labelledby="resume-skills">
+    <h2 class="section-title" id="resume-skills">
+      Technical skills
+    </h2>
+    <SkillGroups />
+  </section>
+  <section class="section-space reading" aria-labelledby="resume-projects">
+    <h2 class="section-title" id="resume-projects">
+      Project experience
+    </h2>
+    <ul class="resume-projects">
+      {cvProjects.map((project) => (
+        <li>
+          <h3>
+            {project.slug ? (
+              <a href={`/projects/${project.slug}`}>{project.title}</a>
+            ) : (
+              project.title
+            )}
+          </h3>
+          <p>{project.summary}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+  <section class="section-space" aria-labelledby="resume-certifications">
+    <h2 class="section-title" id="resume-certifications">
+      Certifications and achievement
+    </h2>
+    <Certifications />
+  </section>
+</SiteLayout>
+
+<style>
+  .resume-introduction h2 {
+    margin: 0 0 18px;
+    font-size: clamp(1.8rem, 3vw, 2.125rem);
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .resume-meta {
+    margin: 0 0 32px;
+    color: var(--rust);
+  }
+  .resume-summary {
+    margin-top: 40px;
+    color: var(--muted);
+    font-size: 1.1875rem;
+    line-height: 1.5;
+  }
+  .resume-projects {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .resume-projects li + li {
+    margin-top: 32px;
+  }
+  .resume-projects h3 {
+    margin: 0 0 12px;
+    font-size: 1.3125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .resume-projects a {
+    text-underline-offset: 5px;
+    text-decoration-color: var(--line);
+  }
+  .resume-projects a:hover {
+    color: var(--rust);
+    text-decoration-color: currentColor;
+  }
+  .resume-projects p {
+    margin: 0;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+</style>

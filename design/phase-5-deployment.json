@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-14T14:10:16.984Z",
+  "project": "ayman-portfolio-v2-preview",
+  "accountId": "947dc4e40901fd4d5e90c10035a04435",
+  "providerDomains": ["ayman-portfolio-v2-preview.pages.dev"],
+  "customDomains": [],
+  "productionBranch": "main",
+  "latestDeployment": {
+    "id": "14a3e489-ce57-46ce-a791-743b11cf62db",
+    "environment": "preview",
+    "url": "https://14a3e489.ayman-portfolio-v2-preview.pages.dev",
+    "aliases": ["https://review.ayman-portfolio-v2-preview.pages.dev"],
+    "branch": "review",
+    "commitHash": "34ed8d6c267034a4019d828a70b47f3de6be3c44",
+    "status": "success",
+    "createdOn": "2026-10-14T14:06:22.335975Z"
+  },
+  "canonicalDeployment": null,
+  "reviewUrl": "https://review.ayman-portfolio-v2-preview.pages.dev",
+  "productionDnsChanged": false,
+  "customDomainChanges": false
+}

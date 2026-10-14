@@ -1,0 +1,45 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+---
+
+<SiteLayout
+  title="Page not found"
+  description="This address doesn't point to a page. Return to Ayman Ashraf Mounir's portfolio or explore his projects."
+  noindex
+>
+  <section class="page-lead">
+    <h1>Page not found</h1>
+  </section>
+  <p class="error-code" aria-hidden="true">
+    404
+  </p>
+  <p class="error-message reading">
+    This address doesn't point to a page. Explore the projects or return to the
+    portfolio.
+  </p>
+  <div class="actions">
+    <a class="button" href="/">
+      Return home
+    </a>
+    <a class="button secondary" href="/projects">
+      View projects
+    </a>
+  </div>
+</SiteLayout>
+
+<style>
+  .error-code {
+    margin: 0 0 40px;
+    color: var(--rust);
+    font-size: clamp(6.875rem, 14vw, 11.25rem);
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.06em;
+  }
+  .error-message {
+    margin: 0 0 36px;
+    color: var(--muted);
+    font-size: clamp(1.1875rem, 2vw, 1.4375rem);
+    line-height: 1.5;
+  }
+</style>

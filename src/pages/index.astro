@@ -1,0 +1,145 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import ProjectImage from '../components/ProjectImage.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import Stack from '../components/Stack.astro';
+import CareerTimeline from '../components/CareerTimeline.astro';
+import Education from '../components/Education.astro';
+import SkillGroups from '../components/SkillGroups.astro';
+import Certifications from '../components/Certifications.astro';
+import ClosingContact from '../components/ClosingContact.astro';
+import { getProjects } from '../lib/projects';
+import '../styles/home.css';
+const projects = await getProjects();
+const selectedSlugs = [
+  'helixtra',
+  'wear-instant',
+  'blitzchatbot',
+  'secure-notes-organizer',
+];
+const selected = selectedSlugs.map((slug) =>
+  projects.find((project) => project.slug === slug)!,
+);
+---
+
+<SiteLayout
+  title="Ayman Ashraf Mounir"
+  description="Cairo-based software engineer focused on backend systems and complete software products. Explore selected projects, engineering experience and public code."
+>
+  <section class="hero" aria-labelledby="intro-title" id="home">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">
+        <span class="hero-desktop-role">Software Engineer · Cairo, Egypt</span>
+        <span class="hero-mobile-role">Software Engineer, Backend Focused</span>
+      </p>
+      <h1 id="intro-title">
+        Ayman Ashraf
+        <br />
+        Mounir
+      </h1>
+      <p class="hero-summary">
+        I build backend systems and complete software products, from
+        architecture to production.
+      </p>
+      <div class="actions">
+        <a class="button" href="/projects">
+          Explore my work
+        </a>
+        <a class="button secondary" href="/ayman-ashraf-mounir-cv.pdf" download>
+          Download CV
+        </a>
+      </div>
+      <p class="mobile-location">Cairo, Egypt</p>
+    </div>
+    <div class="hero-portrait">
+      <ProjectImage
+        slug="ayman-portrait"
+        alt="Ayman at a programming competition, photographed outdoors."
+        eager
+        clickable={false}
+      />
+    </div>
+    <div class="hero-stack">
+      <Stack items={['Java', 'Spring Boot', 'TypeScript', 'Cloudflare']} />
+    </div>
+  </section>
+  <section class="selected-work" aria-labelledby="selected-title" id="projects">
+    <h2 id="selected-title">Selected work</h2>
+    <p class="muted">Products, client platforms and public code.</p>
+    <div class="selected-leads">
+      {selected.slice(0, 2).map((project) => (
+        <ProjectCard
+          project={project}
+          imageSizes="(min-width:1440px) 620px, (min-width:1200px) calc(50vw - 100px), (min-width:700px) calc(50vw - 54px), calc(100vw - 48px)"
+        />
+      ))}
+    </div>
+    <div class="selected-rows">
+      {selected.slice(2).map((project) => (
+        <ProjectCard project={project} layout="row" />
+      ))}
+    </div>
+    <a class="button secondary all-projects" href="/projects">
+      All projects
+    </a>
+  </section>
+  <section
+    class="engineering-focus section-space"
+    aria-label="Engineering focus"
+  >
+    <div>
+      <h2>Backend engineering</h2>
+      <p>Java, Spring Boot and reliable APIs</p>
+    </div>
+    <div>
+      <h2>Cloud-native products</h2>
+      <p>Multi-tenancy and serverless delivery</p>
+    </div>
+    <div>
+      <h2>Full-stack execution</h2>
+      <p>Requirements through product delivery</p>
+    </div>
+  </section>
+  <section
+    class="home-career section-space"
+    aria-labelledby="experience-title"
+    id="experience"
+  >
+    <div>
+      <h2 id="experience-title" class="section-title">
+        Experience
+      </h2>
+      <p class="muted">
+        Backend systems, product delivery and technical evaluation.
+      </p>
+    </div>
+    <CareerTimeline />
+  </section>
+  <section
+    class="section-space"
+    aria-labelledby="education-title"
+    id="education"
+  >
+    <h2 class="section-title" id="education-title">
+      Education
+    </h2>
+    <Education />
+  </section>
+  <section class="section-space" aria-labelledby="skills-title" id="skills">
+    <h2 class="section-title" id="skills-title">
+      Technical strengths
+    </h2>
+    <SkillGroups />
+  </section>
+  <section
+    class="section-space"
+    aria-labelledby="certifications-title"
+    id="certificates"
+  >
+    <h2 class="section-title" id="certifications-title">
+      Certifications and participation
+    </h2>
+    <Certifications />
+  </section>
+  <ClosingContact />
+</SiteLayout>

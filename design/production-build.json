@@ -1,0 +1,21 @@
+{
+  "builtAt": "2026-10-14T14:40:09.777Z",
+  "directory": "output/production-dist",
+  "files": 114,
+  "htmlFiles": 20,
+  "indexablePages": 18,
+  "robots": "User-agent: *\nAllow: /\nSitemap: https://aymanashraf.me/sitemap.xml\n",
+  "headersFile": false,
+  "legacyRedirects": "/portfolio-landing-page / 301\n/portfolio-landing-page/ / 301\n",
+  "nativeSha256": "c961aadd12e7335a5db33987f019985a29915b84d759f40cf28ef07ba822bc43",
+  "homeSha256": "9d1c15b255ae817bd896b794724af266c675faa3c5a613da8fbc48423549700f",
+  "contactSha256": "ebc84b8830a452cf7c42f9ceb2582f7645802a91b3cdb32e3da8b911c84c5f4d",
+  "originalCvSha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+  "previousBuild": {
+    "builtAt": "2026-10-14T14:22:57.009Z",
+    "deploymentId": "e90831bc-36e3-42bc-a398-ce0c92df9e92",
+    "homeSha256": "9d1c15b255ae817bd896b794724af266c675faa3c5a613da8fbc48423549700f",
+    "contactSha256": "3929690c3694f0fd84e0fbf8480f2f3ae5a2e2699d6309a8e7f8d007f2e7b97c"
+  },
+  "publicEmailExcludedFromCloudflareObfuscation": true
+}

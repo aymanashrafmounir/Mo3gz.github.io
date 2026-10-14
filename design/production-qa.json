@@ -1,0 +1,355 @@
+{
+  "started": "2026-10-14T14:41:30.470Z",
+  "base": "https://aymanashraf.me",
+  "immutable": "https://a7b80225.ayman-portfolio-v2.pages.dev",
+  "previousReleaseEvidence": {
+    "deployment": "e90831bc-36e3-42bc-a398-ce0c92df9e92",
+    "record": "design/production-preliminary-qa.json",
+    "chromiumRouteWidthObservations": 38,
+    "assetShaAndMimeChecks": 93,
+    "scope": "All nineteen routes direct/refresh at 390 and 1440px, complete Chromium interactions, private-path 404s, icons and three accessibility scans passed before the Contact-only email marker correction."
+  },
+  "dns": {
+    "publicAnswers": [
+      {
+        "host": "aymanashraf.me",
+        "checkedAt": "2026-10-14T14:41:30.386Z",
+        "resolver": "https://dns.google/resolve",
+        "status": 0,
+        "addresses": ["172.67.198.110", "104.21.60.170"]
+      },
+      {
+        "host": "www.aymanashraf.me",
+        "checkedAt": "2026-10-14T14:41:30.469Z",
+        "resolver": "https://dns.google/resolve",
+        "status": 0,
+        "addresses": ["104.21.60.170", "172.67.198.110"]
+      }
+    ],
+    "mapping": {
+      "aymanashraf.me": "104.21.60.170",
+      "www.aymanashraf.me": "104.21.60.170"
+    },
+    "node": "Per-process Undici lookup only for production hostnames.",
+    "chromium": "Per-process host-resolver-rules using the independently queried public answer.",
+    "firefox": "Per-browser Google DNS over HTTPS; no address mapping.",
+    "tls": "Real HTTPS hostname/SNI and ordinary certificate verification; no insecure or ignoreHTTPSerrors options.",
+    "independentObservation": "Root agent separately observed normal user Chrome Home and Contact without DNS overrides."
+  },
+  "checks": [
+    {
+      "name": "all 93 public assets unchanged from the verified first release",
+      "passed": true,
+      "unchangedAssetHashes": 93,
+      "firstRelease": "https://e90831bc.ayman-portfolio-v2.pages.dev"
+    },
+    {
+      "name": "final custom domain and immutable bytes match /",
+      "passed": true,
+      "sha256": "9d1c15b255ae817bd896b794724af266c675faa3c5a613da8fbc48423549700f",
+      "bytes": 53718
+    },
+    {
+      "name": "final custom domain and immutable bytes match /ayman-ashraf-mounir-cv.pdf",
+      "passed": true,
+      "sha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+      "bytes": 158029
+    },
+    {
+      "name": "final Contact HTML retains native email without decoder dependency",
+      "passed": true,
+      "rawSha256": "3929690c3694f0fd84e0fbf8480f2f3ae5a2e2699d6309a8e7f8d007f2e7b97c",
+      "immutableSha256": "ebc84b8830a452cf7c42f9ceb2582f7645802a91b3cdb32e3da8b911c84c5f4d",
+      "equalityAfterOptionalEmailMarkerRemoval": true,
+      "rawHtmlEvidence": "output/production/contact-final-apex-source.html"
+    },
+    {
+      "name": "real HTTP 301 https://www.aymanashraf.me/projects?category=public",
+      "passed": true
+    },
+    {
+      "name": "real HTTP 301 http://aymanashraf.me/projects?category=public",
+      "passed": true
+    },
+    {
+      "name": "chromium 390px final Contact icons and native email",
+      "passed": true
+    },
+    {
+      "name": "chromium 1440px final Contact icons and native email",
+      "passed": true
+    },
+    {
+      "name": "chromium native Contact email and icons without JavaScript",
+      "passed": true
+    },
+    {
+      "name": "firefox 390px final Contact icons and native email",
+      "passed": true
+    },
+    {
+      "name": "firefox 1440px final Contact icons and native email",
+      "passed": true
+    },
+    {
+      "name": "firefox native Contact email and icons without JavaScript",
+      "passed": true
+    },
+    {
+      "name": "real HTTP 301 https://aymanashraf.me/portfolio-landing-page",
+      "passed": true,
+      "status": 301,
+      "rawLocation": "/",
+      "resolvedLocation": "https://aymanashraf.me/",
+      "verifiedAt": "2026-10-14T14:42:26.320Z"
+    },
+    {
+      "name": "real HTTP 301 https://aymanashraf.me/portfolio-landing-page/",
+      "passed": true,
+      "status": 301,
+      "rawLocation": "/",
+      "resolvedLocation": "https://aymanashraf.me/",
+      "verifiedAt": "2026-10-14T14:42:26.594Z"
+    }
+  ],
+  "browserObservations": [
+    {
+      "browser": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 390,
+      "route": "/",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/",
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/",
+      "overflow": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 390,
+      "route": "/contact",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/contact/",
+      "title": "Contact — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/contact",
+      "overflow": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1440,
+      "route": "/",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/",
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/",
+      "overflow": 0
+    },
+    {
+      "browser": "chromium",
+      "browserVersion": "153.0.8010.12",
+      "width": 1440,
+      "route": "/contact",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/contact/",
+      "title": "Contact — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/contact",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 390,
+      "route": "/",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/",
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 390,
+      "route": "/contact",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/contact/",
+      "title": "Contact — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/contact",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 390,
+      "route": "/projects",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/",
+      "title": "Projects — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 390,
+      "route": "/projects/blitzchatbot",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/blitzchatbot/",
+      "title": "BlitzChatbot — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects/blitzchatbot",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 390,
+      "route": "/projects/secure-notes-organizer",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/secure-notes-organizer/",
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 1440,
+      "route": "/",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/",
+      "title": "Ayman Ashraf Mounir — Software Engineer",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 1440,
+      "route": "/contact",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/contact/",
+      "title": "Contact — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/contact",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 1440,
+      "route": "/projects",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/",
+      "title": "Projects — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 1440,
+      "route": "/projects/blitzchatbot",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/blitzchatbot/",
+      "title": "BlitzChatbot — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects/blitzchatbot",
+      "overflow": 0
+    },
+    {
+      "browser": "firefox",
+      "browserVersion": "155.0",
+      "width": 1440,
+      "route": "/projects/secure-notes-organizer",
+      "directStatus": 200,
+      "refreshStatus": 200,
+      "url": "https://aymanashraf.me/projects/secure-notes-organizer/",
+      "title": "Secure Notes Organizer — Ayman Ashraf Mounir",
+      "robots": "index, follow",
+      "canonical": "https://aymanashraf.me/projects/secure-notes-organizer",
+      "overflow": 0
+    }
+  ],
+  "http": [
+    {
+      "url": "https://aymanashraf.me/portfolio-landing-page",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "url": "https://aymanashraf.me/portfolio-landing-page/",
+      "status": 301,
+      "location": "/"
+    },
+    {
+      "url": "https://www.aymanashraf.me/projects?category=public",
+      "status": 301,
+      "location": "https://aymanashraf.me/projects?category=public"
+    },
+    {
+      "url": "http://aymanashraf.me/projects?category=public",
+      "status": 301,
+      "location": "https://aymanashraf.me/projects?category=public"
+    }
+  ],
+  "screenshots": [
+    "output/production/contact-mobile.png",
+    "output/production/contact-desktop.png"
+  ],
+  "failures": [],
+  "transportLimitations": [],
+  "limitations": [
+    "Default local Windows/Node resolver retained negative DNS cache after activation. Automated checks use recorded public DNS answers or browser-native DoH; worldwide DNS propagation is not claimed.",
+    "Focused final-release checks complement the explicitly identified first-release browser and asset evidence; the full 627-observation local matrix was not repeated.",
+    "No physical mobile devices, OS screen readers, exhaustive security audit or field Web Vitals measurement."
+  ],
+  "completed": "2026-10-14T14:41:45.123Z",
+  "summary": {
+    "finalBrowserRouteWidthObservations": 14,
+    "passingFocusedChecks": 14,
+    "finalFailures": 0,
+    "transportLimitations": 0,
+    "unchangedPriorAssets": 93,
+    "priorChromiumRouteWidthObservations": 38
+  },
+  "harnessCorrections": [
+    {
+      "name": "real HTTP 301 https://aymanashraf.me/portfolio-landing-page",
+      "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '/'\n- 'https://aymanashraf.me/'\n",
+      "resolution": "HTTP Location may be relative. Focused follow-up resolves the actual header against the request URL and verifies HTTP 301 to the exact production root."
+    },
+    {
+      "name": "real HTTP 301 https://aymanashraf.me/portfolio-landing-page/",
+      "message": "Expected values to be strictly equal:\n+ actual - expected\n\n+ '/'\n- 'https://aymanashraf.me/'\n",
+      "resolution": "HTTP Location may be relative. Focused follow-up resolves the actual header against the request URL and verifies HTTP 301 to the exact production root."
+    }
+  ],
+  "finalFollowUpAt": "2026-10-14T14:42:26.594Z",
+  "nativeSha256": "c961aadd12e7335a5db33987f019985a29915b84d759f40cf28ef07ba822bc43"
+}

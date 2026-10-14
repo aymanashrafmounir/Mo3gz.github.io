@@ -1,0 +1,79 @@
+---
+import images from '../data/media.json';
+interface Props {
+  slug: string;
+  alt?: string;
+  caption?: string;
+  eager?: boolean;
+  clickable?: boolean;
+  sizes?: string;
+}
+const {
+  slug,
+  alt,
+  caption,
+  eager = false,
+  clickable = true,
+  sizes = slug === 'ayman-portrait'
+    ? '(min-width:1200px) 360px, (min-width:700px) 300px, 260px'
+    : '(min-width:1440px) 590px, (min-width:1200px) calc(50vw - 130px), (min-width:1101px) calc(50vw - 90px), (min-width:801px) calc(50vw - 60px), (min-width:700px) calc(100vw - 80px), calc(100vw - 48px)',
+} = Astro.props;
+const image = images[slug as keyof typeof images];
+if (!image) throw new Error(`No approved media for ${slug}`);
+const source =
+  image.variants.find((variant) => variant.width >= 960) ??
+  image.variants.at(-1)!;
+const demo = image.classification === 'ai-edited-application-demo';
+const description = alt ?? image.alt;
+const label = demo ? 'AI-edited demo · Fictional contacts and chat.' : caption;
+const Container = clickable ? 'a' : 'div';
+---
+
+<figure class:list={['project-image', { portrait: slug === 'ayman-portrait' }]}>
+  <Container
+    class="media-stage"
+    href={clickable ? image.original : undefined}
+    data-gallery-image={clickable ? image.original : undefined}
+    data-gallery-caption={label || description}
+    aria-label={clickable ? `Enlarge: ${description}` : undefined}
+  >
+    <picture>
+      {image.avifVariants.length > 0 && (
+        <source
+          type="image/avif"
+          srcset={image.avifVariants
+            .map((variant) => `${variant.src} ${variant.width}w`)
+            .join(', ')}
+          sizes={sizes}
+        />
+      )}
+      <img
+        src={source.src}
+        srcset={image.variants
+          .map((variant) => `${variant.src} ${variant.width}w`)
+          .join(', ')}
+        sizes={sizes}
+        width={image.width}
+        height={image.height}
+        alt={description}
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        fetchpriority={eager ? 'high' : 'auto'}
+      />
+    </picture>
+  </Container>
+  {(label || (caption !== undefined && clickable)) && (
+    <figcaption>
+      {label}{' '}
+      {clickable && (
+        <a
+          href={image.original}
+          data-gallery-image={image.original}
+          data-gallery-caption={label || description}
+        >
+          View full-size <span aria-hidden="true">↗</span>
+        </a>
+      )}
+    </figcaption>
+  )}
+</figure>
