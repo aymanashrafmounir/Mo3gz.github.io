@@ -1,0 +1,1996 @@
+{
+  "completed": "2026-10-14T15:22:30.882Z",
+  "base": "http://127.0.0.1:4331",
+  "scope": "Focused local production-artifact regression acceptance for icon-only hamburger and richer finite motion. Runs use real browser behavior, document navigation and native downloads. No deploy or production mutation was performed by this QA task.",
+  "summary": {
+    "scenarios": 126,
+    "passed": 126,
+    "failed": 0,
+    "routeViewportObservations": 60,
+    "homeWidths": [
+      320,
+      360,
+      375,
+      390,
+      414,
+      768,
+      1024,
+      1280,
+      1440,
+      1920,
+      2560
+    ],
+    "accessibilityAudits": 5,
+    "accessibilityViolations": 0
+  },
+  "browsers": {
+    "chromium": {
+      "version": "153.0.8010.12"
+    },
+    "firefox": {
+      "version": "155.0"
+    },
+    "webkit": {
+      "version": "26.6"
+    }
+  },
+  "runs": [
+    {
+      "kind": "matrix-and-interactions",
+      "started": "2026-10-14T15:20:05.974Z",
+      "completed": "2026-10-14T15:20:41.147Z"
+    },
+    {
+      "kind": "lifecycle-and-recordings",
+      "started": "2026-10-14T15:19:43.793Z",
+      "completed": "2026-10-14T15:20:12.111Z"
+    },
+    {
+      "kind": "native-download-and-touch",
+      "started": "2026-10-14T15:20:56.590Z",
+      "completed": "2026-10-14T15:20:59.670Z"
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "finding": "AA signature intersected the 320px wordmark at doubled text size.",
+      "resolution": "Real startup text scaling now suppresses the decorative seal where actual header boxes intersect; content and navigation remain readable.",
+      "verification": "All three engines at 320px doubled text: zero horizontal overflow, seal opacity 0, no seal animation."
+    },
+    {
+      "finding": "WebKit crashed after native cross-document transition navigation from an open menu and subsequent orientation resize.",
+      "resolution": "Optional native cross-document transitions removed globally; incoming content settling, menu and section motion remain.",
+      "diagnosis": "Disabling only @view-transition navigation fixed the native crash. Disabling backdrop animation, canceling menu animations or waiting 700ms before click did not.",
+      "verification": "All three engines complete short landscape menu navigation to Contact and immediate subsequent viewport resize in the final run."
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "chromium 320px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 320px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 320px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 320px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 320px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 390px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 390px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 390px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 390px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 390px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 768px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 768px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 768px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 768px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 768px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 1440px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 1440px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 1440px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 1440px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium 1440px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "passed": true,
+      "text": "",
+      "width": 48,
+      "height": 48,
+      "svgCount": 1,
+      "closePaths": [
+        "Escape",
+        "backdrop",
+        "close button + rapid Escape",
+        "reopen + Escape"
+      ]
+    },
+    {
+      "name": "chromium short landscape menu remains scrollable and Contact reachable",
+      "passed": true,
+      "rect": {
+        "x": 191,
+        "y": 279.5,
+        "width": 462,
+        "height": 62
+      }
+    },
+    {
+      "name": "chromium project filtering updates immediately and survives reload/history",
+      "passed": true,
+      "publicCount": 4,
+      "clientCount": 8,
+      "finalURL": "http://127.0.0.1:4331/projects?category=client#main"
+    },
+    {
+      "name": "chromium fresh case document initializes actual image zoom and focus return",
+      "passed": true,
+      "before": 332,
+      "enlarged": 498
+    },
+    {
+      "name": "chromium reduced motion from first paint has no ongoing animations",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "chromium enabling reduced motion while menu opens cancels active motion",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "chromium rapid filter cancel/replay still cancels immediately when reduced motion changes",
+      "passed": true,
+      "before": 4,
+      "after": 0,
+      "visibleCards": 12,
+      "frameAllowance": 2
+    },
+    {
+      "name": "chromium native link begins navigation within 100ms and fresh scripts remain functional",
+      "passed": true,
+      "milliseconds": 0.400146484375,
+      "finalURL": "http://127.0.0.1:4331/projects"
+    },
+    {
+      "name": "chromium additional 360px Home layout",
+      "passed": true,
+      "width": 360,
+      "scroll": 360
+    },
+    {
+      "name": "chromium additional 375px Home layout",
+      "passed": true,
+      "width": 375,
+      "scroll": 375
+    },
+    {
+      "name": "chromium additional 414px Home layout",
+      "passed": true,
+      "width": 414,
+      "scroll": 414
+    },
+    {
+      "name": "chromium additional 1024px Home layout",
+      "passed": true,
+      "width": 1024,
+      "scroll": 1024
+    },
+    {
+      "name": "chromium additional 1280px Home layout",
+      "passed": true,
+      "width": 1280,
+      "scroll": 1280
+    },
+    {
+      "name": "chromium additional 1920px Home layout",
+      "passed": true,
+      "width": 1920,
+      "scroll": 1920
+    },
+    {
+      "name": "chromium additional 2560px Home layout",
+      "passed": true,
+      "width": 2560,
+      "scroll": 2560
+    },
+    {
+      "name": "axe home mobile",
+      "passed": true
+    },
+    {
+      "name": "axe mobile menu",
+      "passed": true
+    },
+    {
+      "name": "axe filtered projects",
+      "passed": true
+    },
+    {
+      "name": "axe Contact mobile",
+      "passed": true
+    },
+    {
+      "name": "axe expanded image",
+      "passed": true
+    },
+    {
+      "name": "chromium browser has no uncaught application errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "firefox 320px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 320px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 320px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 320px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 320px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 390px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 390px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 390px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 390px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 390px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 768px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 768px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 768px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 768px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 768px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 1440px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 1440px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 1440px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 1440px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox 1440px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "passed": true,
+      "text": "",
+      "width": 48,
+      "height": 48,
+      "svgCount": 1,
+      "closePaths": [
+        "Escape",
+        "backdrop",
+        "close button + rapid Escape",
+        "reopen + Escape"
+      ]
+    },
+    {
+      "name": "firefox short landscape menu remains scrollable and Contact reachable",
+      "passed": true,
+      "rect": {
+        "x": 191,
+        "y": 279.5,
+        "width": 462,
+        "height": 62
+      }
+    },
+    {
+      "name": "firefox project filtering updates immediately and survives reload/history",
+      "passed": true,
+      "publicCount": 4,
+      "clientCount": 8,
+      "finalURL": "http://127.0.0.1:4331/projects?category=client#main"
+    },
+    {
+      "name": "firefox fresh case document initializes actual image zoom and focus return",
+      "passed": true,
+      "before": 332,
+      "enlarged": 498
+    },
+    {
+      "name": "firefox reduced motion from first paint has no ongoing animations",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "firefox enabling reduced motion while menu opens cancels active motion",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "firefox rapid filter cancel/replay still cancels immediately when reduced motion changes",
+      "passed": true,
+      "before": 7,
+      "after": 0,
+      "visibleCards": 12,
+      "frameAllowance": 2
+    },
+    {
+      "name": "firefox native link begins navigation within 100ms and fresh scripts remain functional",
+      "passed": true,
+      "milliseconds": 1,
+      "finalURL": "http://127.0.0.1:4331/projects"
+    },
+    {
+      "name": "firefox browser has no uncaught application errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "webkit 320px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 320px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 320px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 320px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 320px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 390px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 390px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 390px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 390px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 390px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 768px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 768px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 768px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 768px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 768px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 1440px / motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 1440px /projects motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 1440px /experience motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 1440px /projects/blitzchatbot motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit 1440px /contact motion-ready content and layout",
+      "passed": true,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "passed": true,
+      "text": "",
+      "width": 48,
+      "height": 48,
+      "svgCount": 1,
+      "closePaths": [
+        "Escape",
+        "backdrop",
+        "close button + rapid Escape",
+        "reopen + Escape"
+      ]
+    },
+    {
+      "name": "webkit short landscape menu remains scrollable and Contact reachable",
+      "passed": true,
+      "rect": {
+        "x": 191,
+        "y": 279.5,
+        "width": 462,
+        "height": 62
+      }
+    },
+    {
+      "name": "webkit project filtering updates immediately and survives reload/history",
+      "passed": true,
+      "publicCount": 4,
+      "clientCount": 8,
+      "finalURL": "http://127.0.0.1:4331/projects?category=client#main"
+    },
+    {
+      "name": "webkit fresh case document initializes actual image zoom and focus return",
+      "passed": true,
+      "before": 332,
+      "enlarged": 498
+    },
+    {
+      "name": "webkit reduced motion from first paint has no ongoing animations",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "webkit enabling reduced motion while menu opens cancels active motion",
+      "passed": true,
+      "active": 0
+    },
+    {
+      "name": "webkit rapid filter cancel/replay still cancels immediately when reduced motion changes",
+      "passed": true,
+      "before": 8,
+      "after": 0,
+      "visibleCards": 12,
+      "frameAllowance": 2
+    },
+    {
+      "name": "webkit native link begins navigation within 100ms and fresh scripts remain functional",
+      "passed": true,
+      "milliseconds": 3,
+      "finalURL": "http://127.0.0.1:4331/projects"
+    },
+    {
+      "name": "webkit browser has no uncaught application errors",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "name": "no JavaScript preserves navigation, content, all projects and native image/CV links",
+      "passed": true,
+      "projects": 12,
+      "nativeImageHref": "/media/originals/blitzchatbot-demo.png",
+      "cv": "/ayman-ashraf-mounir-cv.pdf"
+    },
+    {
+      "name": "chromium arrival and reload animate the brand without gating content",
+      "passed": true,
+      "first": {
+        "sealPresent": true,
+        "sealPointerEvents": "none",
+        "sealOpacity": "0",
+        "mainOpacity": "1",
+        "leadOpacity": "1",
+        "arrivalDurations": [
+          600
+        ],
+        "mainInert": false,
+        "bodyHidden": null
+      },
+      "reload": {
+        "type": "reload",
+        "first": {
+          "sealPresent": true,
+          "sealPointerEvents": "none",
+          "sealOpacity": "0",
+          "mainOpacity": "1",
+          "leadOpacity": "1",
+          "arrivalDurations": [
+            600
+          ],
+          "mainInert": false,
+          "bodyHidden": null
+        }
+      }
+    },
+    {
+      "name": "chromium a below-fold card reveals once and stays readable when revisited",
+      "passed": true,
+      "initialTop": 2308.875,
+      "during": {
+        "opacity": "0",
+        "durations": [
+          480
+        ],
+        "transform": "matrix(1, 0, 0, 1, 0, 18)"
+      },
+      "after": {
+        "opacity": "1",
+        "animations": 0
+      }
+    },
+    {
+      "name": "chromium keyboard focus and hash destinations never remain reveal-hidden",
+      "passed": true,
+      "focusFacts": {
+        "focused": true,
+        "opacity": "1",
+        "animations": 0
+      },
+      "hashFacts": {
+        "opacity": "1",
+        "animations": 0,
+        "top": 179
+      }
+    },
+    {
+      "name": "chromium Back restores readable content; actual cache usage identified separately",
+      "passed": true,
+      "before": 3130,
+      "show": [
+        {
+          "persisted": false,
+          "epoch": 1791991185966
+        }
+      ],
+      "sealAnimations": 1,
+      "opacity": "1",
+      "scrollY": 3115,
+      "actualBFCache": false
+    },
+    {
+      "name": "chromium persisted pageshow lifecycle cancels motion and leaves no hidden content",
+      "passed": true,
+      "state": {
+        "seal": 0,
+        "mainOpacity": "1"
+      },
+      "source": "Browser DOM lifecycle event, separately identified from actual browser BFCache traversal."
+    },
+    {
+      "name": "chromium reduced motion switched during brand arrival cancels all ongoing motion",
+      "passed": true,
+      "activeBefore": 4,
+      "activeAfter": 0
+    },
+    {
+      "name": "chromium 320px doubled text remains readable without brand/menu overlap",
+      "passed": true,
+      "width": 320,
+      "scroll": 320,
+      "wordmark": {
+        "x": 24,
+        "y": 0,
+        "width": 272,
+        "height": 120
+      },
+      "menu": {
+        "x": 24,
+        "y": 144,
+        "width": 48,
+        "height": 48
+      },
+      "seal": {
+        "x": 200,
+        "y": 29,
+        "width": 30,
+        "height": 30
+      },
+      "sealOpacity": "0",
+      "sealAnimations": 0,
+      "method": "HTTP response inserts text-only 2x computed font/line-height script at body end before deferred app modules initialize; real browser layout and real startup collision handling."
+    },
+    {
+      "name": "firefox arrival and reload animate the brand without gating content",
+      "passed": true,
+      "first": {
+        "sealPresent": true,
+        "sealPointerEvents": "none",
+        "sealOpacity": "0.208512",
+        "mainOpacity": "1",
+        "leadOpacity": "1",
+        "arrivalDurations": [
+          600
+        ],
+        "mainInert": false,
+        "bodyHidden": null
+      },
+      "reload": {
+        "type": "reload",
+        "first": {
+          "sealPresent": true,
+          "sealPointerEvents": "none",
+          "sealOpacity": "0.208512",
+          "mainOpacity": "1",
+          "leadOpacity": "1",
+          "arrivalDurations": [
+            600
+          ],
+          "mainInert": false,
+          "bodyHidden": null
+        }
+      }
+    },
+    {
+      "name": "firefox a below-fold card reveals once and stays readable when revisited",
+      "passed": true,
+      "initialTop": 2308.966552734375,
+      "during": {
+        "opacity": "0",
+        "durations": [
+          480
+        ],
+        "transform": "matrix(1, 0, 0, 1, 0, 18)"
+      },
+      "after": {
+        "opacity": "1",
+        "animations": 0
+      }
+    },
+    {
+      "name": "firefox keyboard focus and hash destinations never remain reveal-hidden",
+      "passed": true,
+      "focusFacts": {
+        "focused": true,
+        "opacity": "1",
+        "animations": 0
+      },
+      "hashFacts": {
+        "opacity": "1",
+        "animations": 0,
+        "top": 178.8000030517578
+      }
+    },
+    {
+      "name": "firefox Back restores readable content; actual cache usage identified separately",
+      "passed": true,
+      "before": 3130,
+      "show": [
+        {
+          "persisted": false,
+          "epoch": 1791991190108
+        }
+      ],
+      "sealAnimations": 1,
+      "opacity": "1",
+      "scrollY": 3130.39990234375,
+      "actualBFCache": false
+    },
+    {
+      "name": "firefox persisted pageshow lifecycle cancels motion and leaves no hidden content",
+      "passed": true,
+      "state": {
+        "seal": 0,
+        "mainOpacity": "1"
+      },
+      "source": "Browser DOM lifecycle event, separately identified from actual browser BFCache traversal."
+    },
+    {
+      "name": "firefox reduced motion switched during brand arrival cancels all ongoing motion",
+      "passed": true,
+      "activeBefore": 4,
+      "activeAfter": 0
+    },
+    {
+      "name": "firefox 320px doubled text remains readable without brand/menu overlap",
+      "passed": true,
+      "width": 320,
+      "scroll": 320,
+      "wordmark": {
+        "x": 24,
+        "y": 0,
+        "width": 272,
+        "height": 120
+      },
+      "menu": {
+        "x": 24,
+        "y": 144,
+        "width": 48,
+        "height": 48
+      },
+      "seal": {
+        "x": 200,
+        "y": 29,
+        "width": 30,
+        "height": 30
+      },
+      "sealOpacity": "0",
+      "sealAnimations": 0,
+      "method": "HTTP response inserts text-only 2x computed font/line-height script at body end before deferred app modules initialize; real browser layout and real startup collision handling."
+    },
+    {
+      "name": "webkit arrival and reload animate the brand without gating content",
+      "passed": true,
+      "first": {
+        "sealPresent": true,
+        "sealPointerEvents": "none",
+        "sealOpacity": "0",
+        "mainOpacity": "1",
+        "leadOpacity": "1",
+        "arrivalDurations": [
+          600
+        ],
+        "mainInert": false,
+        "bodyHidden": null
+      },
+      "reload": {
+        "type": "reload",
+        "first": {
+          "sealPresent": true,
+          "sealPointerEvents": "none",
+          "sealOpacity": "0",
+          "mainOpacity": "1",
+          "leadOpacity": "1",
+          "arrivalDurations": [
+            600
+          ],
+          "mainInert": false,
+          "bodyHidden": null
+        }
+      }
+    },
+    {
+      "name": "webkit a below-fold card reveals once and stays readable when revisited",
+      "passed": true,
+      "initialTop": 2308.875,
+      "during": {
+        "opacity": "0",
+        "durations": [
+          480
+        ],
+        "transform": "matrix(1, 0, 0, 1, 0, 18)"
+      },
+      "after": {
+        "opacity": "1",
+        "animations": 0
+      }
+    },
+    {
+      "name": "webkit keyboard focus and hash destinations never remain reveal-hidden",
+      "passed": true,
+      "focusFacts": {
+        "focused": true,
+        "opacity": "1",
+        "animations": 0
+      },
+      "hashFacts": {
+        "opacity": "1",
+        "animations": 0,
+        "top": 179
+      }
+    },
+    {
+      "name": "webkit Back restores readable content; actual cache usage identified separately",
+      "passed": true,
+      "before": 3130,
+      "show": [
+        {
+          "persisted": false,
+          "epoch": 1791991193473
+        }
+      ],
+      "sealAnimations": 1,
+      "opacity": "1",
+      "scrollY": 3130,
+      "actualBFCache": false
+    },
+    {
+      "name": "webkit persisted pageshow lifecycle cancels motion and leaves no hidden content",
+      "passed": true,
+      "state": {
+        "seal": 0,
+        "mainOpacity": "1"
+      },
+      "source": "Browser DOM lifecycle event, separately identified from actual browser BFCache traversal."
+    },
+    {
+      "name": "webkit reduced motion switched during brand arrival cancels all ongoing motion",
+      "passed": true,
+      "activeBefore": 4,
+      "activeAfter": 0
+    },
+    {
+      "name": "webkit 320px doubled text remains readable without brand/menu overlap",
+      "passed": true,
+      "width": 320,
+      "scroll": 320,
+      "wordmark": {
+        "x": 24,
+        "y": 0,
+        "width": 268.71875,
+        "height": 78
+      },
+      "menu": {
+        "x": 24,
+        "y": 102,
+        "width": 48,
+        "height": 48
+      },
+      "seal": {
+        "x": 200,
+        "y": 29,
+        "width": 30,
+        "height": 30
+      },
+      "sealOpacity": "0",
+      "sealAnimations": 0,
+      "method": "HTTP response inserts text-only 2x computed font/line-height script at body end before deferred app modules initialize; real browser layout and real startup collision handling."
+    },
+    {
+      "name": "real-time desktop reload, scroll and navigation recording",
+      "passed": true,
+      "recording": "output/motion/desktop-motion-review.webm",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "real-time mobile reload, scroll and navigation recording",
+      "passed": true,
+      "recording": "output/motion/mobile-motion-review.webm",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "name": "touch opens/closes viewer and real pinch/drag changes image geometry and canvas scroll",
+      "passed": true,
+      "before": 332,
+      "enlarged": 1090.84375,
+      "scrollBefore": 0,
+      "scrollAfter": 160,
+      "source": "Real browser CDP-dispatched multi-touch; touch-close before gestures, Escape after. Physical-device behavior not claimed."
+    },
+    {
+      "name": "CV follows native download without reload, waiting overlay or animation delay",
+      "passed": true,
+      "filename": "ayman-ashraf-mounir-cv.pdf",
+      "sha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696",
+      "bytes": 158029,
+      "currentDocumentUnchanged": true
+    },
+    {
+      "name": "modifier-click opens native second tab and leaves original document ready",
+      "passed": true,
+      "popupRoute": "/projects",
+      "originalRoute": "/",
+      "originalReady": true
+    }
+  ],
+  "matrix": [
+    {
+      "name": "chromium",
+      "width": 320,
+      "route": "/",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 320,
+      "route": "/projects",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 320,
+      "route": "/experience",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 320,
+      "route": "/projects/blitzchatbot",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 320,
+      "route": "/contact",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 390,
+      "route": "/",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 390,
+      "route": "/projects",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 390,
+      "route": "/experience",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 390,
+      "route": "/projects/blitzchatbot",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 390,
+      "route": "/contact",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 768,
+      "route": "/",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 768,
+      "route": "/projects",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 768,
+      "route": "/experience",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 768,
+      "route": "/projects/blitzchatbot",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 768,
+      "route": "/contact",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 1440,
+      "route": "/",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 1440,
+      "route": "/projects",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 1440,
+      "route": "/experience",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 1440,
+      "route": "/projects/blitzchatbot",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "chromium",
+      "width": 1440,
+      "route": "/contact",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 320,
+      "route": "/",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 320,
+      "route": "/projects",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 320,
+      "route": "/experience",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 320,
+      "route": "/projects/blitzchatbot",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 320,
+      "route": "/contact",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 390,
+      "route": "/",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 390,
+      "route": "/projects",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 390,
+      "route": "/experience",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 390,
+      "route": "/projects/blitzchatbot",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 390,
+      "route": "/contact",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 768,
+      "route": "/",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 768,
+      "route": "/projects",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 768,
+      "route": "/experience",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 768,
+      "route": "/projects/blitzchatbot",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 768,
+      "route": "/contact",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "route": "/",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "route": "/projects",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "route": "/experience",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "route": "/projects/blitzchatbot",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "firefox",
+      "width": 1440,
+      "route": "/contact",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 320,
+      "route": "/",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 320,
+      "route": "/projects",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 320,
+      "route": "/experience",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 320,
+      "route": "/projects/blitzchatbot",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 320,
+      "route": "/contact",
+      "scroll": 320,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 390,
+      "route": "/",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 390,
+      "route": "/projects",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 390,
+      "route": "/experience",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 390,
+      "route": "/projects/blitzchatbot",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 390,
+      "route": "/contact",
+      "scroll": 390,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 768,
+      "route": "/",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 768,
+      "route": "/projects",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 768,
+      "route": "/experience",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 768,
+      "route": "/projects/blitzchatbot",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 768,
+      "route": "/contact",
+      "scroll": 768,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 1440,
+      "route": "/",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 1440,
+      "route": "/projects",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 1440,
+      "route": "/experience",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 1440,
+      "route": "/projects/blitzchatbot",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    },
+    {
+      "name": "webkit",
+      "width": 1440,
+      "route": "/contact",
+      "scroll": 1440,
+      "opacity": "1",
+      "visibility": "visible",
+      "ariaHidden": null,
+      "inert": false,
+      "nestedRevealPairs": []
+    }
+  ],
+  "accessibility": [
+    {
+      "name": "home mobile",
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "mobile menu",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "filtered projects",
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value",
+        "color-contrast"
+      ]
+    },
+    {
+      "name": "Contact mobile",
+      "violations": [],
+      "incomplete": [
+        "aria-valid-attr-value"
+      ]
+    },
+    {
+      "name": "expanded image",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "screenshots": [
+    "output/motion/mobile-menu.png",
+    "output/motion/home-mobile.png",
+    "output/motion/home-desktop.png",
+    "output/motion/chromium-320-text-doubled.png",
+    "output/motion/firefox-320-text-doubled.png",
+    "output/motion/webkit-320-text-doubled.png",
+    "output/motion/touch-pinch-pan.png"
+  ],
+  "recordings": [
+    "output/motion/desktop-motion-review.webm",
+    "output/motion/mobile-motion-review.webm"
+  ],
+  "visualReview": "Inspected final desktop/mobile Home, mobile menu and 320px doubled-text screenshots. Saved real-time desktop/mobile WebM recordings preserve original motion timing.",
+  "limitations": [
+    "Automated desktop browser engines and Chromium CDP touch emulation; no physical devices or OS screen reader.",
+    "Focused motion and menu regression acceptance, not a repeat of the entire Phase 4 route or Lighthouse matrix.",
+    "Visual recordings preserve actual timing. Browser animation inspection does not establish human vestibular comfort.",
+    "chromium: actual Back used a fresh document, not BFCache; persisted-event cleanup additionally exercised separately.",
+    "firefox: actual Back used a fresh document, not BFCache; persisted-event cleanup additionally exercised separately.",
+    "webkit: actual Back used a fresh document, not BFCache; persisted-event cleanup additionally exercised separately.",
+    "Actual Back traversals used fresh documents in this automation run; native BFCache eligibility/physical-device restoration is not claimed. The persisted pageshow cleanup event was separately dispatched and observed, with that distinction recorded in each scenario.",
+    "Doubled-text startup uses an HTTP-response-only test script to set actual computed font-size and line-height to 2x before deferred application modules initialize. This is not browser-native zoom.",
+    "The main local matrix precedes the final Home navigation aria-current fallback marker change; the root release owner performs final artifact and hosted smoke checks separately.",
+    "Performance is measured separately after closing these browser contexts; this report makes no Lighthouse or field Web Vitals claim."
+  ],
+  "failures": []
+}

@@ -50,6 +50,8 @@ The previous design is rejected. Avoid generic analytics dashboards, repeated id
 
 Target WCAG 2.2 AA with keyboard access, clear focus, meaningful headings, contrast, comfortable touch targets, reduced motion, zoom/text scaling and mobile layouts. English is the implemented portfolio language, based on the brief and CV. Existing Arabic/RTL project imagery remains authentic project evidence; bilingual portfolio authoring is not currently requested.
 
+Following production approval, the user requested an icon-only hamburger, a more professional menu, an animated reload treatment and richer animation across the site, with an Astra debate. The [accepted motion refinement](design/motion-direction.md) extends the existing visual direction with finite native animations and no loading gate. It supersedes the earlier single-entrance motion limit; the approved imagery and editable Figcraft baseline remain the visual reference.
+
 Case-hero image actions open local PNGs in the native prototype, while the existing Helixtra gallery states remain. The implementation serves selected public media and provides an image-viewer dialog with zoom, pan and touch pinch. Phase 4 verifies close/Escape, focus restoration, keyboard and emulated touch behavior within [documented limits](design/phase-4-verification.md). Native verification does not establish browser accessibility or complete application workflows.
 
 ## Project evidence in the current design

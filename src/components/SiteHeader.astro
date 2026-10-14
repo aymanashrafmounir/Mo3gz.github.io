@@ -3,7 +3,7 @@ interface Props {
   active?: string;
 }
 const { active } = Astro.props;
-const current = active?.replace(/\/$/, '');
+const current = (active ?? Astro.url.pathname).replace(/\/$/, '') || '/';
 const links = [
   ['Projects', '/projects'],
   ['About', '/about'],
@@ -28,24 +28,35 @@ const links = [
     class="menu-trigger"
     id="open-menu"
     type="button"
+    aria-label="Open navigation"
+    aria-haspopup="dialog"
     aria-controls="mobile-menu"
     aria-expanded="false"
+    hidden
   >
-    Menu
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="burger-icon">
+      <path d="M3 6h18" />
+      <path d="M3 12h18" />
+      <path d="M3 18h18" />
+    </svg>
   </button>
 </header>
 <dialog id="mobile-menu" class="mobile-menu" aria-labelledby="menu-title">
   <div class="menu-heading">
     <h2 id="menu-title">Navigation</h2>
     <button type="button" id="close-menu" aria-label="Close navigation">
-      Close ×
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="m6 6 12 12M18 6 6 18" />
+      </svg>
     </button>
   </div>
   <nav aria-label="Mobile navigation">
-    <a href="/">Home</a>
-    {links.map(([label, href]) => (
+    {[['Home', '/'], ...links].map(([label, href]) => (
       <a href={href} aria-current={current === href ? 'page' : undefined}>
-        {label}
+        <span>{label}</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12h14m-6-6 6 6-6 6" />
+        </svg>
       </a>
     ))}
   </nav>
@@ -63,18 +74,248 @@ const links = [
 <script>
   const menu = document.querySelector<HTMLDialogElement>('#mobile-menu')!;
   const trigger = document.querySelector<HTMLButtonElement>('#open-menu')!;
+  const closeButton = document.querySelector<HTMLButtonElement>('#close-menu')!;
+  const motionPreference = matchMedia('(prefers-reduced-motion: reduce)');
+  const menuLinks = menu.querySelectorAll<HTMLAnchorElement>('nav a');
+  let state: 'closed' | 'open' | 'closing' = 'closed';
+  let animations: Animation[] = [];
+
+  function cancelAnimations() {
+    animations.forEach((animation) => animation.cancel());
+    animations = [];
+  }
+
+  function finishClose() {
+    cancelAnimations();
+    menu.classList.remove('is-closing');
+    if (menu.open) menu.close();
+  }
+
+  function closeMenu() {
+    if (state !== 'open') return;
+    state = 'closing';
+    cancelAnimations();
+    if (motionPreference.matches) {
+      finishClose();
+      return;
+    }
+    menu.classList.add('is-closing');
+    const closing = menu.animate(
+      [
+        { opacity: 1, transform: 'translateY(0) scale(1)' },
+        { opacity: 0, transform: 'translateY(8px) scale(.99)' },
+      ],
+      { duration: 140, easing: 'cubic-bezier(.4, 0, 1, 1)', fill: 'both' },
+    );
+    animations.push(closing);
+    void closing.finished.then(finishClose, (error: unknown) => {
+      if (!(error instanceof DOMException && error.name === 'AbortError')) {
+        throw error;
+      }
+    });
+  }
+
+  trigger.hidden = false;
   trigger.addEventListener('click', () => {
+    if (state !== 'closed') return;
+    state = 'open';
     menu.showModal();
     trigger.setAttribute('aria-expanded', 'true');
+    if (motionPreference.matches) return;
+    animations.push(
+      menu.animate(
+        [
+          { opacity: 0, transform: 'translateY(12px) scale(.985)' },
+          { opacity: 1, transform: 'translateY(0) scale(1)' },
+        ],
+        { duration: 240, easing: 'cubic-bezier(.2, .7, .2, 1)' },
+      ),
+    );
+    menuLinks.forEach((link, index) => {
+      animations.push(
+        link.animate(
+          [
+            { opacity: 0, transform: 'translateY(8px)' },
+            { opacity: 1, transform: 'translateY(0)' },
+          ],
+          {
+            duration: 220,
+            delay: Math.min(index * 35, 175),
+            easing: 'cubic-bezier(.2, .7, .2, 1)',
+            fill: 'backwards',
+          },
+        ),
+      );
+    });
   });
-  document
-    .querySelector('#close-menu')!
-    .addEventListener('click', () => menu.close());
+  closeButton.addEventListener('click', closeMenu);
+  menu.addEventListener('focusin', ({ target }) => {
+    if (!(target instanceof HTMLAnchorElement)) return;
+    target.getAnimations().forEach((animation) => {
+      if (animations.includes(animation)) animation.cancel();
+    });
+  });
+  menu.addEventListener('cancel', (event) => {
+    event.preventDefault();
+    closeMenu();
+  });
   menu.addEventListener('click', (event) => {
-    if (event.target === menu) menu.close();
+    if (event.target !== menu) return;
+    const { left, right, top, bottom } = menu.getBoundingClientRect();
+    if (
+      event.clientX < left ||
+      event.clientX > right ||
+      event.clientY < top ||
+      event.clientY > bottom
+    ) {
+      closeMenu();
+    }
   });
   menu.addEventListener('close', () => {
+    cancelAnimations();
+    state = 'closed';
+    menu.classList.remove('is-closing');
     trigger.setAttribute('aria-expanded', 'false');
-    trigger.focus();
+    if (document.activeElement !== trigger)
+      trigger.focus({ preventScroll: true });
+  });
+  motionPreference.addEventListener('change', () => {
+    if (!motionPreference.matches) return;
+    cancelAnimations();
+    if (state === 'closing') finishClose();
   });
 </script>
+
+<style>
+  .menu-trigger,
+  .menu-heading button {
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    flex-shrink: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    color: var(--text);
+    background: transparent;
+    transition:
+      color 160ms,
+      border-color 160ms,
+      background-color 160ms;
+  }
+  .menu-trigger {
+    display: none;
+  }
+  .menu-trigger svg,
+  .menu-heading button svg,
+  .mobile-menu nav svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .menu-trigger:hover,
+  .menu-heading button:hover {
+    color: var(--rust);
+    border-color: var(--rust);
+    background: var(--surface);
+  }
+  .burger-icon path {
+    transform-origin: center;
+    transition: transform 180ms ease;
+  }
+  .mobile-menu {
+    padding: 24px 28px 28px;
+    border-radius: 12px;
+    box-shadow: 0 24px 72px rgb(38 37 31 / 0.18);
+  }
+  .mobile-menu::backdrop {
+    background: rgb(38 37 31 / 0.5);
+    animation: menu-backdrop-enter 180ms ease-out;
+  }
+  .mobile-menu.is-closing::backdrop {
+    animation: menu-backdrop-exit 140ms ease-in both;
+  }
+  .menu-heading {
+    padding-bottom: 20px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .menu-heading h2 {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.035em;
+  }
+  .menu-heading button svg {
+    transition: transform 180ms ease;
+  }
+  .mobile-menu nav a {
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 62px;
+    transition:
+      color 160ms,
+      transform 180ms ease;
+  }
+  .mobile-menu nav a:hover {
+    color: var(--rust);
+  }
+  .mobile-menu nav svg {
+    width: 20px;
+    height: 20px;
+    opacity: 0.55;
+  }
+  @keyframes menu-backdrop-enter {
+    from {
+      background: rgb(38 37 31 / 0);
+    }
+    to {
+      background: rgb(38 37 31 / 0.5);
+    }
+  }
+  @keyframes menu-backdrop-exit {
+    to {
+      background: rgb(38 37 31 / 0);
+    }
+  }
+  @media (max-width: 1199px) {
+    .menu-trigger {
+      display: grid;
+      place-content: center;
+    }
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .menu-trigger:hover .burger-icon path:first-child {
+      transform: translateX(2px) scaleX(0.8);
+    }
+    .menu-trigger:hover .burger-icon path:last-child {
+      transform: translateX(-2px) scaleX(0.8);
+    }
+    .menu-heading button:hover svg {
+      transform: rotate(90deg);
+    }
+    .mobile-menu nav a:hover {
+      transform: translateX(4px);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .menu-trigger:hover .burger-icon path,
+    .menu-heading button:hover svg,
+    .mobile-menu nav a:hover {
+      transform: none;
+    }
+    .burger-icon path,
+    .menu-heading button svg,
+    .mobile-menu nav a {
+      transition: none;
+    }
+    .mobile-menu::backdrop,
+    .mobile-menu.is-closing::backdrop {
+      animation: none;
+    }
+  }
+</style>

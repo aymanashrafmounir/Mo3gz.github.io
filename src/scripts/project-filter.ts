@@ -30,6 +30,9 @@ if (collection) {
     }
     const visibleCount = cards.filter((card) => !card.hidden).length;
     count.textContent = `${visibleCount} ${visibleCount === 1 ? 'project' : 'projects'}`;
+    collection!.dispatchEvent(
+      new CustomEvent('portfolio:filter-change', { bubbles: true }),
+    );
   }
 
   function chooseCategory(event: MouseEvent) {

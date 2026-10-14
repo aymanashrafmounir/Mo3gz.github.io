@@ -73,6 +73,10 @@ The static build also supplies a sitemap, robots response and an HTML redirect p
 
 Project filters retain category state in the URL. Without JavaScript, the complete collection remains readable. The mobile navigation and image viewer use native dialogs; the image viewer supplies full-size images, zoom, pan and pinch controls. Browser verification must confirm keyboard, focus, Escape, touch and reduced-motion behavior.
 
+The post-release [motion refinement](design/motion-direction.md) adds an icon-only hamburger, animated menu, nonblocking AA arrival signature, page-lead settling and finite section/card/timeline entrances. It uses native browser APIs without an animation dependency or client router. Reduced-motion preferences cancel movement immediately; page content and ordinary links remain available throughout.
+
+The [motion release record](design/motion-release.md) links browser acceptance, measured performance and hosted verification for this refinement.
+
 ## Verification and release
 
 Phase 4 checks responsive behavior in Chromium, Firefox and WebKit, route/direct-entry/refresh behavior, actual internal links, image loading, PDF responses, metadata, filters, keyboard/focus, reduced motion, zoom and touch. Tested widths are 320, 360, 375, 390, 414, 768, 1024, 1280, 1440, 1920 and 2560px, with representative landscape and doubled-text checks. Automated checks supplement visual comparison with the native exports.

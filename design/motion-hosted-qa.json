@@ -1,0 +1,38 @@
+{
+  "started": "2026-10-14T15:25:16.848Z",
+  "base": "https://aymanashraf.me",
+  "immutable": "https://a27a7ae4.ayman-portfolio-v2.pages.dev",
+  "checks": [
+    {
+      "name": "current deployment bytes and indexing /",
+      "sha256": "cca08579cab4e96bf096dd4bf9e1cbe805d04f9317ecd2485f8e75a3d55aaa5c"
+    },
+    {
+      "name": "current deployment bytes and indexing /projects/",
+      "sha256": "cdb2dc13ed74043f379fab7435b26b369a92244506a1697abba1c1149c894b86"
+    },
+    {
+      "name": "current deployment bytes and indexing /contact/",
+      "sha256": "496f13b31c22d4b817138916f0adbd3f93e83dc1ebaf8f447998f089d044a652"
+    },
+    {
+      "name": "original CV download retained",
+      "sha256": "f3c2f536c31cd013d181a0a37587c7e57153ee5bf2ea55c8f331a9414c337696"
+    },
+    {
+      "name": "live icon menu, reload motion, navigation and focus",
+      "browser": "153.0.8010.12",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "screenshot": "output/motion/live-mobile-menu.png"
+    }
+  ],
+  "failures": [],
+  "completed": "2026-10-14T15:25:20.265Z",
+  "summary": {
+    "passed": 5,
+    "failed": 0
+  }
+}

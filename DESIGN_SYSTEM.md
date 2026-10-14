@@ -84,7 +84,7 @@ Case-hero and Secure Notes gallery image actions open full-size local PNGs in th
 
 Collection filters have All, Products & Client Work, and Public Repositories states at each width. In implementation, retain shareable URL state and a useful no-JavaScript collection. Public website/public code buttons follow the per-project ledger. The CV prototype opens the local original file; the website must provide an actual same-origin PDF URL/download response.
 
-Use short transform/opacity feedback, around 150–200ms, and at most one restrained hero entrance. Reduced motion removes the entrance, scrolling animation and image movement. Essential navigation must work without motion. No endless animation, availability indicators, skill percentages or unsupported business metrics.
+The user's post-release motion refinement adds a nonblocking AA signature on arrival/reload, a 48px hamburger with an animated native menu, page-lead settling, once-only section/card/timeline entrances and subtle hover feedback. Entrances last 420–600ms; menu closing takes 140ms. Content remains readable immediately. Reduced motion removes movement and close delays, including when the preference changes during use. See the [motion direction and Astra debate](design/motion-direction.md) for the implemented contract. No endless animation, availability indicators, skill percentages or unsupported business metrics.
 
 ## Coverage and verification limits
 
